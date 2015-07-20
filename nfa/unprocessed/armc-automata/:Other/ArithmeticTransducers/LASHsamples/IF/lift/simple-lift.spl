@@ -1,0 +1,37 @@
+int c = 1, g = 1, a = 0, N = 2;
+
+process motor {
+  do
+     :: go_up:   atomic { a == 1 -> up:   a = 0; c = c + 1 }
+     :: go_down: atomic { a == 2 -> down: a = 0; c = c - 1 }
+  od
+}
+
+process control {
+  atomic {
+    do 
+      :: debut: N = N + 1; fin: skip
+      :: break
+    od 
+  };
+
+  do
+    :: too_low:  atomic { c < g  -> a = 1 } ; raise: a == 0
+    :: too_high: atomic { c > g  -> a = 2 } ; lower: a == 0
+    :: atomic { c == g ->
+         do
+           :: low:  g < N; incr: g = g + 1
+           :: high: g > 1; decr: g = g - 1
+           :: break
+         od }
+  od;
+  meta (debut), fin, debut;
+  meta (low),  incr, low;
+  meta (high), decr, high
+}
+
+meta (control.too_low, motor.go_up), 
+      control.raise, motor.up, motor.go_up, control.too_low;
+
+meta (control.too_high, motor.go_down), 
+      control.lower, motor.down, motor.go_down, control.too_high;

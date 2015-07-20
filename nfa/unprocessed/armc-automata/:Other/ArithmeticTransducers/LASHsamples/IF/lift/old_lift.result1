@@ -1,0 +1,189 @@
+system lift ;
+var c (1) : int;
+    g (1) : int;
+    a (0) : int;
+    N (1) : int;	
+
+process p_init;
+state 
+s_start :init :nostable;
+s_add :nostable;
+s_stop;
+
+transition
+from s_start 
+do N := N + 1
+to s_add;
+from s_add to s_start;
+from s_start to s_stop;
+
+meta_local
+from s_start
+by s_add, s_start ;
+
+process motor;
+state 
+	s_mid :init ;
+	s_down :nostable ;
+	s_up :nostable ;
+
+transition
+	from s_mid 
+	if a = 2 
+	to s_down;
+	from s_down 
+	do a := 0 , c := c - 1
+	to s_mid;
+	from s_mid 
+	if a = 1
+	to s_up;
+	from s_up 
+	do a := 0, c := c + 1
+	to s_mid;
+
+process control;
+state 
+	s_wait :init ;
+	s_go ;
+	s_go_down ;
+	s_go_up ;
+	s_change :nostable ;
+	s_raise :nostable ;
+	s_lower :nostable ;
+
+transition
+	from s_wait  
+	if N > 1
+	to s_go;
+	from s_go 
+	if c > g
+	do a := 2
+	to s_go_down;
+	from s_go_down 
+	if a = 0
+	to s_go;
+	from s_go 
+	if c < g
+	do a := 1
+	to s_go_up;
+	from s_go_up 
+	if a = 0
+	to s_go;
+	from s_go 
+	if c = g
+	to s_change;
+	from s_change to s_go;
+	from s_change 
+	if g < N
+	to s_raise;
+	from s_raise 
+	do g := g + 1
+	to s_change;
+	from s_change 
+	if  g > 1
+	to s_lower;
+	from s_lower 
+	do g := g - 1
+	to s_change;
+
+
+meta_local
+	from s_change by s_raise, s_change ;
+	from s_change by s_lower, s_change ;
+
+
+process observer;
+
+state
+s1 :init;
+s2 :nostable assert (c >= 2) and (c <= N) ; end ;
+
+transition
+from s1 
+if N > 1
+to s2;
+from s2 to s1;
+
+
+meta_global 
+	from control.s_go , motor.s_mid
+	by control.s_go_down,  motor.s_down , motor.s_mid, 
+	control.s_go ;
+	from control.s_go , motor.s_mid
+	by control.s_go_up,  motor.s_up, motor.s_mid, 
+	control.s_go ;
+/*
+-----------------------------------------------------------------------
+
+Compilation statistics:
+  number of processes               : 4.
+  number of variables               : 4.
+  total number of control locations : 17.
+  number of meta-transitions        : 5.
+Translating the transition relation...
+   with transitions                    : 2015 NDD state(s).
+   with transitions & meta-transitions : 3385 NDD state(s).
+Translating the set of initial states...
+   initial set : 17 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 25 NDD state(s).
+   intermediate result : 55 NDD state(s).
+   intermediate result : 78 NDD state(s).
+   intermediate result : 129 NDD state(s).
+   intermediate result : 193 NDD state(s).
+   intermediate result : 255 NDD state(s).
+   intermediate result : 364 NDD state(s).
+   intermediate result : 500 NDD state(s).
+   intermediate result : 821 NDD state(s).
+   intermediate result : 1200 NDD state(s).
+   intermediate result : 1558 NDD state(s).
+   intermediate result : 1783 NDD state(s).
+   intermediate result : 1819 NDD state(s).
+   intermediate result : 1997 NDD state(s).
+   intermediate result : 2026 NDD state(s).
+   intermediate result : 2043 NDD state(s).
+   intermediate result : 2025 NDD state(s).
+   intermediate result : 2025 NDD state(s).
+Fixpoint reached in 18 step(s).
+*** Assertion violation in process 'observer'.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 3842377 byte(s).
+___________________________________________________________________
+with new implementation for transition relation (02/03)
+
+siflash -v lift.if
+Compilation statistics:
+  number of processes               : 4.
+  number of variables               : 4.
+  total number of control locations : 15.
+  number of meta-transitions        : 5.
+Translating the transition relation...
+   with transitions                    : 2320 NDD state(s).
+   with transitions & meta-transitions : 3999 NDD state(s).
+Translating the set of initial states...
+   initial set : 17 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 25 NDD state(s).
+   intermediate result : 55 NDD state(s).
+   intermediate result : 78 NDD state(s).
+   intermediate result : 129 NDD state(s).
+   intermediate result : 193 NDD state(s).
+   intermediate result : 255 NDD state(s).
+   intermediate result : 322 NDD state(s).
+   intermediate result : 524 NDD state(s).
+   intermediate result : 903 NDD state(s).
+   intermediate result : 1262 NDD state(s).
+   intermediate result : 1444 NDD state(s).
+   intermediate result : 1548 NDD state(s).
+   intermediate result : 1621 NDD state(s).
+   intermediate result : 1635 NDD state(s).
+   intermediate result : 1637 NDD state(s).
+   intermediate result : 1620 NDD state(s).
+   intermediate result : 1620 NDD state(s).
+Fixpoint reached in 17 step(s).
+*** Assertion violation in process 'observer'.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 787749 byte(s).
+*/

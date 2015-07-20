@@ -1,0 +1,257 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl
+-----------------------------------------------
+-DLrnNonLenPr -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+-DLrnNonLenPr -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

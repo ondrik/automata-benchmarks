@@ -1,0 +1,342 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. languages up to 10 letters...
+----- Property holds!
+Cputime used: 440.52 sec.
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. languages up to 10 letters...
+----- Property holds!
+Cputime used: 380.17 sec.
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. languages up to 10 letters...
+----- Property holds!
+Cputime used: 384.57 sec.
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. languages up to 1 letters...
+Computing the partition wrt. languages up to 2 letters...
+Computing the partition wrt. languages up to 3 letters...
+Computing the partition wrt. languages up to 4 letters...
+Computing the partition wrt. languages up to 5 letters...
+Computing the partition wrt. languages up to 6 letters...
+Computing the partition wrt. languages up to 7 letters...
+----- Property holds!
+Cputime used: 447.33 sec.
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 10 letters...
+----- Property holds!
+Cputime used: 391.87 sec.
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 10 letters...
+----- Property holds!
+Cputime used: 392.23 sec.
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 10 letters...
+----- Property holds!
+Cputime used: 396.64 sec.
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 1 letters...
+Computing the partition wrt. traces up to 2 letters...
+Computing the partition wrt. traces up to 3 letters...
+Computing the partition wrt. traces up to 4 letters...
+Computing the partition wrt. traces up to 5 letters...
+----- Property holds!
+Cputime used: 434.32 sec.
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 1 letters...
+Computing the partition wrt. traces up to 2 letters...
+Computing the partition wrt. traces up to 3 letters...
+Computing the partition wrt. traces up to 4 letters...
+Computing the partition wrt. traces up to 5 letters...
+----- Property holds!
+Cputime used: 433.88 sec.
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 1 letters...
+Computing the partition wrt. traces up to 2 letters...
+Computing the partition wrt. traces up to 3 letters...
+Computing the partition wrt. traces up to 4 letters...
+Computing the partition wrt. traces up to 5 letters...
+----- Property holds!
+Cputime used: 432.96 sec.
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing the partition wrt. traces up to 2 letters...
+Computing the partition wrt. traces up to 3 letters...
+Computing the partition wrt. traces up to 4 letters...
+Computing the partition wrt. traces up to 5 letters...
+----- Property holds!
+Cputime used: 440.71 sec.
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing the partition wrt. traces up to 2 letters...
+Computing the partition wrt. traces up to 3 letters...
+Computing the partition wrt. traces up to 4 letters...
+Computing the partition wrt. traces up to 5 letters...
+----- Property holds!
+Cputime used: 439.4 sec.
+-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 21
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing the partition wrt. traces up to 2 letters...
+Computing the partition wrt. traces up to 3 letters...
+Computing the partition wrt. traces up to 4 letters...
+Computing the partition wrt. traces up to 5 letters...
+----- Property holds!
+Cputime used: 441.75 sec.
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DTrClosure -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DTrClosure -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

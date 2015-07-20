@@ -1,0 +1,72 @@
+[n,l26,(~{'|'}& ?)*,'|',{
+
+%%% One element
+
+[{lte,gt},x,{p,y,yn,t}*,/,#,'|'],
+
+%%% Two and more elements
+
+%% No marker
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+%% One marker
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|',m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+[m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|'],
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|',n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+[n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|'],
+
+%% Two markers
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|',m_t,[lte,{p,y,yn,t}*,/]+,n_f,'|',n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|',n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',m_t,[lte,{p,y,yn,t}*,/]+,n_f,'|'],
+
+[m_t,[lte,{p,y,yn,t}*,/]+,n_f,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|',n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+[m_t,[lte,{p,y,yn,t}*,/]+,n_f,'|',n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|'],
+
+[n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|',m_t,[lte,{p,y,yn,t}*,/]+,n_f,'|'],
+
+[n_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',m_t,[lte,{p,y,yn,t}*,/]+,n_f,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,m_f,'|'],
+
+% The role of m and n swapped
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|',n_t,[lte,{p,y,yn,t}*,/]+,m_f,'|',m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+[lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|',m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',n_t,[lte,{p,y,yn,t}*,/]+,m_f,'|'],
+
+[n_t,[lte,{p,y,yn,t}*,/]+,m_f,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|',m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|'],
+
+[n_t,[lte,{p,y,yn,t}*,/]+,m_f,'|',m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|'],
+
+[m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|',n_t,[lte,{p,y,yn,t}*,/]+,m_f,'|'],
+
+[m_t,[lte,{p,y,yn,t}*,/]*,{lte,gt},{p,y,yn,t}*,/,#,'|',n_t,[lte,{p,y,yn,t}*,/]+,m_f,'|',lte,x,{p,y,yn,t}*,/,[lte,{p,y,yn,t}*,/]*,n_f,'|']
+
+%%%
+
+}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

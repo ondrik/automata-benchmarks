@@ -1,0 +1,56 @@
+int c = 1, g = 1, a = 0, N = 1;
+
+process init 
+{
+  atomic 
+    {
+      do
+        :: do_increase: N = N + 1; increase: skip
+        :: break
+      od
+    };
+
+  meta (do_increase), increase, do_increase
+}
+
+process motor 
+{
+  do
+     :: do_up:   atomic { a == 1 -> up:   a = 0; c = c + 1 }
+     :: do_down: atomic { a == 2 -> down: a = 0; c = c - 1 }
+  od
+}
+
+process control 
+{
+  N > 1 ->
+  do
+    :: do_low:  atomic { c < g -> a = 1 }; low:  a == 0
+    :: do_high: atomic { c > g -> a = 2 }; high: a == 0
+    :: atomic 
+         { 
+           c == g ->
+           do
+             :: do_raise: g < N -> raise: g = g + 1
+             :: do_lower: g > 1 -> lower: g = g - 1
+             :: break
+           od 
+         }
+  od;
+
+  meta (do_raise), raise, do_raise;
+  meta (do_lower), lower, do_lower
+}
+
+meta (control.do_low,  motor.do_up), 
+         control.low,  motor.up, motor.do_up, control.do_low;
+meta (control.do_high, motor.do_down),
+         control.high, motor.down, motor.do_down, control.do_high;
+
+process observer
+{
+  do
+    :: atomic { N > 1 -> assert c >= 1 }
+    :: atomic { N > 1 -> assert c <= N }
+  od
+}

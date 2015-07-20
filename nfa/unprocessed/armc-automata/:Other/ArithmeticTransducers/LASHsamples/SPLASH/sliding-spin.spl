@@ -1,0 +1,62 @@
+#define NMAX 50
+#define N 3
+#define QSIZE 3
+proctype sender(chan In, Out)
+{
+int ns;
+int na;
+int x;
+
+ns = 0;
+na = 0;
+
+
+end_sender:
+do 
+     
+    ::   ( (ns < na + N ) && (ns <= NMAX)) ->  ns = ns + 1 ; Out!ns
+	        
+    ::   In?x -> 
+		if
+			:: x > na  -> na = x ; ns = na
+			:: x <= na -> skip
+		fi 
+		
+od;
+
+}
+
+proctype receiver(chan In, Out)
+{
+int v;
+int y;
+
+v = 0;
+
+end_receiver:
+do
+	
+	:: In?y ->
+		if 
+			:: y == v + 1 -> v = y
+			:: y != v + 1 ->  skip
+		fi
+	:: v > -1 ->
+		if 
+			::  Out!v -> skip 
+			:: skip
+		fi	
+	
+od;
+
+}
+
+init
+{
+chan q1 = [QSIZE] of {int}
+chan q2 = [QSIZE] of {int}
+atomic {  run sender(q2, q1); run receiver(q1, q2); }
+
+
+}
+

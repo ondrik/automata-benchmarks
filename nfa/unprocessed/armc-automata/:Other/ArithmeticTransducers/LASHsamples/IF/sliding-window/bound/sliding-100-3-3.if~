@@ -1,0 +1,152 @@
+/* date: 00-04-26 (yy-mm-dd) */
+/* QUEUE SIZE : 3 */
+/* Version compacte : 1 seul process/etat de controle ... */
+/* borne sur le numero des message: aucune */
+/* N = 3 */
+/* NMAX = 100 */
+
+system compact;
+
+process p;
+var
+N(3)  : int ;
+ns (0) : int ;
+na (0) : int ;
+x11 (0) : int ;
+x12 (0) :int;
+x13 (0) :int;
+x21 (0) : int ;
+x22 (0) :int;
+x23 (0) : int;
+nb1 (0) :int;
+nb2 (0) :int;
+v (0) :int;
+
+state
+s :init;
+ 
+transition
+/* emetteur -> queue1 */
+t1: from s
+if ns < na + N  and nb1 = 0 and ns < 100
+do  ns := ns + 1, x11 := ns, nb1 := nb1 + 1 
+to s;
+
+from s
+if ns < na + N and nb1 = 1 and ns < 100
+do ns := ns + 1, x12 := ns,  nb1 := nb1 + 1 
+to s;
+
+from s
+if ns < na + N and nb1 = 2 and ns < 100
+do ns := ns + 1, x13 := ns,  nb1 := nb1 + 1 
+to s;
+
+from s
+if ns < na + N and nb1 = 3 and ns < 100
+do ns := ns + 1
+to s;
+
+/* queue1 -> recepteur */
+t2: from s
+if x11 = v + 1 and nb1 > 0
+do v := v + 1, x11 := x12 , x12 := x13,  nb1 := nb1 -1
+to s;
+
+from s
+if x11 != v + 1 and nb1 > 0
+do  x11 := x12 ,x12 := x13,   nb1 := nb1 -1
+to s;
+
+
+/* recepteur -> queue2 */
+t3: from s
+if nb2 = 0 do x21 := v, nb2 := nb2 + 1 
+to s;
+
+from s
+if nb2 = 1 do x22 := v, nb2 := nb2 + 1 
+to s;
+
+from s
+if nb2 = 2 do x23 := v, nb2 := nb2 + 1 
+to s;
+
+/* queue2 -> emetteur */
+from s
+if nb2 > 0 and x21 <= na do x21 := x22, x22 := x23,  nb2 := nb2 -1
+to s;
+
+t4: from s
+if nb2 > 0 and x21 > na
+do na := x21, ns := x21, x21 := x22, x22 := x23,  nb2 := nb2 -1
+to s;
+
+meta_local
+from s by t1, t2, t3, t4;
+
+
+/*
+Tu es sur montef00 (sun4) > time
+17546.0u 10.0s 20:12:01 24% 0+0k 0+0io 0pf+0w
+Tu es sur montef00 (sun4) > siflash -v sliding100.if
+Compilation statistics:
+  number of gates                   : 0.
+  number of processes               : 1.
+  number of variables               : 12.
+  total number of control locations : 1.
+  number of syncronized transitions : 0.
+  number of meta-transitions        : 1.
+Translating the transition relation...
+   with transitions                    : 10250 NDD state(s).
+   with synchronised transitions       : 10250 NDD state(s).
+   with transitions & meta-transitions : 24465 NDD state(s).
+Translating the set of initial states...
+   initial set : 40 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 251 NDD state(s).
+   intermediate result : 764 NDD state(s).
+   intermediate result : 1764 NDD state(s).
+   intermediate result : 3378 NDD state(s).
+time
+
+   intermediate result : 5180 NDD state(s).
+   intermediate result : 7322 NDD state(s).
+   intermediate result : 9579 NDD state(s).
+   intermediate result : 12068 NDD state(s).
+   intermediate result : 15290 NDD state(s).
+   intermediate result : 19610 NDD state(s).
+   intermediate result : 25234 NDD state(s).
+   intermediate result : 31854 NDD state(s).
+   intermediate result : 39973 NDD state(s).
+   intermediate result : 49035 NDD state(s).
+   intermediate result : 58376 NDD state(s).
+   intermediate result : 68268 NDD state(s).
+   intermediate result : 78923 NDD state(s).
+   intermediate result : 89347 NDD state(s).
+   intermediate result : 98594 NDD state(s).
+   intermediate result : 107616 NDD state(s).
+   intermediate result : 114964 NDD state(s).
+   intermediate result : 123074 NDD state(s).
+   intermediate result : 126884 NDD state(s).
+   intermediate result : 130431 NDD state(s).
+   intermediate result : 129955 NDD state(s).
+   intermediate result : 132339 NDD state(s).
+   intermediate result : 130809 NDD state(s).
+   intermediate result : 128522 NDD state(s).
+   intermediate result : 117565 NDD state(s).
+   intermediate result : 106637 NDD state(s).
+   intermediate result : 93109 NDD state(s).
+   intermediate result : 84164 NDD state(s).
+   intermediate result : 76015 NDD state(s).
+   intermediate result : 72070 NDD state(s).
+   intermediate result : 68450 NDD state(s).
+   intermediate result : 67401 NDD state(s).
+   intermediate result : 67073 NDD state(s).
+Fixpoint reached in 37 step(s).
+*** Program validated.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 225364856 byte(s).
+Tu es sur montef00 (sun4) > 35025.0u 14.0s 25:03:46 38% 0+0k 0+0io 0pf+0w
+*/

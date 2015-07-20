@@ -1,0 +1,27 @@
+system fun;
+
+var 
+	a(0) : int;
+	b(0) : int;
+
+process central;
+var
+	d(0) : int;
+	p(0): int ;	
+	c(0): int ;	
+state
+s0 :init;
+
+transition
+	t0: from s0 do c := c + 1 to s0;			
+	t1: from s0 if p < 3 do p := p + 1 to s0;
+	t2: from s0 do b := b + 10 to s0;	
+	t3: from s0 if a < b do a := a + 10 to s0;
+	t4: from s0 if b = 10 * c do b := b + p to s0;
+	t5: from s0 if a = 10 * c do a := a + p to s0;
+
+meta_local
+	from s0 by t0 ; 
+	from s0 by t1 ; 
+	from s0 by t2 ;
+	from s0 by t3 ;

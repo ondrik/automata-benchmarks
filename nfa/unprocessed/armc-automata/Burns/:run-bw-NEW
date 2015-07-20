@@ -1,0 +1,1771 @@
+N=1
+
+T=2
+
+RunIt_Rev() {
+I=1;
+while [ $I -le $N ]; do
+
+#echo $X
+cpp -std=iso9899:1990 $X > \:go.pl
+ulimit -t $T
+yap -h 50000 -s 50000 -t 50000 << XXX
+reconsult(':go'), asmc_rev_time_yap, halt.
+XXX
+
+I=$((I+1))
+
+done
+
+}
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#echo "-----------------------------------------------"
+
+#X="-DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIncBad -DIniBad -DFlColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncHalfBad -DIniHalfBad -DFlColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncOne -DIniOne -DFlColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIncBad -DIniBad -DFtColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncHalfBad -DIniHalfBad -DFtColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncOne -DIniOne -DFtColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIncBad -DIniBad -DFbColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncHalfBad -DIniHalfBad -DFbColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncOne -DIniOne -DFbColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DIncBad -DIniBad -DFbtColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncHalfBad -DIniHalfBad -DFbtColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+#####################################################################################
+
+#X="-DIncOne -DIniOne -DFbtColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+##################################################################################
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTail -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTailKey -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTail -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTailKey -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHead -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHeadKey -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHead -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHeadKey -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+
+X="-DAddFlColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFlColl -DAddIniOne -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFtColl -DAddIniOne -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbColl -DAddIniOne -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniHalfBad -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddFbtColl -DAddIniOne -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DAddBoth -DAddFlColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFlColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniHalfBad -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+echo "-----------------------------------------------"
+
+X="-DAddBoth -DAddFbtColl -DAddIniOne -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_rev_ver.pl"; RunIt_Rev
+
+##################################################################################
+#echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+##################################################################################
+
+

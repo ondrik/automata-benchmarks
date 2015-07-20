@@ -1,0 +1,89 @@
+Protocol Description:
+--------------------------------------------------------------------
+(compact version)
+The program analyzed models two processes, "sender" and "receiver", exchanging data by means of a sliding window protocol. 
+A number (ID) identifies each message, ranging from 1 to NMAX. 
+"sender" can send, successively, all the messages whose numbers are in 
+the window. The window range starts with one above the highest acknowledgement received, ack_max + 1, and has a size of N. 
+The messages sent by "sender" are first stored in a FIFO queue (Q1).  
+Once the queue is full, the messages are lost.
+The receiver picks the messages in the queue. When a new message is received,
+its ID is compared to the highest message ID accepted,  and it
+is accepted if it has the consecutive ID number.
+The receiver continuously sent acknowledgements mentioning the highest ID 
+number accepted. The acknowledgement are stored in a second queue (Q2), 
+where the sender can access them. Again, when the second queue is full, the messages are lost.
+For each acknowledgement received, "sender" compares  the ID number attached, ack_i, with the highest received, ack_max, and if ack_i > ack_max, then, the sender updates ack_max as well as the window.
+            
+ There are three parameters, the window size,N, the queue size, and the bound 
+ on the message numbers, NMAX.
+
+We tested this protocol without any bound on the messages, (NMAX = infinity), a queue size of 3, and with a window size from 1 to 6. 
+
+The results contain the window size (N), the queue size, the steps, STEPS,  to reach the fixpoint (i.e. full state space exploration), the number of NDD states, NDD STATES, wich gives an idea regarding the complexity of our representation, the maximal memory used for the exploration, MEMORY, and the time, TIME, to complete the exploration. 
+
+======================================================================
+LASH
+----------------------------------------------------------------------
+version 1 processus (siflash)
+-------------------
+
+Influence of the window size (N):
+
+NMAX  	N 	QUEUE 	steps	NDDStates	mem (kbytes)	time(s) 
+-	1	3	12	   1071		 26783		    78 (montef00)  
+-	2	3	33	  24588		133838		  2302 (montef00)  
+-	3	3	37	  70279		140001		  7834 (montef00)
+-	4	3	41	 186774		154810		 25740 (montef00)
+-	5	3	46	 375913		202663		137625 (montef01)
+-	6	3	?	>700000		?		? (montef00)
+  								
+Influence of the max.ID number (NMAX)(sur montef00):
+
+NMAX  	N 	QUEUE 	steps	NDDStates	mem (kbytes)	time(s) 
+10	3	3	37	 49911		 14777		  3420 
+50	3	3	37	105967	 	 78849		 12755
+100	3	3	37	132339	 	225364		 17505 
+-	3	3	37	 70279		140001		  7834 
+
+
+---------------
+version 4 processus (siflash)(sur montef00)
+------------------
+NMAX	N	QUEUE	control	steps	NDDStates	mem (kbytes) 	time
+-	1	3	11	17	  7547	 	13723		  142
+-	2	3	11	53	 48398	 	13727		 1323
+-	3	3	11	84	239093	 	41056		17235
+-       4	3	11      96	894319	       196587	       165009
+
+version 4 processus (splash)(sur montef00)
+------------------
+NMAX	N	QUEUE	control	steps	NDDStates	mem (kbytes) 	time
+-	1	3	62	44	  8916	 	 5289		  755
+-	2	3	62	?	137072?	 	?		    ?
+
+
+=========================================================================
+Spin
+-------------------------------------------------------------------------
+BeBobaBambou (fantasio)> spin -a -m _sliding.spl
+BeBobaBambou (fantasio)> /usr/local/bin/gcc pan.c -DSAFETY -o pan
+BeBobaBambou (fantasio)> pan -m1000000
+
+Influence of the window size:
+
+NMAX  	N 	QUEUE 	depth	States		mem (kbytes)	time(s)
+100     2       3	3769	  25814	  	  4985 		2
+100   	3	3	2185	4895720		264665		180
+100   	4	3	2052	5528350		out of mem.	600
+
+Influence of the max.ID number:
+
+NMAX  	N 	QUEUE 	depth	States		mem (kbytes)	time(s)
+10      3       3	  355	 377725	  	22188 		2
+50      3       3	 1155	2385560 	120389  	60	
+100   	3	3	 2185	4895720		264665		140
+110   	3	3	 2375	5397620		267641		150
+120   	3	3	 2606	5413280		out of mem.	200
+
+============================================================================

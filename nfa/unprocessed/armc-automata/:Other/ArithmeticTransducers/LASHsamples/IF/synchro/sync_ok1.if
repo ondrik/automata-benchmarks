@@ -1,0 +1,124 @@
+system test;
+
+gate
+g1(int);
+g2;
+
+sync
+ hide g1 in ( pr1 |[ g1 , g2 ]| pr2 ) |[ g2 ]| 
+ hide g1 in ( pr3 |[ g1 , g2 ]| pr4 )   end ;
+
+process pr1;
+var
+x(0) : int;
+
+
+state
+s1 :init;
+s2 ;
+s3 ;
+s4 assert x = 0 or x = 2 or x = 4 or x = 6 or x = 8 or x = 10  ; end ;
+
+transition
+from s1 if x < 10  do x := x + 1 to s1; 
+
+from s1 sync g1!x to s2;
+
+from s1 sync g2 to s3;
+
+coucou: from s2 if x = 2 to s4;
+
+ meta_local
+from s1 by s1;
+
+
+process pr2;
+var
+y(0) : int;
+
+
+state
+s1 :init;
+s2 ;
+s3  assert (y >= 10) ; end ;
+s4;
+
+transition
+this: from s1 do y := y + 2 to s4;
+from s4 to s1;
+from s1 to s1;
+from s1 sync g1!y to s2;
+
+from s1 sync g2 to s3;
+
+meta_local
+from s1 by this,s1;
+
+
+process pr3;
+var
+z(0) : int;
+
+state
+s1 :init;
+s2 ;
+ s3 assert ( z < 0 ) ; end ;
+
+transition
+coucou: from s1 if (z < 10) do z := z + 5 to s1; 
+
+from s1 sync g1!z to s2;
+
+from s1 sync g2 to s3;
+
+/* meta_local
+from s1 by s1;
+*/
+
+process pr4;
+var
+w(10) : int;
+
+state
+s1 :init;
+s2 ;
+s3 ;
+
+transition
+/* from s1 do w := w + 10 to s1; */
+
+from s1 sync g1!w to s2;
+
+from s1 sync g2 to s3;
+
+/* meta_local     
+from s1 by s1; */
+/********************************************
+Compilation statistics:
+  number of gates                   : 2.
+  number of processes               : 4.
+  number of variables               : 4.
+  total number of control locations : 13.
+  number of syncronized transitions : 3.
+  number of meta-transitions        : 2.
+Translating the transition relation...
+   with transitions                    : 1510 NDD state(s).
+   with synchronised transitions       : 1734 NDD state(s).
+   with transitions & meta-transitions : 2880 NDD state(s).
+Translating the set of initial states...
+   initial set : 41 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 137 NDD state(s).
+   intermediate result : 248 NDD state(s).
+   intermediate result : 410 NDD state(s).
+   intermediate result : 574 NDD state(s).
+   intermediate result : 619 NDD state(s).
+   intermediate result : 616 NDD state(s).
+   intermediate result : 593 NDD state(s).
+Fixpoint reached in 7 step(s).
+*** Assertion violation in process 'pr2'.
+*** Assertion violation in process 'pr3'.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 598164 byte(s).
+********************************************/

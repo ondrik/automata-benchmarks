@@ -1,0 +1,103 @@
+int N = 3, q1 = 0, q1b, q2 = 0, q2b;
+int nb1 = 0, nb2 = 0;
+
+process Sender
+{
+  int ns = 0, na = 0;
+
+  do
+    :: first:
+       three:
+       fourteen:
+       atomic { ns < na + N -> q1 = 1; q1b = ns };
+       one:
+       atomic { q1 == 2 -> ns = ns + 1 }
+    :: q2 = -1;
+       eleven_bis:
+       if
+         :: atomic { q2 == -2 ->
+            twelve:
+              if
+                :: q2b > na -> na = q2b; thirteen: ns = q2b
+                :: q2b <= na
+              fi
+            }
+         :: q2 == -1
+       fi
+  od
+}
+
+process Receiver
+{
+  do
+    :: first:
+       nine:
+       q1 = -1; atomic { four: q1 == -2 -> q2 = 1; q2b = q1b };
+       seven: q2 == 2
+  od
+}
+
+process StoR
+{
+  int  x1, x2, x3;
+
+  six:
+  zeroStoR:
+    atomic { q1 == 1  -> x1 = q1b; q1 = 2 };
+  
+  two:
+  oneStoR:
+    if
+      :: atomic { q1 == 1  -> not_five: x2 = x1; x1 = q1b; q1 = 2 }
+      :: atomic { q1 == -1 -> five: q1b = x1; q1 = -2; goto zeroStoR }
+    fi;
+
+  twoStoR:
+    if
+      :: atomic { q1 == 1  -> x3 = x2; x2 = x1; x1 = q1b; q1 = 2 }
+      :: atomic { q1 == -1 -> q1b = x1; x1 = x2; q1 = -2; goto oneStoR }
+    fi;
+
+  threeStoR:
+    if
+      :: atomic { q1 == 1  -> q1 = 2; goto threeStoR }
+      :: atomic { q1 == -1 -> q1b = x1; x1 = x2; x2 = x3; q1 = -2; 
+         goto twoStoR }
+    fi
+}
+
+process RtoS
+{
+  int  x1, x2, x3;
+
+  zeroRtoS:
+  eleven:
+    atomic { q2 == 1  -> x1 = q2b; q2 = 2 };
+ 
+  eight: 
+  oneRtoS:
+    if
+      :: atomic { q2 == 1  -> not_ten: x2 = x1; x1 = q2b; q2 = 2 }
+      :: atomic { q2 == -1 -> ten: q2b = x1; q2 = -2; goto zeroRtoS }
+    fi;
+
+  twoRtoS:
+    if
+      :: atomic { q2 == 1  -> x3 = x2; x2 = x1; x1 = q2b; q2 = 2 }
+      :: atomic { q2 == -1 -> q2b = x1; x1 = x2; q2 = -2; goto oneRtoS }
+    fi;
+
+  threeRtoS:
+    if
+      :: atomic { q2 == 1  -> q2 = 2; goto threeRtoS }
+      :: atomic { q2 == -1 -> q2b = x1; x1 = x2; x2 = x3; q2 = -2; 
+         goto twoRtoS }
+    fi
+}
+
+meta (Sender.first, Receiver.first, StoR.zeroStoR, RtoS.zeroRtoS),
+      Sender.one, StoR.two, Sender.three, Receiver.four,
+      StoR.five, StoR.six, Receiver.seven, RtoS.eight, Receiver.nine,
+      RtoS.ten, RtoS.eleven, Sender.eleven_bis, Sender.twelve, 
+      Sender.fourteen;
+

@@ -1,0 +1,13 @@
+[n,l19,!,{
+
+%%% the result is empty
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,r,'|'],
+
+%%% the marker is unused
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,'|',{x,y,p,t}*,r,[/,{x,y,p,t}*]*,/,#,'|']
+
+%%% the marker is used
+
+}]

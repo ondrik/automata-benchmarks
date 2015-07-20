@@ -1,0 +1,65 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniBad -DFlColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfBad -DFlColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFlColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniBad -DFtColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfBad -DFtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniBad -DFbColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfBad -DFbColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniBad -DFbtColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfBad -DFbtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniInit -DFlColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfInit -DFlColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFlColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniInit -DFtColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfInit -DFtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniInit -DFbColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfInit -DFbColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncBad -DIniInit -DFbtColl -P asmc_ver.pl
+-DIncHalfBad -DIniHalfInit -DFbtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniBad -DFlColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfBad -DFlColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFlColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniBad -DFtColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfBad -DFtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniBad -DFbColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfBad -DFbColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniBad -DFbtColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfBad -DFbtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniInit -DFlColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfInit -DFlColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFlColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniInit -DFtColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfInit -DFtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniInit -DFbColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfInit -DFbColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DIncConc -DIniInit -DFbtColl -P asmc_ver.pl
+-DIncHalfConc -DIniHalfInit -DFbtColl -P asmc_ver.pl
+-DIncOne -DIniOne -DFbtColl -P asmc_ver.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -1,0 +1,15 @@
+{
+
+%%% The empty list
+
+[n,l9n,!,m_f,n_f,o_f,{x,y,z}*,/,#,l,{x,y,z}*,'|'],
+
+%%% A non-empty list - different markers may be in use...
+
+[n,l9n,!,n_f,o_f,{x,y,z}*,/,#,{x,y,z}*,'|',m_t,[{x,y,z}*,/]*,l,{x,y,z}*, [/,{x,y,z}*]*,/,m_f,'|'],
+
+[n,l9n,!,m_f,o_f,{x,y,z}*,/,#,{x,y,z}*,'|',n_t,[{x,y,z}*,/]*,l,{x,y,z}*, [/,{x,y,z}*]*,/,n_f,'|'],
+
+[n,l9n,!,m_f,n_f,{x,y,z}*,/,#,{x,y,z}*,'|',o_t,[{x,y,z}*,/]*,l,{x,y,z}*, [/,{x,y,z}*]*,/,o_f,'|']
+
+}

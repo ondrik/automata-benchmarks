@@ -1,0 +1,115 @@
+system simple_lift ;
+var c (1) : int;
+    g (1) : int;
+    a (0) : int;
+    N (1) : int;	
+
+process p_init;
+state 
+s_start :init :nostable;
+s_add :nostable;
+s_stop;
+
+transition
+from s_start 
+do N := N + 1
+to s_add;
+from s_add to s_start;
+from s_start to s_stop;
+
+meta_local
+from s_start
+by s_add, s_start ;
+
+process motor;
+state 
+	s_mid :init ;
+	s_down :nostable ;
+	s_up :nostable ;
+
+transition
+	from s_mid 
+	if a = 2 
+	to s_down;
+	from s_down 
+	do a := 0 , c := c - 1
+	to s_mid;
+	from s_mid 
+	if a = 1
+	to s_up;
+	from s_up 
+	do a := 0, c := c + 1
+	to s_mid;
+
+process control;
+state 
+	s_wait :init ;
+	s_go ;
+	s_go_down ;
+	s_go_up ;
+	s_change :nostable ;
+	s_raise :nostable ;
+	s_lower :nostable ;
+
+transition
+	from s_wait  
+	if N > 1
+	to s_go;
+	from s_go 
+	if c > g
+	do a := 2
+	to s_go_down;
+	from s_go_down 
+	if a = 0
+	to s_go;
+	from s_go 
+	if c < g
+	do a := 1
+	to s_go_up;
+	from s_go_up 
+	if a = 0
+	to s_go;
+	from s_go 
+	if c = g
+	to s_change;
+	from s_change to s_go;
+	from s_change 
+	if g < N
+	to s_raise;
+	from s_raise 
+	do g := g + 1
+	to s_change;
+	from s_change 
+	if  g > 1
+	to s_lower;
+	from s_lower 
+	do g := g - 1
+	to s_change;
+
+
+meta_local
+	from s_change by s_raise, s_change ;
+	from s_change by s_lower, s_change ;
+
+
+process observer;
+
+state
+s1 :init;
+s2 :nostable assert (c >= 1) and (c <= N) ; end ;
+
+transition
+from s1 
+if N > 1
+to s2;
+from s2 to s1;
+
+
+meta_global 
+	from control.s_go , motor.s_mid
+	by control.s_go_down,  motor.s_down , motor.s_mid, 
+	control.s_go ;
+	from control.s_go , motor.s_mid
+	by control.s_go_up,  motor.s_up, motor.s_mid, 
+	control.s_go ;
+

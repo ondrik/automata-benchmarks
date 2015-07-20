@@ -1,0 +1,333 @@
+16 variable(s).
+   initial value(s):
+      x6 = 0.
+      x5 = 0.
+      x4 = 0.
+      x3 = 0.
+      x2 = 0.
+      x1 = 0.
+      x0 = 1.
+      x8 = 0.
+      x7 = 0.
+      x9 = 0.
+      x12 = 0.
+      x11 = 0.
+      x10 = 0.
+      x15 = 0.
+      x14 = 0.
+      x13 = 0.
+
+4 process(es).
+
+process #0:
+   10 states(s).
+   initial state is #0.
+
+   state #0:
+      2 outgoing transition(s):
+         ---> #1: x7 - x8 - x0 <= -1.
+         ---> #6: x3 := -1.
+
+   state #1:
+      2 outgoing transition(s):
+         ---> #2: x5 <= 2.
+         ---> #0: x5 == 3.
+
+   atomic state #2:
+      1 outgoing transition(s):
+         ---> #3: x1 := 1.
+
+   atomic state #3:
+      1 outgoing transition(s):
+         ---> #4: x2 := x7.
+
+   state #4:
+      1 outgoing transition(s):
+         ---> #5: x1 == 2.
+
+   atomic state #5:
+      1 outgoing transition(s):
+         ---> #0: x7 := x7 + 1.
+
+   state #6:
+      2 outgoing transition(s):
+         ---> #7: x3 == -2.
+         ---> #0: x3 == -1.
+
+   atomic state #7:
+      2 outgoing transition(s):
+         ---> #8: -x4 + x8 <= -1.
+         ---> #0: x4 - x8 <= 0.
+
+   atomic state #8:
+      1 outgoing transition(s):
+         ---> #9: x8 := x4.
+
+   atomic state #9:
+      1 outgoing transition(s):
+         ---> #0: x7 := x4.
+
+process #1:
+   6 states(s).
+   initial state is #0.
+
+   state #0:
+      2 outgoing transition(s):
+         ---> #1: x1 := -1.
+         ---> #4: x3 := 1.
+
+   state #1:
+      1 outgoing transition(s):
+         ---> #2: x1 == -2.
+
+   atomic state #2:
+      3 outgoing transition(s):
+         ---> #3: x9 - x2 == -1.
+         ---> #0: x9 - x2 <= -2.
+         ---> #0: -x9 + x2 <= 0.
+
+   atomic state #3:
+      1 outgoing transition(s):
+         ---> #0: x9 := x2.
+
+   state #4:
+      1 outgoing transition(s):
+         ---> #5: x3 == 2.
+
+   atomic state #5:
+      1 outgoing transition(s):
+         ---> #0: x4 := x9.
+
+process #2:
+   23 states(s).
+   initial state is #0.
+
+   state #0:
+      1 outgoing transition(s):
+         ---> #1: x1 == 1.
+
+   atomic state #1:
+      1 outgoing transition(s):
+         ---> #2: x10 := x2.
+
+   atomic state #2:
+      1 outgoing transition(s):
+         ---> #3: x1 := 2.
+
+   state #3:
+      2 outgoing transition(s):
+         ---> #4: x1 == 1.
+         ---> #21: x1 == -1.
+
+   atomic state #4:
+      1 outgoing transition(s):
+         ---> #5: x11 := x10.
+
+   atomic state #5:
+      1 outgoing transition(s):
+         ---> #6: x10 := x2.
+
+   atomic state #6:
+      1 outgoing transition(s):
+         ---> #7: x1 := 2.
+
+   atomic state #21:
+      1 outgoing transition(s):
+         ---> #22: x2 := x10.
+
+   atomic state #22:
+      1 outgoing transition(s):
+         ---> #0: x1 := -2.
+
+   state #7:
+      2 outgoing transition(s):
+         ---> #8: x1 == 1.
+         ---> #18: x1 == -1.
+
+   atomic state #8:
+      1 outgoing transition(s):
+         ---> #9: x12 := x11.
+
+   atomic state #9:
+      1 outgoing transition(s):
+         ---> #10: x11 := x10.
+
+   atomic state #10:
+      1 outgoing transition(s):
+         ---> #11: x10 := x2.
+
+   atomic state #11:
+      1 outgoing transition(s):
+         ---> #12: x1 := 2.
+
+   atomic state #18:
+      1 outgoing transition(s):
+         ---> #19: x2 := x10.
+
+   atomic state #19:
+      1 outgoing transition(s):
+         ---> #20: x10 := x11.
+
+   atomic state #20:
+      1 outgoing transition(s):
+         ---> #3: x1 := -2.
+
+   state #12:
+      2 outgoing transition(s):
+         ---> #13: x1 == 1.
+         ---> #14: x1 == -1.
+
+   atomic state #13:
+      1 outgoing transition(s):
+         ---> #12: x1 := 2.
+
+   atomic state #14:
+      1 outgoing transition(s):
+         ---> #15: x2 := x10.
+
+   atomic state #15:
+      1 outgoing transition(s):
+         ---> #16: x10 := x11.
+
+   atomic state #16:
+      1 outgoing transition(s):
+         ---> #17: x11 := x12.
+
+   atomic state #17:
+      1 outgoing transition(s):
+         ---> #7: x1 := -2.
+
+process #3:
+   23 states(s).
+   initial state is #0.
+
+   state #0:
+      1 outgoing transition(s):
+         ---> #1: x3 == 1.
+
+   atomic state #1:
+      1 outgoing transition(s):
+         ---> #2: x13 := x4.
+
+   atomic state #2:
+      1 outgoing transition(s):
+         ---> #3: x3 := 2.
+
+   state #3:
+      2 outgoing transition(s):
+         ---> #4: x3 == 1.
+         ---> #21: x3 == -1.
+
+   atomic state #4:
+      1 outgoing transition(s):
+         ---> #5: x14 := x13.
+
+   atomic state #5:
+      1 outgoing transition(s):
+         ---> #6: x13 := x4.
+
+   atomic state #6:
+      1 outgoing transition(s):
+         ---> #7: x3 := 2.
+
+   atomic state #21:
+      1 outgoing transition(s):
+         ---> #22: x4 := x13.
+
+   atomic state #22:
+      1 outgoing transition(s):
+         ---> #0: x3 := -2.
+
+   state #7:
+      2 outgoing transition(s):
+         ---> #8: x3 == 1.
+         ---> #18: x3 == -1.
+
+   atomic state #8:
+      1 outgoing transition(s):
+         ---> #9: x15 := x14.
+
+   atomic state #9:
+      1 outgoing transition(s):
+         ---> #10: x14 := x13.
+
+   atomic state #10:
+      1 outgoing transition(s):
+         ---> #11: x13 := x4.
+
+   atomic state #11:
+      1 outgoing transition(s):
+         ---> #12: x3 := 2.
+
+   atomic state #18:
+      1 outgoing transition(s):
+         ---> #19: x4 := x13.
+
+   atomic state #19:
+      1 outgoing transition(s):
+         ---> #20: x13 := x14.
+
+   atomic state #20:
+      1 outgoing transition(s):
+         ---> #3: x3 := -2.
+
+   state #12:
+      2 outgoing transition(s):
+         ---> #13: x3 == 1.
+         ---> #14: x3 == -1.
+
+   atomic state #13:
+      1 outgoing transition(s):
+         ---> #12: x3 := 2.
+
+   atomic state #14:
+      1 outgoing transition(s):
+         ---> #15: x4 := x13.
+
+   atomic state #15:
+      1 outgoing transition(s):
+         ---> #16: x13 := x14.
+
+   atomic state #16:
+      1 outgoing transition(s):
+         ---> #17: x14 := x15.
+
+   atomic state #17:
+      1 outgoing transition(s):
+         ---> #7: x3 := -2.
+
+meta-transition:
+   head: (#0.0, #1.0, #2.0, #3.0).
+   operations:
+      x7 - x8 - x0 <= -1.
+      x5 <= 2.
+      x1 := 1.
+      x2 := x7.
+      x1 == 1.
+      x10 := x2.
+      x1 := 2.
+      x1 == 2.
+      x7 := x7 + 1.
+      x1 := -1.
+      x1 == -1.
+      x2 := x10.
+      x1 := -2.
+      x1 == -2.
+      x9 - x2 == -1.
+      x9 := x2.
+      x3 := 1.
+      x3 == 1.
+      x13 := x4.
+      x3 := 2.
+      x3 == 2.
+      x4 := x9.
+      x3 := -1.
+      x3 == -1.
+      x4 := x13.
+      x3 := -2.
+      x3 == -2.
+      -x4 + x8 <= -1.
+      x8 := x4.
+      x7 := x4.
+
+end of program.

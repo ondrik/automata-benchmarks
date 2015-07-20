@@ -1,0 +1,2 @@
+(x > y) and (x < y + 6) and (y > 0) and ( y < 4)
+and (y+x > 4) and (y+x < 10)

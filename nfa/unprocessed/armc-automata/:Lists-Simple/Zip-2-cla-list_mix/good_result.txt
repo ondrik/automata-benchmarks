@@ -1,0 +1,17 @@
+[n,l19,!,{
+
+%%% the result is empty
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,r,'|'],
+
+%%% the result is not empty
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,'|',a,{x,y,p,t}*,r,[/,b,{x,y,p,t}*,/,a,{x,y,p,t}*]*,
+ 
+ {[/,a,{x,y,p,t}*]*,[/,b,{x,y,p,t}*]*},/,#,'|'],
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,'|',a,{x,y,p,t}*,r,[/,a,{x,y,p,t}*]*,/,#,'|'],
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,'|',b,{x,y,p,t}*,r,[/,b,{x,y,p,t}*]*,/,#,'|']
+
+}]

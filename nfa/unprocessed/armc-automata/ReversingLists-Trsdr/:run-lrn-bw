@@ -1,0 +1,240 @@
+N=1
+
+T=400
+
+RunIt_LrnFw() {
+I=1;
+while [ $I -le $N ]; do
+
+echo $X
+cpp -std=iso9899:1990 $X > \:go.pl
+ulimit -t $T
+yap -h 50000 -s 50000 -t 50000 << XXX
+reconsult(':go'), lrn_time_verify_yap, halt.
+XXX
+
+I=$((I+1))
+
+done
+
+}
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+X="-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+X="-DTrClosure -DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_rev.pl"; RunIt_LrnFw
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+

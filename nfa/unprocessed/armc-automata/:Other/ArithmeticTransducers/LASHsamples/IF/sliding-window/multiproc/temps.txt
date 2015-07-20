@@ -1,0 +1,553 @@
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-0.ndd
+loaded:/home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-0.ndd
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-0.ndd
+Time spent(projectedNdd_1): 0.160000
+Time spent(projectedNdd_2): 0.010000
+Time spent(projectedNdd_3): 0.010000
+Time spent(MinMax): 0.030000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.110000
+Time spent(framedNdd): 0.260000
+Time spent(data): 0.160000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-1.ndd
+Time spent(projectedNdd_1): 0.160000
+Time spent(projectedNdd_2): 0.030000
+Time spent(projectedNdd_3): 0.010000
+Time spent(MinMax): 0.030000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.020000
+Time spent(framedNdd): 0.160000
+Time spent(data): 0.130000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-2.ndd
+Time spent(projectedNdd_1): 0.280000
+Time spent(projectedNdd_2): 0.060000
+Time spent(projectedNdd_3): 0.010000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.160000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-3.ndd
+Time spent(projectedNdd_1): 0.400000
+Time spent(projectedNdd_2): 0.100000
+Time spent(projectedNdd_3): 0.010000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.160000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-4.ndd
+Time spent(projectedNdd_1): 0.540000
+Time spent(projectedNdd_2): 0.130000
+Time spent(projectedNdd_3): 0.020000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.160000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-5.ndd
+Time spent(projectedNdd_1): 0.860000
+Time spent(projectedNdd_2): 0.220000
+Time spent(projectedNdd_3): 0.020000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.040000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-6.ndd
+Time spent(projectedNdd_1): 1.060000
+Time spent(projectedNdd_2): 0.320000
+Time spent(projectedNdd_3): 0.020000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.160000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-7.ndd
+Time spent(projectedNdd_1): 1.490000
+Time spent(projectedNdd_2): 0.430000
+Time spent(projectedNdd_3): 0.040000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-8.ndd
+Time spent(projectedNdd_1): 1.800000
+Time spent(projectedNdd_2): 0.610000
+Time spent(projectedNdd_3): 0.050000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-9.ndd
+Time spent(projectedNdd_1): 2.190000
+Time spent(projectedNdd_2): 0.770000
+Time spent(projectedNdd_3): 0.070000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-10.ndd
+Time spent(projectedNdd_1): 2.830000
+Time spent(projectedNdd_2): 0.940000
+Time spent(projectedNdd_3): 0.080000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.170000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-11.ndd
+Time spent(projectedNdd_1): 3.090000
+Time spent(projectedNdd_2): 1.210000
+Time spent(projectedNdd_3): 0.090000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.020000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-12.ndd
+Time spent(projectedNdd_1): 3.590000
+Time spent(projectedNdd_2): 1.400000
+Time spent(projectedNdd_3): 0.110000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-13.ndd
+Time spent(projectedNdd_1): 3.780000
+Time spent(projectedNdd_2): 1.560000
+Time spent(projectedNdd_3): 0.130000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.020000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-14.ndd
+Time spent(projectedNdd_1): 3.790000
+Time spent(projectedNdd_2): 1.740000
+Time spent(projectedNdd_3): 0.130000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.020000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-15.ndd
+Time spent(projectedNdd_1): 4.110000
+Time spent(projectedNdd_2): 1.930000
+Time spent(projectedNdd_3): 0.150000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.020000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-16.ndd
+Time spent(projectedNdd_1): 4.320000
+Time spent(projectedNdd_2): 1.980000
+Time spent(projectedNdd_3): 0.160000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-17.ndd
+Time spent(projectedNdd_1): 4.460000
+Time spent(projectedNdd_2): 2.190000
+Time spent(projectedNdd_3): 0.160000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-18.ndd
+Time spent(projectedNdd_1): 4.790000
+Time spent(projectedNdd_2): 2.260000
+Time spent(projectedNdd_3): 0.170000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-19.ndd
+Time spent(projectedNdd_1): 5.030000
+Time spent(projectedNdd_2): 2.400000
+Time spent(projectedNdd_3): 0.180000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-20.ndd
+Time spent(projectedNdd_1): 5.290000
+Time spent(projectedNdd_2): 2.600000
+Time spent(projectedNdd_3): 0.190000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-21.ndd
+Time spent(projectedNdd_1): 5.670000
+Time spent(projectedNdd_2): 2.760000
+Time spent(projectedNdd_3): 0.200000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-22.ndd
+Time spent(projectedNdd_1): 6.000000
+Time spent(projectedNdd_2): 2.920000
+Time spent(projectedNdd_3): 0.210000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-23.ndd
+Time spent(projectedNdd_1): 6.210000
+Time spent(projectedNdd_2): 3.200000
+Time spent(projectedNdd_3): 0.220000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-24.ndd
+Time spent(projectedNdd_1): 6.660000
+Time spent(projectedNdd_2): 3.350000
+Time spent(projectedNdd_3): 0.230000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-25.ndd
+Time spent(projectedNdd_1): 7.110000
+Time spent(projectedNdd_2): 3.480000
+Time spent(projectedNdd_3): 0.250000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-26.ndd
+Time spent(projectedNdd_1): 7.360000
+Time spent(projectedNdd_2): 3.840000
+Time spent(projectedNdd_3): 0.260000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-27.ndd
+Time spent(projectedNdd_1): 7.280000
+Time spent(projectedNdd_2): 3.710000
+Time spent(projectedNdd_3): 0.290000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-28.ndd
+Time spent(projectedNdd_1): 7.310000
+Time spent(projectedNdd_2): 3.890000
+Time spent(projectedNdd_3): 0.280000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-29.ndd
+Time spent(projectedNdd_1): 7.600000
+Time spent(projectedNdd_2): 4.120000
+Time spent(projectedNdd_3): 0.280000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-30.ndd
+Time spent(projectedNdd_1): 7.670000
+Time spent(projectedNdd_2): 4.250000
+Time spent(projectedNdd_3): 0.290000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-31.ndd
+Time spent(projectedNdd_1): 7.630000
+Time spent(projectedNdd_2): 4.470000
+Time spent(projectedNdd_3): 0.300000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-32.ndd
+Time spent(projectedNdd_1): 7.710000
+Time spent(projectedNdd_2): 4.420000
+Time spent(projectedNdd_3): 0.300000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-33.ndd
+Time spent(projectedNdd_1): 7.810000
+Time spent(projectedNdd_2): 4.330000
+Time spent(projectedNdd_3): 0.310000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-34.ndd
+Time spent(projectedNdd_1): 7.840000
+Time spent(projectedNdd_2): 4.350000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-35.ndd
+Time spent(projectedNdd_1): 8.120000
+Time spent(projectedNdd_2): 4.420000
+Time spent(projectedNdd_3): 0.310000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.170000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-36.ndd
+Time spent(projectedNdd_1): 8.170000
+Time spent(projectedNdd_2): 4.440000
+Time spent(projectedNdd_3): 0.320000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.020000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-37.ndd
+Time spent(projectedNdd_1): 8.100000
+Time spent(projectedNdd_2): 4.550000
+Time spent(projectedNdd_3): 0.310000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-38.ndd
+Time spent(projectedNdd_1): 8.130000
+Time spent(projectedNdd_2): 4.520000
+Time spent(projectedNdd_3): 0.320000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-39.ndd
+Time spent(projectedNdd_1): 8.220000
+Time spent(projectedNdd_2): 4.560000
+Time spent(projectedNdd_3): 0.310000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-40.ndd
+Time spent(projectedNdd_1): 8.140000
+Time spent(projectedNdd_2): 4.680000
+Time spent(projectedNdd_3): 0.320000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.190000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-41.ndd
+Time spent(projectedNdd_1): 8.240000
+Time spent(projectedNdd_2): 4.580000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-42.ndd
+Time spent(projectedNdd_1): 8.340000
+Time spent(projectedNdd_2): 4.610000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-43.ndd
+Time spent(projectedNdd_1): 8.260000
+Time spent(projectedNdd_2): 4.850000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-44.ndd
+Time spent(projectedNdd_1): 8.540000
+Time spent(projectedNdd_2): 4.900000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.160000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-45.ndd
+Time spent(projectedNdd_1): 8.530000
+Time spent(projectedNdd_2): 4.950000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-46.ndd
+Time spent(projectedNdd_1): 8.940000
+Time spent(projectedNdd_2): 4.990000
+Time spent(projectedNdd_3): 0.350000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.190000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-47.ndd
+Time spent(projectedNdd_1): 8.820000
+Time spent(projectedNdd_2): 4.720000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.190000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-48.ndd
+Time spent(projectedNdd_1): 8.640000
+Time spent(projectedNdd_2): 4.710000
+Time spent(projectedNdd_3): 0.340000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-49.ndd
+Time spent(projectedNdd_1): 8.680000
+Time spent(projectedNdd_2): 4.760000
+Time spent(projectedNdd_3): 0.350000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.020000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-50.ndd
+Time spent(projectedNdd_1): 8.580000
+Time spent(projectedNdd_2): 4.710000
+Time spent(projectedNdd_3): 0.350000
+Time spent(MinMax): 0.050000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-51.ndd
+Time spent(projectedNdd_1): 8.680000
+Time spent(projectedNdd_2): 4.670000
+Time spent(projectedNdd_3): 0.340000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-52.ndd
+Time spent(projectedNdd_1): 8.440000
+Time spent(projectedNdd_2): 4.680000
+Time spent(projectedNdd_3): 0.340000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.010000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.140000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-53.ndd
+Time spent(projectedNdd_1): 8.420000
+Time spent(projectedNdd_2): 4.670000
+Time spent(projectedNdd_3): 0.360000
+Time spent(MinMax): 0.040000
+Time spent(translated): 0.020000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.180000
+Time spent(data): 0.150000
+
+nddv: loaded /home/latour/research/lash-v0.8x/samples/IF/sliding-window/multiproc/sliding4proc--2-3-54.ndd
+Time spent(projectedNdd_1): 8.560000
+Time spent(projectedNdd_2): 4.680000
+Time spent(projectedNdd_3): 0.330000
+Time spent(MinMax): 0.060000
+Time spent(translated): 0.000000
+Time spent(scaledNdd): 0.030000
+Time spent(framedNdd): 0.190000
+Time spent(data): 0.150000

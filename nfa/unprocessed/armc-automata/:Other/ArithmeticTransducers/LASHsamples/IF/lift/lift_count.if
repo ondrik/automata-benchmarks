@@ -1,0 +1,130 @@
+system simple_lift ;
+var c (1) : int;
+    g (1) : int;
+    a (0) : int;
+    N (1000000000) : int;	
+process motor;
+state 
+	s_mid :init ;
+	s_down :nostable ;
+	s_up :nostable ;
+
+transition
+	tmd: from s_mid 
+	if a = 2 
+	to s_down;
+	from s_down 
+	do a := 0 , c := c - 1
+	to s_mid;
+	tmu: from s_mid 
+	if a = 1
+	to s_up;
+	from s_up 
+	do a := 0, c := c + 1
+	to s_mid;
+
+process control;
+state 
+	s_go :init;
+	s_go_down ;
+	s_go_up ;
+	s_change :nostable ;
+	s_raise :nostable ;
+	s_lower :nostable ;
+
+
+transition
+	td: from s_go 
+	if c > g
+	do a := 2
+	to s_go_down;
+	from s_go_down 
+	if a = 0
+	to s_go;
+	tu: from s_go 
+	if c < g
+	do a := 1
+	to s_go_up;
+	from s_go_up 
+	if a = 0
+	to s_go;
+	from s_go 
+	if c = g
+	to s_change;
+	from s_change to s_go;
+	tcu: from s_change 
+	if g < N
+	to s_raise;
+	from s_raise 
+	do g := g + 1
+	to s_change;
+	tcl: from s_change 
+	if  g > 1
+	to s_lower;
+	from s_lower 
+	do g := g - 1
+	to s_change;
+
+
+meta_local
+	from s_change by tcu, s_change;
+	from s_change by tcl, s_change ;
+
+
+process observer;
+
+state
+s1 :init;
+s2 :nostable assert (c >= 1) and (c <= N) ; end ;
+
+transition
+from s1 
+if N > 1
+to s2;
+from s2 to s1;
+
+
+meta_global 
+	from control.s_go , motor.s_mid
+	by control.td,  motor.tmd, motor.s_mid, 
+	control.s_go ;
+	from control.s_go , motor.s_mid
+	by control.tu,  motor.tmu, motor.s_mid, 
+	control.s_go ;
+
+/*
+Result: Nov 2000
+latour (fantasio)> siflash -v lift/lift_count.if
+Compilation statistics:
+  number of gates                   : 0.
+  number of processes               : 3.
+  number of variables               : 4.
+  total number of control locations : 11.
+  number of syncronized transitions : 0.
+  number of meta-transitions        : 4.
+Translating the transition relation...
+   with transitions                    : 1647 NDD state(s).
+   with synchronised transitions       : 1647 NDD state(s).
+   with transitions & meta-transitions : 4017 NDD state(s).
+Translating the set of initial states...
+   initial set : 218 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 638 NDD state(s),       3 States. 
+   intermediate result : 1044 NDD state(s),      1000000003 States. 
+   intermediate result : 1461 NDD state(s),      3999999999 States. 
+   intermediate result : 2709 NDD state(s),      500000005499999997 States. 
+   intermediate result : 4596 NDD state(s),      1500000006499999995 States. 
+   intermediate result : 6409 NDD state(s),      3500000004499999994 States. 
+   intermediate result : 7020 NDD state(s),      6499999997499999999 States. 
+   intermediate result : 7808 NDD state(s),      7999999995000000000 States. 
+   intermediate result : 8655 NDD state(s),      8999999994000000000 States. 
+   intermediate result : 8658 NDD state(s),      9499999993500000000 States. 
+   intermediate result : 8663 NDD state(s),      9999999993000000000 States. 
+Fixpoint reached in 11 step(s).
+*** Program validated.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 4344928 byte(s).
+
+
+*/

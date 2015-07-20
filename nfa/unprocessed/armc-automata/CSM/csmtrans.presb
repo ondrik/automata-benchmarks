@@ -1,0 +1,260 @@
+x0 >= 0 and
+x0p >= 0 and
+x1 >= 0 and
+x1p >= 0 and
+x2 >= 0 and
+x2p >= 0 and
+x3 >= 0 and
+x3p >= 0 and
+x4 >= 0 and
+x4p >= 0 and
+x5 >= 0 and
+x5p >= 0 and
+x6 >= 0 and
+x6p >= 0 and
+x7 >= 0 and
+x7p >= 0 and
+x8 >= 0 and
+x8p >= 0 and
+x9 >= 0 and
+x9p >= 0 and
+x10 >= 0 and
+x10p >= 0 and
+x11 >= 0 and
+x11p >= 0 and
+x12 >= 0 and
+x12p >= 0 and
+x13 >= 0 and
+x13p >= 0 and
+
+(
+
+(x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p ) or
+
+(x0 >= 1 and 
+ x0p = x0-1 and
+ x1p = x1+1 and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p
+
+)
+
+or
+
+(x4 >= 1 and x9 >= 1 and
+ x0p = x0+1 and
+ x2p = x2+1 and
+		    x4p = x4-1 and
+		    x9p = x9-1 and
+x1 = x1p and
+x3 = x3p and
+x5 = x5p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+(    x4 >= 1 and x6 >= 1 and
+		    x0p = x0+1 and
+		    x3p = x3+1 and
+		    x4p = x4-1 and
+		    x6p = x6-1 and
+x1 = x1p and
+x2 = x2p and
+x5 = x5p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+(    x1 >= 1 and x3 >= 1 and
+		    x1p = x1-1 and
+		    x3p = x3-1 and
+		    x5p = x5+1 and
+		    x6p = x6+1 and
+x0 = x0p and
+x2 = x2p and
+x4 = x4p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+ (   x1 >= 1 and x2 >= 1 and
+		    x1p = x1-1 and
+		    x2p = x2-1 and
+		    x5p = x5+1 and
+		    x9p = x9+1 and 
+x0 = x0p and
+x3 = x3p and
+x4 = x4p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+  (  x5 >= 1 and
+			x4p = x4+1 and
+		       	x5p = x5-1 and
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+   ( x10 >= 1 and
+		    x7p = x7+1 and
+		    x10p = x10-1 and
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x8 = x8p and
+x9 = x9p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+    (x7 >= 1 and
+		    x7p = x7-1 and
+		    x8p = x8+1 and 
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x9 = x9p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+    (x6 >= 1 and x8 >= 1 and
+		    x6p = x6-1 and
+		    x8p = x8-1 and
+		    x9p = x9+1 and 
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x7 = x7p and
+x10 = x10p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p) or
+
+    (x9 >= 1 and
+		    x6p = x6+1 and
+		    x9p = x9-1 and
+		    x10p = x10+1 and
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x7 = x7p and
+x8 = x8p and
+x11 = x11p and
+x12 = x12p and
+x13 = x13p
+
+) or
+
+    (x10 >= 1 and
+			x10p = x10-1 and
+			x12p = x12+1 and
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x11 = x11p and
+x13 = x13p ) or
+
+    (x11 >= 1 and
+		    x8p = x8+1 and
+		    x11p = x11-1 and
+		    x13p = x13+1 and
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x7 = x7p and
+x9 = x9p and
+x10 = x10p and
+x12 = x12p) or
+
+(    x12 >= 1 and x13 >= 1 and
+		    x11p = x11+1 and
+		    x12p = x12-1 and
+		    x13p = x13-1 and
+x0 = x0p and
+x1 = x1p and
+x2 = x2p and
+x3 = x3p and
+x4 = x4p and
+x5 = x5p and
+x6 = x6p and
+x7 = x7p and
+x8 = x8p and
+x9 = x9p and
+x10 = x10p
+)
+)

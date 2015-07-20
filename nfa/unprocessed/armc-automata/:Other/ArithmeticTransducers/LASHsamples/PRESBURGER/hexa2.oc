@@ -1,0 +1,4 @@
+c1 := {[x , y] : (exists (c: c * 100 = y)) and  (exists (c: c * 100 = x)) and (y < 400) and ( y > 0) and (x < y + 600) and (x > y)
+	and ( y + x > 400) and (y + x < 1000)} ;
+c1 ;
+

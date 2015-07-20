@@ -1,0 +1,213 @@
+N=1
+
+T=100
+
+RunIt_Good() {
+I=1;
+while [ $I -le $N ]; do
+
+echo $X
+cpp -std=iso9899:1990 $X > \:go.pl
+ulimit -t $T
+yap -h 50000 -s 50000 -t 50000 << XXX
+reconsult(':go'), asmc_time_yap, halt.
+XXX
+
+I=$((I+1))
+
+done
+
+}
+
+RunIt_Bad() {
+I=1;
+while [ $I -le $N ]; do
+
+echo $X
+cpp -std=iso9899:1990 $X > \:go.pl
+ulimit -t $T
+yap -h 50000 -s 50000 -t 50000 << XXX
+reconsult(':go'), asmc_bad_time_yap, halt.
+XXX
+
+I=$((I+1))
+
+done
+
+}
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIntrs -DPrBad -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsTail -DPrBad -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsTailKey -DPrBad -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsTail -DPrBad -DPrGuards -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsTailKey -DPrBad -DPrGuards -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIntrs -DPrIni -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsTail -DPrIni -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsTailKey -DPrIni -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DIntrs -DPrIni -DPrGuards -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsTail -DPrIni -DPrGuards -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsTailKey -DPrIni -DPrGuards -DFwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIntrs -DPrBad -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsHead -DPrBad -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsHeadKey -DPrBad -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DIntrs -DPrBad -DPrGuards -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsHead -DPrBad -DPrGuards -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsHeadKey -DPrBad -DPrGuards -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIntrs -DPrIni -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsHead -DPrIni -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+#echo "-----------------------------------------------"
+
+#X="-DTrClosure -DIntrsHeadKey -DPrIni -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DTrClosure -DIntrs -DPrIni -DPrGuards -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsHead -DPrIni -DPrGuards -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+echo "-----------------------------------------------"
+
+X="-DTrClosure -DIntrsHeadKey -DPrIni -DPrGuards -DBwColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIncBad -DIniBad -DFlColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncHalfBad -DIniHalfBad -DFlColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncOne -DIniOne -DFlColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncOne -DIniSp=5 -DFlColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIncBad -DIniBad -DFtColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncHalfBad -DIniHalfBad -DFtColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncOne -DIniOne -DFtColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIncBad -DIniBad -DFbColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncHalfBad -DIniHalfBad -DFbColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncOne -DIniOne -DFbColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+#X="-DTrClosure -DIncBad -DIniBad -DFbtColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncHalfBad -DIniHalfBad -DFbtColl -P asmc_ver.pl"; RunIt_Bad
+
+#####################################################################################
+
+#X="-DTrClosure -DIncOne -DIniOne -DFbtColl -P asmc_ver.pl"; RunIt_Bad
+
+##################################################################################
+#echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################

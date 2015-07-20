@@ -1,0 +1,47 @@
+N=3
+
+T=400
+
+RunIt_LrnFw() {
+I=1;
+while [ $I -le $N ]; do
+
+echo $X
+cpp -std=iso9899:1990 $X > \:go.pl
+ulimit -t $T
+yap -h 50000 -s 50000 -t 50000 << XXX
+reconsult(':go'), lrn_time_verify_yap, halt.
+XXX
+
+I=$((I+1))
+
+done
+
+}
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfBad -P asmc_lrn.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfHalfBad -P asmc_lrn.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfTwiceBad -P asmc_lrn.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfInit -P asmc_lrn.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfHalfInit -P asmc_lrn.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfTwiceInit -P asmc_lrn.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DTBColl -DTBFlColl -DLrnGenConfOne -P asmc_lrn.pl"; RunIt_LrnFw
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+

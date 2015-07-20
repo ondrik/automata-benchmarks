@@ -1,0 +1,67 @@
+/* IMPORTANT: il faut specifier les meta-transitions
+              en specifiant les transitions ou etats de controle
+	du cycle correspondant. Toute transition possedant un label
+	et se situant sur le cycle DOIT etre specifiee.
+*/
+ 
+system test;
+
+gate 
+	g1(int);
+     	g2(int);
+
+
+var
+x(0) : int;
+y(0) : int;
+
+sync p1 |[g1, g2]| p2  end;
+
+
+process p1;
+
+state
+s1 :init;
+s2 ; s3;
+
+transition
+from s1 
+ sync g1!x  
+to s2;
+
+from s2 do x := x+ 1 to s1;
+
+t3: from s1
+ sync g2?x 
+to s1;
+
+process p2;
+
+state
+s1 :init;
+s2 ; s3;
+
+transition
+t1: from s1 
+ sync g1?y 
+to s2;
+
+from s2 to s1;
+
+from s1
+do y := y - 1
+to s3;
+
+from s3
+ sync g2!y 
+to s1;
+
+
+meta_global
+from p1.s1, p2.s1
+by p1.s2 , p2.t1, p1.s1, p2.s1;
+from p1.s1, p2.s1
+by p2.s3 , p2.s1, p1.t3;
+
+ 
+

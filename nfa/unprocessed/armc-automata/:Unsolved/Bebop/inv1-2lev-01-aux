@@ -1,0 +1,43 @@
+fa(
+
+%begin sigma and symbols
+r(fsa_preds),
+%end sigma and symbols
+
+13, % number of states
+
+[ % begin start states
+0
+], % end start states
+
+[ % begin final states
+1
+], % end final states
+
+[ % begin transitions
+
+%%%%%%% LEVEL 2
+
+trans(0,in(['0','1']),2),
+trans(2,in([a,b,c,d,e,f]),3),
+trans(3,'2',4),
+trans(4,in(['0','1']),5),
+trans(5,in(['0','1']),6),
+trans(6,in(['0','1']),7),
+
+%%%%%%% LEVEL 1
+
+trans(0,in(['0','1']),7),
+trans(7,in([a,b,c,d,e,f]),8),
+trans(8,'1',9),
+trans(9,in(['0','1']),10),
+trans(10,in(['0','1']),11),
+trans(11,in(['0','1']),12),
+
+%%%%%%%  THE MAIN FUNCTION LEVEL
+
+trans(2,in([p,q,r,s,t]),1),
+trans(12,in([p,q,r,s,t]),1)
+
+], % end transitions
+[]). % jumps

@@ -1,0 +1,4 @@
+(exists (c : ( 100 * c = x))) and 
+(exists (c : ( 100 * c = y))) and 
+ (x > y) and (x < y + 600) and (y > 0) and ( y < 400)
+and (y+x > 400) and (y+x < 1000)

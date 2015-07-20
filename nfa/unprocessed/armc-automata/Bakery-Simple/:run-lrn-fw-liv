@@ -1,0 +1,79 @@
+N=3
+
+T=5
+
+RunIt_LrnFw() {
+I=1;
+while [ $I -le $N ]; do
+
+echo $X
+cpp -std=iso9899:1990 $X > \:go.pl
+ulimit -t $T
+yap -h 50000 -s 50000 -t 50000 << XXX
+reconsult(':go'), lrn_time_verify_yap, halt.
+XXX
+
+I=$((I+1))
+
+done
+
+}
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+echo "-----------------------------------------------"
+
+X="-DLrnNonLenPr -DFlFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl"; RunIt_LrnFw
+
+##################################################################################
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+##################################################################################
+

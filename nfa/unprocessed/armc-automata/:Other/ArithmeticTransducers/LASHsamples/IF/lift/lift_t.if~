@@ -1,0 +1,155 @@
+system simple_lift ;
+var c (1) : int;
+    g (1) : int;
+    a (0) : int;
+    N (2) : int;	
+
+process p_init;
+state 
+s_start :init :nostable;
+s_add :nostable;
+s_stop;
+
+transition
+t1: from s_start 
+if N < 2
+do N := N + 1
+to s_add;
+from s_add to s_start;
+from s_start to s_stop;
+
+meta_local
+from s_start
+by t1, s_start;
+
+process motor;
+state 
+	s_mid :init ;
+	s_down :nostable ;
+	s_up :nostable ;
+
+transition
+	tmd: from s_mid 
+	if a = 2 
+	to s_down;
+	from s_down 
+	do a := 0 , c := c - 1
+	to s_mid;
+	tmu: from s_mid 
+	if a = 1
+	to s_up;
+	from s_up 
+	do a := 0, c := c + 1
+	to s_mid;
+
+process control;
+state 
+	s_wait :init ;
+	s_go ;
+	s_go_down ;
+	s_go_up ;
+	s_change :nostable ;
+	s_raise :nostable ;
+	s_lower :nostable ;
+
+
+transition
+	from s_wait  
+	if N > 1
+	to s_go;
+	td: from s_go 
+	if c > g
+	do a := 2
+	to s_go_down;
+	from s_go_down 
+	if a = 0
+	to s_go;
+	tu: from s_go 
+	if c < g
+	do a := 1
+	to s_go_up;
+	from s_go_up 
+	if a = 0
+	to s_go;
+	from s_go 
+	if c = g
+	to s_change;
+	from s_change to s_go;
+	tcu: from s_change 
+	if g < N
+	to s_raise;
+	from s_raise 
+	do g := g + 1
+	to s_change;
+	tcl: from s_change 
+	if  g > 1
+	to s_lower;
+	from s_lower 
+	do g := g - 1
+	to s_change;
+
+
+meta_local
+	from s_change by tcu, s_change;
+	from s_change by tcl, s_change ;
+
+
+process observer;
+
+state
+s1 :init;
+s2 :nostable assert (c >= 1) and (c <= N) ; end ;
+
+transition
+from s1 
+if N > 1
+to s2;
+from s2 to s1;
+
+
+meta_global 
+	from control.s_go , motor.s_mid
+	by control.td,  motor.tmd, motor.s_mid, 
+	control.s_go ;
+	from control.s_go , motor.s_mid
+	by control.tu,  motor.tmu, motor.s_mid, 
+	control.s_go ;
+
+/*
+le 8 juin 00
+BeBobaBambou (montef01)> siflash -v lift_t.if
+Compilation statistics:
+  number of gates                   : 0.
+  number of processes               : 4.
+  number of variables               : 4.
+  total number of control locations : 15.
+  number of syncronized transitions : 0.
+  number of meta-transitions        : 5.
+Translating the transition relation...
+   with transitions                    : 2322 NDD state(s).
+   with synchronised transitions       : 2322 NDD state(s).
+   with transitions & meta-transitions : 5950 NDD state(s).
+Translating the set of initial states...
+   initial set : 17 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 25 NDD state(s).
+   intermediate result : 55 NDD state(s).
+   intermediate result : 78 NDD state(s).
+   intermediate result : 129 NDD state(s).
+   intermediate result : 184 NDD state(s).
+   intermediate result : 252 NDD state(s).
+   intermediate result : 319 NDD state(s).
+   intermediate result : 519 NDD state(s).
+   intermediate result : 900 NDD state(s).
+   intermediate result : 1239 NDD state(s).
+   intermediate result : 1380 NDD state(s).
+   intermediate result : 1447 NDD state(s).
+   intermediate result : 1604 NDD state(s).
+   intermediate result : 1605 NDD state(s).
+   intermediate result : 1617 NDD state(s).
+Fixpoint reached in 15 step(s).
+*** Program validated.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 869571 byte(s).
+*/

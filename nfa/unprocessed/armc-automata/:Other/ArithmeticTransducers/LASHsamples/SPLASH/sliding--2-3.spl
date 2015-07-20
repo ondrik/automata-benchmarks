@@ -1,0 +1,119 @@
+int N = 2, q1 = 0, q1b, q2 = 0, q2b;
+int nb1 = 0, nb2 = 0;
+
+process Sender
+{
+  int ns = 0, na = 0;
+
+  do
+    :: first:
+     
+       nineteen:
+	ns < na + N ->
+		if
+			:: atomic { two:  nb1 < 3 -> q1 = 1; q1b = ns};
+	  		    three:
+			    atomic { q1 == 2 -> ns = ns + 1 } 
+			:: nb1 == 3
+     		fi
+    :: five:
+	q2 = -1;
+       fourteen:
+       if
+         :: atomic { q2 == -2 ->
+            seventeen:
+              if
+                :: q2b > na -> na = q2b; eighteen: ns = q2b
+                :: q2b <= na
+              fi
+            }
+         :: q2 == -1
+       fi
+  od
+}
+
+process Receiver
+{
+ int max;
+  do
+    ::  first:
+	thirteen:
+       
+       q1 = -1; atomic { six: q1 == -2 -> 
+			if
+				:: max + 1 ==  q1b -> nine: max = q1b 
+				:: max + 1 < q1b
+				:: max + 1 > q1b
+			fi }
+       
+     ::ten:  q2 = 1; atomic { eleven: q2 == 2 -> q2b = max } 
+  od
+}
+
+process StoR
+{
+  int  x1, x2, x3;
+
+  
+  zeroStoR:
+   eight:
+    atomic { q1 == 1  -> x1 = q1b; q1 = 2 };
+   four:  
+ 
+  oneStoR:
+    if
+      :: atomic { q1 == 1  -> not_seven_: x2 = x1; x1 = q1b; q1 = 2 }
+      :: atomic { q1 == -1 -> seven: q1b = x1; q1 = -2; goto zeroStoR }
+    fi;
+
+  twoStoR:
+    if
+      :: atomic { q1 == 1  -> x3 = x2; x2 = x1; x1 = q1b; q1 = 2 }
+      :: atomic { q1 == -1 -> q1b = x1; x1 = x2; q1 = -2; goto oneStoR }
+    fi;
+
+  threeStoR:
+    if
+      :: atomic { q1 == 1  -> q1 = 2; goto threeStoR }
+      :: atomic { q1 == -1 -> q1b = x1; x1 = x2; x2 = x3; q1 = -2; 
+         goto twoStoR }
+    fi
+}
+
+process RtoS
+{
+  int  x1, x2, x3;
+
+  zeroRtoS:
+  sixteen:
+    atomic { q2 == 1  -> x1 = q2b; q2 = 2 };
+ 
+  twelve:
+  oneRtoS:
+    if
+      :: atomic { q2 == 1  -> not_fifteen: x2 = x1; x1 = q2b; q2 = 2 }
+      :: atomic { q2 == -1 -> fifteen:  q2b = x1; q2 = -2; goto zeroRtoS }
+    fi;
+
+  twoRtoS:
+    if
+      :: atomic { q2 == 1  -> x3 = x2; x2 = x1; x1 = q2b; q2 = 2 }
+      :: atomic { q2 == -1 -> q2b = x1; x1 = x2; q2 = -2; goto oneRtoS }
+    fi;
+
+  threeRtoS:
+    if
+      :: atomic { q2 == 1  -> q2 = 2; goto threeRtoS }
+      :: atomic { q2 == -1 -> q2b = x1; x1 = x2; x2 = x3; q2 = -2; 
+         goto twoRtoS }
+    fi
+}
+
+meta (Sender.first, Receiver.first, StoR.zeroStoR, RtoS.zeroRtoS),
+      Sender.two, Sender.three, StoR.four, Sender.five, Receiver.six,
+      StoR.seven, StoR.eight, Receiver.nine, Receiver.ten, 
+      Receiver.eleven, RtoS.twelve, Receiver.thirteen, Sender.fourteen,
+      RtoS.fifteen, RtoS.sixteen, Sender.seventeen, 
+      Sender.eighteen, Sender.nineteen;
+
+

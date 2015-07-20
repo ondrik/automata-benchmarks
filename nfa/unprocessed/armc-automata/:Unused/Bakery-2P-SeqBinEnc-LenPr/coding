@@ -1,0 +1,23 @@
+2 processes, 2 counters
+
+One process: 
+3 control states
+i initial
+w waiting
+c critical
+4 transitions
+
+configuration: ii.two counters in binary
+
+two counters in binary: coded in alternation
+10101100 means counter1 = 1110 = 14 and counter2 =0010= 2
+
+Process 1:
+transitions: 
+trans1: i to w with taking counter1 := counter2 + 1
+trans2: w to c if counter2 = 0
+trans3: w to c if counter1 < counter2
+trans4: c to i with counter1 := 0
+
+Process 2:
+the same with trans1s, etc.

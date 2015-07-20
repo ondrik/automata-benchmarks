@@ -1,0 +1,95 @@
+system simple_lift ;
+var c (0) : int;
+    g (2) : int;
+    a (0) : int;
+    N (0) : int;	
+
+process motor;
+state 
+	s1 :init ;
+	s2 :nostable ;
+	s3 :nostable ;
+
+transition
+	from s1 
+	if a = 2 
+	to s2;
+	from s2 
+	do a := 0 , c := c - 1
+	to s1;
+	from s1 
+	if a = 1
+	to s3;
+	from s3 
+	do a := 0, c := c + 1
+	to s1;
+
+process control;
+state 
+	s1 :init :nostable ;
+	s2 ;
+	s3 ;
+	s4  :nostable;
+	s5 assert(c >= 1) ; end ;
+	s6 :nostable ;
+	s7 :nostable ;
+	s8 ;
+	s9 :nostable ;
+	s10 :nostable ;
+
+transition
+	from s1  
+	do N := N + 1 
+	to s10;
+	from s10 to s1;
+	from s1 to s2;
+	from s2 
+	if c > g
+	to s4;
+	from s4 
+	do a := 2
+	to s3;
+	from s3 
+	if a = 0
+	to s2;
+	from s2 
+	if c < g
+	to s9;
+	from s9 
+	do a := 1
+	to s8;
+	from s8 
+	if a = 0
+	to s2;
+	from s2 
+	if c = g
+	to s5;
+	from s5 to s2;
+	from s5 
+	if g < N
+	to s7;
+	from s7 
+	do g := g + 1
+	to s5;
+	from s5 
+	if  g > 1
+	to s6;
+	from s6 
+	do g := g - 1
+	to s5;
+
+
+meta_local
+	from s1 by s10 , s1 ;
+	from s5 by s7, s5;
+	from s5 by s6, s5;
+
+
+meta_global 
+	from control.s2 , motor.s1
+	by control.s9,  control.s8, motor.s2 , motor.s1, 
+	control.s2 ;
+	from control.s2 , motor.s1
+	by control.s4, control.s3, motor.s3, motor.s1, 
+	control.s2 ;
+

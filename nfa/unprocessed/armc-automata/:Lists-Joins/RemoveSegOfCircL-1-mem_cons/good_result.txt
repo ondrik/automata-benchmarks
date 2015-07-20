@@ -1,0 +1,17 @@
+{
+
+%%% The empty list
+
+[n,l16n,!,m_f,n_f,{y,t,z}*,/,#,x,{y,t,z}*,'|'],
+
+%%% A non-empty list - different markers may be in use...
+
+[n,l16n,!,{n_f,y,t,z}*,/,#,{y,t,z}*,'|',
+  
+  [{n_t,y,t,z}*,/]*,m_t,[{n_t,y,t,z}*,/]*,{n_t}*,x,{y,t,z}*,/,[{n_t,y,t,z}*,/]*,m_f,'|'],
+
+[n,l16n,!,{m_f,y,t,z}*,/,#,{y,t,z}*,'|',
+  
+  [{m_t,y,t,z}*,/]*,{m_t}*,n_t,[{m_t,y,t,z}*,/]*,{m_t}*,x,{y,t,z}*,/,[{m_t,y,t,z}*,/]*,n_f,'|']
+
+}

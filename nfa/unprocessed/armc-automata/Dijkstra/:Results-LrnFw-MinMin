@@ -1,0 +1,491 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.12 sec.
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.13 sec.
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.14 sec.
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.18 sec.
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.13 sec.
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.06 sec.
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.39 sec.
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.37 sec.
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.41 sec.
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.19 sec.
+-DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.22 sec.
+-DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.31 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.48 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.41 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.47 sec.
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.24 sec.
+-DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.18 sec.
+-DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.32 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.34 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.3 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.15 sec.
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.57 sec.
+-DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.57 sec.
+-DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.35 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.33 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.58 sec.
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.62 sec.
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.34 sec.
+-DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.47 sec.
+-DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. languages up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. languages up to 0 letters...
+Computing the partition wrt. languages up to 1 letters...
+----- Property holds!
+Cputime used: 1.42 sec.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+-DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

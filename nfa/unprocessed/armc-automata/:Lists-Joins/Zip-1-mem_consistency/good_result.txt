@@ -1,0 +1,19 @@
+[n,l19,!,{
+
+%%% the result is empty
+
+[m_f,{x,y,p,t}*,/,#,{x,y,p,t}*,r,'|'],
+
+%%% the marker is unused
+
+[m_f,{x,y,p,t}*,/,#,{x,y,p,t}*,'|',{x,y,p,t}*,r,[/,{x,y,p,t}*]*,/,#,'|'],
+
+%%% the marker is used
+
+[{x,y,p,t}*,/,#,{x,y,p,t}*,'|',{
+
+  [{x,y,p,t}*,r,[/,{x,y,p,t}*]*,/,m_f,'|',m_t,{x,y,p,t}*,[/,{x,y,p,t}*]*,/,#,'|'],
+ 
+  [m_t,{x,y,p,t}*,[/,{x,y,p,t}*]*,/,#,'|',{x,y,p,t}*,r,[/,{x,y,p,t}*]*,/,m_f,'|']
+
+}]}]

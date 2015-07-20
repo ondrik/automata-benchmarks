@@ -1,0 +1,265 @@
+/*
+comment:
+-------
+A VERIFIER! 
+YY_MM-DD : 00-02-02 
+Pas de synchronisation explicite...( via q1, q1b, q2, q2b) 
+N = 3
+NMAX = inf.
+QUEUE SIZE = 3
+8205.6 seconds
+
+*/
+
+system sliding;
+
+
+var
+q1(0) : int ;
+q1b   : int ;
+q2(0) : int ;
+q2b   : int ;
+N(3)  : int ;
+
+process sender;
+var
+ns (-1) : int ;
+na (-1) : int ;
+
+state
+s_ready :init assert (na <= ns) and (ns <= N + na); end ;
+s_send_q1 ;
+s_wait_q1 ;
+s_rcv_q2 ;
+s_larger :nostable ; 
+s_lower :nostable ;
+ 
+transition
+from s_ready 
+if ns < na + N
+to s_send_q1;
+
+from s_send_q1
+if q1 = 0 
+do ns := ns + 1, q1 := 1, q1b := ns
+to s_wait_q1;
+
+from s_wait_q1
+if q1 = 2 
+do q1 := 0
+to s_ready;
+
+from s_ready
+if q2 = 0 do q2 := -1
+to s_rcv_q2;
+
+from s_rcv_q2
+if q2 = -2 and q2b > na
+do na := q2b, q2 := 0
+to s_larger;
+
+from s_larger to s_ready;
+
+from s_rcv_q2
+if q2 = -2 do q2 := 0 
+to s_ready;
+
+from s_rcv_q2
+if q2 = -2 and q2b <= na
+do q2 := 0
+to s_ready;
+
+
+process receiver;
+var v :int;
+
+state
+s_ready :init;
+s_rcv_q1 ;
+s_received ;
+s_send_q2 ;
+
+transition
+from s_ready
+if q1 = 0 do q1 := -1
+to s_rcv_q1;
+
+from s_rcv_q1
+if q1 = -2 do v := q1b , q1 := 0
+to s_received;
+
+from s_rcv_q1
+if q1 = -2 do q1 := 0
+to s_ready;
+
+from s_received
+if q2 = 0 do q2 := 1 , q2b := v
+to s_send_q2;
+
+from s_send_q2
+if q2 = 2 do q2 := 0
+to s_ready;
+
+process StoR;
+var
+x1(0) : int;
+x2(0) : int;
+x3(0) : int;
+
+state
+s0 :init;
+s1; s2; s3; 
+
+transition
+from s0
+if q1 = 1 do x1 := q1b , q1 := 2
+to s1;
+
+from s1 
+if q1 = -1 do q1b := x1, q1 := -2
+to s0;
+
+from s1
+if q1 = 1 do x2 := q1b , q1 := 2
+to s2;
+
+from s2 
+if q1 = -1 do q1b := x1, x1 := x2 , x2 := 0, q1 := -2
+to s1;
+
+from s2
+if q1 = 1 do x3 := q1b , q1 := 2
+to s3;
+
+from s3 
+if q1 = -1 
+do q1b := x1 , x1 := x2 , x2 := x3 , x3 := 0, q1 := -2
+to s2;
+
+
+process RtoS;
+var
+x1(0) : int;
+x2(0) : int;
+x3(0) : int;
+
+state
+s0 :init;
+s1;
+s2;
+s3;
+
+
+transition
+from s0
+if q2 = 1 do x1 := q2b , q2 := 2
+to s1;
+
+from s1 
+if q2 = -1 do q2b := x1, q2 := -2
+to s0;
+
+from s1
+if q2 = 1 do x2 := q2b , q2 := 2
+to s2;
+
+from s2 
+if q2 = -1 do q2b := x1, x1 := x2 , x2 := 0, q2 := -2
+to s1;
+
+from s2
+if q2 = 1 do x3 := q2b , q2 := 2
+to s3;
+
+from s3 
+if q2 = -1 
+do q2b := x1 , x1 := x2 , x2 := x3 , x3 := 0, q2 := -2
+to s2;
+
+
+
+meta_global
+from sender.s_ready, StoR.s0, receiver.s_ready, RtoS.s0  
+by sender.s_send_q1,  sender.s_wait_q1, StoR.s1, 
+sender.s_ready, receiver.s_rcv_q1, StoR.s0, 
+receiver.s_received, receiver.s_send_q2, RtoS.s1, receiver.s_ready,
+sender.s_rcv_q2, RtoS.s0, sender.s_larger, sender.s_ready;
+
+/*
+from sender.s_ready, StoR.s1, receiver.s_ready, RtoS.s0  
+by sender.s_send_q1,  sender.s_wait_q1, StoR.s2, 
+sender.s_ready, receiver.s_rcv_q1, StoR.s1, 
+receiver.s_received, receiver.s_send_q2, RtoS.s1, receiver.s_ready,
+sender.s_rcv_q2, RtoS.s0, sender.s_larger, sender.s_ready;
+*/
+/*
+from sender.s_ready, StoR.s2, receiver.s_ready, RtoS.s0  
+by sender.s_send_q1,  sender.s_wait_q1, StoR.s3, 
+sender.s_ready, receiver.s_rcv_q1, StoR.s2, 
+receiver.s_received, receiver.s_send_q2, RtoS.s1, receiver.s_ready,
+sender.s_rcv_q2, RtoS.s0, sender.s_larger, sender.s_ready;
+*/
+
+/*
+Starting program: /u/uw/latour/research_louis/lash/ifcompiler/tests/siflash -v 
+Compilation statistics:
+  number of processes               : 4.
+  number of variables               : 14.
+  total number of control locations : 16.
+  number of meta-transitions        : 1.
+Translating the transition relation...
+   with transitions                    : 6680 NDD state(s).
+   with transitions & meta-transitions : 7910 NDD state(s).
+Translating the set of initial states...
+   initial set : 55 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 238 NDD state(s).
+   intermediate result : 546 NDD state(s).
+   intermediate result : 755 NDD state(s).
+   intermediate result : 854 NDD state(s).
+   intermediate result : 971 NDD state(s).
+   intermediate result : 1318 NDD state(s).
+   intermediate result : 1628 NDD state(s).
+   intermediate result : 2040 NDD state(s).
+   intermediate result : 2437 NDD state(s).
+   intermediate result : 3229 NDD state(s).
+   intermediate result : 4121 NDD state(s).
+   intermediate result : 5055 NDD state(s).
+   intermediate result : 5774 NDD state(s).
+   intermediate result : 6725 NDD state(s).
+   intermediate result : 7588 NDD state(s).
+   intermediate result : 8511 NDD state(s).
+   intermediate result : 9463 NDD state(s).
+   intermediate result : 10016 NDD state(s).
+   intermediate result : 10575 NDD state(s).
+   intermediate result : 11383 NDD state(s).
+   intermediate result : 12065 NDD state(s).
+   intermediate result : 13061 NDD state(s).
+   intermediate result : 14055 NDD state(s).
+   intermediate result : 14725 NDD state(s).
+   intermediate result : 15181 NDD state(s).
+   intermediate result : 15925 NDD state(s).
+   intermediate result : 16566 NDD state(s).
+   intermediate result : 17031 NDD state(s).
+   intermediate result : 17571 NDD state(s).
+   intermediate result : 17938 NDD state(s).
+   intermediate result : 18315 NDD state(s).
+   intermediate result : 18859 NDD state(s).
+   intermediate result : 19414 NDD state(s).
+   intermediate result : 19871 NDD state(s).
+   intermediate result : 20096 NDD state(s).
+   intermediate result : 20200 NDD state(s).
+   intermediate result : 20298 NDD state(s).
+   intermediate result : 20394 NDD state(s).
+   intermediate result : 20491 NDD state(s).
+   intermediate result : 20562 NDD state(s).
+   intermediate result : 20644 NDD state(s).
+   intermediate result : 20657 NDD state(s).
+   intermediate result : 20633 NDD state(s).
+   intermediate result : 20633 NDD state(s).
+Fixpoint reached in 44 step(s).
+*** Program validated.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 442138852 byte(s).
+*/

@@ -1,0 +1,40 @@
+fa(
+
+r(fsa_preds),
+ 
+	 22, 
+[ 
+	 20
+], 
+ [ 
+ 	 21
+], 
+ [  
+ trans(0,0,21),
+trans(1,0,0),
+trans(2,0,1),
+trans(3,0,2),
+trans(4,0,3),
+trans(5,0,4),
+trans(5,1,4),
+trans(6,0,5),
+trans(7,0,6),
+trans(8,0,16),
+trans(8,1,4),
+trans(9,0,8),
+trans(10,0,9),
+trans(11,0,10),
+trans(12,0,11),
+trans(13,0,12),
+trans(14,0,13),
+trans(15,0,14),
+trans(16,0,15),
+trans(17,0,16),
+trans(18,0,17),
+trans(19,0,18),
+trans(20,0,19),
+trans(21,0,7)
+], 
+[]). 
+	 
+

@@ -1,0 +1,67 @@
+/*
+Tu es sur montef00 (sun4) > time  
+743.0u 0.0s 32:15 38% 0+0k 0+0io 0pf+0w
+Tu es sur montef00 (sun4) > splash -v sliding--1-3.spl
+Compilation statistics:
+  number of processes               : 4.
+  number of variables               : 16.
+  total number of control locations : 62.
+  number of meta-transitions        : 1.
+Translating the transition relation...
+   with transitions                    : 24155 NDD state(s).
+time
+   with transitions & meta-transitions : 27588 NDD state(s).
+Translating the set of initial states...
+   initial set : 41 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 205 NDD state(s).
+   intermediate result : 434 NDD state(s).
+   intermediate result : 560 NDD state(s).
+   intermediate result : 690 NDD state(s).
+   intermediate result : 964 NDD state(s).
+   intermediate result : 1218 NDD state(s).
+   intermediate result : 1430 NDD state(s).
+   intermediate result : 1814 NDD state(s).
+   intermediate result : 2327 NDD state(s).
+   intermediate result : 2649 NDD state(s).
+   intermediate result : 3100 NDD state(s).
+   intermediate result : 3456 NDD state(s).
+   intermediate result : 3777 NDD state(s).
+   intermediate result : 4129 NDD state(s).
+   intermediate result : 4487 NDD state(s).
+   intermediate result : 4813 NDD state(s).
+   intermediate result : 5228 NDD state(s).
+   intermediate result : 5438 NDD state(s).
+   intermediate result : 5728 NDD state(s).
+   intermediate result : 6009 NDD state(s).
+   intermediate result : 6324 NDD state(s).
+   intermediate result : 6602 NDD state(s).
+   intermediate result : 6807 NDD state(s).
+   intermediate result : 7125 NDD state(s).
+   intermediate result : 7355 NDD state(s).
+   intermediate result : 7589 NDD state(s).
+   intermediate result : 7800 NDD state(s).
+   intermediate result : 8068 NDD state(s).
+   intermediate result : 8227 NDD state(s).
+   intermediate result : 8348 NDD state(s).
+   intermediate result : 8469 NDD state(s).
+   intermediate result : 8661 NDD state(s).
+   intermediate result : 8740 NDD state(s).
+   intermediate result : 8800 NDD state(s).
+   intermediate result : 8880 NDD state(s).
+   intermediate result : 8916 NDD state(s).
+   intermediate result : 8915 NDD state(s).
+   intermediate result : 8821 NDD state(s).
+   intermediate result : 8777 NDD state(s).
+   intermediate result : 8738 NDD state(s).
+   intermediate result : 8732 NDD state(s).
+   intermediate result : 8693 NDD state(s).
+   intermediate result : 8644 NDD state(s).
+   intermediate result : 8575 NDD state(s).
+Fixpoint reached in 44 step(s).
+*** Program validated.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 5289122 byte(s).
+Tu es sur montef00 (sun4) > 1486.0u 0.0s 44:50 55% 0+0k 0+0io 0pf+0w
+*/

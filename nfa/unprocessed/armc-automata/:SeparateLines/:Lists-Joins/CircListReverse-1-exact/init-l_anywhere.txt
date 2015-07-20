@@ -1,0 +1,33 @@
+{
+
+%%%%% Empty list
+
+[n,l1,!,m_f,n_f,o_f,x,y,z,i,a,b,/,#,l,'|'],
+
+%%%%% Non-empty list
+
+%% a,b in the prefix (b not at l)
+
+[n,l1,!,n_f,o_f,x,y,z,/,#,'|',m_t,/ *, a,/, b, / +,l,i,/ +, m_f,'|'],
+
+%% a,b in the prefix (b at l)
+
+[n,l1,!,n_f,o_f,x,y,z,/,#,'|',m_t,/ *, a,/,l,i,b,/ +, m_f,'|'],
+
+%% a,b in the suffix
+
+[n,l1,!,n_f,o_f,x,y,z,/,#,'|',m_t,/ *, l,i,/ *, a,/,b,/ +, m_f,'|'],
+
+%% a at the end of suffix, b at the beginning of prefix (b not at l)
+
+[n,l1,!,n_f,o_f,x,y,z,/,#,'|',m_t,b,/ +, l,i,/ *, a,/, m_f,'|'],
+
+%% a at the end of suffix, b at the beginning of prefix (b at l, a not at l)
+
+[n,l1,!,n_f,o_f,x,y,z,/,#,'|',m_t,l,i,b,/ +, a,/, m_f,'|'],
+
+%% a at the end of suffix, b at the beginning of prefix (a,b at l - one element list)
+
+[n,l1,!,n_f,o_f,x,y,z,/,#,'|',m_t,l,i,a,b,/, m_f,'|']
+
+}

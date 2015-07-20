@@ -1,0 +1,115 @@
+fa(
+
+%begin sigma and symbols
+r(fsa_preds),
+%end sigma and symbols
+
+53, % number of states
+
+[ % begin start states
+0
+], % end start states
+
+[ % begin final states
+1
+], % end final states
+
+[ % begin transitions
+
+%%%%%%% LEVEL 10
+
+trans(0,in(['0','1']),2),
+trans(2,in([a,b,c,d,e,f]),3),
+trans(3,'10',4),
+trans(4,in(['0','1']),5),
+trans(5,in(['0','1']),6),
+trans(6,in(['0','1']),7),
+
+%%%%%%% LEVEL 9
+
+trans(0,in(['0','1']),7),
+trans(7,in([a,b,c,d,e,f]),8),
+trans(8,'9',9),
+trans(9,in(['0','1']),10),
+trans(10,in(['0','1']),11),
+trans(11,in(['0','1']),12),
+
+%%%%%%% LEVEL 8
+
+trans(0,in(['0','1']),12),
+trans(12,in([a,b,c,d,e,f]),13),
+trans(13,'8',14),
+trans(14,in(['0','1']),15),
+trans(15,in(['0','1']),16),
+trans(16,in(['0','1']),17),
+
+%%%%%%% LEVEL 7
+
+trans(0,in(['0','1']),17),
+trans(17,in([a,b,c,d,e,f]),18),
+trans(18,'7',19),
+trans(19,in(['0','1']),20),
+trans(20,in(['0','1']),21),
+trans(21,in(['0','1']),22),
+
+%%%%%%% LEVEL 6
+
+trans(0,in(['0','1']),22),
+trans(22,in([a,b,c,d,e,f]),23),
+trans(23,'6',24),
+trans(24,in(['0','1']),25),
+trans(25,in(['0','1']),26),
+trans(26,in(['0','1']),27),
+
+%%%%%%% LEVEL 5
+
+trans(0,in(['0','1']),27),
+trans(27,in([a,b,c,d,e,f]),28),
+trans(28,'5',29),
+trans(29,in(['0','1']),30),
+trans(30,in(['0','1']),31),
+trans(31,in(['0','1']),32),
+
+%%%%%%% LEVEL 4
+
+trans(0,in(['0','1']),32),
+trans(32,in([a,b,c,d,e,f]),33),
+trans(33,'4',34),
+trans(34,in(['0','1']),35),
+trans(35,in(['0','1']),36),
+trans(36,in(['0','1']),37),
+
+%%%%%%% LEVEL 3
+
+trans(0,in(['0','1']),37),
+trans(37,in([a,b,c,d,e,f]),38),
+trans(38,'3',39),
+trans(39,in(['0','1']),40),
+trans(40,in(['0','1']),41),
+trans(41,in(['0','1']),42),
+
+%%%%%%% LEVEL 2
+
+trans(0,in(['0','1']),42),
+trans(42,in([a,b,c,d,e,f]),43),
+trans(43,'2',44),
+trans(44,in(['0','1']),45),
+trans(45,in(['0','1']),46),
+trans(46,in(['0','1']),47),
+
+%%%%%%% LEVEL 1
+
+trans(0,in(['0','1']),47),
+trans(47,in([a,b,c,d,e,f]),48),
+trans(48,'1',49),
+trans(49,in(['0','1']),50),
+trans(50,in(['0','1']),51),
+trans(51,in(['0','1']),52),
+
+%%%%%%%  THE MAIN FUNCTION LEVEL
+
+trans(2,in([p,q,r,s,t]),1),
+trans(52,in([p,q,r,s,t]),1)
+
+], % end transitions
+[]). % jumps

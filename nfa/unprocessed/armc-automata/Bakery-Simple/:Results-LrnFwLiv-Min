@@ -1,0 +1,737 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFlColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.34 sec.
+-DFtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.32 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.37 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.37 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 2 letters...
+Computing all reachable configurations of length up to: 5
+Computing the partition wrt. traces up to 2 letters...
+----- Property holds!
+Cputime used: 0.42 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 2 letters...
+Computing all reachable configurations of length up to: 5
+Computing the partition wrt. traces up to 2 letters...
+----- Property holds!
+Cputime used: 0.4 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 2 letters...
+Computing all reachable configurations of length up to: 5
+Computing the partition wrt. traces up to 2 letters...
+----- Property holds!
+Cputime used: 0.41 sec.
+-----------------------------------------------
+-DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.31 sec.
+-DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.29 sec.
+-DFtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.33 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.32 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.29 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.32 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.17 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.16 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.18 sec.
+-----------------------------------------------
+-DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.34 sec.
+-DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.18 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.18 sec.
+-DFtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.21 sec.
+-----------------------------------------------
+-DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.28 sec.
+-DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.25 sec.
+-DFtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.26 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.42 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.39 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.4 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 3 letters...
+----- Property holds!
+Cputime used: 0.33 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 3 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 3 letters...
+----- Property holds!
+Cputime used: 0.37 sec.
+-----------------------------------------------
+-DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.29 sec.
+-DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.25 sec.
+-DFtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.25 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.3 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.32 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.31 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.34 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.31 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.32 sec.
+-----------------------------------------------
+-DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.31 sec.
+-DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.31 sec.
+-DFtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.31 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.38 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-DFtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 6
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.35 sec.
+-----------------------------------------------
+-DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.36 sec.
+-DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.37 sec.
+-DFtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+Computing all reachable configurations of length up to: 1
+Computing the partition wrt. traces up to 0 letters...
+Computing all reachable configurations of length up to: 2
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 3
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+Computing all reachable configurations of length up to: 4
+Computing the partition wrt. traces up to 0 letters...
+Computing the partition wrt. traces up to 1 letters...
+----- Property holds!
+Cputime used: 0.38 sec.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollOne -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceBad -DLrnIniCollZero -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollHalfGen -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollOne -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfHalfInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfTwiceInit -DLrnIniCollZero -P asmc_lrn_liv.pl
+-----------------------------------------------
+-DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+-DFbtColl -DLrnGenConfOne -DLrnIniCollZero -P asmc_lrn_liv.pl
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

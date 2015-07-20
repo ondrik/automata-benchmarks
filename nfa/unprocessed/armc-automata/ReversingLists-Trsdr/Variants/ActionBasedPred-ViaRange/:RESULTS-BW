@@ -1,0 +1,1 @@
+-DTrClosure -DIntrs -DPrBad -DPrGuards -DFwColl -P asmc_rev_ver.pl

@@ -1,0 +1,31 @@
+system fun
+
+var 
+	a(0),b(0), c(0): int ;
+
+process central;
+var
+	d(0) : int;
+
+state
+s0 :init;
+s1;
+
+transition
+	t0: from s0 do c := c + 1; to s0;
+	        
+	t1: from s0 
+		if b = 100 * c
+		do a := b, d := 0;
+	to s1;
+
+	t2: from s0
+		b := b + 20;
+	to s0;
+	
+	t3: from s1
+		if d < 10 do a := a + 1, d := d + 1;
+	t0 s1;
+	
+	t4: from s1 if d >= 10 to s0;
+		 

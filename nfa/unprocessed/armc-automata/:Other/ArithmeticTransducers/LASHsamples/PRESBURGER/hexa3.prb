@@ -1,0 +1,4 @@
+(exists (c : ( 1000 * c = x))) and 
+(exists (c : ( 1000 * c = y))) and 
+ (x > y) and (x < y + 6000) and (y > 0) and ( y < 4000)
+and (y+x > 4000) and (y+x < 10000)

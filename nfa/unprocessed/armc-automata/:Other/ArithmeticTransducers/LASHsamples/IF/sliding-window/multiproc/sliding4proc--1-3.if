@@ -1,0 +1,230 @@
+/* 
+comment:
+-------
+YY_MM-DD : 00-05-03 
+QUEUE SIZE : 3 
+2 queues, message lost when queues full
+4 processes 
+NMAX : inf! 
+
+17   steps, 13723  kbyte(s), 142 seconds 
+
+*/
+
+
+system sliding;
+
+gate
+q1S(int);
+q1R(int);
+q2S(int);
+q2R(int);
+
+var
+N(1)  : int ;
+nb1(0) :int ;
+nb2(0) :int ;
+
+sync (hide q1R, q2S in sender ||| hide q2R, q1S in receiver)
+ |[q1S, q1R, q2R, q2S]|
+     (hide q2R, q2S in queue1 ||| hide q1R, q1S in queue2) end ;
+
+
+process sender;
+var
+ns (0) : int ;
+na (0) : int ;
+ack(0): int ;
+
+state
+s_ready :init assert ((na <= ns) and (na + N >= ns))  ; end ;
+s_send_q1 ;
+s_rcv_q2 ;
+
+ 
+transition
+t1: from s_ready 
+if ns < na + N 
+do ns := ns + 1
+to s_send_q1;
+
+t2: from s_send_q1
+if nb1 < 3
+sync q1S!ns
+to s_ready;
+
+from s_send_q1
+if nb1 = 3
+to s_ready;
+
+t3: from s_ready
+sync q2R?ack
+to s_rcv_q2;
+
+t4: from s_rcv_q2
+if ack > na
+do na := ack , ns := na, ack := 0
+to s_ready;
+
+from s_rcv_q2
+if ack <= na
+do ack := 0
+to s_ready;
+
+process receiver;
+var v(0) :int;
+    msg : int;
+
+state
+s_ready :init;
+s_rcv_q1 ;
+
+transition
+t1: from s_ready
+sync q1R?msg
+to s_rcv_q1;
+
+t2: from s_rcv_q1
+if msg = v + 1 do v := v + 1
+to s_ready;
+
+from s_rcv_q1
+if msg <> v + 1
+to s_ready;
+
+t3: from s_ready 
+if nb2 < 3
+sync q2S!v
+to s_ready;
+
+
+process queue1;
+var
+x1(0) : int;
+x2(0) : int;
+x3(0) : int;
+
+state
+s0 :init;
+s1 :nostable;
+s2 :nostable;
+s_meta :nostable;
+
+transition
+t1: from s0
+if nb1 = 0 sync q1S?x1
+to s_meta;
+
+from s_meta to s1;
+
+from s0 
+if nb1 = 1 sync q1S?x2
+to s1;
+
+from s0
+if nb1 = 2 sync q1S?x3
+to s1;
+
+from s1
+do nb1 := nb1 + 1
+to s0;
+
+t2: from s0
+if nb1 > 0 sync q1R!x1
+to s2;
+
+from s2
+do x1 := x2 , x2 := x3 , x3 := 0, nb1 := nb1 -1
+to s0;
+
+process queue2;
+var
+x1(0) : int;
+x2(0) : int;
+x3(0) : int;
+
+state
+s0 :init;
+s1 :nostable;
+s2 : nostable;
+s_meta : nostable;
+
+transition
+t1: from s0
+if nb2 = 0 sync q2S?x1
+to s_meta;
+
+from s_meta to s1;
+
+
+from s0 
+if nb2 = 1 sync q2S?x2
+to s1;
+
+from s0
+if nb2 = 2 sync q2S?x3
+to s1;
+
+from s1
+do nb2 := nb2 + 1
+to s0;
+
+t2: from s0
+if nb2 > 0 sync q2R!x1
+to s2;
+
+from s2
+do x1 := x2 , x2 := x3 , x3 := 0, nb2 := nb2 -1
+to s0;
+
+
+meta_global
+from sender.s_ready, queue1.s0, receiver.s_ready, queue2.s0  
+by sender.t1, sender.t2 | queue1.t1, 
+queue1.s0 , receiver.t1| queue1.t2,
+queue1.s0, receiver.t2, receiver.t3 |  queue2.t1, queue2.s0,
+sender.t3 | queue2.t2, queue2.s0,  sender.t4;
+
+/*
+Tu es sur montef00 (sun4) > time
+1486.0u 0.0s 50:12 49% 0+0k 0+0io 0pf+0w
+Tu es sur montef00 (sun4) > siflash -v sliding4proc--1-3.if
+Compilation statistics:
+  number of gates                   : 4.
+  number of processes               : 4.
+  number of variables               : 14.
+  total number of control locations : 11.
+  number of syncronized transitions : 8.
+  number of meta-transitions        : 1.
+Translating the transition relation...
+   with transitions                    : 3909 NDD state(s).
+   with synchronised transitions       : 5645 NDD state(s).
+   with transitions & meta-transitions : 14320 NDD state(s).
+Translating the set of initial states...
+   initial set : 37 NDD state(s).
+Starting state-space exploration...
+   intermediate result : 120 NDD state(s).
+   intermediate result : 268 NDD state(s).
+   intermediate result : 458 NDD state(s).
+   intermediate result : 844 NDD state(s).
+   intermediate result : 1361 NDD state(s).
+   intermediate result : 1785 NDD state(s).
+   intermediate result : 2498 NDD state(s).
+   intermediate result : 3136 NDD state(s).
+   intermediate result : 3896 NDD state(s).
+   intermediate result : 4482 NDD state(s).
+   intermediate result : 5300 NDD state(s).
+   intermediate result : 5956 NDD state(s).
+   intermediate result : 6539 NDD state(s).
+   intermediate result : 6997 NDD state(s).
+   intermediate result : 7255 NDD state(s).
+   intermediate result : 7377 NDD state(s).
+   intermediate result : 7547 NDD state(s).
+Fixpoint reached in 17 step(s).
+*** Program validated.
+Runtime statistics:
+  residual memory : 0 byte(s).
+  max memory      : 13723428 byte(s).
+Tu es sur montef00 (sun4) > 1615.0u 0.0s 52:52 50% 0+0k 0+0io 0pf+0w
+Tu es sur montef00 (sun4) > 
+*/

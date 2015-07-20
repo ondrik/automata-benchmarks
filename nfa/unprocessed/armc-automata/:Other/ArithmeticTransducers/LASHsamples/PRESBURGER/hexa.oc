@@ -1,0 +1,4 @@
+c1 := {[x , y] : (y < 4) and ( y > 0) and (x < y + 6) and (x > y)
+	and ( y + x > 4) and (y + x < 10)} ;
+c1 ;
+
