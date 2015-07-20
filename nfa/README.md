@@ -1,3 +1,3 @@
 Nondeterministic Finite Automata
 
-Nondeterministic finite (word) automata over finite words.
+Nondeterministic finite automata over finite words.
