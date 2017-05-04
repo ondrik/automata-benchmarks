@@ -1,0 +1,31 @@
+# The .vtf format for automata
+This is a proposal for the `.vtf` (VATA Format) format for automata.
+
+## Examples
+
+
+### Finite automata
+[link](nfa-example.vtf)
+```
+\input{nfa-example.vtf}
+```
+### Tree automata
+[link](nta-example.vtf)
+```
+\input{nta-example.vtf}
+```
+### Finite automata with transitions in BDDs
+[link](nfa-bdd-example.vtf)
+```
+\input{nfa-bdd-example.vtf}
+```
+### Finite automata with everything in BDDs
+[link](nfa-bdd-full-example.vtf)
+```
+\input{nfa-bdd-full-example.vtf}
+```
+### A sequence of operations
+[link](code.vtf)
+```
+\input{code.vtf}
+```
