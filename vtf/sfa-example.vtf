@@ -5,6 +5,6 @@
 %Final q2          # root states (required)
 # TODO: maybe specify theories?
 %Transitions
-q1 "(even x)" q1   # the format is <parent> <formula> (<child_1> ... <child_n>)
+q1 "(even x)" q1   # the format is <source> <formula> <target>
 "q1" "(odd x)" q1  # 'x' in the formula denotes the read symbol
 q2 "(= x 3)" q3
