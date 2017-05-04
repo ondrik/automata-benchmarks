@@ -1,11 +1,6 @@
-# Example of the VATA format for storing or exchanging automata
-#
-# comments start with '#'
-
+# Example of tree automata in the VATA format
 @NTA               # nondeterministic tree automaton
-%Name nta1
 %Root q2           # root states (required)
-
 %Transitions
 q1 a (q1 q2)       # the format is <parent> <symbol> (<child_1> ... <child_n>)
 "q1" b "q1"        # is equivalent to q1 b (q1)

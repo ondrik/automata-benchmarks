@@ -1,0 +1,23 @@
+# Example of how to define a sequence of operations in the VATA format
+
+@NFA
+%Name nfa1
+%Initial q1
+%Final q2
+%Transitions
+q1 a q2
+
+@NFA
+%Name nfa2
+%Initial r1
+%Final r2
+%Transitions
+r1 a r2
+
+@CODE                  # some code comes here
+NFA nfa3 = (minus (union nfa1 nfa2) (intersect nfa1 nfa2))
+bool empty = (isempty nfa3)
+(print "NFA3:\n")
+(print NFA3)
+(print "is empty:")
+(print empty)

@@ -1,0 +1,9 @@
+# Example of finite automata where both states and transitions are in a BDD in the VATA format
+@NFA-BDD-FULL     # NFAs with states and transitions in BDD
+%State-Vars 3     # number of Boolean variables in states (required)
+%Symbol-Vars 8    # number of Boolean variables in the alphabet (required)
+%Initial 111 1x1
+%Final 00x
+%Transitions
+111 000x11x1 0x0  # the format is <source> <symbol> <target> 
+xxx xx11xx00 11x  # 'x' in the binary vectors denote don't care values
