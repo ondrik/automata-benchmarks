@@ -29,3 +29,9 @@ This is a proposal for the `.vtf` (VATA Format) format for automata.
 ```
 \input{code.vtf}
 ```
+
+### Symbolic finite automaton
+[link](sfa-example.vtf)
+```
+\input{sfa-example.vtf}
+```

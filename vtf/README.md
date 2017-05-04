@@ -101,3 +101,19 @@ bool empty = (isempty nfa3)
 (return empty)
 
 ```
+
+### Symbolic finite automaton
+[link](sfa-example.vtf)
+```
+# Example of a symbolic finite automata (in the sense of Margus & Loris) in the VATA format [TENTATIVE PROPOSAL, NOT FIXED!!!]
+@SFA               # symbolic finite automaton
+%Name sfa1         # identifier (optional)
+%Initial q1        # initial states (required)
+%Final q2          # root states (required)
+# TODO: maybe specify theories?
+%Transitions
+q1 "(even x)" q1   # the format is <parent> <formula> (<child_1> ... <child_n>)
+"q1" "(odd x)" q1  # 'x' in the formula denotes the read symbol
+q2 "(= x 3)" q3
+
+```
