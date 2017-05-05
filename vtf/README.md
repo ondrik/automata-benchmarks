@@ -156,5 +156,6 @@ q1 ("(even x)" "(odd y)") ("y" "x") q2  # here, we use a transition over two
 q1 ("(= x x)") ("x") q3                 # this is how to specify the 'true'
                                         # predicate and also bind the symbol to a variable
 q1 () ("1") q3                          # epsilon transitions allowed too
+q1 ("(in x (list 1 2 3)") ("x") q3      # the input symbol is one of {1,2,3}, the output is the same
 
 ```
