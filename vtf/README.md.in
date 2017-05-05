@@ -41,3 +41,9 @@ This is a proposal for the `.vtf` (VATA Format) format for automata.
 ```
 \input{nft-example.vtf}
 ```
+
+### Symbolic finite transducers
+[link](sft-example.vtf)
+```
+\input{sft-example.vtf}
+```

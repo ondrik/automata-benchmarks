@@ -115,7 +115,8 @@ bool empty = (isempty nfa3)
 %Transitions
 q1 "(even x)" q1   # the format is <source> <formula> <target>
 "q1" "(odd x)" q1  # 'x' in the formula denotes the read symbol
-q2 "(= x 3)" q3
+q2 "(= x 3)" q3    # (actually, any name can be used, as long as there is
+q1 "(forall ((x Int)) (= cur x))" q3 # at most one free variable in the formula)
 
 ```
 
@@ -132,5 +133,28 @@ q2 "(= x 3)" q3
 q1 (a) (b) q2      # the format is <source> (<input symbol 1> ... <input symbol n>) (<output symbol 1> ... <output symbol m>) <target>
 q1 () (a b c) "q1"
 q2 (a b) () q3
+
+```
+
+### Symbolic finite transducers
+[link](sft-example.vtf)
+```
+# Example of a symbolic finite transducer in the VATA format
+@SFT               # symbolic finite transducer
+%Name  trans       # name (optional)
+%Initial q1        # initial states (required)
+%Final q2          # final states (required)
+# TODO: restrict the theories?
+%Transitions
+q1 ("(= x 3)") ("(+ x 3)" "0") q2       # the format is <source> (<input predicate 1> ... <input predicate n>)
+                                        # (<output function 1> ... <output function m>) <target>
+q1 ("(even x)" "(odd y)") ("y" "x") q2  # here, we use a transition over two
+                                        # symbols; note that the free variables
+                                        # used in the predicates are used in
+                                        # the output functions to refer to the
+                                        # position of the symbols
+q1 ("(= x x)") ("x") q3                 # this is how to specify the 'true'
+                                        # predicate and also bind the symbol to a variable
+q1 () ("1") q3                          # epsilon transitions allowed too
 
 ```
