@@ -30,8 +30,14 @@ This is a proposal for the `.vtf` (VATA Format) format for automata.
 \input{code.vtf}
 ```
 
-### Symbolic finite automaton
+### Symbolic finite automata
 [link](sfa-example.vtf)
 ```
 \input{sfa-example.vtf}
+```
+
+### Finite transducers
+[link](nft-example.vtf)
+```
+\input{nft-example.vtf}
 ```

@@ -21,3 +21,4 @@
 q1 a q2                           # the format is <source> <symbol> <target> 
 "q1" b "a state"                  # note that "q1" and q1 are the same
 "\"we're here,\" he said" c q1
+q1 () q2                          # () is used for epsilon transitions

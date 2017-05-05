@@ -30,6 +30,7 @@ This is a proposal for the `.vtf` (VATA Format) format for automata.
 q1 a q2                           # the format is <source> <symbol> <target> 
 "q1" b "a state"                  # note that "q1" and q1 are the same
 "\"we're here,\" he said" c q1
+q1 () q2                          # () is used for epsilon transitions
 
 ```
 ### Tree automata
@@ -102,7 +103,7 @@ bool empty = (isempty nfa3)
 
 ```
 
-### Symbolic finite automaton
+### Symbolic finite automata
 [link](sfa-example.vtf)
 ```
 # Example of a symbolic finite automata (in the sense of Margus & Loris) in the VATA format [TENTATIVE PROPOSAL, NOT FIXED!!!]
@@ -115,5 +116,21 @@ bool empty = (isempty nfa3)
 q1 "(even x)" q1   # the format is <source> <formula> <target>
 "q1" "(odd x)" q1  # 'x' in the formula denotes the read symbol
 q2 "(= x 3)" q3
+
+```
+
+### Finite transducers
+[link](nft-example.vtf)
+```
+# Example of a finite transducer in the VATA format
+@NFT               # nondeterministic finite transducer
+%Name  trans       # name (optional)
+%Initial q1        # initial states (required)
+%Final q2          # final states (required)
+%Alphabet a b c    # alphabet (optional)
+%Transitions
+q1 (a) (b) q2      # the format is <source> (<input symbol 1> ... <input symbol n>) (<output symbol 1> ... <output symbol m>) <target>
+q1 () (a b c) "q1"
+q2 (a b) () q3
 
 ```
