@@ -19,14 +19,14 @@ This is a proposal for the `.vtf` (VATA Format) format for automata.
 # now, we follow with the definition of components of an automaton
 %Name nfa1                        # name of the automaton (optional, can be used to refer to the automaton)
  %Alphabet a b c d                # alphabet (optional) (a whitespace before % is OK)
-%Initial                          # initial states (required)
-  q1                              # a definition spans until another %definition
-  "a state"                       # when in ", names can have whitespaces (and also " if escaped with backslash '\')
-  "\"we're here,\" he said"       # a state with the name |"we're here," he said| ('|' are not part of the name)
+%Initial q1 q2                    # initial states (required); a definition spans until the end of line
+%Initial q3                       # a key can be repeated, the result should be the same as if in a single line
+%Initial "a state"                # when in ", names can have whitespaces (and also " if escaped with backslash '\')
+
+%Initial "\"we're here,\" he said"# a state with the name |"we're here," he said| ('|' are not part of the name)
                                   # names cannot span multiple lines
-  q3                              # initial states end here
 %Final q2                         # final states (required)
-%Transitions                      # starting below this line will be transitions, one per line
+q1 a q1                           # transitions occur when there is no keyword
 q1 a q2                           # the format is <source> <symbol> <target> 
 "q1" b "a state"                  # note that "q1" and q1 are the same
 "\"we're here,\" he said" c q1
@@ -39,8 +39,7 @@ q1 () q2                          # () is used for epsilon transitions
 # Example of tree automata in the VATA format
 @NTA               # nondeterministic tree automaton
 %Root q2           # root states (required)
-%Transitions
-q1 a (q1 q2)       # the format is <parent> <symbol> (<child_1> ... <child_n>)
+q1 a (q1 q2)       # the format of transitions is <parent> <symbol> (<child_1> ... <child_n>)
 "q1" b "q1"        # is equivalent to q1 b (q1)
 q2 c               # is equivalent to q2 c ()
 
@@ -53,7 +52,7 @@ q2 c               # is equivalent to q2 c ()
 %Symbol-Vars 8    # number of Boolean variables in the alphabet (required)
 %Initial q1 q2
 %Final q2
-%Transitions
+
 q1 000x11x1 q2    # the format is <source> <symbol> <target> 
 q1 01101111 q3    # 'x' in the binary vector denote don't care values
 q3 xxxxxxxx q1    # the length needs to match the value in '%Symbol-Vars'
@@ -68,8 +67,8 @@ q3 xxxxxxxx q1    # the length needs to match the value in '%Symbol-Vars'
 %Symbol-Vars 8    # number of Boolean variables in the alphabet (required)
 %Initial 111 1x1
 %Final 00x
-%Transitions
-111 000x11x1 0x0  # the format is <source> <symbol> <target> 
+
+111 000x11x1 0x0  # the format of transitions is <source> <symbol> <target> 
 xxx xx11xx00 11x  # 'x' in the binary vectors denote don't care values
 
 ```
@@ -82,14 +81,12 @@ xxx xx11xx00 11x  # 'x' in the binary vectors denote don't care values
 %Name nfa1
 %Initial q1
 %Final q2
-%Transitions
 q1 a q2
 
 @NFA
 %Name nfa2
 %Initial r1
 %Final r2
-%Transitions
 r1 a r2
 
 @CODE                  # some code comes here
@@ -106,13 +103,13 @@ bool empty = (isempty nfa3)
 ### Symbolic finite automata
 [link](sfa-example.vtf)
 ```
-# Example of a symbolic finite automata (in the sense of Margus & Loris) in the VATA format [TENTATIVE PROPOSAL, NOT FIXED!!!]
+# Example of a symbolic finite automaton (in the sense of Margus & Loris) in the VATA format [TENTATIVE PROPOSAL, NOT FIXED!!!]
 @SFA               # symbolic finite automaton
 %Name sfa1         # identifier (optional)
 %Initial q1        # initial states (required)
-%Final q2          # root states (required)
+%Final q2          # final states (required)
 # TODO: maybe specify theories?
-%Transitions
+
 q1 "(even x)" q1   # the format is <source> <formula> <target>
 "q1" "(odd x)" q1  # 'x' in the formula denotes the read symbol
 q2 "(= x 3)" q3    # (actually, any name can be used, as long as there is
@@ -129,7 +126,7 @@ q1 "(forall ((x Int)) (= cur x))" q3 # at most one free variable in the formula)
 %Initial q1        # initial states (required)
 %Final q2          # final states (required)
 %Alphabet a b c    # alphabet (optional)
-%Transitions
+
 q1 (a) (b) q2      # the format is <source> (<input symbol 1> ... <input symbol n>) (<output symbol 1> ... <output symbol m>) <target>
 q1 () (a b c) "q1"
 q2 (a b) () q3
@@ -145,7 +142,7 @@ q2 (a b) () q3
 %Initial q1        # initial states (required)
 %Final q2          # final states (required)
 # TODO: restrict the theories?
-%Transitions
+
 q1 ("(= x 3)") ("(+ x 3)" "0") q2       # the format is <source> (<input predicate 1> ... <input predicate n>)
                                         # (<output function 1> ... <output function m>) <target>
 q1 ("(even x)" "(odd y)") ("y" "x") q2  # here, we use a transition over two
