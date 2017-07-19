@@ -1,7 +1,6 @@
 # Example of tree automata in the VATA format
 @NTA               # nondeterministic tree automaton
 %Root q2           # root states (required)
-%Transitions
-q1 a (q1 q2)       # the format is <parent> <symbol> (<child_1> ... <child_n>)
+q1 a (q1 q2)       # the format of transitions is <parent> <symbol> (<child_1> ... <child_n>)
 "q1" b "q1"        # is equivalent to q1 b (q1)
 q2 c               # is equivalent to q2 c ()

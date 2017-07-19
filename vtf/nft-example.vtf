@@ -4,7 +4,7 @@
 %Initial q1        # initial states (required)
 %Final q2          # final states (required)
 %Alphabet a b c    # alphabet (optional)
-%Transitions
+
 q1 (a) (b) q2      # the format is <source> (<input symbol 1> ... <input symbol n>) (<output symbol 1> ... <output symbol m>) <target>
 q1 () (a b c) "q1"
 q2 (a b) () q3

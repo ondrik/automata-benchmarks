@@ -4,6 +4,6 @@
 %Symbol-Vars 8    # number of Boolean variables in the alphabet (required)
 %Initial 111 1x1
 %Final 00x
-%Transitions
-111 000x11x1 0x0  # the format is <source> <symbol> <target> 
+
+111 000x11x1 0x0  # the format of transitions is <source> <symbol> <target> 
 xxx xx11xx00 11x  # 'x' in the binary vectors denote don't care values

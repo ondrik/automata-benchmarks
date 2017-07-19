@@ -4,7 +4,7 @@
 %Initial q1        # initial states (required)
 %Final q2          # final states (required)
 # TODO: restrict the theories?
-%Transitions
+
 q1 ("(= x 3)") ("(+ x 3)" "0") q2       # the format is <source> (<input predicate 1> ... <input predicate n>)
                                         # (<output function 1> ... <output function m>) <target>
 q1 ("(even x)" "(odd y)") ("y" "x") q2  # here, we use a transition over two

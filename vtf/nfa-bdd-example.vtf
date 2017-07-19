@@ -3,7 +3,7 @@
 %Symbol-Vars 8    # number of Boolean variables in the alphabet (required)
 %Initial q1 q2
 %Final q2
-%Transitions
+
 q1 000x11x1 q2    # the format is <source> <symbol> <target> 
 q1 01101111 q3    # 'x' in the binary vector denote don't care values
 q3 xxxxxxxx q1    # the length needs to match the value in '%Symbol-Vars'

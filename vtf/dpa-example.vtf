@@ -4,7 +4,6 @@
 %Initial q1:0.5 q2:0.5   # initial states + probabilities (required) 
 %Final q2:0.3 q3:0.7     # final states + probabilities (required)
 
-%Transitions
 q1 a:0.4 q1   # the format is <source> <symbol>:<prob> <target>
 q1 b:0.6 q1   # the probabilities of outgoing transitions + acceptance should add up to 1
 q2 a:0.7 q3
