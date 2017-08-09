@@ -13,16 +13,19 @@ Escapes a string for GraphViz dot tool.
 
     return s
 
-###############################
-if __name__ == '__main__':
-    parsed = parsevtf(sys.stdin)
+###########################################
+def to_dot(fd):
+    '''to_dot(fd) -> _|_
+
+
+'''
+    parsed = parsevtf(fd)
 
     ########################################
     state_map = { }                        #
     state_cnt = 0                          #
     def get_state_id(name):                #
-        global state_cnt                   #
-        global state_map                   #
+        nonlocal state_cnt                 #
         if name not in state_map:          #
             state_map[name] = state_cnt    #
             state_cnt += 1                 #
@@ -59,7 +62,6 @@ if __name__ == '__main__':
         str_init_trans += ';'
         print(str_init_trans)
 
-
     for state in state_map:
         str_state = ''
         str_state += get_state_id(state)
@@ -71,5 +73,20 @@ if __name__ == '__main__':
         str_state += '];'
         print(str_state)
 
-
     print('}')
+
+
+###############################
+if __name__ == '__main__':
+    argc = len(sys.argv)
+    if argc == 1:
+        fd = sys.stdin
+    elif argc == 2:
+        fd = open(sys.argv[1], "r")
+    else:
+        print("Invalid number of arguments: either 0 or 1 required")
+        sys.exit(1)
+
+    to_dot(fd)
+    if argc == 2:
+        fd.close()
