@@ -47,3 +47,9 @@ This is a proposal for the `.vtf` (VATA Format) format for automata.
 ```
 \input{sft-example.vtf}
 ```
+
+### Probabilistic automata
+[link](dpa-example.vtf)
+```
+\input{dpa-example.vtf}
+```

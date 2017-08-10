@@ -156,3 +156,19 @@ q1 () ("1") q3                          # epsilon transitions allowed too
 q1 ("(in x (list 1 2 3)") ("x") q3      # the input symbol is one of {1,2,3}, the output is the same
 
 ```
+
+### Probabilistic automata
+[link](dpa-example.vtf)
+```
+# Example of a deterministic probabilistic automaton in the VATA format [TENTATIVE PROPOSAL, NOT FIXED!!!]
+@DPA                     # deterministic probabilistic automaton
+%Name dpa1               # identifier (optional)
+%Initial q1:0.5 q2:0.5   # initial states + probabilities (required) 
+%Final q2:0.3 q3:0.7     # final states + probabilities (required)
+
+q1 a:0.4 q1   # the format is <source> <symbol>:<prob> <target>
+q1 b:0.6 q1   # the probabilities of outgoing transitions + acceptance should add up to 1
+q2 a:0.7 q3
+q3 b:0.3 q3
+
+```
