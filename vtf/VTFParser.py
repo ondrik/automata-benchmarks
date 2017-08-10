@@ -54,9 +54,7 @@ Result of a VTF format parser.
             result += '\n'
 
         for line in self.body:
-            for item in line:
-                result += ' ' + serialize_token(item)
-
+            result += ' '.join([serialize_token(item) for item in line])
             result += '\n'
 
         return result
