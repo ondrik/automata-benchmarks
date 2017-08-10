@@ -41,9 +41,22 @@ if __name__ == '__main__':
 
     vtf_aut.type = 'NTA' if is_ta else 'NFA'
     vtf_aut.dict['States'] = parsed_aut.states
-    vtf_aut.dict['Initial'] = parsed_aut.initial
     vtf_aut.dict['Final'] = parsed_aut.final
-    vtf_aut.body.extend(parsed_aut.trans)
+    vtf_aut.dict['Initial'] = set()
+
+    for trans in parsed_aut.trans:
+        (children, symb, parent) = trans
+        if is_ta:
+            if children == None:
+                children = ''
+            children = children.replace(' ', '')
+            line = [parent, symb, '(', children, ')']
+            vtf_aut.body.append(line)
+        else:
+            if children == None:
+                vtf_aut.dict['Initial'].add(parent)
+            else:
+                vtf_aut.body.append(trans)
 
     print(vtf_aut)
 

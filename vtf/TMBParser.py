@@ -8,7 +8,6 @@ class ParsedAut:
 Result of an automaton parser.
 '''
     def __init__(self):
-        self.initial = set()
         self.final = set()
         self.trans = set()
         self.alphabet = set()
@@ -25,10 +24,11 @@ Result of an automaton parser.
         result += 'States ' + ' '.join(self.states) + '\n'
         result += 'Final States ' + ' '.join(self.final) + '\n'
         result += 'Transitions\n'
-        for init in self.initial:
-            result += 'x -> ' + init + '\n'
-        for trans in self.trans:
-            result += trans[1] + '(' + trans[0] + ') -> ' + trans[2] + '\n'
+        for (children, symb, parent) in self.trans:
+            if children == None:
+                result += symb + ' -> ' + parent + '\n'
+            else:
+                result += symb + '(' + children + ') -> ' + parent + '\n'
 
         return result
 
@@ -82,11 +82,7 @@ Parses the input from the file descriptor 'fd'.
         if parsed_transitions:
             # a transition
             trans = parse_trans(line)
-            if trans[0] != None:
-                result.trans.add(trans)
-            else:
-                assert trans[2] != None
-                result.initial.add(trans[2])
+            result.trans.add(trans)
         elif line == 'Transitions':
             parsed_transitions = True
         elif line.startswith('Automaton '):
