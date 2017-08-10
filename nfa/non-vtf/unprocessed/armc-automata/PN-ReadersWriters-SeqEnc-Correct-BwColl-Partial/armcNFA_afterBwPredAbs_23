@@ -1,0 +1,61 @@
+Ops a0:1 a1:1 a2:1 a3:1 a4:1 a5:1 a6:1 a7:1 a8:1 a9:1 x:0
+
+Automaton A
+States q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 q16 q17 q18 q19 q20 
+Final States q0 q1 q2 q3 
+Transitions
+x -> q0
+a0(q0) -> q4
+a1(q0) -> q5
+a2(q0) -> q6
+a3(q0) -> q7
+a4(q0) -> q8
+a5(q0) -> q9
+a9(q0) -> q0
+a0(q1) -> q10
+a1(q1) -> q11
+a2(q1) -> q6
+a0(q3) -> q3
+a1(q3) -> q3
+a2(q3) -> q3
+a2(q3) -> q6
+a3(q3) -> q12
+a8(q3) -> q3
+a9(q3) -> q3
+a1(q4) -> q5
+a2(q4) -> q6
+a3(q4) -> q7
+a4(q4) -> q8
+a5(q4) -> q9
+a9(q4) -> q0
+a2(q5) -> q6
+a3(q5) -> q7
+a4(q5) -> q8
+a5(q5) -> q9
+a9(q5) -> q0
+a3(q6) -> q12
+a4(q6) -> q13
+a4(q6) -> q18
+a8(q6) -> q14
+a4(q7) -> q8
+a5(q7) -> q9
+a9(q7) -> q0
+a5(q8) -> q15
+a6(q8) -> q16
+a7(q9) -> q17
+a1(q10) -> q11
+a2(q10) -> q6
+a2(q11) -> q6
+a4(q12) -> q13
+a4(q12) -> q20
+a8(q12) -> q3
+a8(q12) -> q14
+a6(q13) -> q19
+a9(q14) -> q1
+a6(q15) -> q9
+a9(q16) -> q0
+a9(q17) -> q2
+a6(q18) -> q19
+a8(q19) -> q14
+a8(q19) -> q17
+a6(q20) -> q3

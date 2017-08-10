@@ -1,0 +1,11 @@
+Ops a0:1 a1:1 a2:1 a3:1 a4:1 a5:1 a6:1 a7:1 a8:1 a9:1 x:0
+
+Automaton A
+States q0 q1 
+Final States q0 
+Transitions
+x -> q0
+a9(q0) -> q0
+a0(q0) -> q1
+a3(q0) -> q1
+a9(q1) -> q0
