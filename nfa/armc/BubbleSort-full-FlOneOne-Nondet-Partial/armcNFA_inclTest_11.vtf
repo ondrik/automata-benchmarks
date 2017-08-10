@@ -1,0 +1,32 @@
+@NFA
+%Final q1
+%States q5 q10 q11 q4 q2 q9 q7 q1 q8 q6 q3 q0
+%Initial q0
+
+q0 a44 q0
+q0 a38 q0
+q0 a47 q0
+q0 a19 q0
+q0 a41 q0
+q9 a5 q8
+q0 a48 q0
+q0 a2 q11
+q8 a49 q7
+q11 a1 q10
+q0 a37 q0
+q9 a40 q8
+q7 a7 q6
+q3 a49 q1
+q10 a5 q8
+q4 a34 q5
+q4 a1 q3
+q7 a34 q6
+q0 a35 q0
+q0 a2 q2
+q6 a46 q5
+q0 a0 q0
+q4 a7 q5
+q5 a2 q4
+q0 a8 q0
+q2 a1 q9
+

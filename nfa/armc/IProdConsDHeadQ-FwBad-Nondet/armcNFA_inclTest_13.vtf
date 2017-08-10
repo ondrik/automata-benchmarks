@@ -1,0 +1,59 @@
+@NFA
+%Initial q1
+%Final q0
+%States q23 q10 q0 q8 q6 q15 q20 q21 q11 q18 q14 q19 q26 q25 q7 q22 q5 q24 q9 q1 q12 q13 q3 q17 q4 q27 q16 q2
+
+q2 a23 q0
+q1 a6 q3
+q8 a25 q7
+q22 a11 q23
+q1 a6 q21
+q7 a36 q7
+q27 a26 q7
+q23 a10 q23
+q4 a10 q4
+q6 a24 q6
+q7 a32 q9
+q24 a10 q26
+q14 a40 q15
+q19 a0 q20
+q7 a17 q7
+q7 a33 q7
+q25 a3 q25
+q5 a18 q8
+q15 a1 q16
+q3 a3 q4
+q21 a5 q24
+q7 a0 q7
+q11 a2 q12
+q10 a1 q11
+q7 a10 q7
+q12 a36 q13
+q21 a5 q25
+q4 a10 q5
+q17 a39 q18
+q24 a10 q24
+q5 a18 q6
+q7 a25 q7
+q6 a33 q9
+q7 a24 q7
+q7 a38 q7
+q7 a17 q8
+q3 a3 q22
+q7 a2 q7
+q20 a22 q2
+q3 a3 q3
+q13 a21 q14
+q18 a38 q19
+q8 a26 q7
+q7 a1 q7
+q25 a3 q24
+q7 a21 q7
+q7 a40 q7
+q7 a39 q7
+q7 a32 q7
+q26 a18 q27
+q9 a40 q10
+q7 a17 q6
+q16 a2 q17
+
