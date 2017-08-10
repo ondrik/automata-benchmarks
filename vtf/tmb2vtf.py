@@ -42,6 +42,7 @@ if __name__ == '__main__':
     vtf_aut.type = 'NTA' if is_ta else 'NFA'
     vtf_aut.dict['States'] = parsed_aut.states
     vtf_aut.dict['Final'] = parsed_aut.final
+    vtf_aut.dict['Alphabet'] = parsed_aut.alphabet
     vtf_aut.dict['Initial'] = set()
 
     for trans in parsed_aut.trans:
