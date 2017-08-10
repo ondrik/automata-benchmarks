@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+import sys
 
 from enum import Enum
 
@@ -100,7 +101,7 @@ def tokenize(line):
                     state = ParserState.INIT
                     continue
             elif ch == '"':
-                raise "Invalid format: " + line
+                raise Exception("Invalid format: " + line)
             else:
                 token += ch
                 continue
@@ -127,7 +128,7 @@ def tokenize(line):
             assert "Invalid parser state: " + str(state)
 
     if state in { ParserState.QUOTED, ParserState.QUOTED_ESCAPE }:
-        raise "Missing end of quotes " + line
+        raise Exception("Missing end of quotes " + line)
 
     if token:
         token_list.append(token)
@@ -158,9 +159,9 @@ Reads a line from the file descriptor 'fd' and parses it into an array of tokens
 
 ###########################################
 def parsevtf(fd):
-    '''parse(fd) -> ParsedVTF
+    '''parsevtf(fd) -> ParsedVTF
 
-Parses the standard input from the file descriptor 'fd'.
+Parses the input from the file descriptor 'fd'.
 '''
     result = ParsedVTF()
 
@@ -173,17 +174,17 @@ Parses the standard input from the file descriptor 'fd'.
 
         if line[0][0] == '@':
             if type_parsed:
-                raise 'Type already parsed before: "' + result.type + \
-                    '"; new type: ' + line[0][1:]
+                raise Exception('Type already parsed before: "' + \
+                    result.type + '"; new type: ' + line[0][1:])
             if len(line) > 1 or len(line[0]) == 1:
-                raise 'Invalid type: ' + line
+                raise Exception('Invalid type: ' + line)
 
             result.type = line[0][1:]
             type_parsed = True
 
         elif line[0][0] == '%':
             if len(line[0]) == 1:
-                raise "Invalid key: " + line
+                raise Exception("Invalid key: " + line)
 
             key = line[0][1:]
 
@@ -195,6 +196,23 @@ Parses the standard input from the file descriptor 'fd'.
             result.body.append(line)
 
     if not type_parsed:
-        raise "Could not find a @TYPE directive"
+        raise Exception("Could not find a @TYPE directive")
 
     return result
+
+##########################
+if __name__ == '__main__':
+    argc = len(sys.argv)
+    if argc == 1:
+        fd = sys.stdin
+    elif argc == 2:
+        fd = open(sys.argv[1], "r")
+    else:
+        print("Invalid number of arguments: either 0 or 1 required")
+        sys.exit(1)
+
+    parsed_aut = parsevtf(fd)
+    print(parsed_aut)
+
+    if argc == 2:
+        fd.close()

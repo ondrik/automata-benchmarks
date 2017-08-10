@@ -36,7 +36,7 @@ def to_dot(fd):
     print('Digraph G {\n')
     for trans in parsed.body:
         if len(trans) != 3:
-            raise 'Invalid transition: ' + str(trans)
+            raise Exception('Invalid transition: ' + str(trans))
 
         str_trans = ''
         str_trans += get_state_id(trans[0])
