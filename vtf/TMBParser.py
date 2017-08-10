@@ -52,6 +52,9 @@ Parses a transition.
 
     symb = lhs[:ind]
     src_state = lhs[ind+1:-1]
+    src_state = src_state.strip()
+    if not src_state:
+        return (None, symb, rhs)
 
     return (src_state, symb, rhs)
 
