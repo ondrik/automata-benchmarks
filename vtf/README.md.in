@@ -22,10 +22,10 @@ An example of the general structure of a `.vtf` file follows:
 * A file can contain zero, one, or more **sections**, each of them defining an automaton or operations over automaton, or basicaly anything.
 * `@`-starting lines denotes beginning of **sections**, `<SECTION-TYPE-x>` denotes the type of the section (e.g. the type of the automaton within).
 * `%`-starting lines denote **meta** information, provided in the form of a dictionary mapping keys (e.g. `KeyX`) to sets of values.  If one key is defined several times, the resulting set of values is the union of all the partial definitions.  This is used e.g. for defining alphabet or final states of an automaotn.  For instance:
- * `KeyA` is mapped to { `valueA_1`, `valueA_2` },
- * `KeyB` is mapped to { `valueB_1` },
- * `KeyC` is mapped to { } (i.e., only the information that `KeyC` is defined is preserved),
- * `KeyD` is undefined.
+  * `KeyA` is mapped to { `valueA_1`, `valueA_2` },
+  * `KeyB` is mapped to { `valueB_1` },
+  * `KeyC` is mapped to { } (i.e., only the information that `KeyC` is defined is preserved),
+  * `KeyD` is undefined.
 * `#` until the end of a line denotes a comment.
 * The rest of the lines (`<body line x>` in the example) define the **body** of the file, e.g., transitions of an automaton or code for an interpreter.
 
