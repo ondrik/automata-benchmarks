@@ -1,8 +1,59 @@
 # The .vtf format for automata
 This is a proposal for the `.vtf` (VATA Format) format for automata.
 
+An example of the general structure of a `.vtf` file follows:
+```
+@<SECTION-TYPE-1>
+<body line 1>
+# a comment
+<body line 2>
+%KeyA valueA_1
+<body line 3>   # the third line of body
+%KeyA valueA_2
+%KeyB valueB_1
+<body line 4>
+%KeyC
+
+@<SECTION-TYPE-2>
+...
+```
+### Explanation:
+* The format is **line**-based, i.e., one line is the basic building block.
+* A file can contain zero, one, or more **sections**, each of them defining an automaton or operations over automaton, or basicaly anything.
+* `@`-starting lines denotes beginning of **sections**, `<SECTION-TYPE-x>` denotes the type of the section (e.g. the type of the automaton within).
+* `%`-starting lines denote **meta** information, provided in the form of a dictionary mapping keys (e.g. `KeyX`) to sets of values.  If one key is defined several times, the resulting set of values is the union of all the partial definitions.  This is used e.g. for defining alphabet or final states of an automaotn.  For instance:
+ * `KeyA` is mapped to { `valueA_1`, `valueA_2` },
+ * `KeyB` is mapped to { `valueB_1` },
+ * `KeyC` is mapped to { } (i.e., only the information that `KeyC` is defined is preserved),
+ * `KeyD` is undefined.
+* `#` until the end of a line denotes a comment.
+* The rest of the lines (`<body line x>` in the example) define the **body** of the file, e.g., transitions of an automaton or code for an interpreter.
+
+
+## EBNF-like grammar
+```
+print char   = ? see https://en.wikipedia.org/wiki/ASCII#Printable_characters ? ;
+line char    = print char | "\t" ;
+space tab    = " " | "\t" ;
+white space  = space tab , { space tab } ;
+eol          = [ "#" , { line char } ] , "\n" ;
+special char = '"' | "(" | ")" | "#" | "%" | "@" | "\\" ;
+string char  = print char - ( space tab | special char ) ;
+string       = string char , { string char } ;
+token        = string
+             | '"', { ( line char - '"' ) | ( "\\" , '"' ) } , '"'
+             | "(" | ")" ;
+token list   = [ white space ] , [ token , { white space , token } , [ white space ] ] ;
+meta line    = "%" , string , token list ;
+line meat    = token list | meta line ;
+line         = line meat ,  eol ;
+section      = "@" , string , eol , { line } ;
+file         = { section } ;
+```
+
 ## Examples
 
+Examples of files in the `.vtf` format follow:
 
 ### Finite automata
 [link](nfa-example.vtf)
