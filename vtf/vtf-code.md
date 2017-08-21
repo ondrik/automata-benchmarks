@@ -19,6 +19,12 @@ where `aut` is a variable name and `(load_aut "nfa1.vtf")` is the expression the
 ```
 where `print` is a function with a `void` return type (i.e., a procedure).
 
+## Expressions
+An expression is a either a *token* or a *function application*. **Token** is the same as defined in [.vtf syntax](README.md) and **function application** is of the form
+```
+(func-name arg1 arg2 ... argN)
+```
+where `func-name` is the function name and `arg1`, `arg2`, ..., `argN` is a list of positional arguments, which are also expressions.
 
 ### A "Hello World" Example
 ```
