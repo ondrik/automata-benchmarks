@@ -223,3 +223,33 @@ q2 a:0.7 q3
 q3 b:0.3 q3
 
 ```
+
+### Relations over automata
+[link](nfa-rel-example.vtf)
+```
+# Example of a relation on NFA states in the VATA format
+@NFA
+%Name aut1
+%Initial q1 q2
+%Final q3
+
+q1 a q3
+q3 a q3
+q2 a q4
+
+
+@NFA-REL
+%For-Automaton aut1    # denotes on the states of which automaton the relation is
+%Type direct-sim       # type of the relation (e.g. "direct-sim" for direct simulation)
+
+q1 q3             # denotes sim(q1, q3)
+q2 q1             # denotes sim(q2, q1)
+q2 q3
+q4 q3
+
+q1 q1
+q2 q2
+q3 q3
+q4 q4
+
+```
