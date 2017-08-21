@@ -4,7 +4,21 @@ The lines can start with `%`, in which case they are *meta* lines, or not, in wh
 The format is line-oriented.
 This document describes the syntax and semantics of a `@CODE` section in more detail.
 
-TODO
+## Body
+The body of a `@CODE` section is a sequence of statements, separated by ends of lines.
+Programs are straight-line, i.e., no control flow or loops statements are present (at least for now).
+Statements are either **variable assignments** or **procedure calls**.
+**Variable assignments** are of the form `lhs = expr`, e.g.,
+```
+aut = (load_aut "nfa1.vtf")
+```
+where `aut` is a variable name and `(load_aut "nfa1.vtf")` is the expression the value of which is to be assigned to `aut`.
+**Procedure calls** are of the form `expr`, e.g.,
+```
+(print (string "Hello World"))
+```
+where `print` is a function with a `void` return type (i.e., a procedure).
+
 
 ### A "Hello World" Example
 ```
