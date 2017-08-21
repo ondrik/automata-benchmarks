@@ -105,8 +105,8 @@ Examples of files in the `.vtf` format follow:
 \input{dpa-example.vtf}
 ```
 
-### Relations over automata
-[link](nfa-rel-example.vtf)
+### Relations over states
+[link](state-rel-example.vtf)
 ```
-\input{nfa-rel-example.vtf}
+\input{state-rel-example.vtf}
 ```
