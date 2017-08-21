@@ -26,6 +26,13 @@ An expression is a either a *token* or a *function application*. **Token** is th
 ```
 where `func-name` is the function name and `arg1`, `arg2`, ..., `argN` is a list of positional arguments, which are also expressions.
 
+We do not force functions to have a fixed number of arguments.
+
+## Types
+Every expression has a type, which are:
+* **basic**: e.g. `void`, `bool`, or `string`
+* **complex**: e.g. `NFA`, `NTA`, or `STATE-REL`
+
 ### A "Hello World" Example
 ```
 @CODE
