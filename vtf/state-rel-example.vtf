@@ -1,4 +1,4 @@
-# Example of a relation on NFA states in the VATA format
+# Example of a relation on automaton states in the VATA format
 @NFA
 %Name aut1
 %Initial q1 q2
@@ -9,7 +9,7 @@ q3 a q3
 q2 a q4
 
 
-@NFA-REL
+@STATE-REL
 %Name "Simulation for aut1"      # identifier (optional)
 %For-Automaton aut1              # denotes on the states of which automaton the relation is
 %Type direct-sim                 # type of the relation (e.g. "direct-sim" for direct simulation)
