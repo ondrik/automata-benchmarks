@@ -74,6 +74,17 @@ incl = (is_incl aut1 aut2 "ac+sim" sim))
 (println (string "Inclusion: ") incl (string "\nTime: ") timerInc)
 ```
 
+### Test Inclusion the Old-Fashioned Way
+```
+@CODE
+aut1 = (load_aut "aut1.vtf")
+aut2 = (load_aut "aut2.vtf")
+aut2c = (complement aut2)
+autisect = (isect aut1 aut2c)
+isect_empty = (is_empty autisect)
+(println (string "Inclusion holds: ") isect_empty)
+```
+
 ## Future work
 * support definition of macros
 * support limited loop-free branching
