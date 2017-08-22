@@ -26,15 +26,30 @@ An expression is a either a *token* or a *function application*. **Token** is th
 ```
 where `func-name` is the function name and `arg1`, `arg2`, ..., `argN` is a list of positional arguments, which are also expressions.
 
-We do not force functions to have a fixed number of arguments.
+The particular function to be applied is determined by `func-name` and the number and types of the arguments.
+Functions can be *variadic*, i.e., the number of their arguments is not fixed.
+In case a fixed-arity function and a variadic function with the same `func-name` are present, the fixed-arity has priority.
 
 ## Types
-Every expression has a type, which are:
-* **basic**: e.g. `void`, `bool`, or `string`
-* **complex**: e.g. `NFA`, `NTA`, or `STATE-REL`
+The type system is dynamic.
+Every expression has a type determined during execution.
+Types are either
+* **basic**: e.g. `void`, `bool`, or `string`, or
+* **complex**: e.g. `NFA`, `NTA`, or `STATE-REL`.
+
+The dynamic typing should allow domain-agnostic operations to be easily implemented.
+For instance, the following snippet of code
+```
+aut3 = (union (load_aut "aut1.vtf") (load_aut "aut2.vtf"))
+```
+should compute a representation of the union of `aut1.vtf` and `aut2.vtf` without a prior knowledge what is the domain of the automaton model in `aut{1,2}.vtf`, e.g., whether the automaton is over finite/infinite words, trees, etc.
 
 ### A "Hello World" Example
 ```
 @CODE
 (print (string "Hello World"))
 ```
+
+## Future work
+* support definition of macros
+* support limited loop-free branching
