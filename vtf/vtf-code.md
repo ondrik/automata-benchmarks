@@ -34,8 +34,8 @@ In case a fixed-arity function and a variadic function with the same `func-name`
 The type system is dynamic.
 Every expression has a type determined during execution.
 Types are either
-* **basic**: e.g. `void`, `bool`, or `string`, or
-* **complex**: e.g. `NFA`, `NTA`, or `STATE-REL`.
+* **basic**: lower-case, e.g. `void`, `bool`, or `string`, or
+* **complex**: upper-case, e.g. `NFA`, `NTA`, or `STATE-REL`.
 
 The dynamic typing should allow domain-agnostic operations to be easily implemented.
 For instance, the following snippet of code
@@ -44,10 +44,34 @@ aut3 = (union (load_aut "aut1.vtf") (load_aut "aut2.vtf"))
 ```
 should compute a representation of the union of `aut1.vtf` and `aut2.vtf` without a prior knowledge what is the domain of the automaton model in `aut{1,2}.vtf`, e.g., whether the automaton is over finite/infinite words, trees, etc.
 
+## Examples of Use
+This section gives some intended examples of use
+
 ### A "Hello World" Example
 ```
 @CODE
 (print (string "Hello World"))
+```
+
+### Test Inclusion
+```
+@CODE
+(start-timer timer1)
+incl = (is_incl (load_aut "aut1.vtf" "aut2.vtf"))
+(stop-timer timer1)
+(println (string "Inclusion: ") incl (string "\nTime: ") timer1)
+```
+
+### Test Inclusion with Antichains and Simulation
+```
+@CODE
+aut1 = (load_aut "aut1.vtf")
+aut2 = (load_aut "aut2.vtf")
+sim = (direct-sim aut1 aut2)
+(start-timer timerInc)
+incl = (is_incl aut1 aut2 "ac+sim" sim))
+(stop-timer timerInc)
+(println (string "Inclusion: ") incl (string "\nTime: ") timerInc)
 ```
 
 ## Future work
