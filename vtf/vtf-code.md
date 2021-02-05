@@ -26,15 +26,65 @@ An expression is a either a *token* or a *function application*. **Token** is th
 ```
 where `func-name` is the function name and `arg1`, `arg2`, ..., `argN` is a list of positional arguments, which are also expressions.
 
-We do not force functions to have a fixed number of arguments.
+The particular function to be applied is determined by `func-name` and the number and types of the arguments.
+Functions can be *variadic*, i.e., the number of their arguments is not fixed.
+In case a fixed-arity function and a variadic function with the same `func-name` are present, the fixed-arity has priority.
 
 ## Types
-Every expression has a type, which are:
-* **basic**: e.g. `void`, `bool`, or `string`
-* **complex**: e.g. `NFA`, `NTA`, or `STATE-REL`
+The type system is dynamic.
+Every expression has a type determined during execution.
+Types are either
+* **basic**: lower-case, e.g. `void`, `bool`, or `string`, or
+* **complex**: upper-case, e.g. `NFA`, `NTA`, or `STATE-REL`.
+
+The dynamic typing should allow domain-agnostic operations to be easily implemented.
+For instance, the following snippet of code
+```
+aut3 = (union (load_aut "aut1.vtf") (load_aut "aut2.vtf"))
+```
+should compute a representation of the union of `aut1.vtf` and `aut2.vtf` without a prior knowledge what is the domain of the automaton model in `aut{1,2}.vtf`, e.g., whether the automaton is over finite/infinite words, trees, etc.
+
+## Examples of Use
+This section gives some intended examples of use
 
 ### A "Hello World" Example
 ```
 @CODE
 (print (string "Hello World"))
 ```
+
+### Test Inclusion
+```
+@CODE
+(start-timer timer1)
+incl = (is_incl (load_aut "aut1.vtf" "aut2.vtf"))
+(stop-timer timer1)
+(println (string "Inclusion: ") incl (string "\nTime: ") timer1)
+```
+
+### Test Inclusion with Antichains and Simulation
+```
+@CODE
+aut1 = (load_aut "aut1.vtf")
+aut2 = (load_aut "aut2.vtf")
+sim = (direct-sim aut1 aut2)
+(start-timer timerInc)
+incl = (is_incl aut1 aut2 "ac+sim" sim))
+(stop-timer timerInc)
+(println (string "Inclusion: ") incl (string "\nTime: ") timerInc)
+```
+
+### Test Inclusion the Old-Fashioned Way
+```
+@CODE
+aut1 = (load_aut "aut1.vtf")
+aut2 = (load_aut "aut2.vtf")
+aut2c = (complement aut2)
+autisect = (isect aut1 aut2c)
+isect_empty = (is_empty autisect)
+(println (string "Inclusion holds: ") isect_empty)
+```
+
+## Future work
+* support definition of macros
+* support limited loop-free branching
