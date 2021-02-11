@@ -1,6 +1,6 @@
 # Benchmarks from translation of S1S to Büchi automata
 
-These benchmarks were obtained by the tool from [here https://github.com/barbora4/projektova-praxe] on the formulae from the paper
+These benchmarks were obtained by the tool from [here](https://github.com/barbora4/projektova-praxe) on the formulae from the paper
 
 * Barth S. (2016) Deciding Monadic Second Order Logic over 𝜔-Words by Specialized Finite Automata. In: Ábrahám E., Huisman M. (eds) Integrated Formal Methods. IFM 2016. Lecture Notes in Computer Science, vol 9681. Springer, Cham. https://doi.org/10.1007/978-3-319-33693-0_16
 
