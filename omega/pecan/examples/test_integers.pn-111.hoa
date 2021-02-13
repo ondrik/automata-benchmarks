@@ -1,0 +1,21 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 1 "__ap87"
+Acceptance: 3 Inf(0) & (Inf(1) | Inf(2))
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0] 1 {1 2}
+[!0] 2 {2}
+[!0] 3 {2}
+State: 1
+[!0] 1 {1 2}
+[0] 2 {1 2}
+State: 2
+[!0] 2
+[0] 2 {1 2}
+[!0] 3
+State: 3
+[!0] 3 {0}
+--END--

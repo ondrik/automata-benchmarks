@@ -1,0 +1,21 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 1 "__ap19"
+acc-name: Streett 1
+Acceptance: 2 Fin(0) | Inf(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0] 1
+[0] 2
+State: 1
+[0] 1 {0 1}
+[!0] 3 {0}
+State: 2
+[t] 2 {0 1}
+State: 3
+[0] 1 {1}
+[!0] 3
+--END--

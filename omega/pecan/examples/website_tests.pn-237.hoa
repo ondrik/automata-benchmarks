@@ -1,0 +1,27 @@
+HOA: v1
+States: 8
+Start: 0
+AP: 3 "__ap58" "__ap61" "__ap148"
+acc-name: generalized-Buchi 2
+Acceptance: 2 Inf(0)&Inf(1)
+properties: trans-labels explicit-labels state-acc
+--BODY--
+State: 0
+[0&!1&2] 1
+State: 1
+[!0&!1&!2] 2
+[!0&!1&!2] 3
+State: 2
+[!0&!1&!2] 4
+[!0&!1&!2] 5
+State: 3 {1}
+[!0&!1&!2] 5
+State: 4
+[!0&1&2] 6
+State: 5
+State: 6 {0}
+[!0&!1&!2] 6
+[!0&!1&!2] 7
+State: 7 {0 1}
+[!0&!1&!2] 7
+--END--

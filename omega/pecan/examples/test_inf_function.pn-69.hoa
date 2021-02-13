@@ -1,0 +1,54 @@
+HOA: v1
+States: 17
+Start: 0
+AP: 1 "__ap105"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic weak
+--BODY--
+State: 0
+[!0] 6
+[0] 16
+State: 1
+[0] 2
+[!0] 12
+State: 2
+[!0] 3
+[0] 15
+State: 3
+[!0] 9
+[0] 14
+State: 4
+[!0] 1
+[0] 13
+State: 5
+[t] 11
+State: 6
+[0] 5
+[!0] 7
+State: 7
+[!0] 4
+[0] 11
+State: 8 {0}
+[t] 8
+State: 9
+[t] 15
+State: 10
+[t] 9
+State: 11
+[t] 13
+State: 12
+[t] 10
+State: 13
+[0] 9
+[!0] 12
+State: 14
+[0] 8
+[!0] 14
+State: 15
+[0] 8
+[!0] 9
+State: 16
+[t] 16
+--END--

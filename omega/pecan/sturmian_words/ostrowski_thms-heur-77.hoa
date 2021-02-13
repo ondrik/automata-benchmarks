@@ -1,0 +1,10 @@
+HOA: v1
+States: 1
+Start: 0
+AP: 6 "__ap1026" "__ap1027" "__ap1028" "__ap1029" "__ap1030" "__ap1031"
+acc-name: generalized-Buchi 2
+Acceptance: 2 Inf(0)&Inf(1)
+properties: trans-labels explicit-labels state-acc deterministic
+--BODY--
+State: 0
+--END--

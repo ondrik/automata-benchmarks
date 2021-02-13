@@ -1,0 +1,9 @@
+HOA: v1
+States: 1
+Start: 0
+AP: 5 "__ap111" "__ap112" "__ap113" "__ap114" "__ap115"
+Acceptance: 9 (Inf(0)&Inf(1)&Inf(2)&Inf(3)&Inf(4)&Inf(5)) & Fin(6) & (Inf(7) | Fin(8))
+properties: trans-labels explicit-labels state-acc deterministic
+--BODY--
+State: 0
+--END--

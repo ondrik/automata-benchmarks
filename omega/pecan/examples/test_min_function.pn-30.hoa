@@ -1,0 +1,21 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 1 "__ap3"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic very-weak
+--BODY--
+State: 0
+[t] 3
+State: 1 {0}
+[t] 1
+State: 2
+[t] 4
+State: 3
+[t] 2
+State: 4
+[0] 1
+[!0] 4
+--END--

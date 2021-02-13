@@ -1,0 +1,12 @@
+HOA: v1
+States: 1
+Start: 0
+AP: 6 "__ap1026" "__ap1027" "__ap1028" "__ap1029" "__ap1030" "__ap1031"
+acc-name: all
+Acceptance: 0 t
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant very-weak
+--BODY--
+State: 0
+[t] 0
+--END--

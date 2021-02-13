@@ -1,0 +1,45 @@
+HOA: v1
+States: 17
+Start: 0
+AP: 1 "__ap162"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc
+--BODY--
+State: 0
+[!0] 1
+[!0] 2
+State: 1
+[!0] 3
+[!0] 4
+State: 2
+[!0] 4
+State: 3
+[0] 5
+State: 4
+State: 5
+[!0] 6
+[!0] 7
+State: 6
+[0] 8
+State: 7
+State: 8
+[0] 9
+State: 9
+[!0] 10
+[!0] 11
+State: 10
+[0] 12
+State: 11
+State: 12
+[!0] 13
+[!0] 14
+State: 13
+[0] 15
+State: 14
+State: 15
+[!0] 15
+[!0] 16
+State: 16 {0}
+[!0] 16
+--END--

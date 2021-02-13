@@ -1,0 +1,30 @@
+HOA: v1
+States: 10
+Start: 0
+AP: 1 "__ap59"
+Acceptance: 2 Inf(0) & Fin(1)
+properties: trans-labels explicit-labels state-acc
+--BODY--
+State: 0 {1}
+[0] 1
+State: 1 {1}
+[!0] 2
+State: 2 {1}
+[0] 3
+State: 3 {1}
+[!0] 4
+State: 4 {1}
+[!0] 5
+[!0] 6
+State: 5
+[!0] 7
+State: 6
+[!0] 8
+State: 7
+[!0] 5
+[!0] 6
+State: 8 {0}
+[!0] 9
+State: 9 {0}
+[!0] 8
+--END--
