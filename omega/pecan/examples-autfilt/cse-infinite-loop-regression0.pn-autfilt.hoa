@@ -1,0 +1,2143 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 2 "__ap3" "__ap1"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[t] 0
+[!0&!1] 1
+State: 1 {0}
+[!0&!1] 1
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 1 "__ap9"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc colored
+properties: deterministic very-weak
+--BODY--
+State: 0 {0}
+[!0] 0
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 3 "__ap3" "__ap9" "__ap10"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc colored
+properties: deterministic very-weak
+--BODY--
+State: 0 {0}
+[!0&!1&!2] 0
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "__ap3" "__ap1" "__ap10" "__ap11"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[!0&!1&!2&!3 | !0&1&!2&3] 0
+[!0&!1&!2&!3] 1
+State: 1 {0}
+[!0&!1&!2&!3] 1
+--END--
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "__ap3" "__ap1" "__ap7" "__ap11"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&!3] 0
+[0&!1&2&3] 1
+[!0&!1&!2&!3] 2
+State: 1
+[!0&1&!2&!3] 0
+[!0&!1&2&3 | 0&!1&!2&!3 | 0&1&2&3] 1
+State: 2 {0}
+[!0&!1&!2&!3] 2
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "__ap3" "__ap1" "__ap7" "__ap11"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[!0&!1&!2&!3 | !0&1&2&3] 0
+[!0&!1&!2&!3] 1
+State: 1 {0}
+[!0&!1&!2&!3] 1
+--END--
+HOA: v1
+States: 3
+Start: 0
+AP: 2 "__ap3" "__ap1"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic
+--BODY--
+State: 0 {0}
+[!0&1] 0
+[!0&!1] 1
+[0] 2
+State: 1
+[!0&1] 0
+[!0&!1] 1
+[0] 2
+State: 2 {0}
+[t] 2
+--END--
+HOA: v1
+States: 3
+Start: 0
+AP: 2 "__ap3" "__ap1"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[!0] 0
+[0] 1
+State: 1
+[t] 1
+[!0] 2
+State: 2 {0}
+[!0&!1] 2
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 0
+acc-name: all
+Acceptance: 0 t
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+--END--
+HOA: v1
+States: 3
+Start: 1
+AP: 1 "__ap19"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic very-weak
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0] 0
+[0] 2
+State: 2
+[0] 0
+[!0] 2
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 1 "__ap19"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[0] 1
+[!0] 2
+[!0] 3
+State: 1
+[!0] 1
+[0] 2
+State: 2
+[t] 2
+[!0] 3
+State: 3 {0}
+[!0] 3
+--END--
+HOA: v1
+States: 6
+Start: 0
+AP: 2 "__ap22" "__ap23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[0&1] 1
+[0&!1] 2
+[!0&1] 3
+[!0&!1] 4
+[!0&!1] 5
+State: 1
+[!0&!1] 1
+[!0&1] 2
+[0&!1] 3
+[0&1] 4
+State: 2
+[!0] 2
+[0] 4
+State: 3
+[!1] 3
+[1] 4
+State: 4
+[t] 4
+[!0&!1] 5
+State: 5 {0}
+[!0&!1] 5
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&!2 | 0&!1&2] 1
+[!0&!1&!2] 2
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 1
+[!0&!1&!2] 2
+[0&1&!2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&!1&2] 1
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&!2] 1
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 1
+[!0&!1&!2] 2
+[0&1&!2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&!1&2] 1
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 2
+Start: 1
+AP: 1 "__ap24"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0] 0
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap34" "__ap35"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap34" "__ap35"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap36" "__ap37"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap36" "__ap37"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap38" "__ap35" "__ap37"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2&3 | 0&!1&!2&!3 | 0&1&2&!3] 1
+[!0&!1&2&3] 2
+[0&!1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&!3 | 0&1&!2&3] 1
+[0&!1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&1&!2&!3] 1
+[!0&!1&2&!3 | 0&!1&!2&3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap38" "__ap35"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2&!3 | 0&!1&2&3 | 0&1&!2&!3] 1
+[!0&!1&!2&3] 2
+[0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&2&!3] 1
+[0&1&!2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&!1&2&!3] 1
+[!0&1&!2&3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap38" "__ap39"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2&3 | 0&!1&2&3 | 0&1&!2&!3] 1
+[!0&!1&!2&!3] 2
+[0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&2&3] 1
+[0&1&!2&!3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&!1&2&3] 1
+[!0&1&!2&!3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap38" "__ap39"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2&3 | 0&!1&2&3 | 0&1&!2&!3] 1
+[!0&!1&!2&!3] 2
+[0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&2&3] 1
+[0&1&!2&!3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&!1&2&3] 1
+[!0&1&!2&!3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap26" "__ap39"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2&3 | 0&!1&!2&3 | 0&1&2&!3] 1
+[!0&!1&2&!3] 2
+[0&1&2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&2&3] 1
+[0&1&!2&!3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&!1&2&3] 1
+[!0&1&!2&!3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2 | 0&1&2] 1
+[0&1&2] 2
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 1
+[!0&!1&!2] 2
+[0&1&!2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&!1&2] 1
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2] 1
+[0&1&2] 2
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 1
+[!0&!1&!2] 2
+[0&1&!2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&!1&2] 1
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap43" "__ap44"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap43" "__ap44"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap44"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!2] 1
+[!0&!1&2] 2
+State: 1
+[!0&!2 | 0&1&2] 1
+[0&!1&2] 2
+State: 2
+[!0&1&!2] 1
+[!0&!1&!2 | 0&2] 2
+[!0&!1&!2] 3
+State: 3 {0}
+[!0&!1&!2] 3
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap47" "__ap48"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap47" "__ap48"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap49" "__ap48"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!2&3 | 0&!1&!2&!3] 1
+[0&1&2&!3] 2
+[0&!1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | 0&!1&2&3 | 0&1&!2&3] 1
+[!0&1&2&!3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[0&!1&!2&3] 1
+[!0&!1&2&!3 | !0&1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap49" "__ap50"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!2&!3 | 0&!1&!2&!3] 1
+[0&1&2&3] 2
+[0&!1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | 0&!1&2&3 | 0&1&!2&!3] 1
+[!0&1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[0&!1&!2&!3] 1
+[!0&!1&2&3 | !0&1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap49" "__ap50"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!2&!3 | 0&!1&!2&!3] 1
+[0&1&2&3] 2
+[0&!1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | 0&!1&2&3 | 0&1&!2&!3] 1
+[!0&1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[0&!1&!2&!3] 1
+[!0&!1&2&3 | !0&1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap26" "__ap50"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&!2&3 | !0&1&2&!3 | 0&!1&2&!3] 1
+[0&1&!2&3] 2
+[0&!1&2&!3] 3
+State: 1
+[!0&!1&!2&!3 | 0&!1&2&3 | 0&1&!2&!3] 1
+[!0&1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[0&!1&!2&!3] 1
+[!0&!1&2&3 | !0&1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&2] 1
+[0&1&!2] 2
+[!0&!1&!2] 3
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[!0&1&2] 2
+[0&!1&2] 3
+State: 2
+[!0&!1&2 | !0&1&!2 | 0&1&2] 2
+[0&!1&!2] 3
+State: 3
+[!0&1&2] 2
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 3
+[!0&!1&!2] 4
+State: 4 {0}
+[!0&!1&!2] 4
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&2] 1
+[!0&!1&!2] 2
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 2
+[!0&1&2] 3
+State: 2
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 2
+[!0&1&2] 3
+[!0&!1&!2] 4
+State: 3
+[0&!1&!2] 2
+[!0&!1&2 | !0&1&!2 | 0&1&2] 3
+State: 4 {0}
+[!0&!1&!2] 4
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&2] 1
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 2
+[!0&1&2] 3
+State: 2
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 2
+[!0&1&2] 3
+[!0&!1&!2] 4
+State: 3
+[0&!1&!2] 2
+[!0&!1&2 | !0&1&!2 | 0&1&2] 3
+State: 4 {0}
+[!0&!1&!2] 4
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap51" "__ap52"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap51" "__ap52"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap52"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&2 | 0&!1&!2] 1
+[0&1&!2] 2
+State: 1
+[!0&!1&!2 | 0&2] 1
+[!0&1&!2] 2
+State: 2
+[0&!1&2] 1
+[!0&!2 | 0&1&2] 2
+[!0&!1&!2] 3
+State: 3 {0}
+[!0&!1&!2] 3
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 2 "__ap24" "__ap25"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1 | 0&!1] 1
+[!0&!1] 2
+[0&1] 3
+State: 1 {0}
+[!0&!1 | 0&1] 1
+[0&!1] 2
+[!0&1] 3
+State: 2
+[0 | !1] 2
+[!0&1] 3
+State: 3
+[0&!1] 2
+[!0 | 1] 3
+[!0&!1] 4
+State: 4 {0}
+[!0&!1] 4
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap53" "__ap54"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap24" "__ap53" "__ap54"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap26" "__ap54"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2&3 | 0&!1&!2&!3 | 0&1&2&!3] 1
+[!0&!1&2&3] 2
+[0&!1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&!3 | 0&1&!2&3] 1
+[0&!1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&1&!2&!3] 1
+[!0&!1&2&!3 | 0&!1&!2&3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 1
+[0&!1&!2] 2
+[!0&!1&2] 3
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 1
+[!0&!1&!2] 2
+[0&!1&2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&1&!2] 1
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&!2] 1
+[0&!1&!2] 2
+[!0&!1&2] 3
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 1
+[!0&!1&!2] 2
+[0&!1&2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&1&!2] 1
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&!2] 1
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 1
+[!0&!1&!2] 2
+[0&!1&2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[!0&1&!2] 1
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 7
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&2] 1
+[0&!1&!2] 2
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 4
+[!0&1&2] 5
+State: 2
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 2
+[!0&!1&!2] 3
+[0&!1&2] 6
+State: 3 {0}
+[!0&!1&!2] 3
+State: 4
+[!0&!1&!2] 3
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 4
+[!0&1&2] 5
+State: 5
+[0&!1&!2] 4
+[!0&!1&2 | !0&1&!2 | 0&1&2] 5
+State: 6
+[!0&1&!2] 2
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 6
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap58" "__ap59"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap58" "__ap59"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap59"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&2 | 1&!2] 1
+[!0&!1&2] 2
+State: 1
+[0&1&2 | !1&!2] 1
+[!0&1&2] 2
+State: 2
+[0&!1&!2] 1
+[!0&!1&!2 | 1&2] 2
+[!0&!1&!2] 3
+State: 3 {0}
+[!0&!1&!2] 3
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap60" "__ap61"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap60" "__ap61"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap62" "__ap61"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!2&!3 | 0&!1&!2&3] 1
+[0&1&2&!3] 2
+[!0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&3] 1
+[0&!1&2&!3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&1&!2&3] 1
+[!0&!1&2&!3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap62" "__ap63"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!2&!3 | 0&!1&!2&!3] 1
+[0&1&2&3] 2
+[!0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&!3] 1
+[0&!1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&1&!2&!3] 1
+[!0&!1&2&3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap62" "__ap63"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!2&!3 | 0&!1&!2&!3] 1
+[0&1&2&3] 2
+[!0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&!3] 1
+[0&!1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&1&!2&!3] 1
+[!0&!1&2&3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap26" "__ap63"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&!2&3 | !0&1&2&!3 | 0&!1&2&!3] 1
+[0&1&!2&3] 2
+[!0&1&2&!3] 3
+State: 1
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&!3] 1
+[0&!1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[!0&1&!2&!3] 1
+[!0&!1&2&3 | 0&!1&!2&!3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&2] 1
+[0&1&!2] 2
+[!0&!1&!2] 3
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 2
+[!0&1&2] 3
+State: 2
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 2
+[!0&1&!2] 3
+State: 3
+[0&!1&2] 2
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 3
+[!0&!1&!2] 4
+State: 4 {0}
+[!0&!1&!2] 4
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2] 1
+[0&1&!2] 2
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 2
+[!0&1&2] 3
+State: 2
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 2
+[!0&1&!2] 3
+State: 3
+[0&!1&2] 2
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 3
+[!0&!1&!2] 4
+State: 4 {0}
+[!0&!1&!2] 4
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2] 1
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 2
+[!0&1&2] 3
+State: 2
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 2
+[!0&1&!2] 3
+State: 3
+[0&!1&2] 2
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 3
+[!0&!1&!2] 4
+State: 4 {0}
+[!0&!1&!2] 4
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap64" "__ap65"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap64" "__ap65"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap65"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2 | !1&2] 1
+[0&1&!2] 2
+State: 1
+[!0&!1&!2 | 1&2] 1
+[0&!1&!2] 2
+State: 2
+[!0&1&2] 1
+[0&1&2 | !1&!2] 2
+[!0&!1&!2] 3
+State: 3 {0}
+[!0&!1&!2] 3
+--END--
+HOA: v1
+States: 5
+Start: 0
+AP: 2 "__ap24" "__ap25"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1 | 0&!1] 1
+[!0&!1] 2
+[0&1] 3
+State: 1 {0}
+[!0&!1 | 0&1] 1
+[!0&1] 2
+[0&!1] 3
+State: 2
+[!0 | 1] 2
+[0&!1] 3
+State: 3
+[!0&1] 2
+[0 | !1] 3
+[!0&!1] 4
+State: 4 {0}
+[!0&!1] 4
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap66" "__ap67"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "__ap25" "__ap66" "__ap67"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[!0&1&2 | 0&!1&!2] 1
+State: 1 {0}
+[!0&!1&!2 | 0&1&2] 1
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "__ap24" "__ap25" "__ap26" "__ap67"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2&!3 | 0&!1&!2&3 | 0&1&2&!3] 1
+[!0&!1&2&3] 2
+[!0&1&!2&!3] 3
+State: 1
+[!0&!1&!2&!3 | 0&!1&2&!3 | 0&1&!2&3] 1
+[!0&1&2&3] 2
+[!0&!1&!2&!3] 3
+State: 2
+[0&!1&!2&!3] 1
+[!0&!1&2&!3 | !0&1&!2&3 | 0&1&2&3] 2
+State: 3 {0}
+[!0&!1&!2&!3] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 1
+[!0&1&!2] 2
+[!0&!1&2] 3
+State: 1
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 1
+[!0&!1&!2] 2
+[!0&1&2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[0&!1&!2] 1
+[!0&!1&2 | !0&1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2 | 0&1&2] 1
+[!0&1&!2] 2
+State: 1
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 1
+[!0&!1&!2] 2
+[!0&1&2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[0&!1&!2] 1
+[!0&!1&2 | !0&1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&!2] 1
+State: 1
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 1
+[!0&!1&!2] 2
+[!0&1&2] 3
+State: 2 {0}
+[!0&!1&!2] 2
+State: 3
+[0&!1&!2] 1
+[!0&!1&2 | !0&1&!2 | 0&1&2] 3
+--END--
+HOA: v1
+States: 7
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&1&2] 1
+[!0&1&!2] 2
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 4
+[!0&1&2] 5
+State: 2
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 2
+[!0&!1&!2] 3
+[!0&1&2] 6
+State: 3 {0}
+[!0&!1&!2] 3
+State: 4
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 4
+[!0&1&!2] 5
+State: 5
+[!0&!1&!2] 3
+[0&!1&2] 4
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 5
+State: 6
+[0&!1&!2] 2
+[!0&!1&2 | !0&1&!2 | 0&1&2] 6
+--END--
+HOA: v1
+States: 8
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&2] 1
+[0&!1&!2] 2
+[!0&1&2] 3
+[!0&1&!2] 4
+State: 1
+[!0&!1&!2 | 0&1&!2] 1
+[0&!1&2] 4
+[!0&1&2] 5
+State: 2
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 2
+[!0&!1&!2] 6
+[0&!1&2] 7
+State: 3
+[!0&1&2] 2
+[!0&!1&!2 | 0&1&!2] 3
+[0&!1&2] 7
+State: 4
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 4
+[!0&1&2] 5
+[!0&!1&!2] 6
+State: 5
+[0&!1&!2] 4
+[!0&!1&2 | !0&1&!2 | 0&1&2] 5
+State: 6 {0}
+[!0&!1&!2] 6
+State: 7
+[!0&1&!2] 2
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 7
+--END--
+HOA: v1
+States: 10
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2] 1
+[0&!1&2] 2
+[0&!1&!2] 3
+[!0&1&2] 4
+[!0&1&!2] 5
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 1
+[!0&!1&!2] 6
+[0&1&!2] 7
+State: 2
+[!0&!1&!2 | 0&1&!2] 2
+[0&!1&2] 5
+[!0&1&2] 8
+State: 3
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 3
+[!0&!1&!2] 6
+[0&!1&2] 9
+State: 4
+[!0&1&2] 3
+[!0&!1&!2 | 0&1&!2] 4
+[0&!1&2] 9
+State: 5
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 5
+[!0&!1&!2] 6
+[!0&1&2] 8
+State: 6 {0}
+[!0&!1&!2] 6
+State: 7
+[!0&!1&2] 1
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 7
+State: 8
+[0&!1&!2] 5
+[!0&!1&2 | !0&1&!2 | 0&1&2] 8
+State: 9
+[!0&1&!2] 3
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 9
+--END--
+HOA: v1
+States: 10
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[!0&!1&!2 | 0&1&2] 1
+[0&!1&2] 2
+[0&!1&!2] 3
+[!0&1&2] 4
+[!0&1&!2] 5
+State: 1
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 1
+[!0&!1&!2] 6
+[0&1&!2] 7
+State: 2
+[!0&!1&!2 | 0&1&!2] 2
+[0&!1&2] 5
+[!0&1&2] 8
+State: 3
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 3
+[!0&!1&!2] 6
+[0&!1&2] 9
+State: 4
+[!0&1&2] 3
+[!0&!1&!2 | 0&1&!2] 4
+[0&!1&2] 9
+State: 5
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 5
+[!0&!1&!2] 6
+[!0&1&2] 8
+State: 6 {0}
+[!0&!1&!2] 6
+State: 7
+[!0&!1&2] 1
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 7
+State: 8
+[0&!1&!2] 5
+[!0&!1&2 | !0&1&!2 | 0&1&2] 8
+State: 9
+[!0&1&!2] 3
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 9
+--END--
+HOA: v1
+States: 11
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2] 1
+[0&!1&2] 2
+[!0&1&2] 3
+[!0&!1&!2] 4
+[0&!1&!2] 5
+[!0&1&!2] 6
+State: 1
+[!0&!1&!2] 1
+[!0&1&2 | 0&!1&2] 4
+[0&1&!2] 7
+State: 2
+[!0&!1&!2 | 0&1&!2] 2
+[0&!1&2] 6
+[!0&1&2] 8
+State: 3
+[!0&!1&!2 | 0&1&!2] 3
+[!0&1&2] 5
+[0&!1&2] 9
+State: 4
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 4
+[0&1&!2] 7
+[!0&!1&!2] 10
+State: 5
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 5
+[0&!1&2] 9
+[!0&!1&!2] 10
+State: 6
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 6
+[!0&1&2] 8
+[!0&!1&!2] 10
+State: 7
+[!0&!1&2] 4
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 7
+State: 8
+[0&!1&!2] 6
+[!0&!1&2 | !0&1&!2 | 0&1&2] 8
+State: 9
+[!0&1&!2] 5
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 9
+State: 10 {0}
+[!0&!1&!2] 10
+--END--
+HOA: v1
+States: 13
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2] 1
+[!0&1&2] 2
+[!0&1&!2] 3
+[0&!1&2] 4
+[!0&!1&!2] 5
+[0&!1&!2] 6
+[!0&!1&!2] 7
+[0&!1&!2] 8
+State: 1
+[!0&!1&!2 | 0&!1&2] 1
+[!0&1&2] 5
+[0&1&!2] 9
+State: 2
+[!0&!1&!2 | 0&1&!2] 2
+[!0&1&2] 6
+[0&!1&2] 10
+State: 3
+[!0&!1&!2 | 0&!1&2] 3
+[0&1&!2] 11
+[!0&1&2] 12
+State: 4
+[!0&!1&!2 | 0&1&!2] 4
+[0&!1&2] 7
+[0&!1&2] 11
+[!0&1&2] 12
+State: 5
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 5
+[!0&!1&!2 | 0&!1&2] 7
+[0&1&!2] 9
+State: 6
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 6
+[!0&!1&!2] 8
+[0&!1&2] 10
+State: 7
+[!0&!1&!2 | 0&!1&2] 7
+[!0&!1&!2] 8
+State: 8 {0}
+[!0&!1&!2] 8
+State: 9
+[!0&!1&2] 5
+[!0&!1&2] 7
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 9
+State: 10
+[!0&1&!2] 6
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 10
+State: 11
+[!0&!1&!2 | 0&!1&2] 7
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 11
+[!0&1&2] 12
+State: 12
+[0&!1&!2] 7
+[0&!1&!2] 11
+[!0&!1&2 | !0&1&!2 | 0&1&2] 12
+--END--
+HOA: v1
+States: 16
+Start: 0
+AP: 3 "__ap24" "__ap25" "__ap26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2] 1
+[0&!1&2] 2
+[0&!1&!2] 3
+[!0&1&2] 4
+[!0&1&!2] 5
+[!0&!1&!2] 6
+[!0&!1&!2] 7
+State: 1
+[!0&!1&!2] 1
+[!0&1&2] 9
+[0&!1&2] 10
+[0&1&!2] 11
+State: 2
+[!0&!1&!2 | 0&1&!2] 2
+[!0&1&2] 12
+[0&!1&2] 13
+State: 3
+[!0&!1&!2 | !0&1&2] 3
+[0&1&!2] 14
+[0&!1&2] 15
+State: 4
+[!0&!1&!2 | 0&1&!2] 4
+[!0&1&2] 7
+[!0&1&2] 14
+[0&!1&2] 15
+State: 5
+[!0&!1&!2 | 0&!1&2] 5
+[!0&1&2] 12
+[0&1&!2] 13
+State: 6
+[!0&!1&!2 | !0&1&2 | 0&!1&2] 6
+[!0&!1&!2 | !0&1&2] 7
+[0&1&!2] 11
+State: 7
+[!0&!1&!2 | !0&1&2] 7
+[!0&!1&!2] 8
+State: 8 {0}
+[!0&!1&!2] 8
+State: 9
+[0&!1&2] 6
+[!0&!1&!2 | !0&1&2] 9
+[0&1&!2] 11
+State: 10
+[!0&1&2] 6
+[!0&1&2] 7
+[!0&!1&!2 | 0&!1&2] 10
+[0&1&!2] 11
+State: 11
+[!0&!1&2] 6
+[!0&!1&2] 7
+[!0&1&!2 | 0&!1&!2 | 0&1&2] 11
+State: 12
+[!0&!1&2 | !0&1&!2 | 0&1&2] 12
+[0&!1&!2] 13
+State: 13
+[!0&!1&!2] 8
+[!0&1&2] 12
+[!0&!1&!2 | 0&!1&2 | 0&1&!2] 13
+State: 14
+[!0&!1&!2 | !0&1&2] 7
+[!0&!1&!2 | !0&1&2 | 0&1&!2] 14
+[0&!1&2] 15
+State: 15
+[!0&1&!2] 7
+[!0&1&!2] 14
+[!0&!1&2 | 0&!1&!2 | 0&1&2] 15
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 1 "__ap75"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc colored
+properties: deterministic very-weak
+--BODY--
+State: 0 {0}
+[!0] 0
+--END--
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "__ap23" "__ap75" "__ap76"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0
+[!0&!1&2 | 0&!1&!2] 1
+[!0&!1&!2] 3
+State: 1
+[!0&!1&!2] 1
+[0&!1&2] 2
+State: 2
+[!0&!1&!2 | 0&!1&2] 2
+[!0&!1&!2] 3
+State: 3 {0}
+[!0&!1&!2] 3
+--END--
+HOA: v1
+States: 19
+Start: 0
+AP: 4 "__ap22" "__ap23" "__ap76" "__ap77"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&!1&2&3] 1
+[0&1&!2&3] 2
+[0&1&!2&!3] 3
+[!0&!1&2&3] 4
+[!0&!1&2&!3] 5
+[!0&1&!2&!3] 6
+[0&!1&!2&3] 7
+[!0&!1&!2&!3] 8
+[!0&!1&!2&!3] 18
+State: 1
+[!0&!1&!2&!3] 1
+[0&!1&!2&3] 6
+[!0&1&2&3] 9
+[0&1&2&!3] 10
+State: 2
+[!0&!1&!2&!3] 2
+[0&!1&!2&3] 5
+[0&1&2&!3] 11
+[!0&1&2&3] 12
+State: 3
+[!0&!1&!2&!3 | !0&1&2&3] 3
+[0&!1&!2&3] 13
+[0&1&2&!3] 14
+State: 4
+[!0&!1&!2&!3 | 0&1&2&!3] 4
+[0&!1&!2&3] 13
+[!0&1&2&3] 14
+[!0&1&2&3] 15
+State: 5
+[!0&!1&!2&!3 | 0&!1&!2&3] 5
+[!0&1&2&3] 12
+[0&1&2&!3] 16
+State: 6
+[!0&!1&!2&!3 | 0&!1&!2&3] 6
+[0&1&2&!3] 10
+[!0&1&2&3] 15
+[!0&1&2&3] 17
+State: 7
+[!0&!1&!2&!3] 7
+[0&!1&!2&3] 8
+State: 8
+[!0&!1&!2&!3 | 0&!1&!2&3] 8
+[!0&!1&!2&!3] 18
+State: 9
+[!0&!1&!2&!3 | !0&1&2&3] 9
+[0&1&2&!3] 10
+[0&!1&!2&3] 17
+State: 10
+[!0&1&2&!3 | 0&!1&!2&!3 | 0&1&2&3] 10
+[!0&!1&!2&3] 15
+[!0&!1&!2&3] 17
+State: 11
+[!0&!1&!2&!3 | 0&1&2&!3] 11
+[!0&1&2&3] 12
+[0&!1&!2&3] 16
+State: 12
+[!0&!1&!2&3 | !0&1&2&!3 | 0&1&2&3] 12
+[0&!1&!2&!3] 16
+State: 13
+[!0&!1&!2&3 | 0&!1&!2&!3 | 0&1&2&3] 13
+[!0&1&2&!3] 14
+[!0&1&2&!3] 15
+State: 14
+[0&!1&!2&3] 13
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&2&!3] 14
+[!0&!1&!2&!3 | !0&1&2&3] 15
+State: 15
+[!0&!1&!2&!3 | !0&1&2&3] 15
+[!0&!1&!2&!3] 18
+State: 16
+[!0&1&2&3] 12
+[!0&!1&!2&!3 | 0&!1&!2&3 | 0&1&2&!3] 16
+[!0&!1&!2&!3] 18
+State: 17
+[0&1&2&!3] 10
+[!0&!1&!2&!3 | !0&1&2&3] 15
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&!2&3] 17
+State: 18 {0}
+[!0&!1&!2&!3] 18
+--END--
+HOA: v1
+States: 16
+Start: 0
+AP: 4 "__ap22" "__ap23" "__ap74" "__ap77"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2&3] 1
+[0&!1&2&3] 2
+[!0&!1&2&3] 3
+[0&1&!2&!3] 4
+[!0&1&!2&!3] 5
+[!0&!1&!2&!3] 6
+[!0&!1&!2&!3] 7
+State: 1
+[!0&!1&!2&!3] 1
+[0&1&!2&!3] 8
+[0&!1&2&3] 9
+[!0&1&2&3] 10
+State: 2
+[!0&!1&!2&!3 | !0&1&2&3] 2
+[0&1&!2&!3] 11
+[0&!1&2&3] 12
+State: 3
+[!0&!1&!2&!3 | 0&1&!2&!3] 3
+[!0&1&2&3] 13
+[0&!1&2&3] 14
+State: 4
+[!0&!1&!2&!3 | !0&1&2&3] 4
+[0&1&!2&!3] 7
+[0&1&!2&!3] 13
+[0&!1&2&3] 14
+State: 5
+[!0&!1&!2&!3 | 0&!1&2&3] 5
+[0&1&!2&!3] 11
+[!0&1&2&3] 12
+State: 6
+[!0&!1&!2&!3 | 0&!1&2&3 | 0&1&!2&!3] 6
+[!0&!1&!2&!3 | 0&1&!2&!3] 7
+[!0&1&2&3] 10
+State: 7
+[!0&!1&!2&!3 | 0&1&!2&!3] 7
+[!0&!1&!2&!3] 15
+State: 8
+[0&!1&2&3] 6
+[!0&!1&!2&!3 | 0&1&!2&!3] 8
+[!0&1&2&3] 10
+State: 9
+[0&1&!2&!3] 6
+[0&1&!2&!3] 7
+[!0&!1&!2&!3 | 0&!1&2&3] 9
+[!0&1&2&3] 10
+State: 10
+[0&!1&!2&!3] 6
+[0&!1&!2&!3] 7
+[!0&!1&2&3 | !0&1&!2&!3 | 0&1&2&3] 10
+State: 11
+[!0&1&!2&!3 | 0&!1&!2&!3 | 0&1&2&3] 11
+[!0&!1&2&3] 12
+State: 12
+[0&1&!2&!3] 11
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&2&3] 12
+[!0&!1&!2&!3] 15
+State: 13
+[!0&!1&!2&!3 | 0&1&!2&!3] 7
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&!3] 13
+[0&!1&2&3] 14
+State: 14
+[!0&1&!2&!3] 7
+[!0&1&!2&!3] 13
+[!0&!1&2&3 | 0&!1&!2&!3 | 0&1&2&3] 14
+State: 15 {0}
+[!0&!1&!2&!3] 15
+--END--
+HOA: v1
+States: 17
+Start: 0
+AP: 4 "__ap22" "__ap23" "__ap74" "__ap77"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc weak
+--BODY--
+State: 0
+[0&1&2&3] 1
+[0&!1&2&3] 2
+[!0&!1&2&3] 3
+[0&1&!2&!3] 4
+[!0&1&!2&!3] 5
+[!0&!1&!2&!3] 6
+[!0&!1&!2&!3] 7
+[!0&!1&!2&!3] 16
+State: 1
+[!0&!1&!2&!3] 1
+[0&!1&2&3] 6
+[0&1&!2&!3] 8
+[!0&1&2&3] 9
+State: 2
+[!0&!1&!2&!3] 2
+[0&!1&2&3] 5
+[0&!1&2&3] 7
+[!0&1&2&3] 10
+[0&1&!2&!3] 11
+State: 3
+[!0&!1&!2&!3 | 0&1&!2&!3] 3
+[!0&1&2&3] 12
+[0&!1&2&3] 13
+State: 4
+[!0&!1&!2&!3 | !0&1&2&3] 4
+[0&1&!2&!3] 12
+[0&!1&2&3] 13
+State: 5
+[!0&!1&!2&!3 | 0&!1&2&3] 5
+[0&1&!2&!3] 11
+[!0&1&2&3] 14
+[!0&1&2&3] 16
+State: 6
+[!0&!1&!2&!3 | 0&!1&2&3] 6
+[!0&1&2&3] 9
+[0&1&!2&!3] 15
+[0&1&!2&!3] 16
+State: 7
+[!0&!1&!2&!3 | 0&!1&2&3] 7
+[!0&!1&!2&!3] 16
+State: 8
+[!0&!1&!2&!3 | 0&1&!2&!3] 8
+[!0&1&2&3] 9
+[0&!1&2&3] 15
+State: 9
+[!0&!1&2&3 | !0&1&!2&!3 | 0&1&2&3] 9
+[0&!1&!2&!3] 15
+[0&!1&!2&!3] 16
+State: 10
+[!0&!1&!2&!3 | !0&1&2&3] 10
+[0&1&!2&!3] 11
+[0&!1&2&3] 14
+State: 11
+[!0&1&!2&!3 | 0&!1&!2&!3 | 0&1&2&3] 11
+[!0&!1&2&3] 14
+[!0&!1&2&3] 16
+State: 12
+[!0&!1&!2&!3 | !0&1&2&3 | 0&1&!2&!3] 12
+[0&!1&2&3] 13
+[!0&!1&!2&!3] 16
+State: 13
+[!0&1&!2&!3] 12
+[!0&!1&2&3 | 0&!1&!2&!3 | 0&1&2&3] 13
+[!0&1&!2&!3] 16
+State: 14
+[0&1&!2&!3] 11
+[!0&!1&!2&!3 | !0&1&2&3 | 0&!1&2&3] 14
+[!0&!1&!2&!3 | !0&1&2&3] 16
+State: 15
+[!0&1&2&3] 9
+[!0&!1&!2&!3 | 0&!1&2&3 | 0&1&!2&!3] 15
+[!0&!1&!2&!3 | 0&1&!2&!3] 16
+State: 16 {0}
+[!0&!1&!2&!3] 16
+--END--
+HOA: v1
+States: 25
+Start: 0
+AP: 2 "__ap22" "__ap23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1] 1
+[!0&1] 2
+[0&!1] 3
+[0&1] 4
+State: 1
+[!0&!1] 1
+[0&1] 5
+[!0&1] 13
+[0&!1] 23
+State: 2 {0}
+[!1] 2
+[0&1] 15
+[!0&1] 18
+State: 3 {0}
+[!0&!1] 3
+[0&1] 15
+[!0&1] 16
+[0&!1] 17
+State: 4 {0}
+[!0&!1] 4
+[0&1] 5
+[!0&1] 6
+[0&!1] 7
+State: 5 {0}
+[0&1] 5
+[0&!1] 12
+[!0&1] 13
+[!0&!1] 14
+State: 6 {0}
+[!0] 6
+[0&!1] 9
+[0&1] 13
+State: 7 {0}
+[!1] 7
+[!0&1] 8
+[0&1] 9
+State: 8
+[!0&!1] 8
+[0&!1] 11
+[1] 13
+State: 9
+[!0&!1] 9
+[!0&1] 10
+[0&1] 11
+[0&!1] 12
+State: 10 {0}
+[!0&!1] 8
+[0&!1] 11
+[1] 13
+State: 11 {0}
+[!0&!1] 9
+[!0&1] 10
+[0&1] 11
+[0&!1] 12
+State: 12 {0}
+[!0&1] 8
+[!0&!1 | 0&1] 9
+[0&!1] 12
+State: 13 {0}
+[!0&!1] 8
+[0&!1] 9
+[1] 13
+State: 14
+[0&1] 5
+[0&!1] 12
+[!0&1] 13
+[!0&!1] 14
+State: 15
+[!0&!1] 18
+[0 | 1] 21
+State: 16 {0}
+[0&1] 15
+[!0] 16
+[0&!1] 22
+State: 17 {0}
+[0&1] 15
+[0&!1] 17
+[!0&1] 18
+[!0&!1] 19
+State: 18
+[!0&!1] 18
+[!0&1] 20
+[0&1] 21
+[0&!1] 22
+State: 19
+[0&1] 15
+[0&!1] 17
+[!0&1] 18
+[!0&!1] 19
+State: 20 {0}
+[!0&!1] 18
+[!0&1] 20
+[0&1] 21
+[0&!1] 22
+State: 21 {0}
+[!0&!1] 18
+[0 | 1] 21
+State: 22 {0}
+[0&1] 15
+[!0] 18
+[0&!1] 22
+State: 23 {0}
+[!0&1] 8
+[0&1] 9
+[0&!1] 23
+[!0&!1] 24
+State: 24
+[!0&1] 8
+[0&1] 9
+[0&!1] 23
+[!0&!1] 24
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 0
+acc-name: all
+Acceptance: 0 t
+properties: trans-labels explicit-labels state-acc deterministic
+properties: terminal
+--BODY--
+State: 0
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 0
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc colored complete
+properties: deterministic stutter-invariant very-weak
+--BODY--
+State: 0 {0}
+[t] 0
+--END--
+HOA: v1
+States: 1
+Start: 0
+AP: 0
+acc-name: all
+Acceptance: 0 t
+properties: trans-labels explicit-labels state-acc deterministic
+properties: stutter-invariant very-weak
+--BODY--
+State: 0
+--END--

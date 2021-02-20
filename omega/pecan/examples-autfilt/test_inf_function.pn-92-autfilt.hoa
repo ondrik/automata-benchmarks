@@ -1,0 +1,49 @@
+HOA: v1
+States: 16
+Start: 15
+AP: 1 "__ap108"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic weak
+--BODY--
+State: 0 {0}
+[t] 2
+State: 1 {0}
+[!0] 1
+State: 2 {0}
+[!0] 0
+State: 3
+[t] 0
+State: 4
+[0] 6
+[!0] 9
+State: 5
+[0] 0
+[!0] 9
+State: 6
+[0] 2
+[!0] 7
+State: 7
+[!0] 0
+[0] 1
+State: 8
+[t] 5
+State: 9
+[t] 3
+State: 10
+[!0] 4
+[0] 5
+State: 11
+[t] 8
+State: 12
+[0] 8
+[!0] 10
+State: 13
+[0] 11
+[!0] 12
+State: 14 {0}
+[t] 14
+State: 15
+[!0] 13
+[0] 14
+--END--

@@ -1,0 +1,24 @@
+HOA: v1
+States: 7
+Start: 3
+AP: 2 "__ap21" "__ap25"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[0&!1] 5
+State: 1
+[!0&1] 6
+State: 2
+[!0&!1] 1
+State: 3
+[!0&!1] 0
+State: 4
+[!0&!1] 2
+State: 5
+[!0&!1] 4
+State: 6 {0}
+[!0&!1] 6
+--END--

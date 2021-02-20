@@ -1,0 +1,26 @@
+HOA: v1
+States: 6
+Start: 0
+AP: 4 "__ap892" "__ap893" "__ap922" "__ap923"
+acc-name: generalized-Buchi 2
+Acceptance: 2 Inf(0)&Inf(1)
+properties: trans-labels explicit-labels state-acc deterministic
+--BODY--
+State: 0
+[0&!1&2&!3] 1
+State: 1
+[!0&!1&!2&!3] 1
+[!0&1&!2&!3] 2
+State: 2
+[!0&!2&!3] 2
+[0&!1&2&!3] 3
+State: 3
+[!0&!1&!2&!3] 3
+[!0&1&!2&!3] 4
+State: 4
+[!0&!2&!3] 4
+[0&!1&2&!3] 5
+State: 5 {0 1}
+[!0&!1&!2&!3] 3
+[!0&1&!2&!3] 4
+--END--

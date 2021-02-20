@@ -1,0 +1,26 @@
+HOA: v1
+States: 7
+Start: 0
+AP: 1 "__ap59"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels state-acc deterministic
+--BODY--
+State: 0
+[0] 1
+State: 1 {0}
+[t] 2
+State: 2 {0}
+[!0] 1
+[0] 3
+State: 3 {0}
+[t] 4
+State: 4 {0}
+[0] 3
+[!0] 5
+State: 5
+[t] 6
+State: 6
+[0] 3
+[!0] 5
+--END--
