@@ -1,0 +1,10 @@
+@NFA
+%States 0 FINAL
+%Initial 0
+%Final FINAL
+%Symbol-Vars 2
+
+0 10 0
+0 00 0
+0 10 FINAL
+0 00 FINAL

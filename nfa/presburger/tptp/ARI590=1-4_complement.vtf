@@ -1,0 +1,18 @@
+@NFA
+%States "(0, 1)" "TRAP" "(0,)"
+%Initial "(0,)"
+%Final "TRAP"
+%Symbol-Vars 2
+
+"(0,)" 00 "(0, 1)"
+"(0,)" 11 "(0, 1)"
+"(0,)" 01 "TRAP"
+"(0,)" 10 "TRAP"
+"(0, 1)" 00 "(0, 1)"
+"(0, 1)" 11 "(0, 1)"
+"(0, 1)" 01 "TRAP"
+"(0, 1)" 10 "TRAP"
+"TRAP" 00 "TRAP"
+"TRAP" 01 "TRAP"
+"TRAP" 10 "TRAP"
+"TRAP" 11 "TRAP"
