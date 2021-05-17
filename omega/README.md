@@ -7,7 +7,7 @@ The automata are provided in the following formats
 See [the web page](https://adl.github.io/hoaf/) and the paper below for the description of the format.
 
 * Tomáš Babiak, František Blahoudek, Alexandre Duret-Lutz, Joachim Klein, Jan Křetínský, David Müller, David Parker, Jan Strejček:
-The Hanoi Omega-Automata Format. CAV (1) 2015: 479-486. Springer.
+[The Hanoi Omega-Automata Format](https://doi.org/10.1007/978-3-319-21690-4_31). CAV 2015, LNCS 9206, 479-486. Springer, 2015.
 
 # BA format of RABIT
 

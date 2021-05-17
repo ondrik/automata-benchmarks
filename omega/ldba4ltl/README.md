@@ -1,4 +1,4 @@
-# Random benchmarks from Limit-Deterministic Büchi Automata for Linear Temporal Logic
+# Benchmarks from Limit-Deterministic Büchi Automata for Linear Temporal Logic
 
 These benchmarks contain state-based acceptance semi-deterministic Büchi
 automata from LTL formulae in the paper below and were provided by Yong Li.
