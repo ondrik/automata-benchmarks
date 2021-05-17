@@ -81,6 +81,9 @@ def tokenize(line):
         if state == ParserState.INIT:
             if ch in { ' ', '\t'}:
                 continue
+            elif ch == '(':
+                token_list.append(ch)
+                continue;
             elif ch == '"':
                 state = ParserState.QUOTED
                 continue
@@ -145,6 +148,13 @@ Reads a line from the file descriptor 'fd' and parses it into an array of tokens
         if not line:
             return None
 
+        while line.endswith('\\\n'):
+            line = line[:-2]
+            newline = fd.readline()
+            if not newline:
+                raise Exception('Cannot continue beyond the end of file')
+            line += newline
+
         line = line.strip()
         if not line:
             # empty string
@@ -198,6 +208,7 @@ Parses the input from the file descriptor 'fd'.
         raise Exception("Could not find a @TYPE directive")
 
     return result
+
 
 ##########################
 if __name__ == '__main__':
