@@ -1,0 +1,30 @@
+HOA: v1
+name: "F(G!a1 | G!a2 | G(Fb1 & Fb2))"
+States: 6
+Start: 2
+AP: 4 "a1" "a2" "b1" "b2"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc stutter-invariant
+--BODY--
+State: 0 {0}
+[!1] 0
+State: 1 {0}
+[!0] 1
+State: 2
+[!1] 0
+[!0] 1
+[t] 2
+[2 | 3] 3
+State: 3 {0}
+[2&3] 3
+[!3] 4
+[!2&3] 5
+State: 4
+[2&3] 3
+[!3] 4
+[!2&3] 5
+State: 5
+[2] 3
+[!2] 5
+--END--

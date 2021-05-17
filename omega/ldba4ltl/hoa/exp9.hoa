@@ -1,0 +1,40 @@
+HOA: v1
+name: "GFa0 U XXXXb"
+States: 13
+Start: 0
+AP: 2 "a0" "b"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc
+--BODY--
+State: 0
+[t] 1
+[t] 3
+State: 1
+[t] 6
+State: 2
+[t] 9
+State: 3
+[t] 2
+[t] 3
+State: 4
+[t] 10
+State: 5
+[t] 7
+State: 6
+[t] 5
+State: 7
+[1] 8
+State: 8 {0}
+[t] 8
+State: 9
+[t] 4
+State: 10
+[1] 11
+State: 11 {0}
+[0] 11
+[!0] 12
+State: 12
+[0] 11
+[!0] 12
+--END--
