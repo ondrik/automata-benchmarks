@@ -19,7 +19,14 @@ directories with HOA format for some pre-processed inputs).
 In the directories:
 
  * `original/` denotes *original automata*
- * `after-reduce/` denotes *after simplification using [REDUCE](http://www.languageinclusion.org/doku.php?id=tools)*
- * `after-reduce-autfilt/` denotes *after simplification using [REDUCE](http://www.languageinclusion.org/doku.php?id=tools), followed by a simplification by SPOT's [autfilt](https://spot.lrde.epita.fr/)*.
- * `one-hot-encoding/` denotes encoding into HOA format using one-hot encoding (every alphabet symbol is translated into a new atomic proposition)
- * `binary-encoding/` denotes encoding into HOA format using binary encoding (log2 atomic propositions wrt size of input alphabet are used with each alphabet symbol being assigned a Boolean combination of atomic propositions)
+ * `after-reduce/` denotes *after simplification using
+   [REDUCE](http://www.languageinclusion.org/doku.php?id=tools)*
+ * `after-reduce-autfilt/` denotes *after simplification using
+   [REDUCE](http://www.languageinclusion.org/doku.php?id=tools), followed by
+   a simplification by SPOT's [autfilt](https://spot.lrde.epita.fr/)*.
+ * `one-hot-encoding/` denotes encoding into HOA format using *one-hot
+   encoding* (every alphabet symbol is translated into a new atomic
+   proposition)
+ * `binary-encoding/` denotes encoding into HOA format using *binary encoding*
+   (log2 atomic propositions wrt size of input alphabet are used with each
+   alphabet symbol being assigned a Boolean combination of atomic propositions)
