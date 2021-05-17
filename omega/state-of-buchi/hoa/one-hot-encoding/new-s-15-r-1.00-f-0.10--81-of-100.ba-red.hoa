@@ -1,0 +1,30 @@
+HOA: v1
+States: 6
+Start: 0 
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: explicit-labels state-acc trans-labels
+AP: 2 "a1" "a0"
+--BODY--
+State: 0
+  [0 & !1] 0
+  [0 & !1] 1
+  [0 & !1] 2
+  [0 & !1] 3
+  [!0 & 1] 3
+State: 1 { 0 }
+  [!0 & 1] 5
+  [0 & !1] 1
+State: 2
+  [!0 & 1] 4
+  [0 & !1] 2
+State: 3 { 0 }
+  [0 & !1] 5
+  [0 & !1] 2
+State: 4
+  [!0 & 1] 0
+  [!0 & 1] 5
+State: 5
+  [0 & !1] 2
+  [!0 & 1] 2
+--END--

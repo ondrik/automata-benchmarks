@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure label-on="transition" type="fa">
+<alphabet type="classical">
+</alphabet>
+<stateset>
+<state sid="0"></state>
+</stateset>
+<acc type="buchi">
+</acc>
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<transitionset>
+</transitionset>
+</structure>
+
+

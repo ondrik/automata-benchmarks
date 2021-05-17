@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure label-on="transition" type="fa">
+<alphabet type="classical">
+<symbol>0</symbol>
+<symbol>1</symbol>
+</alphabet>
+<stateset>
+<state sid="0"></state>
+<state sid="1"></state>
+<state sid="2"></state>
+<state sid="3"></state>
+<state sid="4"></state>
+<state sid="5"></state>
+<state sid="6"></state>
+<state sid="7"></state>
+<state sid="8"></state>
+</stateset>
+<acc type="buchi">
+<stateID>0</stateID>
+<stateID>1</stateID>
+<stateID>2</stateID>
+<stateID>4</stateID>
+<stateID>5</stateID>
+<stateID>7</stateID>
+<stateID>8</stateID>
+</acc>
+<initialStateSet>
+<stateID>0</stateID>
+</initialStateSet>
+<transitionset>
+<transition tid="0">
+<from>0</from>
+<to>6</to>
+<read>0</read>
+</transition><transition tid="1">
+<from>0</from>
+<to>7</to>
+<read>1</read>
+</transition><transition tid="2">
+<from>1</from>
+<to>2</to>
+<read>0</read>
+</transition><transition tid="3">
+<from>1</from>
+<to>3</to>
+<read>0</read>
+</transition><transition tid="4">
+<from>2</from>
+<to>3</to>
+<read>1</read>
+</transition><transition tid="5">
+<from>2</from>
+<to>5</to>
+<read>1</read>
+</transition><transition tid="6">
+<from>3</from>
+<to>7</to>
+<read>0</read>
+</transition><transition tid="7">
+<from>3</from>
+<to>6</to>
+<read>1</read>
+</transition><transition tid="8">
+<from>4</from>
+<to>5</to>
+<read>1</read>
+</transition><transition tid="9">
+<from>5</from>
+<to>0</to>
+<read>0</read>
+</transition><transition tid="10">
+<from>5</from>
+<to>6</to>
+<read>1</read>
+</transition><transition tid="11">
+<from>5</from>
+<to>7</to>
+<read>1</read>
+</transition><transition tid="12">
+<from>5</from>
+<to>8</to>
+<read>1</read>
+</transition><transition tid="13">
+<from>6</from>
+<to>2</to>
+<read>0</read>
+</transition><transition tid="14">
+<from>6</from>
+<to>6</to>
+<read>1</read>
+</transition><transition tid="15">
+<from>7</from>
+<to>1</to>
+<read>0</read>
+</transition><transition tid="16">
+<from>7</from>
+<to>6</to>
+<read>0</read>
+</transition><transition tid="17">
+<from>7</from>
+<to>4</to>
+<read>1</read>
+</transition><transition tid="18">
+<from>7</from>
+<to>6</to>
+<read>1</read>
+</transition><transition tid="19">
+<from>8</from>
+<to>0</to>
+<read>0</read>
+</transition></transitionset>
+</structure>
+
+
