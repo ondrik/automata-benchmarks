@@ -40,17 +40,21 @@ if __name__ == '__main__':
 
 
     vtf_aut.type = 'NTA' if is_ta else 'NFA'
+    if is_ta:
+        vtf_aut.dict['Root'] = parsed_aut.final
+    else:
+        vtf_aut.dict['Initial'] = set()
+        vtf_aut.dict['Final'] = parsed_aut.final
+
     vtf_aut.dict['States'] = parsed_aut.states
-    vtf_aut.dict['Final'] = parsed_aut.final
     vtf_aut.dict['Alphabet'] = parsed_aut.alphabet
-    vtf_aut.dict['Initial'] = set()
 
     for trans in parsed_aut.trans:
         (children, symb, parent) = trans
         if is_ta:
             if children == None:
                 children = ''
-            children = children.replace(' ', '')
+            # children = [child.replace(' ', '') for child in children]
             line = [parent, symb, '(', children, ')']
             vtf_aut.body.append(line)
         else:

@@ -11,6 +11,9 @@ def serialize_token(token):
 Serializes the token (including adding necessary escape sequences).
 '''
     result = ''
+    if isinstance(token, tuple):
+        # return '(' + ' '.join([serialize_token(item) for item in token]) + ')'
+        return ' '.join([serialize_token(item) for item in token])
     if re.search('["# \t]', token):
         result += '"'
         for ch in token:
@@ -59,7 +62,6 @@ Result of a VTF format parser.
             result += '\n'
 
         return result
-
 
 
 ###############################

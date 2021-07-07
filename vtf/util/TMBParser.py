@@ -51,12 +51,15 @@ Parses a transition.
         raise Exception('Invalid left-hand side: ' + line)
 
     symb = lhs[:ind]
-    src_state = lhs[ind+1:-1]
-    src_state = src_state.strip()
-    if not src_state:
+    src = lhs[ind+1:-1]
+    src = src.strip()
+    if not src:  # no child state
         return (None, symb, rhs)
 
-    return (src_state, symb, rhs)
+    src_split = src.split(',')
+    src_split = [state.strip() for state in src_split]
+
+    return (tuple(src_split), symb, rhs)
 
 
 ##########################################
