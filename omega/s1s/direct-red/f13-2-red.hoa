@@ -1,0 +1,14 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 1 "U"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc very-weak
+--BODY--
+State: 0 {0}
+[!0] 0
+State: 1
+[t] 0
+[t] 1
+--END--

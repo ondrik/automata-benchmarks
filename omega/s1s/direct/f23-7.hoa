@@ -4,7 +4,7 @@ Start: 0
 acc-name: Buchi
 Acceptance: 1 Inf(0)
 properties: explicit-labels state-acc trans-labels
-AP: 6 "I" "J" "U" "V" "X" "Y" "Z"
+AP: 7 "I" "J" "U" "V" "X" "Y" "Z"
 --BODY--
 State: 16 {0}
 [!0 & !1 & !2 & !3 & !4 & !5 & !6] 4
