@@ -1,0 +1,18 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "l0" "l1" "l2"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+--BODY--
+State: 0 {0}
+[(!0&!1&!2)] 1
+State: 1 {0}
+[(!0&!1&2)] 2
+State: 2 {0}
+[(!0&!1&2)] 3
+State: 3 {0}
+[(!0&!1&!2)] 4
+State: 4 {0}
+[(!0&!1&!2)] 1
+--END--
