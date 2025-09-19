@@ -1,0 +1,67 @@
+# What goes wrong with the conversions
+
+`For_all_x,_y,_and_z,_we_have_x_<=_y_iff_x_+_z_<=_y_+_z_sup.autfilt.aligned`
+Loading HOA file into GOAL...done
+Converting AP into classical...String index out of range: 26
+==> ROLL succeeds 
+
+`For_all_x,_y,_and_z,_we_have_x_<=_y_iff_x_+_z_<=_y_+_z_sub.autfilt`
+Loading HOA file into GOAL...done
+Converting AP into classical...String index out of range: 26
+==> ROLL succeeds 
+
+`Ostrowski_addition_satisfies_inductive_case_of_addition_definition_sub.autfilt`
+Loading HOA file into GOAL...done
+Converting AP into classical...String index out of range: 26
+==> ROLL fails as well
+
+`Ostrowski_addition_satisfies_inductive_case_of_addition_definition_sup.autfilt`
+Loading HOA file into GOAL...  done
+Converting AP into classical...String index out of range: 26
+==> ROLL fails as well
+
+`Associativity_implied_by_sup.autfilt`
+Loading HOA file into GOAL...done
+Converting AP into classical...String index out of range: 26
+==> ROLL succeeds 
+
+`Associativity_implied_by_sub.autfilt`
+Loading HOA file into GOAL...done
+Converting AP into classical...String index out of range: 26
+==> ROLL succeeds 
+
+`Sturmian_words_are_not_eventually_periodic_sup.autfilt`
+Loading HOA file into GOAL...done
+Converting AP into classical...Application start failed.
+java.lang.OutOfMemoryError: Java heap space
+        at org.svvrl.goal.core.util.BinaryMap.put(BinaryMap.java:64)
+        at org.svvrl.goal.core.aut.Automaton.addToTransitionMaps(Automaton.java:1205)
+        at org.svvrl.goal.core.aut.Automaton.addTransition(Automaton.java:1356)
+        at org.svvrl.goal.core.aut.Automaton.copyInfo(Automaton.java:2860)
+        at org.svvrl.goal.core.aut.Automaton.clone(Automaton.java:2872)
+        at org.svvrl.goal.core.aut.fsa.FSA.clone(FSA.java:84)
+        at org.svvrl.goal.core.aut.fsa.FSA.clone(FSA.java:1)
+        at org.svvrl.goal.cmd.ConvertCommand.eval(ConvertCommand.java:190)
+        at org.svvrl.goal.cmd.CommandExecutor.eval(CommandExecutor.java:86)
+        at org.svvrl.goal.cmd.SetStmt.eval(SetStmt.java:61)
+        at org.svvrl.goal.cmd.BlockStmt.eval(BlockStmt.java:62)
+        at org.svvrl.goal.cmd.ForStmt.eval(ForStmt.java:54)
+        at org.svvrl.goal.cmd.BlockStmt.eval(BlockStmt.java:62)
+        at org.svvrl.goal.cmd.Script.eval(Script.java:89)
+        at org.svvrl.goal.cmd.BatchCommand.eval(BatchCommand.java:95)
+        at org.svvrl.goal.cmd.CommandExecutor.eval(CommandExecutor.java:86)
+        at org.svvrl.goal.cmd.SetStmt.eval(SetStmt.java:61)
+        at org.svvrl.goal.cmd.CmdHandler.start(CmdHandler.java:56)
+        at org.svvrl.goal.core.CorePlugin.startApplication(CorePlugin.java:183)
+        at org.java.plugin.boot.Boot.boot(Boot.java:346)
+        at org.java.plugin.boot.Boot.main(Boot.java:243)
+==> ROLL fails as well
+
+# Notes
+
+The theorems:
+
+`The_least_period_if_C[ij]_is_the_length_of_the_longest_unbordered_factor_of_C[ij]_sup.aut` 
+`For_all_Sturmian_words,_if_n_is_even_then_it_contains_exactly_one_palindrome_of_length_n,_and_if_n_is_odd_then_it_contains_exactly_two_palindromes_of_length_n_sup.aut`
+
+were not included by Reed the second time he sent the benchmarks but they were the first time.

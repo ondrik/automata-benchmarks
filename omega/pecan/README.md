@@ -12,6 +12,7 @@ terminate.  You can obtain more and/or bigger automata by running Pecan.
 ## Directory structure
 * `examples/`: benchmarks from examples from the [repository](http://reedoei.com/pecan) of Pecan
 * `examples-autfilt/`: the BAs from `examples/` reduced using `autfilt --high` (on some examples, `autfilt` did not finish)
+* `inclusion/`: the BAs from the repository for testing inclusion [here](https://github.com/phreppo/buchi-automata-benchmark/tree/master/benchmark/pecan)
 * `sturmian_words/`: benchmarks from automating proofs of theorems about
   [Sturmian words](https://en.wikipedia.org/wiki/Sturmian_word) from
   [here](https://github.com/ReedOei/SturmianWords).

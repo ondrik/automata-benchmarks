@@ -1,0 +1,27 @@
+VAR_MAP: {'a': ['__ap276', '__ap277'], 'x': ['__ap278', '__ap279']}
+HOA: v1
+States: 5
+Start: 0
+AP: 4 "__ap276" "__ap277" "__ap278" "__ap279"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc
+--BODY--
+State: 0
+[0&!1&2&!3] 1
+[0&!1&2&!3] 2
+State: 1 {0}
+[!0&!1&!2&!3 | !0&1&!2&3] 1
+[0&!1&2&!3] 2
+[!0&!1&!2&3 | !0&1&!2&!3] 3
+[0&!1&2&!3] 4
+State: 2
+[!0&!2] 4
+State: 3 {0}
+[0&!1&2&!3] 2
+[!0&!2] 3
+[0&!1&2&!3] 4
+State: 4 {0}
+[0&!1&2&!3] 2
+[!0&!2] 4
+--END--

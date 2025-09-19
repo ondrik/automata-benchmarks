@@ -1,0 +1,29 @@
+HOA: v1
+properties: explicit-labels state-acc trans-labels 
+States: 6
+Start: 0
+AP: 4 "__ap1156" "__ap1157" "__ap1158" "__ap1159"
+Acceptance: 1 Inf(0)
+acc-name: Buchi
+name: ""
+tool: "GOAL" "2020-08-22" "manual editing"
+--BODY--
+State: 0
+[2 & !3] 1
+State: 1 {0}
+[!2 & !3] 2
+[!2 & 3] 5
+State: 2 {0}
+[!2 & !3] 2
+[!2 & 3] 3
+[2 & !3] 1
+State: 3 {0}
+[!2] 3
+[2 & !3] 4
+State: 4 {0}
+[!3] 4
+State: 5 {0}
+[!2 & !3] 5
+[!2 & 3] 3
+[2 & !3] 3
+--END--

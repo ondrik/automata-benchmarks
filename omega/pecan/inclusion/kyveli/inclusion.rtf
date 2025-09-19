@@ -1,0 +1,90 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-BoldOblique;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-Oblique;
+\f3\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\i\b\fs24 \cf0 Exemples tir\'e9s de ostrowski_aut.pn\
+\
+
+\f1\i0\b0 A4 = max_antisquare_len(a, n) \
+B4 = has_antisquare_len(a, n)\
+\
+A4 => B4\
+
+\f0\i\b \
+A5 = 
+\f1\i0\b0 antisquare_len(a, i, n) \
+B5 = ! antisquare_len(a, i, n) 
+\f0\i\b \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f2\b0 \cf2 Je naive pas a retrouver d\'92ou je l\'92ai obtenu! [[A6  = 
+\f1\i0 \cf0 max_antipalindrome(a,n)\
+B6 = max_antisquare(a,n)]]\
+\
+A7 = pow_2(a, i, n)\
+B7 = bco_valid2(a, x, y)\
+\
+pow_2(a, i, n) => bco_valid2(a, i, n)\
+\
+A8 = eventually_periodic(a,p)\
+B8 = f(a,p) := a=a and p>0\
+\
+eventually_periodic(a,p) => a=a and p>0\
+\
+A9=palindrome(a, i, n)\
+B9 = 
+\f3\fs22 \cf3 \CocoaLigature0  h(a, i) := exists j1.  bco_succ(a, j1, i) \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+palindrome(a, i, j) => 
+\f3\fs22 \cf3 \CocoaLigature0 h(a, i , j)
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+A10 = first_palindrome(a, i, n)\
+B10 = palindrome(a, i, n)\
+\
+first_palindrome(a, i, n) => first_palindrome(a, i, n)\
+\
+A11 =factor_lt_len(a, i, n, j)\
+B11 = factor_len(a, i, n, j)\
+\
+factor_lt_len(a, i, n, j) => factor_len(a, i, n, j)\
+\
+A12= first_special_factor(a, i, n)\
+B12=special_factor(a, i, n)\
+\
+first_special_factor(a, i, n) => special_factor(a, i, n)\
+\
+A13 = antisquare(a, i, n)\
+B13 = bco_valid2(a, x, y)\
+\
+antisquare(a, i, n) => bco_valid2(a, i, n)\
+\
+A14 = antipalindrome(a, i, n)\
+B14 = 
+\f3\fs22 \cf3 \CocoaLigature0  bco_valid2(a, i, n) &  exists j, k. bco_succ(a, j, k)\
+\
+On doit donc avoir :\
+\
+Pour le B14 j\'92ai ina et je veux ain\
+\
+A14\uc0\u8838 B14\u8838 B13
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+C14:=B14\
+\
+antipalindrome(a, i, n) => 
+\f3\fs22 \cf3 \CocoaLigature0  bco_valid2(a, i, n) &  exists j, k. bco_succ(a, j, k)
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+A15 = reverse_factor(a, i, j, l).   \
+B15 = bco_valid3(a, x, y, z)\
+\
+reverse_factor(a, i, j, l) => bco_valid3(a,  i, j, l) \
+}
