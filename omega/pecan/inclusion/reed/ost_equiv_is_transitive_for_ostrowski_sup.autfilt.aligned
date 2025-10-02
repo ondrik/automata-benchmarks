@@ -6,7 +6,6 @@ AP: 8 "__ap334" "__ap335" "__ap336" "__ap337" "__ap338" "__ap339" "__ap340" "__a
 Acceptance: 1 Inf(0)
 acc-name: Buchi
 name: ""
-tool: "GOAL" "2020-08-22" "manual editing"
 --BODY--
 State: 0
 [0 & !1 & 2 & !3 & 6 & !7] 1

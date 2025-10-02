@@ -6,7 +6,6 @@ AP: 6 "__ap888" "__ap889" "__ap890" "__ap891" "__ap892" "__ap893"
 Acceptance: 1 Inf(0)
 acc-name: Buchi
 name: ""
-tool: "GOAL" "2020-08-22" "manual editing"
 --BODY--
 State: 0
 [4 & !5] 1
