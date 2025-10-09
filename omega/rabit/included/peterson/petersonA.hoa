@@ -1,0 +1,66 @@
+HOA: v1
+properties: classical-alphabet explicit-labels state-acc trans-labels 
+States: 20
+Start: 0
+AP: 2 "0" "1"
+Alias: @0 0 & !1
+Alias: @1 !0 & 1
+Acceptance: 1 Inf(0)
+acc-name: Buchi
+name: ""
+tool: "GOAL" "2020-08-22"
+--BODY--
+State: 0 {0}
+[@0] 1
+[@0] 19
+State: 1
+[@0] 2
+[@0] 12
+State: 2
+[@0] 3
+[@0] 7
+State: 3 {0}
+[@0] 4
+State: 4
+[@0] 5
+State: 5
+[@1] 6
+State: 6
+[@0] 7
+[@0] 9
+State: 7
+[@0] 8
+State: 8
+State: 9
+[@1] 0
+[@1] 10
+State: 10
+[@1] 1
+[@1] 11
+State: 11
+[@1] 12
+State: 12
+[@0] 3
+[@0] 13
+State: 13 {0}
+[@1] 14
+[@1] 17
+State: 14
+[@1] 5
+[@1] 15
+State: 15
+[@0] 6
+[@0] 16
+State: 16
+[@0] 3
+[@0] 7
+State: 17
+[@0] 15
+[@0] 18
+State: 18
+[@0] 12
+[@0] 16
+State: 19
+[@0] 2
+[@0] 6
+--END--
