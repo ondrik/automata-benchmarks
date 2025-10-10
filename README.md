@@ -3,7 +3,7 @@
 This is a collection of various automata benchmarks from various sources and
 for various automata models, including finite automata, tree automata, Büchi
 automata, etc. No need to clone the whole repository, consider using, e.g.,
-[Download directory](https://download-directory.github.io) to download only
+[Download directory](https://download-directory.github.io) or [sparse checkout](https://www.geeksforgeeks.org/git/how-to-clone-only-a-subdirectory-of-a-git-repository/) to download only
 specific directories.
 
 File Types
