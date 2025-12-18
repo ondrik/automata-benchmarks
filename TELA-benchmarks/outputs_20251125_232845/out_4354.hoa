@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 3 "a" "b" "c"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[t] 0
+State: 1
+[!0&2] 1
+[0&2] 1 {0}
+State: 2
+[0] 0
+[!0&1&2] 1
+--END--

@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 3 "b" "c" "a"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc semi-deterministic
+--BODY--
+State: 0
+[2] 0 {0}
+State: 1
+[!0] 1
+[0] 1 {0}
+State: 2
+[2] 0
+[!0&1] 1
+--END--

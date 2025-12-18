@@ -1,0 +1,21 @@
+HOA: v1
+States: 4
+Start: 1
+AP: 3 "a" "b" "c"
+acc-name: all
+Acceptance: 0 t
+properties: trans-labels explicit-labels state-acc deterministic
+properties: very-weak
+--BODY--
+State: 0
+[0&2] 0
+State: 1
+[0&1&2] 1
+[!0&1&2] 2
+[0&!1 | 0&!2] 3
+State: 2
+[0&!1&2] 0
+[1&2] 2
+State: 3
+[0] 3
+--END--

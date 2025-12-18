@@ -1,0 +1,22 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 3 "b" "a" "c"
+Acceptance: 7 (Inf(1) & Fin(0)) | (Fin(2) & Inf(3)) | (Inf(4)&Inf(5)) | Fin(6)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[1] 1
+[!1] 2
+State: 1
+[0&1&2] 1 {6}
+[!0&!1 | !0&!2] 1 {0 2 6}
+[0&!1 | 0&!2] 1 {1 2 6}
+[!0&1&2] 1 {0 3 6}
+State: 2
+[0&1&2] 2
+[!0&!1 | !0&!2] 2 {4 5}
+[0&!1 | 0&!2] 2 {4 6}
+[!0&1&2] 2 {5 6}
+--END--

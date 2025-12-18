@@ -1,0 +1,2539 @@
+ltlcross {ltl3ba}ltldo 'ltl3ba -H2' -f %f > %O {ltl3tela_alt}ltl3tela -p1 -i1 -X1 -f %f | autfilt --high > %O {ltl3tela}ltl3tela -i1 -X1 -f %f > %O {ltl2tgba}ltl2tgba -G %f > %O -F /tmp/tmpaew15s45 --timeout=60 --automata --save-bogus=formulae/ictac19/rand1.fgmopt.nonalt_bogus.ltl --no-checks --products=0 --csv=formulae/ictac19/rand1.fgmopt.nonalt.csv
+[03.02.2020 18:03:43]
+=====================
+/tmp/tmpaew15s45:1: (a) & (G(F(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (G(F(b)))' > 'lcr-o0-monYz6'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (G(F(b)))' | autfilt --high > 'lcr-o1-BAP9e7'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (G(F(b)))' > 'lcr-o2-Dz6bV7'
+Running [P3]: ltl2tgba -G '(a) & (G(F(b)))' > 'lcr-o3-4lqVB8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:2: (a) & (F((G(b)) | ((!(a)) & (F(c))) | ((a) & (G(!(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (F((G(b)) | ((!(a)) & (F(c))) | ((a) & (G(!(c))))))' > 'lcr-o0-yfFfj9'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (F((G(b)) | ((!(a)) & (F(c))) | ((a) & (G(!(c))))))' | autfilt --high > 'lcr-o1-60ME19'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (F((G(b)) | ((!(a)) & (F(c))) | ((a) & (G(!(c))))))' > 'lcr-o2-jAKSKa'
+Running [P3]: ltl2tgba -G '(a) & (F((G(b)) | ((!(a)) & (F(c))) | ((a) & (G(!(c))))))' > 'lcr-o3-YEdbxb'
+Gathering statistics...
+
+/tmp/tmpaew15s45:3: F(G(a))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G(a))' > 'lcr-o0-7eovkc'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G(a))' | autfilt --high > 'lcr-o1-B2VM8c'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G(a))' > 'lcr-o2-vBZKXd'
+Running [P3]: ltl2tgba -G 'F(G(a))' > 'lcr-o3-cVyeNe'
+Gathering statistics...
+
+/tmp/tmpaew15s45:4: X((a) & (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) & (G(F(b))))' > 'lcr-o0-flJiDf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) & (G(F(b))))' | autfilt --high > 'lcr-o1-Esvtug'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) & (G(F(b))))' > 'lcr-o2-gIsimh'
+Running [P3]: ltl2tgba -G 'X((a) & (G(F(b))))' > 'lcr-o3-54lUei'
+Gathering statistics...
+
+/tmp/tmpaew15s45:5: (G(a)) | (F(G(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(a)) | (F(G(b)))' > 'lcr-o0-qNWa8i'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (F(G(b)))' | autfilt --high > 'lcr-o1-ioSq2j'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(a)) | (F(G(b)))' > 'lcr-o2-SRskXk'
+Running [P3]: ltl2tgba -G '(G(a)) | (F(G(b)))' > 'lcr-o3-d573Sl'
+Gathering statistics...
+
+/tmp/tmpaew15s45:6: X(F((a) | (G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((a) | (G(b))))' > 'lcr-o0-f79pPm'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) | (G(b))))' | autfilt --high > 'lcr-o1-FSCSMn'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((a) | (G(b))))' > 'lcr-o2-Sck4Ko'
+Running [P3]: ltl2tgba -G 'X(F((a) | (G(b))))' > 'lcr-o3-yz5bKp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:7: (G(b)) | (F(G(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(b)) | (F(G(a)))' > 'lcr-o0-yQy2Jq'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(b)) | (F(G(a)))' | autfilt --high > 'lcr-o1-QMlWKr'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(b)) | (F(G(a)))' > 'lcr-o2-0qmyMs'
+Running [P3]: ltl2tgba -G '(G(b)) | (F(G(a)))' > 'lcr-o3-ifOZOt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:8: X((a) & (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) & (F(G(b))))' > 'lcr-o0-RVOcSu'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) & (F(G(b))))' | autfilt --high > 'lcr-o1-e7IxWv'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) & (F(G(b))))' > 'lcr-o2-AcQy1w'
+Running [P3]: ltl2tgba -G 'X((a) & (F(G(b))))' > 'lcr-o3-mtBq7x'
+Gathering statistics...
+
+/tmp/tmpaew15s45:9: (a) | (G((F(b)) & (F(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G((F(b)) & (F(c))))' > 'lcr-o0-aQp3dz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G((F(b)) & (F(c))))' | autfilt --high > 'lcr-o1-GzXKlA'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G((F(b)) & (F(c))))' > 'lcr-o2-4axfuB'
+Running [P3]: ltl2tgba -G '(a) | (G((F(b)) & (F(c))))' > 'lcr-o3-wc7aEC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:10: G(F(a))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F(a))' > 'lcr-o0-nh9NOD'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F(a))' | autfilt --high > 'lcr-o1-UyuD0E'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F(a))' > 'lcr-o2-qqK6cG'
+Running [P3]: ltl2tgba -G 'G(F(a))' > 'lcr-o3-mb18pH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:11: F((((!(a)) & (b)) | ((a) & (!(b)))) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((((!(a)) & (b)) | ((a) & (!(b)))) R (!(a)))' > 'lcr-o0-91lQDI'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((((!(a)) & (b)) | ((a) & (!(b)))) R (!(a)))' | autfilt --high > 'lcr-o1-peYzSJ'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((((!(a)) & (b)) | ((a) & (!(b)))) R (!(a)))' > 'lcr-o2-eiFZ7K'
+Running [P3]: ltl2tgba -G 'F((((!(a)) & (b)) | ((a) & (!(b)))) R (!(a)))' > 'lcr-o3-CofdoM'
+Gathering statistics...
+
+/tmp/tmpaew15s45:12: F((a) | (b) | ((G(a)) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (b) | ((G(a)) R (c)))' > 'lcr-o0-ufd6EN'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (b) | ((G(a)) R (c)))' | autfilt --high > 'lcr-o1-DRU3WO'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (b) | ((G(a)) R (c)))' > 'lcr-o2-PIoJfQ'
+Running [P3]: ltl2tgba -G 'F((a) | (b) | ((G(a)) R (c)))' > 'lcr-o3-Xq8pzR'
+Gathering statistics...
+
+/tmp/tmpaew15s45:13: (a) | (G(b)) | ((F(G(c))) R (!(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G(b)) | ((F(G(c))) R (!(c)))' > 'lcr-o0-7IbXTS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G(b)) | ((F(G(c))) R (!(c)))' | autfilt --high > 'lcr-o1-OMcvfU'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G(b)) | ((F(G(c))) R (!(c)))' > 'lcr-o2-LMzOBV'
+Running [P3]: ltl2tgba -G '(a) | (G(b)) | ((F(G(c))) R (!(c)))' > 'lcr-o3-Xh0EZW'
+Gathering statistics...
+
+/tmp/tmpaew15s45:14: F((a) | (G(b)) | ((!(a)) & (F(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G(b)) | ((!(a)) & (F(c))))' > 'lcr-o0-prkroY'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(b)) | ((!(a)) & (F(c))))' | autfilt --high > 'lcr-o1-9wFfOZ'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G(b)) | ((!(a)) & (F(c))))' > 'lcr-o2-D3ZLe1'
+Running [P3]: ltl2tgba -G 'F((a) | (G(b)) | ((!(a)) & (F(c))))' > 'lcr-o3-PjDxG2'
+Gathering statistics...
+
+/tmp/tmpaew15s45:15: F((!(a)) | (G(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((!(a)) | (G(a)))' > 'lcr-o0-opv183'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((!(a)) | (G(a)))' | autfilt --high > 'lcr-o1-d25AC5'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((!(a)) | (G(a)))' > 'lcr-o2-SOXN66'
+Running [P3]: ltl2tgba -G 'F((!(a)) | (G(a)))' > 'lcr-o3-bMzwB8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:16: X((a) | (b) | (X((G(a)) | (F(G(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (b) | (X((G(a)) | (F(G(c))))))' > 'lcr-o0-2G4U69'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (b) | (X((G(a)) | (F(G(c))))))' | autfilt --high > 'lcr-o1-jUCmDb'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (b) | (X((G(a)) | (F(G(c))))))' > 'lcr-o2-4uWwad'
+Running [P3]: ltl2tgba -G 'X((a) | (b) | (X((G(a)) | (F(G(c))))))' > 'lcr-o3-N0UdJe'
+Gathering statistics...
+
+/tmp/tmpaew15s45:17: F(G((a) & ((G(!(a))) U (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((a) & ((G(!(a))) U (b))))' > 'lcr-o0-kuhKig'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((a) & ((G(!(a))) U (b))))' | autfilt --high > 'lcr-o1-Zj5nTh'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((a) & ((G(!(a))) U (b))))' > 'lcr-o2-SobGuj'
+Running [P3]: ltl2tgba -G 'F(G((a) & ((G(!(a))) U (b))))' > 'lcr-o3-zJPN6k'
+Gathering statistics...
+
+/tmp/tmpaew15s45:18: X((a) | (b) | ((c) & (F((a) | ((!(a)) R (!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (b) | ((c) & (F((a) | ((!(a)) R (!(c)))))))' > 'lcr-o0-BqHCJm'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (b) | ((c) & (F((a) | ((!(a)) R (!(c)))))))' | autfilt --high > 'lcr-o1-Ha7tno'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (b) | ((c) & (F((a) | ((!(a)) R (!(c)))))))' > 'lcr-o2-vnK31p'
+Running [P3]: ltl2tgba -G 'X((a) | (b) | ((c) & (F((a) | ((!(a)) R (!(c)))))))' > 'lcr-o3-hSBCHr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:19: F((G(b)) & (F(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) & (F(a)))' > 'lcr-o0-VEVRnt'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) & (F(a)))' | autfilt --high > 'lcr-o1-gCy94u'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) & (F(a)))' > 'lcr-o2-Y7o8Mw'
+Running [P3]: ltl2tgba -G 'F((G(b)) & (F(a)))' > 'lcr-o3-Ag48vy'
+Gathering statistics...
+
+/tmp/tmpaew15s45:20: F(((a) & ((!(b)) | (G(F(!(c)))))) | ((!(a)) & (b) & (F(G(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & ((!(b)) | (G(F(!(c)))))) | ((!(a)) & (b) & (F(G(c)))))' > 'lcr-o0-Uq3QfA'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & ((!(b)) | (G(F(!(c)))))) | ((!(a)) & (b) & (F(G(c)))))' | autfilt --high > 'lcr-o1-vMSE0B'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & ((!(b)) | (G(F(!(c)))))) | ((!(a)) & (b) & (F(G(c)))))' > 'lcr-o2-m4weMD'
+Running [P3]: ltl2tgba -G 'F(((a) & ((!(b)) | (G(F(!(c)))))) | ((!(a)) & (b) & (F(G(c)))))' > 'lcr-o3-ClwYzF'
+Gathering statistics...
+
+/tmp/tmpaew15s45:21: (a) | (X(F((b) | (G(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X(F((b) | (G(a)))))' > 'lcr-o0-yENzoH'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X(F((b) | (G(a)))))' | autfilt --high > 'lcr-o1-Zr5deJ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X(F((b) | (G(a)))))' > 'lcr-o2-gPCw4K'
+Running [P3]: ltl2tgba -G '(a) | (X(F((b) | (G(a)))))' > 'lcr-o3-82HLVM'
+Gathering statistics...
+
+/tmp/tmpaew15s45:22: (a) & ((G((F(b)) & (F((G(c)) | (G(!(a))))))) | (G((F(a)) & (F(!(c))) & (F(G(!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & ((G((F(b)) & (F((G(c)) | (G(!(a))))))) | (G((F(a)) & (F(!(c))) & (F(G(!(b)))))))' > 'lcr-o0-cPOGNO'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & ((G((F(b)) & (F((G(c)) | (G(!(a))))))) | (G((F(a)) & (F(!(c))) & (F(G(!(b)))))))' | autfilt --high > 'lcr-o1-sjbGGQ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & ((G((F(b)) & (F((G(c)) | (G(!(a))))))) | (G((F(a)) & (F(!(c))) & (F(G(!(b)))))))' > 'lcr-o2-PWEfBS'
+Running [P3]: ltl2tgba -G '(a) & ((G((F(b)) & (F((G(c)) | (G(!(a))))))) | (G((F(a)) & (F(!(c))) & (F(G(!(b)))))))' > 'lcr-o3-RFnaHU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:23: F((a) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) R (b))' > 'lcr-o0-1s5XNW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) R (b))' | autfilt --high > 'lcr-o1-nq1UVY'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) R (b))' > 'lcr-o2-1zyw40'
+Running [P3]: ltl2tgba -G 'F((a) R (b))' > 'lcr-o3-GrGJd3'
+Gathering statistics...
+
+/tmp/tmpaew15s45:24: G(F((G(a)) & (X((G(b)) & (F(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((G(a)) & (X((G(b)) & (F(c))))))' > 'lcr-o0-jCQGn5'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((G(a)) & (X((G(b)) & (F(c))))))' | autfilt --high > 'lcr-o1-I8CJy7'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((G(a)) & (X((G(b)) & (F(c))))))' > 'lcr-o2-olYrK9'
+Running [P3]: ltl2tgba -G 'G(F((G(a)) & (X((G(b)) & (F(c))))))' > 'lcr-o3-1NBOXb'
+Gathering statistics...
+
+/tmp/tmpaew15s45:25: ((a) & (b)) | ((!(a)) & (!(b))) | (F(G((b) & (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (b)) | ((!(a)) & (!(b))) | (F(G((b) & (c))))' > 'lcr-o0-ANDace'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (b)) | ((!(a)) & (!(b))) | (F(G((b) & (c))))' | autfilt --high > 'lcr-o1-6xyErg'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (b)) | ((!(a)) & (!(b))) | (F(G((b) & (c))))' > 'lcr-o2-2uiPHi'
+Running [P3]: ltl2tgba -G '((a) & (b)) | ((!(a)) & (!(b))) | (F(G((b) & (c))))' > 'lcr-o3-4zgeZk'
+Gathering statistics...
+
+/tmp/tmpaew15s45:26: F((G(F(b))) | (G(a)) | (G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(b))) | (G(a)) | (G(!(a))))' > 'lcr-o0-3V7mhn'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(b))) | (G(a)) | (G(!(a))))' | autfilt --high > 'lcr-o1-fMqHAp'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(b))) | (G(a)) | (G(!(a))))' > 'lcr-o2-RiqJUr'
+Running [P3]: ltl2tgba -G 'F((G(F(b))) | (G(a)) | (G(!(a))))' > 'lcr-o3-bX9mgu'
+Gathering statistics...
+
+/tmp/tmpaew15s45:27: F((a) | (G(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G(b)))' > 'lcr-o0-92uOCw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(b)))' | autfilt --high > 'lcr-o1-jQip0y'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G(b)))' > 'lcr-o2-9GMFoB'
+Running [P3]: ltl2tgba -G 'F((a) | (G(b)))' > 'lcr-o3-UxDGND'
+Gathering statistics...
+
+/tmp/tmpaew15s45:28: F((X((!(a)) | (b))) | ((F(c)) U (a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((X((!(a)) | (b))) | ((F(c)) U (a)))' > 'lcr-o0-FP4ydG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((X((!(a)) | (b))) | ((F(c)) U (a)))' | autfilt --high > 'lcr-o1-e7vxEI'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((X((!(a)) | (b))) | ((F(c)) U (a)))' > 'lcr-o2-in4j6K'
+Running [P3]: ltl2tgba -G 'F((X((!(a)) | (b))) | ((F(c)) U (a)))' > 'lcr-o3-pK63yN'
+Gathering statistics...
+
+/tmp/tmpaew15s45:29: X((G(b)) | (G(F(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(b)) | (G(F(a))))' > 'lcr-o0-rFgA2P'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(b)) | (G(F(a))))' | autfilt --high > 'lcr-o1-2qbixS'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(b)) | (G(F(a))))' > 'lcr-o2-qkWF2U'
+Running [P3]: ltl2tgba -G 'X((G(b)) | (G(F(a))))' > 'lcr-o3-erLazX'
+Gathering statistics...
+
+/tmp/tmpaew15s45:30: F(((a) & (G((((a) | (b)) & ((a) | (c) | (d))) U (d)))) | ((!(a)) & (F((((!(a)) & (!(b))) | ((!(a)) & (!(c)) & (!(d)))) R (!(d))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (G((((a) | (b)) & ((a) | (c) | (d))) U (d)))) | ((!(a)) & (F((((!(a)) & (!(b))) | ((!(a)) & (!(c)) & (!(d)))) R (!(d))))))' > 'lcr-o0-yPol6Z'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (G((((a) | (b)) & ((a) | (c) | (d))) U (d)))) | ((!(a)) & (F((((!(a)) & (!(b))) | ((!(a)) & (!(c)) & (!(d)))) R (!(d))))))' | autfilt --high > 'lcr-o1-sCfCE2'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (G((((a) | (b)) & ((a) | (c) | (d))) U (d)))) | ((!(a)) & (F((((!(a)) & (!(b))) | ((!(a)) & (!(c)) & (!(d)))) R (!(d))))))' > 'lcr-o2-YdpOd5'
+Running [P3]: ltl2tgba -G 'F(((a) & (G((((a) | (b)) & ((a) | (c) | (d))) U (d)))) | ((!(a)) & (F((((!(a)) & (!(b))) | ((!(a)) & (!(c)) & (!(d)))) R (!(d))))))' > 'lcr-o3-3B7gQ7'
+Gathering statistics...
+
+/tmp/tmpaew15s45:31: F((a) & (G(F(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & (G(F(a))))' > 'lcr-o0-jSgSta'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (G(F(a))))' | autfilt --high > 'lcr-o1-ZQhs8c'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & (G(F(a))))' > 'lcr-o2-aJjJNf'
+Running [P3]: ltl2tgba -G 'F((a) & (G(F(a))))' > 'lcr-o3-fP7Eti'
+Gathering statistics...
+
+/tmp/tmpaew15s45:32: G((a) & (F(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((a) & (F(!(a))))' > 'lcr-o0-Xonaal'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((a) & (F(!(a))))' | autfilt --high > 'lcr-o1-ekHLRn'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((a) & (F(!(a))))' > 'lcr-o2-hEP0zq'
+Running [P3]: ltl2tgba -G 'G((a) & (F(!(a))))' > 'lcr-o3-qeTLit'
+Gathering statistics...
+
+/tmp/tmpaew15s45:33: F((a) & (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & (F(G(b))))' > 'lcr-o0-8dq61v'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(G(b))))' | autfilt --high > 'lcr-o1-VH3vMy'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & (F(G(b))))' > 'lcr-o2-ZjHAxB'
+Running [P3]: ltl2tgba -G 'F((a) & (F(G(b))))' > 'lcr-o3-u1bvjE'
+Gathering statistics...
+
+/tmp/tmpaew15s45:34: G(F((a) & (G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) & (G(b))))' > 'lcr-o0-oEZ75G'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) & (G(b))))' | autfilt --high > 'lcr-o1-TcCKTJ'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) & (G(b))))' > 'lcr-o2-qp13HM'
+Running [P3]: ltl2tgba -G 'G(F((a) & (G(b))))' > 'lcr-o3-svxtxP'
+Gathering statistics...
+
+/tmp/tmpaew15s45:35: G((a) & (F(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((a) & (F(b)))' > 'lcr-o0-QuMAnS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((a) & (F(b)))' | autfilt --high > 'lcr-o1-wfyNeV'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((a) & (F(b)))' > 'lcr-o2-xE6F6X'
+Running [P3]: ltl2tgba -G 'G((a) & (F(b)))' > 'lcr-o3-bfyiZ0'
+Gathering statistics...
+
+/tmp/tmpaew15s45:36: (a) & (F(G(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (F(G(b)))' > 'lcr-o0-beDxS3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (F(G(b)))' | autfilt --high > 'lcr-o1-a1yMM6'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (F(G(b)))' > 'lcr-o2-cC3GH9'
+Running [P3]: ltl2tgba -G '(a) & (F(G(b)))' > 'lcr-o3-6B0iDc'
+Gathering statistics...
+
+/tmp/tmpaew15s45:37: G((a) U (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((a) U (b))' > 'lcr-o0-aIOzzf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((a) U (b))' | autfilt --high > 'lcr-o1-6WNVwi'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((a) U (b))' > 'lcr-o2-y76Vul'
+Running [P3]: ltl2tgba -G 'G((a) U (b))' > 'lcr-o3-MmYyto'
+Gathering statistics...
+
+/tmp/tmpaew15s45:38: ((a) & (G(F(b)))) | (F(G(a))) | ((!(a)) & (F(G(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G(F(b)))) | (F(G(a))) | ((!(a)) & (F(G(!(b)))))' > 'lcr-o0-SwXMsr'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G(F(b)))) | (F(G(a))) | ((!(a)) & (F(G(!(b)))))' | autfilt --high > 'lcr-o1-ZxQ5su'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G(F(b)))) | (F(G(a))) | ((!(a)) & (F(G(!(b)))))' > 'lcr-o2-8fw8tx'
+Running [P3]: ltl2tgba -G '((a) & (G(F(b)))) | (F(G(a))) | ((!(a)) & (F(G(!(b)))))' > 'lcr-o3-WBOYwA'
+Gathering statistics...
+
+/tmp/tmpaew15s45:39: F((F(a)) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((F(a)) R (b))' > 'lcr-o0-1k7JAD'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((F(a)) R (b))' | autfilt --high > 'lcr-o1-98YzFG'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((F(a)) R (b))' > 'lcr-o2-u3D7KJ'
+Running [P3]: ltl2tgba -G 'F((F(a)) R (b))' > 'lcr-o3-oTdIRM'
+Gathering statistics...
+
+/tmp/tmpaew15s45:40: F(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' > 'lcr-o0-HOD1YP'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' | autfilt --high > 'lcr-o1-cD1m7S'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' > 'lcr-o2-E6opgW'
+Running [P3]: ltl2tgba -G 'F(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' > 'lcr-o3-Mw94qZ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:41: F((a) | ((b) U (c)) | ((c) U (d)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((b) U (c)) | ((c) U (d)))' > 'lcr-o0-oDQwC2'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((b) U (c)) | ((c) U (d)))' | autfilt --high > 'lcr-o1-fRXXO5'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((b) U (c)) | ((c) U (d)))' > 'lcr-o2-Tid218'
+Running [P3]: ltl2tgba -G 'F((a) | ((b) U (c)) | ((c) U (d)))' > 'lcr-o3-W6lTfc'
+Gathering statistics...
+
+/tmp/tmpaew15s45:42: ((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b)))))' > 'lcr-o0-Fp0puf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b)))))' | autfilt --high > 'lcr-o1-E56UJi'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b)))))' > 'lcr-o2-D9A4Zl'
+Running [P3]: ltl2tgba -G '((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b)))))' > 'lcr-o3-edCkhp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:43: ((a) & (F((G(a)) & (F(G(!(b))))))) | ((!(a)) & (G(F((!(a)) | (G(F(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F((G(a)) & (F(G(!(b))))))) | ((!(a)) & (G(F((!(a)) | (G(F(b)))))))' > 'lcr-o0-PMigzs'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F((G(a)) & (F(G(!(b))))))) | ((!(a)) & (G(F((!(a)) | (G(F(b)))))))' | autfilt --high > 'lcr-o1-CRqaSv'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F((G(a)) & (F(G(!(b))))))) | ((!(a)) & (G(F((!(a)) | (G(F(b)))))))' > 'lcr-o2-tvsLbz'
+Running [P3]: ltl2tgba -G '((a) & (F((G(a)) & (F(G(!(b))))))) | ((!(a)) & (G(F((!(a)) | (G(F(b)))))))' > 'lcr-o3-epBjxC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:44: (a) & ((b) | (F(G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & ((b) | (F(G(c))))' > 'lcr-o0-LPAATF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & ((b) | (F(G(c))))' | autfilt --high > 'lcr-o1-Vh5QgJ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & ((b) | (F(G(c))))' > 'lcr-o2-egULEM'
+Running [P3]: ltl2tgba -G '(a) & ((b) | (F(G(c))))' > 'lcr-o3-k8Sw3P'
+Gathering statistics...
+
+/tmp/tmpaew15s45:45: (a) | (F(G(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F(G(b)))' > 'lcr-o0-jZZZsT'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F(G(b)))' | autfilt --high > 'lcr-o1-HKuvTW'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F(G(b)))' > 'lcr-o2-EZaFk0'
+Running [P3]: ltl2tgba -G '(a) | (F(G(b)))' > 'lcr-o3-fCmuM3'
+Gathering statistics...
+
+/tmp/tmpaew15s45:46: G((F(b)) & (F(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(b)) & (F(a)))' > 'lcr-o0-yY2Ue7'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(b)) & (F(a)))' | autfilt --high > 'lcr-o1-vvRoIa'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(b)) & (F(a)))' > 'lcr-o2-kekxce'
+Running [P3]: ltl2tgba -G 'G((F(b)) & (F(a)))' > 'lcr-o3-CuWzHh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:47: (G(F(a))) | ((!(a)) & (X(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | ((!(a)) & (X(G(b))))' > 'lcr-o0-hvmedl'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | ((!(a)) & (X(G(b))))' | autfilt --high > 'lcr-o1-OhHTJo'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | ((!(a)) & (X(G(b))))' > 'lcr-o2-JeGdhs'
+Running [P3]: ltl2tgba -G '(G(F(a))) | ((!(a)) & (X(G(b))))' > 'lcr-o3-FEHrPv'
+Gathering statistics...
+
+/tmp/tmpaew15s45:48: (a) U ((!(b)) | (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) U ((!(b)) | (F(G(b))))' > 'lcr-o0-DaDfoz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) U ((!(b)) | (F(G(b))))' | autfilt --high > 'lcr-o1-h9B2XC'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) U ((!(b)) | (F(G(b))))' > 'lcr-o2-1SXuyG'
+Running [P3]: ltl2tgba -G '(a) U ((!(b)) | (F(G(b))))' > 'lcr-o3-g9gN9J'
+Gathering statistics...
+
+/tmp/tmpaew15s45:49: ((a) & (b) & (F(G(!(c))))) | (((!(a)) | (!(b))) & (G(F(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (b) & (F(G(!(c))))) | (((!(a)) | (!(b))) & (G(F(c))))' > 'lcr-o0-4OKJLN'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (b) & (F(G(!(c))))) | (((!(a)) | (!(b))) & (G(F(c))))' | autfilt --high > 'lcr-o1-NPlJoR'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (b) & (F(G(!(c))))) | (((!(a)) | (!(b))) & (G(F(c))))' > 'lcr-o2-Kogq2U'
+Running [P3]: ltl2tgba -G '((a) & (b) & (F(G(!(c))))) | (((!(a)) | (!(b))) & (G(F(c))))' > 'lcr-o3-vSBFHY'
+Gathering statistics...
+
+/tmp/tmpaew15s45:50: F(((a) | (G(b))) & ((a) | ((c) R (!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) | (G(b))) & ((a) | ((c) R (!(a)))))' > 'lcr-o0-3YxNn2'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) | (G(b))) & ((a) | ((c) R (!(a)))))' | autfilt --high > 'lcr-o1-8q9X45'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) | (G(b))) & ((a) | ((c) R (!(a)))))' > 'lcr-o2-YrhOM9'
+Running [P3]: ltl2tgba -G 'F(((a) | (G(b))) & ((a) | ((c) R (!(a)))))' > 'lcr-o3-yQmRvd'
+Gathering statistics...
+
+/tmp/tmpaew15s45:51: X((F(G(!(a)))) | ((b) & (X(!(a)))) | ((!(b)) & (X(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((F(G(!(a)))) | ((b) & (X(!(a)))) | ((!(b)) & (X(a))))' > 'lcr-o0-ED6Cfh'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((F(G(!(a)))) | ((b) & (X(!(a)))) | ((!(b)) & (X(a))))' | autfilt --high > 'lcr-o1-lP0r0k'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((F(G(!(a)))) | ((b) & (X(!(a)))) | ((!(b)) & (X(a))))' > 'lcr-o2-XAU4Lo'
+Running [P3]: ltl2tgba -G 'X((F(G(!(a)))) | ((b) & (X(!(a)))) | ((!(b)) & (X(a))))' > 'lcr-o3-a0k9ys'
+Gathering statistics...
+
+/tmp/tmpaew15s45:52: (X(a)) | (G((b) U (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(X(a)) | (G((b) U (c)))' > 'lcr-o0-NpmZmw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(X(a)) | (G((b) U (c)))' | autfilt --high > 'lcr-o1-rReTbA'
+Running [P2]: ltl3tela -i1 -X1 -f '(X(a)) | (G((b) U (c)))' > 'lcr-o2-OX6y1D'
+Running [P3]: ltl2tgba -G '(X(a)) | (G((b) U (c)))' > 'lcr-o3-K4apSH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:53: X(F(((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F(((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))))' > 'lcr-o0-5z32JL'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F(((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))))' | autfilt --high > 'lcr-o1-LifKCP'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F(((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))))' > 'lcr-o2-CO1awT'
+Running [P3]: ltl2tgba -G 'X(F(((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))))' > 'lcr-o3-3aCtrX'
+Gathering statistics...
+
+/tmp/tmpaew15s45:54: X(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' > 'lcr-o0-D2BGn1'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' | autfilt --high > 'lcr-o1-a2yVk5'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' > 'lcr-o2-7eYTi9'
+Running [P3]: ltl2tgba -G 'X(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' > 'lcr-o3-qyCsid'
+Gathering statistics...
+
+/tmp/tmpaew15s45:55: (a) | ((!(a)) & (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | ((!(a)) & (G(F(b))))' > 'lcr-o0-JdPSih'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | ((!(a)) & (G(F(b))))' | autfilt --high > 'lcr-o1-BPSlkl'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | ((!(a)) & (G(F(b))))' > 'lcr-o2-X59smp'
+Running [P3]: ltl2tgba -G '(a) | ((!(a)) & (G(F(b))))' > 'lcr-o3-Dc5vpt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:56: G(F((a) | (G(F(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) | (G(F(b)))))' > 'lcr-o0-fIAdtx'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) | (G(F(b)))))' | autfilt --high > 'lcr-o1-Y3j1xB'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) | (G(F(b)))))' > 'lcr-o2-gnKxDF'
+Running [P3]: ltl2tgba -G 'G(F((a) | (G(F(b)))))' > 'lcr-o3-xkxZJJ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:57: X(((a) & (F(G((a) & ((!(b)) | ((c) & (d))))))) | ((!(a)) & (G(F((!(a)) | ((b) & ((!(c)) | (!(d)))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(((a) & (F(G((a) & ((!(b)) | ((c) & (d))))))) | ((!(a)) & (G(F((!(a)) | ((b) & ((!(c)) | (!(d)))))))))' > 'lcr-o0-dwpcRN'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(((a) & (F(G((a) & ((!(b)) | ((c) & (d))))))) | ((!(a)) & (G(F((!(a)) | ((b) & ((!(c)) | (!(d)))))))))' | autfilt --high > 'lcr-o1-gKBwZR'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(((a) & (F(G((a) & ((!(b)) | ((c) & (d))))))) | ((!(a)) & (G(F((!(a)) | ((b) & ((!(c)) | (!(d)))))))))' > 'lcr-o2-2F3A8V'
+Running [P3]: ltl2tgba -G 'X(((a) & (F(G((a) & ((!(b)) | ((c) & (d))))))) | ((!(a)) & (G(F((!(a)) | ((b) & ((!(c)) | (!(d)))))))))' > 'lcr-o3-dmvpk0'
+Gathering statistics...
+
+/tmp/tmpaew15s45:58: X((G(b)) | (F(G(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(b)) | (F(G(a))))' > 'lcr-o0-c6Fix4'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(b)) | (F(G(a))))' | autfilt --high > 'lcr-o1-RBScL8'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(b)) | (F(G(a))))' > 'lcr-o2-PrmLZc'
+Running [P3]: ltl2tgba -G 'X((G(b)) | (F(G(a))))' > 'lcr-o3-jUpifh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:59: X(F((a) | (G(F(b))) | ((c) & (G(d)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((a) | (G(F(b))) | ((c) & (G(d)))))' > 'lcr-o0-Mr1tvl'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) | (G(F(b))) | ((c) & (G(d)))))' | autfilt --high > 'lcr-o1-VpZFMp'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((a) | (G(F(b))) | ((c) & (G(d)))))' > 'lcr-o2-5LMC4t'
+Running [P3]: ltl2tgba -G 'X(F((a) | (G(F(b))) | ((c) & (G(d)))))' > 'lcr-o3-lV9Ioy'
+Gathering statistics...
+
+/tmp/tmpaew15s45:60: (G(F(a))) | ((b) R (c))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | ((b) R (c))' > 'lcr-o0-OxTPJC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | ((b) R (c))' | autfilt --high > 'lcr-o1-PCsV5G'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | ((b) R (c))' > 'lcr-o2-VFKJsL'
+Running [P3]: ltl2tgba -G '(G(F(a))) | ((b) R (c))' > 'lcr-o3-a61oQP'
+Gathering statistics...
+
+/tmp/tmpaew15s45:61: G(F((a) | (G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) | (G(b))))' > 'lcr-o0-7BBHeU'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) | (G(b))))' | autfilt --high > 'lcr-o1-ugF1DY'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) | (G(b))))' > 'lcr-o2-TdFY32'
+Running [P3]: ltl2tgba -G 'G(F((a) | (G(b))))' > 'lcr-o3-l8pWu7'
+Gathering statistics...
+
+/tmp/tmpaew15s45:62: F(((G(a)) & ((b) U (c))) | ((F(!(a))) & ((!(b)) R (!(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((G(a)) & ((b) U (c))) | ((F(!(a))) & ((!(b)) R (!(c)))))' > 'lcr-o0-sKKBWb'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((G(a)) & ((b) U (c))) | ((F(!(a))) & ((!(b)) R (!(c)))))' | autfilt --high > 'lcr-o1-DbKjpg'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((G(a)) & ((b) U (c))) | ((F(!(a))) & ((!(b)) R (!(c)))))' > 'lcr-o2-8r9PSk'
+Running [P3]: ltl2tgba -G 'F(((G(a)) & ((b) U (c))) | ((F(!(a))) & ((!(b)) R (!(c)))))' > 'lcr-o3-L13zpp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:63: F((a) | ((!(a)) & (!(b))) | (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((!(a)) & (!(b))) | (G(F(b))))' > 'lcr-o0-LfbbXt'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((!(a)) & (!(b))) | (G(F(b))))' | autfilt --high > 'lcr-o1-5RPKvy'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((!(a)) & (!(b))) | (G(F(b))))' > 'lcr-o2-dTLX4C'
+Running [P3]: ltl2tgba -G 'F((a) | ((!(a)) & (!(b))) | (G(F(b))))' > 'lcr-o3-kGBTEH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:64: X(X((a) & (F(G(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((a) & (F(G(a)))))' > 'lcr-o0-XXOsfM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((a) & (F(G(a)))))' | autfilt --high > 'lcr-o1-gC8YQQ'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((a) & (F(G(a)))))' > 'lcr-o2-ngY9sV'
+Running [P3]: ltl2tgba -G 'X(X((a) & (F(G(a)))))' > 'lcr-o3-58da6Z'
+Gathering statistics...
+
+/tmp/tmpaew15s45:65: ((a) U (((a) & (b)) | ((!(a)) & (!(b))))) & (F((c) | ((b) U (a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) U (((a) & (b)) | ((!(a)) & (!(b))))) & (F((c) | ((b) U (a))))' > 'lcr-o0-HU9OJ4'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) U (((a) & (b)) | ((!(a)) & (!(b))))) & (F((c) | ((b) U (a))))' | autfilt --high > 'lcr-o1-BI9uo9'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) U (((a) & (b)) | ((!(a)) & (!(b))))) & (F((c) | ((b) U (a))))' > 'lcr-o2-IjNT3d'
+Running [P3]: ltl2tgba -G '((a) U (((a) & (b)) | ((!(a)) & (!(b))))) & (F((c) | ((b) U (a))))' > 'lcr-o3-XHVdKi'
+Gathering statistics...
+
+/tmp/tmpaew15s45:66: ((a) & (F(G(!(a))))) | ((!(a)) & (G(F(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F(G(!(a))))) | ((!(a)) & (G(F(a))))' > 'lcr-o0-b8zdrn'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F(G(!(a))))) | ((!(a)) & (G(F(a))))' | autfilt --high > 'lcr-o1-bDEf9r'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F(G(!(a))))) | ((!(a)) & (G(F(a))))' > 'lcr-o2-J5lXRw'
+Running [P3]: ltl2tgba -G '((a) & (F(G(!(a))))) | ((!(a)) & (G(F(a))))' > 'lcr-o3-UoDLBB'
+Gathering statistics...
+
+/tmp/tmpaew15s45:67: X((a) | (b) | (F(G(c))) | (G(!(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (b) | (F(G(c))) | (G(!(b))))' > 'lcr-o0-tZ5fmG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (b) | (F(G(c))) | (G(!(b))))' | autfilt --high > 'lcr-o1-YEZN7K'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (b) | (F(G(c))) | (G(!(b))))' > 'lcr-o2-qe03TP'
+Running [P3]: ltl2tgba -G 'X((a) | (b) | (F(G(c))) | (G(!(b))))' > 'lcr-o3-9xVzHU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:68: F((G(a)) | (G((b) & (F(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | (G((b) & (F(a)))))' > 'lcr-o0-gFwQvZ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G((b) & (F(a)))))' | autfilt --high > 'lcr-o1-OJl8k4'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | (G((b) & (F(a)))))' > 'lcr-o2-B4A4a9'
+Running [P3]: ltl2tgba -G 'F((G(a)) | (G((b) & (F(a)))))' > 'lcr-o3-EbEp2d'
+Gathering statistics...
+
+/tmp/tmpaew15s45:69: ((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))' > 'lcr-o0-0lqzUi'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))' | autfilt --high > 'lcr-o1-RgeMNn'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))' > 'lcr-o2-QzlDHs'
+Running [P3]: ltl2tgba -G '((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))' > 'lcr-o3-V2zZCx'
+Gathering statistics...
+
+/tmp/tmpaew15s45:70: (G((a) & (b))) | (F((G(c)) | (X(F(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G((a) & (b))) | (F((G(c)) | (X(F(!(b))))))' > 'lcr-o0-KDBazC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G((a) & (b))) | (F((G(c)) | (X(F(!(b))))))' | autfilt --high > 'lcr-o1-phjowH'
+Running [P2]: ltl3tela -i1 -X1 -f '(G((a) & (b))) | (F((G(c)) | (X(F(!(b))))))' > 'lcr-o2-saymuM'
+Running [P3]: ltl2tgba -G '(G((a) & (b))) | (F((G(c)) | (X(F(!(b))))))' > 'lcr-o3-KIAztR'
+Gathering statistics...
+
+/tmp/tmpaew15s45:71: (a) | (G((F(!(b))) & ((c) U (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G((F(!(b))) & ((c) U (b))))' > 'lcr-o0-icIwtW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G((F(!(b))) & ((c) U (b))))' | autfilt --high > 'lcr-o1-iDRwu1'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G((F(!(b))) & ((c) U (b))))' > 'lcr-o2-c9dbw6'
+Running [P3]: ltl2tgba -G '(a) | (G((F(!(b))) & ((c) U (b))))' > 'lcr-o3-26v7yb'
+Gathering statistics...
+
+/tmp/tmpaew15s45:72: F((G(a)) | ((G(b)) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | ((G(b)) R (c)))' > 'lcr-o0-UctKCg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | ((G(b)) R (c)))' | autfilt --high > 'lcr-o1-GskpHl'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | ((G(b)) R (c)))' > 'lcr-o2-8tlNMq'
+Running [P3]: ltl2tgba -G 'F((G(a)) | ((G(b)) R (c)))' > 'lcr-o3-tCEXTv'
+Gathering statistics...
+
+/tmp/tmpaew15s45:73: F((a) | (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G(F(b))))' > 'lcr-o0-4B2Z1A'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(F(b))))' | autfilt --high > 'lcr-o1-bPW4aG'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G(F(b))))' > 'lcr-o2-g8rQkL'
+Running [P3]: ltl2tgba -G 'F((a) | (G(F(b))))' > 'lcr-o3-rX8mvQ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:74: (a) | (G(!(b))) | (G(F((b) | (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G(!(b))) | (G(F((b) | (c))))' > 'lcr-o0-h0RvGV'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G(!(b))) | (G(F((b) | (c))))' | autfilt --high > 'lcr-o1-SD8GS0'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G(!(b))) | (G(F((b) | (c))))' > 'lcr-o2-d2tA55'
+Running [P3]: ltl2tgba -G '(a) | (G(!(b))) | (G(F((b) | (c))))' > 'lcr-o3-UNqujb'
+Gathering statistics...
+
+/tmp/tmpaew15s45:75: F((a) | (G(!(b))) | (G((F(b)) & (F(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G(!(b))) | (G((F(b)) & (F(a)))))' > 'lcr-o0-2qI4xg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(!(b))) | (G((F(b)) & (F(a)))))' | autfilt --high > 'lcr-o1-Bn7GNl'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G(!(b))) | (G((F(b)) & (F(a)))))' > 'lcr-o2-qGQ23q'
+Running [P3]: ltl2tgba -G 'F((a) | (G(!(b))) | (G((F(b)) & (F(a)))))' > 'lcr-o3-rDGcmw'
+Gathering statistics...
+
+/tmp/tmpaew15s45:76: X(X((F(G(!(a)))) | (G((b) U (a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((F(G(!(a)))) | (G((b) U (a)))))' > 'lcr-o0-aEIcFB'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((F(G(!(a)))) | (G((b) U (a)))))' | autfilt --high > 'lcr-o1-yM7eZG'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((F(G(!(a)))) | (G((b) U (a)))))' > 'lcr-o2-Ks4ZjM'
+Running [P3]: ltl2tgba -G 'X(X((F(G(!(a)))) | (G((b) U (a)))))' > 'lcr-o3-psPhGR'
+Gathering statistics...
+
+/tmp/tmpaew15s45:77: G(F((a) | (G(b)) | (G(F(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) | (G(b)) | (G(F(c)))))' > 'lcr-o0-k2Qk3W'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) | (G(b)) | (G(F(c)))))' | autfilt --high > 'lcr-o1-gg3yr2'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) | (G(b)) | (G(F(c)))))' > 'lcr-o2-EBMxQ7'
+Running [P3]: ltl2tgba -G 'G(F((a) | (G(b)) | (G(F(c)))))' > 'lcr-o3-U1Uwhd'
+Gathering statistics...
+
+/tmp/tmpaew15s45:78: (a) & (((b) & (F(G(b)))) | ((!(b)) & (G(F(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (((b) & (F(G(b)))) | ((!(b)) & (G(F(!(b))))))' > 'lcr-o0-0GvrJi'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (((b) & (F(G(b)))) | ((!(b)) & (G(F(!(b))))))' | autfilt --high > 'lcr-o1-Y89oco'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (((b) & (F(G(b)))) | ((!(b)) & (G(F(!(b))))))' > 'lcr-o2-CQc2Ft'
+Running [P3]: ltl2tgba -G '(a) & (((b) & (F(G(b)))) | ((!(b)) & (G(F(!(b))))))' > 'lcr-o3-Cc8Yaz'
+Gathering statistics...
+
+/tmp/tmpaew15s45:79: (a) & (X((!(b)) & (F(G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (X((!(b)) & (F(G(b)))))' > 'lcr-o0-vhREGE'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (X((!(b)) & (F(G(b)))))' | autfilt --high > 'lcr-o1-sG1qdK'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (X((!(b)) & (F(G(b)))))' > 'lcr-o2-CQERKP'
+Running [P3]: ltl2tgba -G '(a) & (X((!(b)) & (F(G(b)))))' > 'lcr-o3-nAsbjV'
+Gathering statistics...
+
+/tmp/tmpaew15s45:80: X(X(F((G((!(a)) & (b))) | ((!(b)) & ((F(a)) | (X(F(!(b)))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(F((G((!(a)) & (b))) | ((!(b)) & ((F(a)) | (X(F(!(b)))))))))' > 'lcr-o0-6XNeS0'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(F((G((!(a)) & (b))) | ((!(b)) & ((F(a)) | (X(F(!(b)))))))))' | autfilt --high > 'lcr-o1-GUZks6'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(F((G((!(a)) & (b))) | ((!(b)) & ((F(a)) | (X(F(!(b)))))))))' > 'lcr-o2-3Bqe3b'
+Running [P3]: ltl2tgba -G 'X(X(F((G((!(a)) & (b))) | ((!(b)) & ((F(a)) | (X(F(!(b)))))))))' > 'lcr-o3-ChR6Fh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:81: F((a) & (((b) & (F(G((c) & (F(d)))))) | ((!(b)) & (G(F((!(c)) | (G(!(d)))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & (((b) & (F(G((c) & (F(d)))))) | ((!(b)) & (G(F((!(c)) | (G(!(d)))))))))' > 'lcr-o0-p4AWjn'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((b) & (F(G((c) & (F(d)))))) | ((!(b)) & (G(F((!(c)) | (G(!(d)))))))))' | autfilt --high > 'lcr-o1-23qMYs'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & (((b) & (F(G((c) & (F(d)))))) | ((!(b)) & (G(F((!(c)) | (G(!(d)))))))))' > 'lcr-o2-2WexEy'
+Running [P3]: ltl2tgba -G 'F((a) & (((b) & (F(G((c) & (F(d)))))) | ((!(b)) & (G(F((!(c)) | (G(!(d)))))))))' > 'lcr-o3-UmChqE'
+Gathering statistics...
+
+/tmp/tmpaew15s45:82: (G(F(a))) | (G((b) & (F(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | (G((b) & (F(c))))' > 'lcr-o0-RkPedK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | (G((b) & (F(c))))' | autfilt --high > 'lcr-o1-fMkb1P'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | (G((b) & (F(c))))' > 'lcr-o2-aJyWPV'
+Running [P3]: ltl2tgba -G '(G(F(a))) | (G((b) & (F(c))))' > 'lcr-o3-O2dTF1'
+Gathering statistics...
+
+/tmp/tmpaew15s45:83: X(X((G(a)) | (F(G((!(a)) & ((a) | (b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((G(a)) | (F(G((!(a)) & ((a) | (b)))))))' > 'lcr-o0-19gBw7'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((G(a)) | (F(G((!(a)) & ((a) | (b)))))))' | autfilt --high > 'lcr-o1-ZWCkod'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((G(a)) | (F(G((!(a)) & ((a) | (b)))))))' > 'lcr-o2-81DJgj'
+Running [P3]: ltl2tgba -G 'X(X((G(a)) | (F(G((!(a)) & ((a) | (b)))))))' > 'lcr-o3-Dyknap'
+Gathering statistics...
+
+/tmp/tmpaew15s45:84: X(X(F((F(a)) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(F((F(a)) R (b))))' > 'lcr-o0-ptCL4u'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(F((F(a)) R (b))))' | autfilt --high > 'lcr-o1-cEwe0A'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(F((F(a)) R (b))))' > 'lcr-o2-ETDoWG'
+Running [P3]: ltl2tgba -G 'X(X(F((F(a)) R (b))))' > 'lcr-o3-LcoJTM'
+Gathering statistics...
+
+/tmp/tmpaew15s45:85: (F(G((a) U (b)))) R (c)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G((a) U (b)))) R (c)' > 'lcr-o0-15OTRS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G((a) U (b)))) R (c)' | autfilt --high > 'lcr-o1-rxz7QY'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G((a) U (b)))) R (c)' > 'lcr-o2-13d6Q4'
+Running [P3]: ltl2tgba -G '(F(G((a) U (b)))) R (c)' > 'lcr-o3-SjcoSa'
+Gathering statistics...
+
+/tmp/tmpaew15s45:86: (!(a)) | (F(((a) & (G(F(!(a))))) | ((!(a)) & (F(G(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) | (F(((a) & (G(F(!(a))))) | ((!(a)) & (F(G(a))))))' > 'lcr-o0-NDttUg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (F(((a) & (G(F(!(a))))) | ((!(a)) & (F(G(a))))))' | autfilt --high > 'lcr-o1-5FjBXm'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) | (F(((a) & (G(F(!(a))))) | ((!(a)) & (F(G(a))))))' > 'lcr-o2-UZRv1s'
+Running [P3]: ltl2tgba -G '(!(a)) | (F(((a) & (G(F(!(a))))) | ((!(a)) & (F(G(a))))))' > 'lcr-o3-We2L6y'
+Gathering statistics...
+
+/tmp/tmpaew15s45:87: (!(a)) & (F(G((a) & (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) & (F(G((a) & (b))))' > 'lcr-o0-GALNcF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) & (F(G((a) & (b))))' | autfilt --high > 'lcr-o1-MgQTjL'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) & (F(G((a) & (b))))' > 'lcr-o2-RkBDrR'
+Running [P3]: ltl2tgba -G '(!(a)) & (F(G((a) & (b))))' > 'lcr-o3-2ih8zX'
+Gathering statistics...
+
+/tmp/tmpaew15s45:88: X((G(F(b))) | (G(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(F(b))) | (G(a)))' > 'lcr-o0-tgvjJ3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(F(b))) | (G(a)))' | autfilt --high > 'lcr-o1-SKGsT9'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(F(b))) | (G(a)))' > 'lcr-o2-p3Og4f'
+Running [P3]: ltl2tgba -G 'X((G(F(b))) | (G(a)))' > 'lcr-o3-oSB3fm'
+Gathering statistics...
+
+/tmp/tmpaew15s45:89: X(X(F((a) | (G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(F((a) | (G(b)))))' > 'lcr-o0-6zEuss'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(F((a) | (G(b)))))' | autfilt --high > 'lcr-o1-nvLXFy'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(F((a) | (G(b)))))' > 'lcr-o2-c0d4TE'
+Running [P3]: ltl2tgba -G 'X(X(F((a) | (G(b)))))' > 'lcr-o3-zAG78K'
+Gathering statistics...
+
+/tmp/tmpaew15s45:90: F((G(a)) | ((F(!(b))) & ((!(c)) | (!(d)) | (F(a)))) | ((c) & (d) & (G((!(a)) & (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | ((F(!(b))) & ((!(c)) | (!(d)) | (F(a)))) | ((c) & (d) & (G((!(a)) & (b)))))' > 'lcr-o0-513ToR'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | ((F(!(b))) & ((!(c)) | (!(d)) | (F(a)))) | ((c) & (d) & (G((!(a)) & (b)))))' | autfilt --high > 'lcr-o1-bvFHFX'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | ((F(!(b))) & ((!(c)) | (!(d)) | (F(a)))) | ((c) & (d) & (G((!(a)) & (b)))))' > 'lcr-o2-ZzokX3'
+Running [P3]: ltl2tgba -G 'F((G(a)) | ((F(!(b))) & ((!(c)) | (!(d)) | (F(a)))) | ((c) & (d) & (G((!(a)) & (b)))))' > 'lcr-o3-q4fjja'
+Gathering statistics...
+
+/tmp/tmpaew15s45:91: F((a) | ((a) U (b)) | (X(F((c) R (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((a) U (b)) | (X(F((c) R (b)))))' > 'lcr-o0-ugptGg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((a) U (b)) | (X(F((c) R (b)))))' | autfilt --high > 'lcr-o1-9W6D4m'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((a) U (b)) | (X(F((c) R (b)))))' > 'lcr-o2-CWKAtt'
+Running [P3]: ltl2tgba -G 'F((a) | ((a) U (b)) | (X(F((c) R (b)))))' > 'lcr-o3-ChxtTz'
+Gathering statistics...
+
+/tmp/tmpaew15s45:92: X((a) | (F((G(b)) | (G(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (F((G(b)) | (G(!(b))))))' > 'lcr-o0-NfN5jG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (F((G(b)) | (G(!(b))))))' | autfilt --high > 'lcr-o1-chtJLM'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (F((G(b)) | (G(!(b))))))' > 'lcr-o2-9wiZdT'
+Running [P3]: ltl2tgba -G 'X((a) | (F((G(b)) | (G(!(b))))))' > 'lcr-o3-rRUlHZ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:93: F((a) & (((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & (((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))))' > 'lcr-o0-DDyqb6'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))))' | autfilt --high > 'lcr-o1-rb7AGc'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & (((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))))' > 'lcr-o2-HVrwcj'
+Running [P3]: ltl2tgba -G 'F((a) & (((a) & (G((b) U (c)))) | ((!(a)) & (F((!(b)) R (!(c)))))))' > 'lcr-o3-Xjm2Jp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:94: F((G(F(a))) | (G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(a))) | (G(!(a))))' > 'lcr-o0-Jijliw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(a))) | (G(!(a))))' | autfilt --high > 'lcr-o1-BvbFRC'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(a))) | (G(!(a))))' > 'lcr-o2-OECErJ'
+Running [P3]: ltl2tgba -G 'F((G(F(a))) | (G(!(a))))' > 'lcr-o3-p4oq2P'
+Gathering statistics...
+
+/tmp/tmpaew15s45:95: G((F(G(a))) & (F((b) & (((b) & ((!(a)) | (c))) | ((a) & (!(b)) & (!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(G(a))) & (F((b) & (((b) & ((!(a)) | (c))) | ((a) & (!(b)) & (!(c)))))))' > 'lcr-o0-wckODW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(G(a))) & (F((b) & (((b) & ((!(a)) | (c))) | ((a) & (!(b)) & (!(c)))))))' | autfilt --high > 'lcr-o1-o2Gng3'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(G(a))) & (F((b) & (((b) & ((!(a)) | (c))) | ((a) & (!(b)) & (!(c)))))))' > 'lcr-o2-kd7BT9'
+Running [P3]: ltl2tgba -G 'G((F(G(a))) & (F((b) & (((b) & ((!(a)) | (c))) | ((a) & (!(b)) & (!(c)))))))' > 'lcr-o3-tp7gyg'
+Gathering statistics...
+
+/tmp/tmpaew15s45:96: (X(((a) & (F(!(b)))) | ((!(a)) & (G(b))))) | (F((!(a)) | (c) | (G(d))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(X(((a) & (F(!(b)))) | ((!(a)) & (G(b))))) | (F((!(a)) | (c) | (G(d))))' > 'lcr-o0-AMDIdn'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(X(((a) & (F(!(b)))) | ((!(a)) & (G(b))))) | (F((!(a)) | (c) | (G(d))))' | autfilt --high > 'lcr-o1-51BeUt'
+Running [P2]: ltl3tela -i1 -X1 -f '(X(((a) & (F(!(b)))) | ((!(a)) & (G(b))))) | (F((!(a)) | (c) | (G(d))))' > 'lcr-o2-XbRxBA'
+Running [P3]: ltl2tgba -G '(X(((a) & (F(!(b)))) | ((!(a)) & (G(b))))) | (F((!(a)) | (c) | (G(d))))' > 'lcr-o3-laEwkH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:97: (!(a)) | (F((b) R (a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) | (F((b) R (a)))' > 'lcr-o0-Auon4N'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (F((b) R (a)))' | autfilt --high > 'lcr-o1-GOMdPU'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) | (F((b) R (a)))' > 'lcr-o2-hcrJA1'
+Running [P3]: ltl2tgba -G '(!(a)) | (F((b) R (a)))' > 'lcr-o3-ket1m8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:98: (a) | (((!(a)) | (G(b))) & ((F(G(a))) | (G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (((!(a)) | (G(b))) & ((F(G(a))) | (G(c))))' > 'lcr-o0-GvXY9e'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (((!(a)) | (G(b))) & ((F(G(a))) | (G(c))))' | autfilt --high > 'lcr-o1-D8KYXl'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (((!(a)) | (G(b))) & ((F(G(a))) | (G(c))))' > 'lcr-o2-kyEFMs'
+Running [P3]: ltl2tgba -G '(a) | (((!(a)) | (G(b))) & ((F(G(a))) | (G(c))))' > 'lcr-o3-2QRDCz'
+Gathering statistics...
+
+/tmp/tmpaew15s45:99: G(F((a) | ((b) U (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) | ((b) U (c))))' > 'lcr-o0-y27qtG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) | ((b) U (c))))' | autfilt --high > 'lcr-o1-WTghlN'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) | ((b) U (c))))' > 'lcr-o2-Z1wMdU'
+Running [P3]: ltl2tgba -G 'G(F((a) | ((b) U (c))))' > 'lcr-o3-afK660'
+Gathering statistics...
+
+/tmp/tmpaew15s45:100: G((a) & (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((a) & (F(G(b))))' > 'lcr-o0-nOn607'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((a) & (F(G(b))))' | autfilt --high > 'lcr-o1-YW08Ve'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((a) & (F(G(b))))' > 'lcr-o2-KKa1Rl'
+Running [P3]: ltl2tgba -G 'G((a) & (F(G(b))))' > 'lcr-o3-SrzDOs'
+Gathering statistics...
+
+/tmp/tmpaew15s45:101: (G(F(a))) | (G(!(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | (G(!(a)))' > 'lcr-o0-zL2QLz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | (G(!(a)))' | autfilt --high > 'lcr-o1-cOe5JG'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | (G(!(a)))' > 'lcr-o2-Mqf1IN'
+Running [P3]: ltl2tgba -G '(G(F(a))) | (G(!(a)))' > 'lcr-o3-a2jFIU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:102: G(F((a) R (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) R (b)))' > 'lcr-o0-VmaTI1'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) R (b)))' | autfilt --high > 'lcr-o1-QJ27J8'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) R (b)))' > 'lcr-o2-8vMZLf'
+Running [P3]: ltl2tgba -G 'G(F((a) R (b)))' > 'lcr-o3-oi3BOm'
+Gathering statistics...
+
+/tmp/tmpaew15s45:103: (G(F(b))) | (G(a))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(b))) | (G(a))' > 'lcr-o0-AWqQRt'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(b))) | (G(a))' | autfilt --high > 'lcr-o1-pr45VA'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(b))) | (G(a))' > 'lcr-o2-WcY00H'
+Running [P3]: ltl2tgba -G '(G(F(b))) | (G(a))' > 'lcr-o3-qfJH6O'
+Gathering statistics...
+
+/tmp/tmpaew15s45:104: (((!(a)) & (b)) | ((a) & (!(b)))) U ((a) | (F((G(F(c))) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(((!(a)) & (b)) | ((a) & (!(b)))) U ((a) | (F((G(F(c))) R (b))))' > 'lcr-o0-4mpYcW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(((!(a)) & (b)) | ((a) & (!(b)))) U ((a) | (F((G(F(c))) R (b))))' | autfilt --high > 'lcr-o1-lpgmk3'
+Running [P2]: ltl3tela -i1 -X1 -f '(((!(a)) & (b)) | ((a) & (!(b)))) U ((a) | (F((G(F(c))) R (b))))' > 'lcr-o2-CZBusa'
+Running [P3]: ltl2tgba -G '(((!(a)) & (b)) | ((a) & (!(b)))) U ((a) | (F((G(F(c))) R (b))))' > 'lcr-o3-f9dLCh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:105: X(X(X(G((a) U (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(X(G((a) U (b)))))' > 'lcr-o0-BssXNo'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(X(G((a) U (b)))))' | autfilt --high > 'lcr-o1-eIUe0v'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(X(G((a) U (b)))))' > 'lcr-o2-jHvbdD'
+Running [P3]: ltl2tgba -G 'X(X(X(G((a) U (b)))))' > 'lcr-o3-01p1qK'
+Gathering statistics...
+
+/tmp/tmpaew15s45:106: F((G((!(a)) & (b))) | ((F(a)) & (F(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G((!(a)) & (b))) | ((F(a)) & (F(!(b)))))' > 'lcr-o0-CTMuFR'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G((!(a)) & (b))) | ((F(a)) & (F(!(b)))))' | autfilt --high > 'lcr-o1-tO9XUY'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G((!(a)) & (b))) | ((F(a)) & (F(!(b)))))' > 'lcr-o2-lAJdb6'
+Running [P3]: ltl2tgba -G 'F((G((!(a)) & (b))) | ((F(a)) & (F(!(b)))))' > 'lcr-o3-qa20sd'
+Gathering statistics...
+
+/tmp/tmpaew15s45:107: (a) | (((b) & (G(F(!(a))))) R (c))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (((b) & (G(F(!(a))))) R (c))' > 'lcr-o0-H72GLk'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (((b) & (G(F(!(a))))) R (c))' | autfilt --high > 'lcr-o1-Otbq5r'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (((b) & (G(F(!(a))))) R (c))' > 'lcr-o2-AlxVpz'
+Running [P3]: ltl2tgba -G '(a) | (((b) & (G(F(!(a))))) R (c))' > 'lcr-o3-FN42LG'
+Gathering statistics...
+
+/tmp/tmpaew15s45:108: ((a) & (b)) | (F(G(c))) | (G(!(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (b)) | (F(G(c))) | (G(!(b)))' > 'lcr-o0-wvu38N'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (b)) | (F(G(c))) | (G(!(b)))' | autfilt --high > 'lcr-o1-mJz6wV'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (b)) | (F(G(c))) | (G(!(b)))' > 'lcr-o2-F1LQV2'
+Running [P3]: ltl2tgba -G '((a) & (b)) | (F(G(c))) | (G(!(b)))' > 'lcr-o3-gOfEla'
+Gathering statistics...
+
+/tmp/tmpaew15s45:109: X((((a) & (b)) | ((!(a)) & (!(b)))) U ((F((c) | (G(a)))) R (d)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((((a) & (b)) | ((!(a)) & (!(b)))) U ((F((c) | (G(a)))) R (d)))' > 'lcr-o0-x919Lh'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((((a) & (b)) | ((!(a)) & (!(b)))) U ((F((c) | (G(a)))) R (d)))' | autfilt --high > 'lcr-o1-sKZMdp'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((((a) & (b)) | ((!(a)) & (!(b)))) U ((F((c) | (G(a)))) R (d)))' > 'lcr-o2-3HxpGw'
+Running [P3]: ltl2tgba -G 'X((((a) & (b)) | ((!(a)) & (!(b)))) U ((F((c) | (G(a)))) R (d)))' > 'lcr-o3-9ZQZbE'
+Gathering statistics...
+
+/tmp/tmpaew15s45:110: X(X((F(G(a))) | ((!(b)) & (F(!(c)))) | ((b) & (G(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((F(G(a))) | ((!(b)) & (F(!(c)))) | ((b) & (G(c)))))' > 'lcr-o0-Py7GIL'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((F(G(a))) | ((!(b)) & (F(!(c)))) | ((b) & (G(c)))))' | autfilt --high > 'lcr-o1-Y61ngT'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((F(G(a))) | ((!(b)) & (F(!(c)))) | ((b) & (G(c)))))' > 'lcr-o2-V6FSO0'
+Running [P3]: ltl2tgba -G 'X(X((F(G(a))) | ((!(b)) & (F(!(c)))) | ((b) & (G(c)))))' > 'lcr-o3-NGYlp8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:111: F((G(b)) & (F(G(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) & (F(G(a))))' > 'lcr-o0-dIEO0f'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) & (F(G(a))))' | autfilt --high > 'lcr-o1-7rLlDn'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) & (F(G(a))))' > 'lcr-o2-BCTzgv'
+Running [P3]: ltl2tgba -G 'F((G(b)) & (F(G(a))))' > 'lcr-o3-1QwHUC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:112: (F(a)) | (((!(a)) | (!(b))) U ((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(a)) | (((!(a)) | (!(b))) U ((b) R (c)))' > 'lcr-o0-3psvzK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(a)) | (((!(a)) | (!(b))) U ((b) R (c)))' | autfilt --high > 'lcr-o1-gMctfS'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(a)) | (((!(a)) | (!(b))) U ((b) R (c)))' > 'lcr-o2-3mgdWZ'
+Running [P3]: ltl2tgba -G '(F(a)) | (((!(a)) | (!(b))) U ((b) R (c)))' > 'lcr-o3-t548D7'
+Gathering statistics...
+
+/tmp/tmpaew15s45:113: (a) & (G((b) U (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (G((b) U (c)))' > 'lcr-o0-tSwTmf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (G((b) U (c)))' | autfilt --high > 'lcr-o1-dgTK6m'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (G((b) U (c)))' > 'lcr-o2-XymgRu'
+Running [P3]: ltl2tgba -G '(a) & (G((b) U (c)))' > 'lcr-o3-U57CCC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:114: F((G(b)) | (G(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) | (G(a)))' > 'lcr-o0-RUyFoK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) | (G(a)))' | autfilt --high > 'lcr-o1-Q76HbS'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) | (G(a)))' > 'lcr-o2-Z49rZZ'
+Running [P3]: ltl2tgba -G 'F((G(b)) | (G(a)))' > 'lcr-o3-Dy99N7'
+Gathering statistics...
+
+/tmp/tmpaew15s45:115: F((a) | (G((b) & (F(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G((b) & (F(c)))))' > 'lcr-o0-GLjzDf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G((b) & (F(c)))))' | autfilt --high > 'lcr-o1-LbNaun'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G((b) & (F(c)))))' > 'lcr-o2-DQHslv'
+Running [P3]: ltl2tgba -G 'F((a) | (G((b) & (F(c)))))' > 'lcr-o3-eb78dD'
+Gathering statistics...
+
+/tmp/tmpaew15s45:116: X((G(!(a))) | (G((b) & (F((a) | (c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(!(a))) | (G((b) & (F((a) | (c))))))' > 'lcr-o0-Q8kD7K'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(!(a))) | (G((b) & (F((a) | (c))))))' | autfilt --high > 'lcr-o1-2LDa2S'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(!(a))) | (G((b) & (F((a) | (c))))))' > 'lcr-o2-4bUqX0'
+Running [P3]: ltl2tgba -G 'X((G(!(a))) | (G((b) & (F((a) | (c))))))' > 'lcr-o3-wFZvU8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:117: (a) U (G((b) & (F(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) U (G((b) & (F(a))))' > 'lcr-o0-vrauSg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) U (G((b) & (F(a))))' | autfilt --high > 'lcr-o1-3uDsRo'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) U (G((b) & (F(a))))' > 'lcr-o2-Z3Z5Qw'
+Running [P3]: ltl2tgba -G '(a) U (G((b) & (F(a))))' > 'lcr-o3-alkZRE'
+Gathering statistics...
+
+/tmp/tmpaew15s45:118: F((a) & ((((!(a)) | (b)) & (F(G((c) | (d))))) | ((a) & (!(b)) & (G(F((!(c)) & (!(d))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & ((((!(a)) | (b)) & (F(G((c) | (d))))) | ((a) & (!(b)) & (G(F((!(c)) & (!(d))))))))' > 'lcr-o0-9LRzTM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((((!(a)) | (b)) & (F(G((c) | (d))))) | ((a) & (!(b)) & (G(F((!(c)) & (!(d))))))))' | autfilt --high > 'lcr-o1-nLXaWU'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & ((((!(a)) | (b)) & (F(G((c) | (d))))) | ((a) & (!(b)) & (G(F((!(c)) & (!(d))))))))' > 'lcr-o2-c52wZ2'
+Running [P3]: ltl2tgba -G 'F((a) & ((((!(a)) | (b)) & (F(G((c) | (d))))) | ((a) & (!(b)) & (G(F((!(c)) & (!(d))))))))' > 'lcr-o3-7OTC5a'
+Gathering statistics...
+
+/tmp/tmpaew15s45:119: (G(F(a))) R (b)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) R (b)' > 'lcr-o0-SbGIcj'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) R (b)' | autfilt --high > 'lcr-o1-QpNQkr'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) R (b)' > 'lcr-o2-Vr5Etz'
+Running [P3]: ltl2tgba -G '(G(F(a))) R (b)' > 'lcr-o3-Ew8nDH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:120: X(F(((G(a)) & (F(G((a) & (b))))) | ((F(!(a))) & (G(F((!(a)) | (!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F(((G(a)) & (F(G((a) & (b))))) | ((F(!(a))) & (G(F((!(a)) | (!(b))))))))' > 'lcr-o0-STkJNP'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F(((G(a)) & (F(G((a) & (b))))) | ((F(!(a))) & (G(F((!(a)) | (!(b))))))))' | autfilt --high > 'lcr-o1-Uqd4YX'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F(((G(a)) & (F(G((a) & (b))))) | ((F(!(a))) & (G(F((!(a)) | (!(b))))))))' > 'lcr-o2-wVy7a6'
+Running [P3]: ltl2tgba -G 'X(F(((G(a)) & (F(G((a) & (b))))) | ((F(!(a))) & (G(F((!(a)) | (!(b))))))))' > 'lcr-o3-sL0kpe'
+Gathering statistics...
+
+/tmp/tmpaew15s45:121: G((F(a)) & (((!(a)) & (G(b))) R (!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(a)) & (((!(a)) & (G(b))) R (!(a))))' > 'lcr-o0-R89vEm'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (((!(a)) & (G(b))) R (!(a))))' | autfilt --high > 'lcr-o1-gLNHUu'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(a)) & (((!(a)) & (G(b))) R (!(a))))' > 'lcr-o2-B6NwbD'
+Running [P3]: ltl2tgba -G 'G((F(a)) & (((!(a)) & (G(b))) R (!(a))))' > 'lcr-o3-SCl3sL'
+Gathering statistics...
+
+/tmp/tmpaew15s45:122: (G(a)) | (F((G(b)) | (G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(a)) | (F((G(b)) | (G(c))))' > 'lcr-o0-sLt8KT'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (F((G(b)) | (G(c))))' | autfilt --high > 'lcr-o1-cAnc41'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(a)) | (F((G(b)) | (G(c))))' > 'lcr-o2-yQhVna'
+Running [P3]: ltl2tgba -G '(G(a)) | (F((G(b)) | (G(c))))' > 'lcr-o3-2BrZIi'
+Gathering statistics...
+
+/tmp/tmpaew15s45:123: ((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))' > 'lcr-o0-yJDM4q'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))' | autfilt --high > 'lcr-o1-S5rArz'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))' > 'lcr-o2-lJR1OH'
+Running [P3]: ltl2tgba -G '((a) & (F(G(!(b))))) | ((!(a)) & (G(F(b))))' > 'lcr-o3-1M6HdQ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:124: (a) & ((G(b)) | (G(F(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & ((G(b)) | (G(F(!(b)))))' > 'lcr-o0-cf88CY'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & ((G(b)) | (G(F(!(b)))))' | autfilt --high > 'lcr-o1-NWlB36'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & ((G(b)) | (G(F(!(b)))))' > 'lcr-o2-wbDKuf'
+Running [P3]: ltl2tgba -G '(a) & ((G(b)) | (G(F(!(b)))))' > 'lcr-o3-cIrRWn'
+Gathering statistics...
+
+/tmp/tmpaew15s45:125: F(((G(((b) & (c)) | ((!(b)) & (!(c))))) & (F((a) & (b)))) | ((F(((!(b)) & (c)) | ((b) & (!(c))))) & (G((!(a)) | (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((G(((b) & (c)) | ((!(b)) & (!(c))))) & (F((a) & (b)))) | ((F(((!(b)) & (c)) | ((b) & (!(c))))) & (G((!(a)) | (!(b))))))' > 'lcr-o0-iGkEpw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((G(((b) & (c)) | ((!(b)) & (!(c))))) & (F((a) & (b)))) | ((F(((!(b)) & (c)) | ((b) & (!(c))))) & (G((!(a)) | (!(b))))))' | autfilt --high > 'lcr-o1-b2uvTE'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((G(((b) & (c)) | ((!(b)) & (!(c))))) & (F((a) & (b)))) | ((F(((!(b)) & (c)) | ((b) & (!(c))))) & (G((!(a)) | (!(b))))))' > 'lcr-o2-gGq6nN'
+Running [P3]: ltl2tgba -G 'F(((G(((b) & (c)) | ((!(b)) & (!(c))))) & (F((a) & (b)))) | ((F(((!(b)) & (c)) | ((b) & (!(c))))) & (G((!(a)) | (!(b))))))' > 'lcr-o3-lO5tVV'
+Gathering statistics...
+
+/tmp/tmpaew15s45:126: (a) | (X((b) | (F(G(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X((b) | (F(G(c)))))' > 'lcr-o0-em1Gt4'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X((b) | (F(G(c)))))' | autfilt --high > 'lcr-o1-ryLR2c'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X((b) | (F(G(c)))))' > 'lcr-o2-1pFECl'
+Running [P3]: ltl2tgba -G '(a) | (X((b) | (F(G(c)))))' > 'lcr-o3-01jpdu'
+Gathering statistics...
+
+/tmp/tmpaew15s45:127: X(F((G(a)) | (X((b) | (G(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((G(a)) | (X((b) | (G(c))))))' > 'lcr-o0-hkEQOC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((G(a)) | (X((b) | (G(c))))))' | autfilt --high > 'lcr-o1-tJ1jrL'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((G(a)) | (X((b) | (G(c))))))' > 'lcr-o2-yRir4T'
+Running [P3]: ltl2tgba -G 'X(F((G(a)) | (X((b) | (G(c))))))' > 'lcr-o3-umBfJ2'
+Gathering statistics...
+
+/tmp/tmpaew15s45:128: (X(a)) | ((F(G(a))) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(X(a)) | ((F(G(a))) R (b))' > 'lcr-o0-8nCZob'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(X(a)) | ((F(G(a))) R (b))' | autfilt --high > 'lcr-o1-UowO5j'
+Running [P2]: ltl3tela -i1 -X1 -f '(X(a)) | ((F(G(a))) R (b))' > 'lcr-o2-3CyjNs'
+Running [P3]: ltl2tgba -G '(X(a)) | ((F(G(a))) R (b))' > 'lcr-o3-ZdahwB'
+Gathering statistics...
+
+/tmp/tmpaew15s45:129: (G(a)) | (F((G(b)) | (G(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(a)) | (F((G(b)) | (G(!(a)))))' > 'lcr-o0-qUD5fK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (F((G(b)) | (G(!(a)))))' | autfilt --high > 'lcr-o1-ZHAX0S'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(a)) | (F((G(b)) | (G(!(a)))))' > 'lcr-o2-nAJwM1'
+Running [P3]: ltl2tgba -G '(G(a)) | (F((G(b)) | (G(!(a)))))' > 'lcr-o3-mBelza'
+Gathering statistics...
+
+/tmp/tmpaew15s45:130: F(((F(G(a))) & ((!(b)) U (((!(a)) & (c)) | ((a) & (!(c)))))) | ((G(F(!(a)))) & ((b) R (((a) & (c)) | ((!(a)) & (!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((F(G(a))) & ((!(b)) U (((!(a)) & (c)) | ((a) & (!(c)))))) | ((G(F(!(a)))) & ((b) R (((a) & (c)) | ((!(a)) & (!(c)))))))' > 'lcr-o0-lAZRmj'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((F(G(a))) & ((!(b)) U (((!(a)) & (c)) | ((a) & (!(c)))))) | ((G(F(!(a)))) & ((b) R (((a) & (c)) | ((!(a)) & (!(c)))))))' | autfilt --high > 'lcr-o1-0DTvbs'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((F(G(a))) & ((!(b)) U (((!(a)) & (c)) | ((a) & (!(c)))))) | ((G(F(!(a)))) & ((b) R (((a) & (c)) | ((!(a)) & (!(c)))))))' > 'lcr-o2-5D7Y0A'
+Running [P3]: ltl2tgba -G 'F(((F(G(a))) & ((!(b)) U (((!(a)) & (c)) | ((a) & (!(c)))))) | ((G(F(!(a)))) & ((b) R (((a) & (c)) | ((!(a)) & (!(c)))))))' > 'lcr-o3-3Fg3UJ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:131: F(G((a) & ((X(F(b))) R ((a) | (X(F(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((a) & ((X(F(b))) R ((a) | (X(F(b)))))))' > 'lcr-o0-xyW9PS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((a) & ((X(F(b))) R ((a) | (X(F(b)))))))' | autfilt --high > 'lcr-o1-7CWkM1'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((a) & ((X(F(b))) R ((a) | (X(F(b)))))))' > 'lcr-o2-OEeaJa'
+Running [P3]: ltl2tgba -G 'F(G((a) & ((X(F(b))) R ((a) | (X(F(b)))))))' > 'lcr-o3-BrVWGj'
+Gathering statistics...
+
+/tmp/tmpaew15s45:132: (F(G(a))) | ((b) R (c))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) | ((b) R (c))' > 'lcr-o0-jXasFs'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) | ((b) R (c))' | autfilt --high > 'lcr-o1-nX1XEB'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) | ((b) R (c))' > 'lcr-o2-PwveFK'
+Running [P3]: ltl2tgba -G '(F(G(a))) | ((b) R (c))' > 'lcr-o3-37WoGT'
+Gathering statistics...
+
+/tmp/tmpaew15s45:133: F((G(a)) | (X(X(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | (X(X(!(a)))))' > 'lcr-o0-CDPgI2'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (X(X(!(a)))))' | autfilt --high > 'lcr-o1-kkaeLb'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | (X(X(!(a)))))' > 'lcr-o2-yC5QOk'
+Running [P3]: ltl2tgba -G 'F((G(a)) | (X(X(!(a)))))' > 'lcr-o3-H4DiTt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:134: F((a) | (((b) | (c)) R ((!(b)) | (d))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (((b) | (c)) R ((!(b)) | (d))))' > 'lcr-o0-eUOoYC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (((b) | (c)) R ((!(b)) | (d))))' | autfilt --high > 'lcr-o1-OR3w4L'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (((b) | (c)) R ((!(b)) | (d))))' > 'lcr-o2-z8AobV'
+Running [P3]: ltl2tgba -G 'F((a) | (((b) | (c)) R ((!(b)) | (d))))' > 'lcr-o3-F28hj4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:135: ((a) R (b)) | (F((c) R (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) R (b)) | (F((c) R (b)))' > 'lcr-o0-5jLZrd'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) R (b)) | (F((c) R (b)))' | autfilt --high > 'lcr-o1-a0HPBm'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) R (b)) | (F((c) R (b)))' > 'lcr-o2-pifpMv'
+Running [P3]: ltl2tgba -G '((a) R (b)) | (F((c) R (b)))' > 'lcr-o3-0Hn7XE'
+Gathering statistics...
+
+/tmp/tmpaew15s45:136: F((G(F(((a) & (b)) | ((!(a)) & (!(b)))))) R ((a) | (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(((a) & (b)) | ((!(a)) & (!(b)))))) R ((a) | (c)))' > 'lcr-o0-Qp7DaO'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(((a) & (b)) | ((!(a)) & (!(b)))))) R ((a) | (c)))' | autfilt --high > 'lcr-o1-AWofoX'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(((a) & (b)) | ((!(a)) & (!(b)))))) R ((a) | (c)))' > 'lcr-o2-RF7zC6'
+Running [P3]: ltl2tgba -G 'F((G(F(((a) & (b)) | ((!(a)) & (!(b)))))) R ((a) | (c)))' > 'lcr-o3-v6pmSf'
+Gathering statistics...
+
+/tmp/tmpaew15s45:137: X(F((F(a)) & ((b) | (G(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((F(a)) & ((b) | (G(c)))))' > 'lcr-o0-iqYY8o'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((F(a)) & ((b) | (G(c)))))' | autfilt --high > 'lcr-o1-Pu1Eqy'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((F(a)) & ((b) | (G(c)))))' > 'lcr-o2-zIBbJH'
+Running [P3]: ltl2tgba -G 'X(F((F(a)) & ((b) | (G(c)))))' > 'lcr-o3-Wqqy3Q'
+Gathering statistics...
+
+/tmp/tmpaew15s45:138: (F((a) R (b))) | (X(a))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F((a) R (b))) | (X(a))' > 'lcr-o0-2GENo0'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F((a) R (b))) | (X(a))' | autfilt --high > 'lcr-o1-V605K9'
+Running [P2]: ltl3tela -i1 -X1 -f '(F((a) R (b))) | (X(a))' > 'lcr-o2-apk67i'
+Running [P3]: ltl2tgba -G '(F((a) R (b))) | (X(a))' > 'lcr-o3-Bwl3vs'
+Gathering statistics...
+
+/tmp/tmpaew15s45:139: F((G(F(b))) | (G(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(b))) | (G(a)))' > 'lcr-o0-IL1LUB'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(b))) | (G(a)))' | autfilt --high > 'lcr-o1-whbzkL'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(b))) | (G(a)))' > 'lcr-o2-CBx4KU'
+Running [P3]: ltl2tgba -G 'F((G(F(b))) | (G(a)))' > 'lcr-o3-Q3bTc4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:140: F((G(b)) | (G(F(a))) | (G(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) | (G(F(a))) | (G(c)))' > 'lcr-o0-VF6oFd'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) | (G(F(a))) | (G(c)))' | autfilt --high > 'lcr-o1-uQ108m'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) | (G(F(a))) | (G(c)))' > 'lcr-o2-0R3nDw'
+Running [P3]: ltl2tgba -G 'F((G(b)) | (G(F(a))) | (G(c)))' > 'lcr-o3-vOAI9F'
+Gathering statistics...
+
+/tmp/tmpaew15s45:141: (a) | (X((b) | (G(F(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X((b) | (G(F(!(a))))))' > 'lcr-o0-mD8TGP'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X((b) | (G(F(!(a))))))' | autfilt --high > 'lcr-o1-GJJ8eZ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X((b) | (G(F(!(a))))))' > 'lcr-o2-UUE2N8'
+Running [P3]: ltl2tgba -G '(a) | (X((b) | (G(F(!(a))))))' > 'lcr-o3-Re9Uni'
+Gathering statistics...
+
+/tmp/tmpaew15s45:142: X((G(a)) | (G(F(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(a)) | (G(F(!(a)))))' > 'lcr-o0-fGpuYr'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(a)) | (G(F(!(a)))))' | autfilt --high > 'lcr-o1-7Lc7zB'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(a)) | (G(F(!(a)))))' > 'lcr-o2-EbyscL'
+Running [P3]: ltl2tgba -G 'X((G(a)) | (G(F(!(a)))))' > 'lcr-o3-xH9JPU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:143: F(G((a) & ((b) R (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((a) & ((b) R (c))))' > 'lcr-o0-ZvsGt4'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((a) & ((b) R (c))))' | autfilt --high > 'lcr-o1-2BkF8d'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((a) & ((b) R (c))))' > 'lcr-o2-7sujOn'
+Running [P3]: ltl2tgba -G 'F(G((a) & ((b) R (c))))' > 'lcr-o3-fkkPux'
+Gathering statistics...
+
+/tmp/tmpaew15s45:144: (F(G(a))) | ((b) & (G(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) | ((b) & (G(c)))' > 'lcr-o0-WWg3bH'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) | ((b) & (G(c)))' | autfilt --high > 'lcr-o1-ueYkUQ'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) | ((b) & (G(c)))' > 'lcr-o2-D9IkD0'
+Running [P3]: ltl2tgba -G '(F(G(a))) | ((b) & (G(c)))' > 'lcr-o3-e82ena'
+Gathering statistics...
+
+/tmp/tmpaew15s45:145: F(((G(b)) & (F(G(!(a))))) | ((G(F(a))) & (F(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((G(b)) & (F(G(!(a))))) | ((G(F(a))) & (F(!(b)))))' > 'lcr-o0-cgVP7j'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((G(b)) & (F(G(!(a))))) | ((G(F(a))) & (F(!(b)))))' | autfilt --high > 'lcr-o1-eBcuTt'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((G(b)) & (F(G(!(a))))) | ((G(F(a))) & (F(!(b)))))' > 'lcr-o2-QVqPFD'
+Running [P3]: ltl2tgba -G 'F(((G(b)) & (F(G(!(a))))) | ((G(F(a))) & (F(!(b)))))' > 'lcr-o3-Oi6duN'
+Gathering statistics...
+
+/tmp/tmpaew15s45:146: ((a) & (F(G(b)))) R (a)
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F(G(b)))) R (a)' > 'lcr-o0-uDoujX'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F(G(b)))) R (a)' | autfilt --high > 'lcr-o1-DAlK96'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F(G(b)))) R (a)' > 'lcr-o2-cuYE0g'
+Running [P3]: ltl2tgba -G '((a) & (F(G(b)))) R (a)' > 'lcr-o3-SlWqSq'
+Gathering statistics...
+
+/tmp/tmpaew15s45:147: ((!(a)) & (X(X(((b) & (G(F(!(c))))) | ((!(b)) & (F(G(c)))))))) | ((a) & (X(X(((!(b)) & (G(F(!(c))))) | ((b) & (F(G(c))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((!(a)) & (X(X(((b) & (G(F(!(c))))) | ((!(b)) & (F(G(c)))))))) | ((a) & (X(X(((!(b)) & (G(F(!(c))))) | ((b) & (F(G(c))))))))' > 'lcr-o0-WsgRKA'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((!(a)) & (X(X(((b) & (G(F(!(c))))) | ((!(b)) & (F(G(c)))))))) | ((a) & (X(X(((!(b)) & (G(F(!(c))))) | ((b) & (F(G(c))))))))' | autfilt --high > 'lcr-o1-PVtjEK'
+Running [P2]: ltl3tela -i1 -X1 -f '((!(a)) & (X(X(((b) & (G(F(!(c))))) | ((!(b)) & (F(G(c)))))))) | ((a) & (X(X(((!(b)) & (G(F(!(c))))) | ((b) & (F(G(c))))))))' > 'lcr-o2-iGiryU'
+Running [P3]: ltl2tgba -G '((!(a)) & (X(X(((b) & (G(F(!(c))))) | ((!(b)) & (F(G(c)))))))) | ((a) & (X(X(((!(b)) & (G(F(!(c))))) | ((b) & (F(G(c))))))))' > 'lcr-o3-oTsqv4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:148: G((a) & (F((!(a)) | (b) | (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((a) & (F((!(a)) | (b) | (c))))' > 'lcr-o0-eT2lte'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((a) & (F((!(a)) | (b) | (c))))' | autfilt --high > 'lcr-o1-K5gkso'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((a) & (F((!(a)) | (b) | (c))))' > 'lcr-o2-MJVWry'
+Running [P3]: ltl2tgba -G 'G((a) & (F((!(a)) | (b) | (c))))' > 'lcr-o3-PlIrsI'
+Gathering statistics...
+
+/tmp/tmpaew15s45:149: (a) | ((b) U ((F(G(c))) R (d)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | ((b) U ((F(G(c))) R (d)))' > 'lcr-o0-JRkztS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | ((b) U ((F(G(c))) R (d)))' | autfilt --high > 'lcr-o1-VygKv2'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | ((b) U ((F(G(c))) R (d)))' > 'lcr-o2-pxlHyc'
+Running [P3]: ltl2tgba -G '(a) | ((b) U ((F(G(c))) R (d)))' > 'lcr-o3-ktPQDm'
+Gathering statistics...
+
+/tmp/tmpaew15s45:150: G((F(c)) & (F((a) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(c)) & (F((a) R (b))))' > 'lcr-o0-iyqYJw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(c)) & (F((a) R (b))))' | autfilt --high > 'lcr-o1-GWk7QG'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(c)) & (F((a) R (b))))' > 'lcr-o2-3dZTYQ'
+Running [P3]: ltl2tgba -G 'G((F(c)) & (F((a) R (b))))' > 'lcr-o3-JYDb80'
+Gathering statistics...
+
+/tmp/tmpaew15s45:151: X(F((F(a)) & ((b) | (F(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((F(a)) & ((b) | (F(c)))))' > 'lcr-o0-SKbaib'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((F(a)) & ((b) | (F(c)))))' | autfilt --high > 'lcr-o1-5C16sl'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((F(a)) & ((b) | (F(c)))))' > 'lcr-o2-CWnREv'
+Running [P3]: ltl2tgba -G 'X(F((F(a)) & ((b) | (F(c)))))' > 'lcr-o3-1R0dSF'
+Gathering statistics...
+
+/tmp/tmpaew15s45:152: G((F(b)) & (F(a)) & (F(G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(b)) & (F(a)) & (F(G(c))))' > 'lcr-o0-A30p6P'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(b)) & (F(a)) & (F(G(c))))' | autfilt --high > 'lcr-o1-im3Dl0'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(b)) & (F(a)) & (F(G(c))))' > 'lcr-o2-h5KxBa'
+Running [P3]: ltl2tgba -G 'G((F(b)) & (F(a)) & (F(G(c))))' > 'lcr-o3-CGWjTk'
+Gathering statistics...
+
+/tmp/tmpaew15s45:153: (G(!(a))) | (G((a) & ((F(a)) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(!(a))) | (G((a) & ((F(a)) R (b))))' > 'lcr-o0-d2DTbv'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (G((a) & ((F(a)) R (b))))' | autfilt --high > 'lcr-o1-8tXtvF'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(!(a))) | (G((a) & ((F(a)) R (b))))' > 'lcr-o2-mnhHPP'
+Running [P3]: ltl2tgba -G '(G(!(a))) | (G((a) & ((F(a)) R (b))))' > 'lcr-o3-VSBJa0'
+Gathering statistics...
+
+/tmp/tmpaew15s45:154: F((G(!(a))) | (((b) & (G(a))) R (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(!(a))) | (((b) & (G(a))) R (b)))' > 'lcr-o0-jUpowa'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(!(a))) | (((b) & (G(a))) R (b)))' | autfilt --high > 'lcr-o1-ApT4Sk'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(!(a))) | (((b) & (G(a))) R (b)))' > 'lcr-o2-ctWrgv'
+Running [P3]: ltl2tgba -G 'F((G(!(a))) | (((b) & (G(a))) R (b)))' > 'lcr-o3-KqtbFF'
+Gathering statistics...
+
+/tmp/tmpaew15s45:155: F((a) | (G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G(!(a))))' > 'lcr-o0-awrI4P'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(!(a))))' | autfilt --high > 'lcr-o1-MVLfv0'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G(!(a))))' > 'lcr-o2-ARnqWa'
+Running [P3]: ltl2tgba -G 'F((a) | (G(!(a))))' > 'lcr-o3-2kd6nl'
+Gathering statistics...
+
+/tmp/tmpaew15s45:156: (a) | (G(F(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G(F(b)))' > 'lcr-o0-Un1jQv'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G(F(b)))' | autfilt --high > 'lcr-o1-NouwjG'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G(F(b)))' > 'lcr-o2-zF0lNQ'
+Running [P3]: ltl2tgba -G '(a) | (G(F(b)))' > 'lcr-o3-pzeQh1'
+Gathering statistics...
+
+/tmp/tmpaew15s45:157: X((G(F(a))) | (G((a) | (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(F(a))) | (G((a) | (b))))' > 'lcr-o0-aK7TMb'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(F(a))) | (G((a) | (b))))' | autfilt --high > 'lcr-o1-VozYim'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(F(a))) | (G((a) | (b))))' > 'lcr-o2-ojeIPw'
+Running [P3]: ltl2tgba -G 'X((G(F(a))) | (G((a) | (b))))' > 'lcr-o3-NFFsnH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:158: (a) | (F((b) | (G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F((b) | (G(c))))' > 'lcr-o0-5BWTVR'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F((b) | (G(c))))' | autfilt --high > 'lcr-o1-EJ3nv2'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F((b) | (G(c))))' > 'lcr-o2-Ipiy5c'
+Running [P3]: ltl2tgba -G '(a) | (F((b) | (G(c))))' > 'lcr-o3-4FRAGn'
+Gathering statistics...
+
+/tmp/tmpaew15s45:159: (F(G(a))) | (((b) | (c)) & (((d) & (G(!(c)))) | ((!(d)) & (F(c))))) | ((!(b)) & (!(c)) & (((d) & (F(c))) | ((!(d)) & (G(!(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) | (((b) | (c)) & (((d) & (G(!(c)))) | ((!(d)) & (F(c))))) | ((!(b)) & (!(c)) & (((d) & (F(c))) | ((!(d)) & (G(!(c))))))' > 'lcr-o0-2tAniy'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) | (((b) | (c)) & (((d) & (G(!(c)))) | ((!(d)) & (F(c))))) | ((!(b)) & (!(c)) & (((d) & (F(c))) | ((!(d)) & (G(!(c))))))' | autfilt --high > 'lcr-o1-28HeVI'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) | (((b) | (c)) & (((d) & (G(!(c)))) | ((!(d)) & (F(c))))) | ((!(b)) & (!(c)) & (((d) & (F(c))) | ((!(d)) & (G(!(c))))))' > 'lcr-o2-I8FSyT'
+Running [P3]: ltl2tgba -G '(F(G(a))) | (((b) | (c)) & (((d) & (G(!(c)))) | ((!(d)) & (F(c))))) | ((!(b)) & (!(c)) & (((d) & (F(c))) | ((!(d)) & (G(!(c))))))' > 'lcr-o3-f0rRe4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:160: (!(a)) | (b) | (X((c) | (F(G(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) | (b) | (X((c) | (F(G(a)))))' > 'lcr-o0-4fWJVe'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (b) | (X((c) | (F(G(a)))))' | autfilt --high > 'lcr-o1-gFkGDp'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) | (b) | (X((c) | (F(G(a)))))' > 'lcr-o2-5xzjmA'
+Running [P3]: ltl2tgba -G '(!(a)) | (b) | (X((c) | (F(G(a)))))' > 'lcr-o3-vTG05K'
+Gathering statistics...
+
+/tmp/tmpaew15s45:161: F(G((!(a)) | ((b) & (((!(a)) & (c) & (X(!(a)))) | ((!(c)) & ((a) | (X(a))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((!(a)) | ((b) & (((!(a)) & (c) & (X(!(a)))) | ((!(c)) & ((a) | (X(a))))))))' > 'lcr-o0-p54pQV'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((!(a)) | ((b) & (((!(a)) & (c) & (X(!(a)))) | ((!(c)) & ((a) | (X(a))))))))' | autfilt --high > 'lcr-o1-6JxRB6'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((!(a)) | ((b) & (((!(a)) & (c) & (X(!(a)))) | ((!(c)) & ((a) | (X(a))))))))' > 'lcr-o2-pw3Xnh'
+Running [P3]: ltl2tgba -G 'F(G((!(a)) | ((b) & (((!(a)) & (c) & (X(!(a)))) | ((!(c)) & ((a) | (X(a))))))))' > 'lcr-o3-MtzWas'
+Gathering statistics...
+
+/tmp/tmpaew15s45:162: F((a) | (((a) | (b)) U (G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (((a) | (b)) U (G(c))))' > 'lcr-o0-wwTGYC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (((a) | (b)) U (G(c))))' | autfilt --high > 'lcr-o1-x0CtNN'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (((a) | (b)) U (G(c))))' > 'lcr-o2-cobXCY'
+Running [P3]: ltl2tgba -G 'F((a) | (((a) | (b)) U (G(c))))' > 'lcr-o3-cvTpt9'
+Gathering statistics...
+
+/tmp/tmpaew15s45:163: (G(b)) | (G(F(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(b)) | (G(F(a)))' > 'lcr-o0-5aoBkk'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(b)) | (G(F(a)))' | autfilt --high > 'lcr-o1-hWTMcv'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(b)) | (G(F(a)))' > 'lcr-o2-fqiD5F'
+Running [P3]: ltl2tgba -G '(G(b)) | (G(F(a)))' > 'lcr-o3-BOpeZQ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:164: X(F((a) | (G((b) & (F(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((a) | (G((b) & (F(c))))))' > 'lcr-o0-6t3qT1'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) | (G((b) & (F(c))))))' | autfilt --high > 'lcr-o1-ZSAFOc'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((a) | (G((b) & (F(c))))))' > 'lcr-o2-Eq9BKn'
+Running [P3]: ltl2tgba -G 'X(F((a) | (G((b) & (F(c))))))' > 'lcr-o3-YfF3Hy'
+Gathering statistics...
+
+/tmp/tmpaew15s45:165: (a) & (X(X(F(((a) & (b)) | ((!(a)) & (!(b))) | ((!(a)) U (X(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (X(X(F(((a) & (b)) | ((!(a)) & (!(b))) | ((!(a)) U (X(c)))))))' > 'lcr-o0-oA6mGJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (X(X(F(((a) & (b)) | ((!(a)) & (!(b))) | ((!(a)) U (X(c)))))))' | autfilt --high > 'lcr-o1-eITHFU'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (X(X(F(((a) & (b)) | ((!(a)) & (!(b))) | ((!(a)) U (X(c)))))))' > 'lcr-o2-twSPF5'
+Running [P3]: ltl2tgba -G '(a) & (X(X(F(((a) & (b)) | ((!(a)) & (!(b))) | ((!(a)) U (X(c)))))))' > 'lcr-o3-EOUnHg'
+Gathering statistics...
+
+/tmp/tmpaew15s45:166: F(((a) | (b)) & ((b) | (F((a) R (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) | (b)) & ((b) | (F((a) R (b)))))' > 'lcr-o0-OEvLJr'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) | (b)) & ((b) | (F((a) R (b)))))' | autfilt --high > 'lcr-o1-mJ28MC'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) | (b)) & ((b) | (F((a) R (b)))))' > 'lcr-o2-h2CbRN'
+Running [P3]: ltl2tgba -G 'F(((a) | (b)) & ((b) | (F((a) R (b)))))' > 'lcr-o3-X3m9VY'
+Gathering statistics...
+
+/tmp/tmpaew15s45:167: (a) & (F(G((b) | ((a) & (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (F(G((b) | ((a) & (!(b))))))' > 'lcr-o0-ITiM19'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (F(G((b) | ((a) & (!(b))))))' | autfilt --high > 'lcr-o1-cU2p8k'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (F(G((b) | ((a) & (!(b))))))' > 'lcr-o2-RPHHfw'
+Running [P3]: ltl2tgba -G '(a) & (F(G((b) | ((a) & (!(b))))))' > 'lcr-o3-zrDKnH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:168: F(((F(a)) & (F((b) | (c)))) | (G((!(a)) & (!(b)) & (!(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((F(a)) & (F((b) | (c)))) | (G((!(a)) & (!(b)) & (!(c)))))' > 'lcr-o0-4jftwS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((F(a)) & (F((b) | (c)))) | (G((!(a)) & (!(b)) & (!(c)))))' | autfilt --high > 'lcr-o1-diXfG3'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((F(a)) & (F((b) | (c)))) | (G((!(a)) & (!(b)) & (!(c)))))' > 'lcr-o2-YjUNQe'
+Running [P3]: ltl2tgba -G 'F(((F(a)) & (F((b) | (c)))) | (G((!(a)) & (!(b)) & (!(c)))))' > 'lcr-o3-DoZ42p'
+Gathering statistics...
+
+/tmp/tmpaew15s45:169: (G(F(a))) R (a)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) R (a)' > 'lcr-o0-wR7dgB'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) R (a)' | autfilt --high > 'lcr-o1-WFoquM'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) R (a)' > 'lcr-o2-J3HfJX'
+Running [P3]: ltl2tgba -G '(G(F(a))) R (a)' > 'lcr-o3-NzKNY8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:170: X((a) | (((!(a)) | (G(F(b)))) R (X(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (((!(a)) | (G(F(b)))) R (X(c))))' > 'lcr-o0-oiwXek'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (((!(a)) | (G(F(b)))) R (X(c))))' | autfilt --high > 'lcr-o1-yBM9vv'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (((!(a)) | (G(F(b)))) R (X(c))))' > 'lcr-o2-AAP1NG'
+Running [P3]: ltl2tgba -G 'X((a) | (((!(a)) | (G(F(b)))) R (X(c))))' > 'lcr-o3-v1OP6R'
+Gathering statistics...
+
+/tmp/tmpaew15s45:171: X(X((!(a)) | (F(G(((a) & (b)) | ((!(a)) & (!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((!(a)) | (F(G(((a) & (b)) | ((!(a)) & (!(b))))))))' > 'lcr-o0-XKylq3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((!(a)) | (F(G(((a) & (b)) | ((!(a)) & (!(b))))))))' | autfilt --high > 'lcr-o1-sN6SKe'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((!(a)) | (F(G(((a) & (b)) | ((!(a)) & (!(b))))))))' > 'lcr-o2-cm965p'
+Running [P3]: ltl2tgba -G 'X(X((!(a)) | (F(G(((a) & (b)) | ((!(a)) & (!(b))))))))' > 'lcr-o3-oYInsB'
+Gathering statistics...
+
+/tmp/tmpaew15s45:172: F(((a) & (X((!(b)) | (F(G(b)))))) | ((!(a)) & (X((b) & (G(F(!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (X((!(b)) | (F(G(b)))))) | ((!(a)) & (X((b) & (G(F(!(b))))))))' > 'lcr-o0-gxNnPM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (X((!(b)) | (F(G(b)))))) | ((!(a)) & (X((b) & (G(F(!(b))))))))' | autfilt --high > 'lcr-o1-PsZodY'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (X((!(b)) | (F(G(b)))))) | ((!(a)) & (X((b) & (G(F(!(b))))))))' > 'lcr-o2-sVf7B9'
+Running [P3]: ltl2tgba -G 'F(((a) & (X((!(b)) | (F(G(b)))))) | ((!(a)) & (X((b) & (G(F(!(b))))))))' > 'lcr-o3-man72k'
+Gathering statistics...
+
+/tmp/tmpaew15s45:173: X((!(a)) & ((G(F(b))) | ((a) R (((!(b)) & (c)) | ((b) & (!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((!(a)) & ((G(F(b))) | ((a) R (((!(b)) & (c)) | ((b) & (!(c)))))))' > 'lcr-o0-bfTZuw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((!(a)) & ((G(F(b))) | ((a) R (((!(b)) & (c)) | ((b) & (!(c)))))))' | autfilt --high > 'lcr-o1-VQhQXH'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((!(a)) & ((G(F(b))) | ((a) R (((!(b)) & (c)) | ((b) & (!(c)))))))' > 'lcr-o2-wiJorT'
+Running [P3]: ltl2tgba -G 'X((!(a)) & ((G(F(b))) | ((a) R (((!(b)) & (c)) | ((b) & (!(c)))))))' > 'lcr-o3-9eIMW4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:174: F((a) & ((b) U ((c) | (G(F(d))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & ((b) U ((c) | (G(F(d))))))' > 'lcr-o0-89JXsg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) U ((c) | (G(F(d))))))' | autfilt --high > 'lcr-o1-3BX4Zr'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & ((b) U ((c) | (G(F(d))))))' > 'lcr-o2-bRzVxD'
+Running [P3]: ltl2tgba -G 'F((a) & ((b) U ((c) | (G(F(d))))))' > 'lcr-o3-jL0B7O'
+Gathering statistics...
+
+/tmp/tmpaew15s45:175: X(G((a) & (F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(G((a) & (F(b))))' > 'lcr-o0-PRw3H0'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(G((a) & (F(b))))' | autfilt --high > 'lcr-o1-RCosjc'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(G((a) & (F(b))))' > 'lcr-o2-oAgtVn'
+Running [P3]: ltl2tgba -G 'X(G((a) & (F(b))))' > 'lcr-o3-QEciyz'
+Gathering statistics...
+
+/tmp/tmpaew15s45:176: F((G((F(b)) & (F(a)))) | (G((!(a)) & (!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G((F(b)) & (F(a)))) | (G((!(a)) & (!(b)))))' > 'lcr-o0-zygJbL'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G((F(b)) & (F(a)))) | (G((!(a)) & (!(b)))))' | autfilt --high > 'lcr-o1-jeR8PW'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G((F(b)) & (F(a)))) | (G((!(a)) & (!(b)))))' > 'lcr-o2-1fIcv8'
+Running [P3]: ltl2tgba -G 'F((G((F(b)) & (F(a)))) | (G((!(a)) & (!(b)))))' > 'lcr-o3-MSaTbk'
+Gathering statistics...
+
+/tmp/tmpaew15s45:177: F((G(F(a))) | ((b) & (G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(a))) | ((b) & (G(c))))' > 'lcr-o0-ZeAfTv'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(a))) | ((b) & (G(c))))' | autfilt --high > 'lcr-o1-pRCzBH'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(a))) | ((b) & (G(c))))' > 'lcr-o2-dsexkT'
+Running [P3]: ltl2tgba -G 'F((G(F(a))) | ((b) & (G(c))))' > 'lcr-o3-to7J44'
+Gathering statistics...
+
+/tmp/tmpaew15s45:178: F((G(((a) & (b)) | ((!(a)) & (!(b))))) | (G((!(a)) & (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(((a) & (b)) | ((!(a)) & (!(b))))) | (G((!(a)) & (c))))' > 'lcr-o0-YmOHPg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(((a) & (b)) | ((!(a)) & (!(b))))) | (G((!(a)) & (c))))' | autfilt --high > 'lcr-o1-KOeHBs'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(((a) & (b)) | ((!(a)) & (!(b))))) | (G((!(a)) & (c))))' > 'lcr-o2-nhNkoE'
+Running [P3]: ltl2tgba -G 'F((G(((a) & (b)) | ((!(a)) & (!(b))))) | (G((!(a)) & (c))))' > 'lcr-o3-FCj3bQ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:179: X(G((a) U (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(G((a) U (b)))' > 'lcr-o0-3Dkw01'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(G((a) U (b)))' | autfilt --high > 'lcr-o1-EdZXPd'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(G((a) U (b)))' > 'lcr-o2-FSl2Fp'
+Running [P3]: ltl2tgba -G 'X(G((a) U (b)))' > 'lcr-o3-2NcNwB'
+Gathering statistics...
+
+/tmp/tmpaew15s45:180: (a) | (F((((a) | ((!(b)) & (!(c)))) & (F((d) R (b)))) | ((!(a)) & ((b) | (c)) & (G((!(d)) U (!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F((((a) | ((!(b)) & (!(c)))) & (F((d) R (b)))) | ((!(a)) & ((b) | (c)) & (G((!(d)) U (!(b)))))))' > 'lcr-o0-rK38nN'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F((((a) | ((!(b)) & (!(c)))) & (F((d) R (b)))) | ((!(a)) & ((b) | (c)) & (G((!(d)) U (!(b)))))))' | autfilt --high > 'lcr-o1-6AYvgZ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F((((a) | ((!(b)) & (!(c)))) & (F((d) R (b)))) | ((!(a)) & ((b) | (c)) & (G((!(d)) U (!(b)))))))' > 'lcr-o2-7JUJ9a'
+Running [P3]: ltl2tgba -G '(a) | (F((((a) | ((!(b)) & (!(c)))) & (F((d) R (b)))) | ((!(a)) & ((b) | (c)) & (G((!(d)) U (!(b)))))))' > 'lcr-o3-cnsr6m'
+Gathering statistics...
+
+/tmp/tmpaew15s45:181: ((a) & (X(F((!(a)) | (G(b)))))) | ((!(a)) & (X(G((a) & (F(!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (X(F((!(a)) | (G(b)))))) | ((!(a)) & (X(G((a) & (F(!(b)))))))' > 'lcr-o0-6DQb4y'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (X(F((!(a)) | (G(b)))))) | ((!(a)) & (X(G((a) & (F(!(b)))))))' | autfilt --high > 'lcr-o1-WA3R2K'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (X(F((!(a)) | (G(b)))))) | ((!(a)) & (X(G((a) & (F(!(b)))))))' > 'lcr-o2-aNA91W'
+Running [P3]: ltl2tgba -G '((a) & (X(F((!(a)) | (G(b)))))) | ((!(a)) & (X(G((a) & (F(!(b)))))))' > 'lcr-o3-k1Qa38'
+Gathering statistics...
+
+/tmp/tmpaew15s45:182: F(((a) | (b)) & (F((G(a)) R (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) | (b)) & (F((G(a)) R (c))))' > 'lcr-o0-O1L54k'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) | (b)) & (F((G(a)) R (c))))' | autfilt --high > 'lcr-o1-w5n07w'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) | (b)) & (F((G(a)) R (c))))' > 'lcr-o2-xHUAbJ'
+Running [P3]: ltl2tgba -G 'F(((a) | (b)) & (F((G(a)) R (c))))' > 'lcr-o3-UeiBgV'
+Gathering statistics...
+
+/tmp/tmpaew15s45:183: (a) | (G(b)) | (G(F(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G(b)) | (G(F(c)))' > 'lcr-o0-oh4lm7'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G(b)) | (G(F(c)))' | autfilt --high > 'lcr-o1-JdO5sj'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G(b)) | (G(F(c)))' > 'lcr-o2-814sAv'
+Running [P3]: ltl2tgba -G '(a) | (G(b)) | (G(F(c)))' > 'lcr-o3-WumIIH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:184: F(G((a) U (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((a) U (b)))' > 'lcr-o0-SBABRT'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((a) U (b)))' | autfilt --high > 'lcr-o1-MLjt15'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((a) U (b)))' > 'lcr-o2-AcBYbi'
+Running [P3]: ltl2tgba -G 'F(G((a) U (b)))' > 'lcr-o3-Bu2gnu'
+Gathering statistics...
+
+/tmp/tmpaew15s45:185: ((a) & (G(F(a)))) | ((!(a)) & (F(G(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G(F(a)))) | ((!(a)) & (F(G(!(a)))))' > 'lcr-o0-0XSezG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G(F(a)))) | ((!(a)) & (F(G(!(a)))))' | autfilt --high > 'lcr-o1-vc6bMS'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G(F(a)))) | ((!(a)) & (F(G(!(a)))))' > 'lcr-o2-W8FNZ4'
+Running [P3]: ltl2tgba -G '((a) & (G(F(a)))) | ((!(a)) & (F(G(!(a)))))' > 'lcr-o3-XZqseh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:186: X((a) | (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (G(F(b))))' > 'lcr-o0-etELtt'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (G(F(b))))' | autfilt --high > 'lcr-o1-okP3JF'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (G(F(b))))' > 'lcr-o2-Gk7Y0R'
+Running [P3]: ltl2tgba -G 'X((a) | (G(F(b))))' > 'lcr-o3-GyEKi4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:187: (a) | (b) | (X((!(a)) | (!(b)) | (F(G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (b) | (X((!(a)) | (!(b)) | (F(G(b)))))' > 'lcr-o0-yq88Ag'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (b) | (X((!(a)) | (!(b)) | (F(G(b)))))' | autfilt --high > 'lcr-o1-JkMyUs'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (b) | (X((!(a)) | (!(b)) | (F(G(b)))))' > 'lcr-o2-BhnBeF'
+Running [P3]: ltl2tgba -G '(a) | (b) | (X((!(a)) | (!(b)) | (F(G(b)))))' > 'lcr-o3-n6lIzR'
+Gathering statistics...
+
+/tmp/tmpaew15s45:188: F((a) & (((b) & (X(c))) | ((!(b)) & (X(!(c)))) | ((b) & (F(G(d)))) | ((!(b)) & (G(F(!(d)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & (((b) & (X(c))) | ((!(b)) & (X(!(c)))) | ((b) & (F(G(d)))) | ((!(b)) & (G(F(!(d)))))))' > 'lcr-o0-Yv3yV3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((b) & (X(c))) | ((!(b)) & (X(!(c)))) | ((b) & (F(G(d)))) | ((!(b)) & (G(F(!(d)))))))' | autfilt --high > 'lcr-o1-Lh9rig'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & (((b) & (X(c))) | ((!(b)) & (X(!(c)))) | ((b) & (F(G(d)))) | ((!(b)) & (G(F(!(d)))))))' > 'lcr-o2-pgk7Fs'
+Running [P3]: ltl2tgba -G 'F((a) & (((b) & (X(c))) | ((!(b)) & (X(!(c)))) | ((b) & (F(G(d)))) | ((!(b)) & (G(F(!(d)))))))' > 'lcr-o3-sTem7E'
+Gathering statistics...
+
+/tmp/tmpaew15s45:189: X(X(F((a) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(F((a) R (b))))' > 'lcr-o0-LTAuzR'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(F((a) R (b))))' | autfilt --high > 'lcr-o1-SRdw23'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(F((a) R (b))))' > 'lcr-o2-aSk7vg'
+Running [P3]: ltl2tgba -G 'X(X(F((a) R (b))))' > 'lcr-o3-cTap0s'
+Gathering statistics...
+
+/tmp/tmpaew15s45:190: F(((!(a)) & (G((b) U (c)))) | ((a) & (F((!(b)) R (!(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((!(a)) & (G((b) U (c)))) | ((a) & (F((!(b)) R (!(c))))))' > 'lcr-o0-NhqjvF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((!(a)) & (G((b) U (c)))) | ((a) & (F((!(b)) R (!(c))))))' | autfilt --high > 'lcr-o1-TXqa1R'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((!(a)) & (G((b) U (c)))) | ((a) & (F((!(b)) R (!(c))))))' > 'lcr-o2-fz5Ix4'
+Running [P3]: ltl2tgba -G 'F(((!(a)) & (G((b) U (c)))) | ((a) & (F((!(b)) R (!(c))))))' > 'lcr-o3-rCch6g'
+Gathering statistics...
+
+/tmp/tmpaew15s45:191: (G(a)) | (F(G((a) & (F(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(a)) | (F(G((a) & (F(b)))))' > 'lcr-o0-AA7DFt'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (F(G((a) & (F(b)))))' | autfilt --high > 'lcr-o1-1EHYfG'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(a)) | (F(G((a) & (F(b)))))' > 'lcr-o2-8D3XQS'
+Running [P3]: ltl2tgba -G '(G(a)) | (F(G((a) & (F(b)))))' > 'lcr-o3-o0Aet5'
+Gathering statistics...
+
+/tmp/tmpaew15s45:192: F((a) | ((F(b)) R (!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((F(b)) R (!(a))))' > 'lcr-o0-z12c6h'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((F(b)) R (!(a))))' | autfilt --high > 'lcr-o1-AYl9Ju'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((F(b)) R (!(a))))' > 'lcr-o2-ZBAIoH'
+Running [P3]: ltl2tgba -G 'F((a) | ((F(b)) R (!(a))))' > 'lcr-o3-yyHY3T'
+Gathering statistics...
+
+/tmp/tmpaew15s45:193: F((G(a)) | ((b) R (!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | ((b) R (!(a))))' > 'lcr-o0-Tq0QJ6'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | ((b) R (!(a))))' | autfilt --high > 'lcr-o1-eyBHqj'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | ((b) R (!(a))))' > 'lcr-o2-2KRa8v'
+Running [P3]: ltl2tgba -G 'F((G(a)) | ((b) R (!(a))))' > 'lcr-o3-fzZzQI'
+Gathering statistics...
+
+/tmp/tmpaew15s45:194: F((G(a)) | ((!(b)) & ((b) | (G(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | ((!(b)) & ((b) | (G(!(b))))))' > 'lcr-o0-8cDIzV'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | ((!(b)) & ((b) | (G(!(b))))))' | autfilt --high > 'lcr-o1-k7ESj8'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | ((!(b)) & ((b) | (G(!(b))))))' > 'lcr-o2-LcYE4k'
+Running [P3]: ltl2tgba -G 'F((G(a)) | ((!(b)) & ((b) | (G(!(b))))))' > 'lcr-o3-ygNCQx'
+Gathering statistics...
+
+/tmp/tmpaew15s45:195: (F(a)) | (X((!(b)) | (F(G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(a)) | (X((!(b)) | (F(G(b)))))' > 'lcr-o0-NZ2iDK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(a)) | (X((!(b)) | (F(G(b)))))' | autfilt --high > 'lcr-o1-1ni0qX'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(a)) | (X((!(b)) | (F(G(b)))))' > 'lcr-o2-DMaofa'
+Running [P3]: ltl2tgba -G '(F(a)) | (X((!(b)) | (F(G(b)))))' > 'lcr-o3-XfoU4m'
+Gathering statistics...
+
+/tmp/tmpaew15s45:196: X((a) | ((b) & (G(c))) | (G((d) & (F(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | ((b) & (G(c))) | (G((d) & (F(c)))))' > 'lcr-o0-uuG9Uz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | ((b) & (G(c))) | (G((d) & (F(c)))))' | autfilt --high > 'lcr-o1-11MtMM'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | ((b) & (G(c))) | (G((d) & (F(c)))))' > 'lcr-o2-hSExEZ'
+Running [P3]: ltl2tgba -G 'X((a) | ((b) & (G(c))) | (G((d) & (F(c)))))' > 'lcr-o3-p91izc'
+Gathering statistics...
+
+/tmp/tmpaew15s45:197: X(X((a) | (G(F(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((a) | (G(F(b)))))' > 'lcr-o0-cCy0up'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((a) | (G(F(b)))))' | autfilt --high > 'lcr-o1-TRoGrC'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((a) | (G(F(b)))))' > 'lcr-o2-SHq0oP'
+Running [P3]: ltl2tgba -G 'X(X((a) | (G(F(b)))))' > 'lcr-o3-Ecwen2'
+Gathering statistics...
+
+/tmp/tmpaew15s45:198: (a) | (F((b) & (F(G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F((b) & (F(G(b)))))' > 'lcr-o0-A866lf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F((b) & (F(G(b)))))' | autfilt --high > 'lcr-o1-2bs0ls'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F((b) & (F(G(b)))))' > 'lcr-o2-pdvAmF'
+Running [P3]: ltl2tgba -G '(a) | (F((b) & (F(G(b)))))' > 'lcr-o3-JAYUnS'
+Gathering statistics...
+
+/tmp/tmpaew15s45:199: ((a) & (G((b) & (F(c))))) | ((!(a)) & (F((!(b)) | (G(!(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G((b) & (F(c))))) | ((!(a)) & (F((!(b)) | (G(!(c))))))' > 'lcr-o0-ymlSp5'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G((b) & (F(c))))) | ((!(a)) & (F((!(b)) | (G(!(c))))))' | autfilt --high > 'lcr-o1-2y6Psi'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G((b) & (F(c))))) | ((!(a)) & (F((!(b)) | (G(!(c))))))' > 'lcr-o2-TWPrwv'
+Running [P3]: ltl2tgba -G '((a) & (G((b) & (F(c))))) | ((!(a)) & (F((!(b)) | (G(!(c))))))' > 'lcr-o3-Cn2QBI'
+Gathering statistics...
+
+/tmp/tmpaew15s45:200: F(G((((!(a)) & (b)) | ((a) & (!(b)))) & (F(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((((!(a)) & (b)) | ((a) & (!(b)))) & (F(!(a)))))' > 'lcr-o0-Y2cdIV'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((((!(a)) & (b)) | ((a) & (!(b)))) & (F(!(a)))))' | autfilt --high > 'lcr-o1-KviwP8'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((((!(a)) & (b)) | ((a) & (!(b)))) & (F(!(a)))))' > 'lcr-o2-HpAqXl'
+Running [P3]: ltl2tgba -G 'F(G((((!(a)) & (b)) | ((a) & (!(b)))) & (F(!(a)))))' > 'lcr-o3-4KBr6y'
+Gathering statistics...
+
+/tmp/tmpaew15s45:201: (a) U ((G(!(b))) | (G(F(c))) | (F((!(a)) & (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) U ((G(!(b))) | (G(F(c))) | (F((!(a)) & (b))))' > 'lcr-o0-foP8fM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) U ((G(!(b))) | (G(F(c))) | (F((!(a)) & (b))))' | autfilt --high > 'lcr-o1-JcoRqZ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) U ((G(!(b))) | (G(F(c))) | (F((!(a)) & (b))))' > 'lcr-o2-JOkpCc'
+Running [P3]: ltl2tgba -G '(a) U ((G(!(b))) | (G(F(c))) | (F((!(a)) & (b))))' > 'lcr-o3-JFJ2Pp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:202: X(((c) R (!(a))) | (G(F((a) | (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(((c) R (!(a))) | (G(F((a) | (b)))))' > 'lcr-o0-BWZx4C'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(((c) R (!(a))) | (G(F((a) | (b)))))' | autfilt --high > 'lcr-o1-8V73jQ'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(((c) R (!(a))) | (G(F((a) | (b)))))' > 'lcr-o2-TvCjA3'
+Running [P3]: ltl2tgba -G 'X(((c) R (!(a))) | (G(F((a) | (b)))))' > 'lcr-o3-wy3GRg'
+Gathering statistics...
+
+/tmp/tmpaew15s45:203: (a) | (X(F((b) | (G(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X(F((b) | (G(c)))))' > 'lcr-o0-PjsK9t'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X(F((b) | (G(c)))))' | autfilt --high > 'lcr-o1-NAmOsH'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X(F((b) | (G(c)))))' > 'lcr-o2-XGSvMU'
+Running [P3]: ltl2tgba -G '(a) | (X(F((b) | (G(c)))))' > 'lcr-o3-YZRc77'
+Gathering statistics...
+
+/tmp/tmpaew15s45:204: F(((a) & (b) & (c)) | (G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (b) & (c)) | (G(!(a))))' > 'lcr-o0-SFoCsl'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (b) & (c)) | (G(!(a))))' | autfilt --high > 'lcr-o1-UGa1Oy'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (b) & (c)) | (G(!(a))))' > 'lcr-o2-T0T2bM'
+Running [P3]: ltl2tgba -G 'F(((a) & (b) & (c)) | (G(!(a))))' > 'lcr-o3-N5bUzZ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:205: (X((a) U (G(b)))) | (F((c) & (F(G(d)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(X((a) U (G(b)))) | (F((c) & (F(G(d)))))' > 'lcr-o0-VRYpYc'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(X((a) U (G(b)))) | (F((c) & (F(G(d)))))' | autfilt --high > 'lcr-o1-xx0Xnq'
+Running [P2]: ltl3tela -i1 -X1 -f '(X((a) U (G(b)))) | (F((c) & (F(G(d)))))' > 'lcr-o2-Y7u4ND'
+Running [P3]: ltl2tgba -G '(X((a) U (G(b)))) | (F((c) & (F(G(d)))))' > 'lcr-o3-sBOpgR'
+Gathering statistics...
+
+/tmp/tmpaew15s45:206: G((a) & ((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((a) & ((b) R (c)))' > 'lcr-o0-aixAJ4'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((a) & ((b) R (c)))' | autfilt --high > 'lcr-o1-aVKFdi'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((a) & ((b) R (c)))' > 'lcr-o2-4sQkIv'
+Running [P3]: ltl2tgba -G 'G((a) & ((b) R (c)))' > 'lcr-o3-H6LvdJ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:207: F(((G(!(a))) U (b)) | ((c) U ((a) R (d))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((G(!(a))) U (b)) | ((c) U ((a) R (d))))' > 'lcr-o0-OaddJW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((G(!(a))) U (b)) | ((c) U ((a) R (d))))' | autfilt --high > 'lcr-o1-1U1Nfa'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((G(!(a))) U (b)) | ((c) U ((a) R (d))))' > 'lcr-o2-2AF4Mn'
+Running [P3]: ltl2tgba -G 'F(((G(!(a))) U (b)) | ((c) U ((a) R (d))))' > 'lcr-o3-UVWHlB'
+Gathering statistics...
+
+/tmp/tmpaew15s45:208: F((F(a)) & ((a) | ((a) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((F(a)) & ((a) | ((a) R (b))))' > 'lcr-o0-mdA7UO'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((F(a)) & ((a) | ((a) R (b))))' | autfilt --high > 'lcr-o1-hzmrv2'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((F(a)) & ((a) | ((a) R (b))))' > 'lcr-o2-Q1Rk6f'
+Running [P3]: ltl2tgba -G 'F((F(a)) & ((a) | ((a) R (b))))' > 'lcr-o3-3yfZHt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:209: F((G(F(a))) | (G((!(b)) | (((b) | (c)) R (d)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(a))) | (G((!(b)) | (((b) | (c)) R (d)))))' > 'lcr-o0-8FVbkH'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(a))) | (G((!(b)) | (((b) | (c)) R (d)))))' | autfilt --high > 'lcr-o1-9wVjXU'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(a))) | (G((!(b)) | (((b) | (c)) R (d)))))' > 'lcr-o2-zGg4A8'
+Running [P3]: ltl2tgba -G 'F((G(F(a))) | (G((!(b)) | (((b) | (c)) R (d)))))' > 'lcr-o3-QtWZfm'
+Gathering statistics...
+
+/tmp/tmpaew15s45:210: F(((b) U (c)) | ((!(a)) & (X(G(a)))) | ((a) & (X(F(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((b) U (c)) | ((!(a)) & (X(G(a)))) | ((a) & (X(F(!(a))))))' > 'lcr-o0-yx7DVz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((b) U (c)) | ((!(a)) & (X(G(a)))) | ((a) & (X(F(!(a))))))' | autfilt --high > 'lcr-o1-poUdCN'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((b) U (c)) | ((!(a)) & (X(G(a)))) | ((a) & (X(F(!(a))))))' > 'lcr-o2-8Qcwj1'
+Running [P3]: ltl2tgba -G 'F(((b) U (c)) | ((!(a)) & (X(G(a)))) | ((a) & (X(F(!(a))))))' > 'lcr-o3-RGBo2e'
+Gathering statistics...
+
+/tmp/tmpaew15s45:211: (!(a)) | (X((G(F((a) & ((b) | (c))))) | ((!(b)) U ((!(a)) & (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) | (X((G(F((a) & ((b) | (c))))) | ((!(b)) U ((!(a)) & (!(b))))))' > 'lcr-o0-J7S2Ls'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (X((G(F((a) & ((b) | (c))))) | ((!(b)) U ((!(a)) & (!(b))))))' | autfilt --high > 'lcr-o1-kJpHwG'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) | (X((G(F((a) & ((b) | (c))))) | ((!(b)) U ((!(a)) & (!(b))))))' > 'lcr-o2-4594hU'
+Running [P3]: ltl2tgba -G '(!(a)) | (X((G(F((a) & ((b) | (c))))) | ((!(b)) U ((!(a)) & (!(b))))))' > 'lcr-o3-sinV47'
+Gathering statistics...
+
+/tmp/tmpaew15s45:212: (F((a) | (G(b)))) R (c)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F((a) | (G(b)))) R (c)' > 'lcr-o0-JxsvSl'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F((a) | (G(b)))) R (c)' | autfilt --high > 'lcr-o1-3Md5Gz'
+Running [P2]: ltl3tela -i1 -X1 -f '(F((a) | (G(b)))) R (c)' > 'lcr-o2-5LikwN'
+Running [P3]: ltl2tgba -G '(F((a) | (G(b)))) R (c)' > 'lcr-o3-oHREm1'
+Gathering statistics...
+
+/tmp/tmpaew15s45:213: F((a) | ((F((((b) & (c)) | ((!(b)) & (!(c)))) & (F(!(b))))) U (d)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((F((((b) & (c)) | ((!(b)) & (!(c)))) & (F(!(b))))) U (d)))' > 'lcr-o0-aNpJdf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((F((((b) & (c)) | ((!(b)) & (!(c)))) & (F(!(b))))) U (d)))' | autfilt --high > 'lcr-o1-pwgN5s'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((F((((b) & (c)) | ((!(b)) & (!(c)))) & (F(!(b))))) U (d)))' > 'lcr-o2-3HSsYG'
+Running [P3]: ltl2tgba -G 'F((a) | ((F((((b) & (c)) | ((!(b)) & (!(c)))) & (F(!(b))))) U (d)))' > 'lcr-o3-TGvkSU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:214: F((a) | ((F(!(a))) R (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((F(!(a))) R (b)))' > 'lcr-o0-vC0ZM8'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((F(!(a))) R (b)))' | autfilt --high > 'lcr-o1-YSjEIm'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((F(!(a))) R (b)))' > 'lcr-o2-d7YVEA'
+Running [P3]: ltl2tgba -G 'F((a) | ((F(!(a))) R (b)))' > 'lcr-o3-koTOBO'
+Gathering statistics...
+
+/tmp/tmpaew15s45:215: (a) | ((F(G(b))) & ((c) U (!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | ((F(G(b))) & ((c) U (!(a))))' > 'lcr-o0-IrSlz2'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | ((F(G(b))) & ((c) U (!(a))))' | autfilt --high > 'lcr-o1-pTHPxg'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | ((F(G(b))) & ((c) U (!(a))))' > 'lcr-o2-dTuWwu'
+Running [P3]: ltl2tgba -G '(a) | ((F(G(b))) & ((c) U (!(a))))' > 'lcr-o3-HCiWwI'
+Gathering statistics...
+
+/tmp/tmpaew15s45:216: X(G((a) & (F(G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(G((a) & (F(G(b)))))' > 'lcr-o0-SgJGxW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(G((a) & (F(G(b)))))' | autfilt --high > 'lcr-o1-CB0pza'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(G((a) & (F(G(b)))))' > 'lcr-o2-OmtMBo'
+Running [P3]: ltl2tgba -G 'X(G((a) & (F(G(b)))))' > 'lcr-o3-52x2EC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:217: X((F((G(b)) | (G(a)))) | ((((!(b)) & (c)) | ((b) & (!(c)))) & (X(d))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((F((G(b)) | (G(a)))) | ((((!(b)) & (c)) | ((b) & (!(c)))) & (X(d))))' > 'lcr-o0-CheXIQ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((F((G(b)) | (G(a)))) | ((((!(b)) & (c)) | ((b) & (!(c)))) & (X(d))))' | autfilt --high > 'lcr-o1-ZmYSN4'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((F((G(b)) | (G(a)))) | ((((!(b)) & (c)) | ((b) & (!(c)))) & (X(d))))' > 'lcr-o2-VhdzTi'
+Running [P3]: ltl2tgba -G 'X((F((G(b)) | (G(a)))) | ((((!(b)) & (c)) | ((b) & (!(c)))) & (X(d))))' > 'lcr-o3-v2Fa1w'
+Gathering statistics...
+
+/tmp/tmpaew15s45:218: (a) & ((F(G(b))) | (G(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & ((F(G(b))) | (G(c)))' > 'lcr-o0-GfvG9K'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & ((F(G(b))) | (G(c)))' | autfilt --high > 'lcr-o1-PXibjZ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & ((F(G(b))) | (G(c)))' > 'lcr-o2-4ZTjtd'
+Running [P3]: ltl2tgba -G '(a) & ((F(G(b))) | (G(c)))' > 'lcr-o3-4c4sEr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:219: X((a) | (G(F(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (G(F(!(a)))))' > 'lcr-o0-69rnQF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (G(F(!(a)))))' | autfilt --high > 'lcr-o1-KgMg3T'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (G(F(!(a)))))' > 'lcr-o2-lDHOg8'
+Running [P3]: ltl2tgba -G 'X((a) | (G(F(!(a)))))' > 'lcr-o3-LUg6um'
+Gathering statistics...
+
+/tmp/tmpaew15s45:220: (((a) | (!(b))) & (X(((c) & (F(G((!(b)) & (!(c)))))) | ((!(c)) & (G(F((b) | (c)))))))) | ((!(a)) & (b) & (X(((!(c)) & (F(G((!(b)) & (!(c)))))) | ((c) & (G(F((b) | (c))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(((a) | (!(b))) & (X(((c) & (F(G((!(b)) & (!(c)))))) | ((!(c)) & (G(F((b) | (c)))))))) | ((!(a)) & (b) & (X(((!(c)) & (F(G((!(b)) & (!(c)))))) | ((c) & (G(F((b) | (c))))))))' > 'lcr-o0-TB7YJA'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(((a) | (!(b))) & (X(((c) & (F(G((!(b)) & (!(c)))))) | ((!(c)) & (G(F((b) | (c)))))))) | ((!(a)) & (b) & (X(((!(c)) & (F(G((!(b)) & (!(c)))))) | ((c) & (G(F((b) | (c))))))))' | autfilt --high > 'lcr-o1-OzGTZO'
+Running [P2]: ltl3tela -i1 -X1 -f '(((a) | (!(b))) & (X(((c) & (F(G((!(b)) & (!(c)))))) | ((!(c)) & (G(F((b) | (c)))))))) | ((!(a)) & (b) & (X(((!(c)) & (F(G((!(b)) & (!(c)))))) | ((c) & (G(F((b) | (c))))))))' > 'lcr-o2-Dljsg3'
+Running [P3]: ltl2tgba -G '(((a) | (!(b))) & (X(((c) & (F(G((!(b)) & (!(c)))))) | ((!(c)) & (G(F((b) | (c)))))))) | ((!(a)) & (b) & (X(((!(c)) & (F(G((!(b)) & (!(c)))))) | ((c) & (G(F((b) | (c))))))))' > 'lcr-o3-m3FFzh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:221: (G(a)) | (F(G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(a)) | (F(G(!(a))))' > 'lcr-o0-TTMGTv'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (F(G(!(a))))' | autfilt --high > 'lcr-o1-kKsBeK'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(a)) | (F(G(!(a))))' > 'lcr-o2-jiB7zY'
+Running [P3]: ltl2tgba -G '(G(a)) | (F(G(!(a))))' > 'lcr-o3-J47hWc'
+Gathering statistics...
+
+/tmp/tmpaew15s45:222: (!(a)) & (F(G((a) | (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) & (F(G((a) | (b))))' > 'lcr-o0-8KcZir'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) & (F(G((a) | (b))))' | autfilt --high > 'lcr-o1-Su1BGF'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) & (F(G((a) | (b))))' > 'lcr-o2-KZtQ4T'
+Running [P3]: ltl2tgba -G '(!(a)) & (F(G((a) | (b))))' > 'lcr-o3-nniKt8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:223: (a) | (F((b) R (!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F((b) R (!(a))))' > 'lcr-o0-NEYdTm'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F((b) R (!(a))))' | autfilt --high > 'lcr-o1-4bhBjB'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F((b) R (!(a))))' > 'lcr-o2-lpkAKP'
+Running [P3]: ltl2tgba -G '(a) | (F((b) R (!(a))))' > 'lcr-o3-Qgthc4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:224: ((a) & (F(b))) | (G((c) & (F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F(b))) | (G((c) & (F(b))))' > 'lcr-o0-8xcBEi'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F(b))) | (G((c) & (F(b))))' | autfilt --high > 'lcr-o1-8FuS7w'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F(b))) | (G((c) & (F(b))))' > 'lcr-o2-zi1RBL'
+Running [P3]: ltl2tgba -G '((a) & (F(b))) | (G((c) & (F(b))))' > 'lcr-o3-EH946Z'
+Gathering statistics...
+
+/tmp/tmpaew15s45:225: X(F((G(a)) | (X(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((G(a)) | (X(b))))' > 'lcr-o0-HDQ0Ce'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((G(a)) | (X(b))))' | autfilt --high > 'lcr-o1-K6XV9s'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((G(a)) | (X(b))))' > 'lcr-o2-A7rwHH'
+Running [P3]: ltl2tgba -G 'X(F((G(a)) | (X(b))))' > 'lcr-o3-PDI2fW'
+Gathering statistics...
+
+/tmp/tmpaew15s45:226: F(G((a) & (F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((a) & (F(b))))' > 'lcr-o0-OODdPa'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((a) & (F(b))))' | autfilt --high > 'lcr-o1-D0Tkpp'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((a) & (F(b))))' > 'lcr-o2-6cn5ZD'
+Running [P3]: ltl2tgba -G 'F(G((a) & (F(b))))' > 'lcr-o3-ARzPBS'
+Gathering statistics...
+
+/tmp/tmpaew15s45:227: X(F((F(a)) & ((b) R (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((F(a)) & ((b) R (c))))' > 'lcr-o0-rTIge7'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((F(a)) & ((b) R (c))))' | autfilt --high > 'lcr-o1-gBfJRl'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((F(a)) & ((b) R (c))))' > 'lcr-o2-1HWZvA'
+Running [P3]: ltl2tgba -G 'X(F((F(a)) & ((b) R (c))))' > 'lcr-o3-COgLbP'
+Gathering statistics...
+
+/tmp/tmpaew15s45:228: X(X(F(((a) & (b)) | (G(F(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(F(((a) & (b)) | (G(F(b))))))' > 'lcr-o0-xqEiS3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(F(((a) & (b)) | (G(F(b))))))' | autfilt --high > 'lcr-o1-GIiKzi'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(F(((a) & (b)) | (G(F(b))))))' > 'lcr-o2-Dx3Mhx'
+Running [P3]: ltl2tgba -G 'X(X(F(((a) & (b)) | (G(F(b))))))' > 'lcr-o3-dD6Q0L'
+Gathering statistics...
+
+/tmp/tmpaew15s45:229: G((F(a)) & (F(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(a)) & (F(!(a))))' > 'lcr-o0-K60AK0'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(!(a))))' | autfilt --high > 'lcr-o1-fhkevf'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(a)) & (F(!(a))))' > 'lcr-o2-hgrrgu'
+Running [P3]: ltl2tgba -G 'G((F(a)) & (F(!(a))))' > 'lcr-o3-sywk2I'
+Gathering statistics...
+
+/tmp/tmpaew15s45:230: (a) | (X(F((b) & (F(G(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X(F((b) & (F(G(c))))))' > 'lcr-o0-YkOJOX'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X(F((b) & (F(G(c))))))' | autfilt --high > 'lcr-o1-U6x2Bc'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X(F((b) & (F(G(c))))))' > 'lcr-o2-iitWpr'
+Running [P3]: ltl2tgba -G '(a) | (X(F((b) & (F(G(c))))))' > 'lcr-o3-n4a1eG'
+Gathering statistics...
+
+/tmp/tmpaew15s45:231: F(G(((a) | (!(b))) & (F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G(((a) | (!(b))) & (F(b))))' > 'lcr-o0-qIFR4U'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G(((a) | (!(b))) & (F(b))))' | autfilt --high > 'lcr-o1-V1bEV9'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G(((a) | (!(b))) & (F(b))))' > 'lcr-o2-DhL0Mo'
+Running [P3]: ltl2tgba -G 'F(G(((a) | (!(b))) & (F(b))))' > 'lcr-o3-dqGoFD'
+Gathering statistics...
+
+/tmp/tmpaew15s45:232: X(X(F((a) & (G(F(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(F((a) & (G(F(b))))))' > 'lcr-o0-ObXtyS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(F((a) & (G(F(b))))))' | autfilt --high > 'lcr-o1-GTuys7'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(F((a) & (G(F(b))))))' > 'lcr-o2-9nXinm'
+Running [P3]: ltl2tgba -G 'X(X(F((a) & (G(F(b))))))' > 'lcr-o3-xhP4iB'
+Gathering statistics...
+
+/tmp/tmpaew15s45:233: F((G(a)) | (X(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | (X(b)))' > 'lcr-o0-lGHvfQ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (X(b)))' | autfilt --high > 'lcr-o1-9UzTc5'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | (X(b)))' > 'lcr-o2-C4zVak'
+Running [P3]: ltl2tgba -G 'F((G(a)) | (X(b)))' > 'lcr-o3-vdHK9y'
+Gathering statistics...
+
+/tmp/tmpaew15s45:234: (a) | (X(F((b) | (G(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X(F((b) | (G(!(a))))))' > 'lcr-o0-Jckc9N'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X(F((b) | (G(!(a))))))' | autfilt --high > 'lcr-o1-6lNB92'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X(F((b) | (G(!(a))))))' > 'lcr-o2-g3HDai'
+Running [P3]: ltl2tgba -G '(a) | (X(F((b) | (G(!(a))))))' > 'lcr-o3-VvCycx'
+Gathering statistics...
+
+/tmp/tmpaew15s45:235: (a) & (G(F(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (G(F(a)))' > 'lcr-o0-Q8Q7eM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (G(F(a)))' | autfilt --high > 'lcr-o1-TGhFi1'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (G(F(a)))' > 'lcr-o2-CSULmg'
+Running [P3]: ltl2tgba -G '(a) & (G(F(a)))' > 'lcr-o3-U7jtrv'
+Gathering statistics...
+
+/tmp/tmpaew15s45:236: F((G(F(a))) & ((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(a))) & ((b) R (c)))' > 'lcr-o0-uYyHwK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(a))) & ((b) R (c)))' | autfilt --high > 'lcr-o1-xYPRCZ'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(a))) & ((b) R (c)))' > 'lcr-o2-UHOGJe'
+Running [P3]: ltl2tgba -G 'F((G(F(a))) & ((b) R (c)))' > 'lcr-o3-qpSFRt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:237: ((a) | (b)) U ((b) | (G(c)) | (F(G((d) U (a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) | (b)) U ((b) | (G(c)) | (F(G((d) U (a)))))' > 'lcr-o0-STlo0I'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) | (b)) U ((b) | (G(c)) | (F(G((d) U (a)))))' | autfilt --high > 'lcr-o1-qy549X'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) | (b)) U ((b) | (G(c)) | (F(G((d) U (a)))))' > 'lcr-o2-BZtukd'
+Running [P3]: ltl2tgba -G '((a) | (b)) U ((b) | (G(c)) | (F(G((d) U (a)))))' > 'lcr-o3-kB5rxs'
+Gathering statistics...
+
+/tmp/tmpaew15s45:238: X((F(G(a))) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((F(G(a))) R (b))' > 'lcr-o0-D3QkLH'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((F(G(a))) R (b))' | autfilt --high > 'lcr-o1-RYD5ZW'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((F(G(a))) R (b))' > 'lcr-o2-ORsqfc'
+Running [P3]: ltl2tgba -G 'X((F(G(a))) R (b))' > 'lcr-o3-ANtAvr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:239: (F((G(!(a))) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F((G(!(a))) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' > 'lcr-o0-rmzmMG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F((G(!(a))) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' | autfilt --high > 'lcr-o1-i3V43V'
+Running [P2]: ltl3tela -i1 -X1 -f '(F((G(!(a))) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' > 'lcr-o2-hF8pmb'
+Running [P3]: ltl2tgba -G '(F((G(!(a))) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' > 'lcr-o3-kbgdGq'
+Gathering statistics...
+
+/tmp/tmpaew15s45:240: (((a) U ((b) | (c))) & ((a) | (d) | (F(G(!(e)))))) | ((!(a)) & (!(d)) & (G(F(e))) & ((!(a)) R ((!(b)) & (!(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(((a) U ((b) | (c))) & ((a) | (d) | (F(G(!(e)))))) | ((!(a)) & (!(d)) & (G(F(e))) & ((!(a)) R ((!(b)) & (!(c)))))' > 'lcr-o0-tGRH0F'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(((a) U ((b) | (c))) & ((a) | (d) | (F(G(!(e)))))) | ((!(a)) & (!(d)) & (G(F(e))) & ((!(a)) R ((!(b)) & (!(c)))))' | autfilt --high > 'lcr-o1-7h5cmV'
+Running [P2]: ltl3tela -i1 -X1 -f '(((a) U ((b) | (c))) & ((a) | (d) | (F(G(!(e)))))) | ((!(a)) & (!(d)) & (G(F(e))) & ((!(a)) R ((!(b)) & (!(c)))))' > 'lcr-o2-ESMmIa'
+Running [P3]: ltl2tgba -G '(((a) U ((b) | (c))) & ((a) | (d) | (F(G(!(e)))))) | ((!(a)) & (!(d)) & (G(F(e))) & ((!(a)) R ((!(b)) & (!(c)))))' > 'lcr-o3-Cxq56p'
+Gathering statistics...
+
+/tmp/tmpaew15s45:241: X(F((a) | (b) | ((!(b)) R (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((a) | (b) | ((!(b)) R (c))))' > 'lcr-o0-OZ6RwF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) | (b) | ((!(b)) R (c))))' | autfilt --high > 'lcr-o1-dsjzXU'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((a) | (b) | ((!(b)) R (c))))' > 'lcr-o2-jNLPoa'
+Running [P3]: ltl2tgba -G 'X(F((a) | (b) | ((!(b)) R (c))))' > 'lcr-o3-fypKQp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:242: X(((a) | ((b) & (G(F(c))))) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(((a) | ((b) & (G(F(c))))) R (b))' > 'lcr-o0-wyXcjF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(((a) | ((b) & (G(F(c))))) R (b))' | autfilt --high > 'lcr-o1-7PPyMU'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(((a) | ((b) & (G(F(c))))) R (b))' > 'lcr-o2-cTHxga'
+Running [P3]: ltl2tgba -G 'X(((a) | ((b) & (G(F(c))))) R (b))' > 'lcr-o3-QXaNLp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:243: G(F((a) | (!(b)) | ((c) & (F(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) | (!(b)) | ((c) & (F(b)))))' > 'lcr-o0-b5nLhF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) | (!(b)) | ((c) & (F(b)))))' | autfilt --high > 'lcr-o1-NN1GOU'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) | (!(b)) | ((c) & (F(b)))))' > 'lcr-o2-piGfma'
+Running [P3]: ltl2tgba -G 'G(F((a) | (!(b)) | ((c) & (F(b)))))' > 'lcr-o3-fj6DUp'
+Gathering statistics...
+
+/tmp/tmpaew15s45:244: F((G((a) | (b))) | (G((c) | ((!(a)) & (!(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G((a) | (b))) | (G((c) | ((!(a)) & (!(c))))))' > 'lcr-o0-chiEtF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G((a) | (b))) | (G((c) | ((!(a)) & (!(c))))))' | autfilt --high > 'lcr-o1-QRKB3U'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G((a) | (b))) | (G((c) | ((!(a)) & (!(c))))))' > 'lcr-o2-AYLaEa'
+Running [P3]: ltl2tgba -G 'F((G((a) | (b))) | (G((c) | ((!(a)) & (!(c))))))' > 'lcr-o3-5nEOfq'
+Gathering statistics...
+
+/tmp/tmpaew15s45:245: X(X((a) | (F(G(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((a) | (F(G(b)))))' > 'lcr-o0-QPd9RF'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((a) | (F(G(b)))))' | autfilt --high > 'lcr-o1-tWfsvV'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((a) | (F(G(b)))))' > 'lcr-o2-Ydco9a'
+Running [P3]: ltl2tgba -G 'X(X((a) | (F(G(b)))))' > 'lcr-o3-QS5bOq'
+Gathering statistics...
+
+/tmp/tmpaew15s45:246: F((a) | ((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((b) R (c)))' > 'lcr-o0-IMCFtG'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((b) R (c)))' | autfilt --high > 'lcr-o1-CMr89V'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((b) R (c)))' > 'lcr-o2-cc6eRb'
+Running [P3]: ltl2tgba -G 'F((a) | ((b) R (c)))' > 'lcr-o3-60b4yr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:247: (a) & (G(F(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (G(F(!(a))))' > 'lcr-o0-vSWxhH'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (G(F(!(a))))' | autfilt --high > 'lcr-o1-cUtX0W'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (G(F(!(a))))' > 'lcr-o2-roRWKc'
+Running [P3]: ltl2tgba -G '(a) & (G(F(!(a))))' > 'lcr-o3-yDZvvs'
+Gathering statistics...
+
+/tmp/tmpaew15s45:248: (a) | (X((b) | (F(G(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X((b) | (F(G(!(a))))))' > 'lcr-o0-ijiCgI'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X((b) | (F(G(!(a))))))' | autfilt --high > 'lcr-o1-geeE2X'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X((b) | (F(G(!(a))))))' > 'lcr-o2-2WfgPd'
+Running [P3]: ltl2tgba -G '(a) | (X((b) | (F(G(!(a))))))' > 'lcr-o3-Z5aKCt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:249: F((G(F(a))) | ((!(b)) & (F(a))) | ((b) & (G(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(a))) | ((!(b)) & (F(a))) | ((b) & (G(!(a)))))' > 'lcr-o0-BNOSqJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(a))) | ((!(b)) & (F(a))) | ((b) & (G(!(a)))))' | autfilt --high > 'lcr-o1-6R3YfZ'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(a))) | ((!(b)) & (F(a))) | ((b) & (G(!(a)))))' > 'lcr-o2-8G9K5e'
+Running [P3]: ltl2tgba -G 'F((G(F(a))) | ((!(b)) & (F(a))) | ((b) & (G(!(a)))))' > 'lcr-o3-PA2hXu'
+Gathering statistics...
+
+/tmp/tmpaew15s45:250: ((a) & (F((c) | (G(!(a))))) & ((!(b)) | (G(!(a))))) | (((!(a)) | ((b) & (F(a)))) & (G((!(c)) & (F(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F((c) | (G(!(a))))) & ((!(b)) | (G(!(a))))) | (((!(a)) | ((b) & (F(a)))) & (G((!(c)) & (F(a)))))' > 'lcr-o0-5ngEPK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F((c) | (G(!(a))))) & ((!(b)) | (G(!(a))))) | (((!(a)) | ((b) & (F(a)))) & (G((!(c)) & (F(a)))))' | autfilt --high > 'lcr-o1-Z5tYI0'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F((c) | (G(!(a))))) & ((!(b)) | (G(!(a))))) | (((!(a)) | ((b) & (F(a)))) & (G((!(c)) & (F(a)))))' > 'lcr-o2-zKcXCg'
+Running [P3]: ltl2tgba -G '((a) & (F((c) | (G(!(a))))) & ((!(b)) | (G(!(a))))) | (((!(a)) | ((b) & (F(a)))) & (G((!(c)) & (F(a)))))' > 'lcr-o3-MUcrzw'
+Gathering statistics...
+
+/tmp/tmpaew15s45:251: (a) & (G((b) & (F(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (G((b) & (F(c))))' > 'lcr-o0-PSaUwM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (G((b) & (F(c))))' | autfilt --high > 'lcr-o1-Gytlv2'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (G((b) & (F(c))))' > 'lcr-o2-g4Qpui'
+Running [P3]: ltl2tgba -G '(a) & (G((b) & (F(c))))' > 'lcr-o3-zIOluy'
+Gathering statistics...
+
+/tmp/tmpaew15s45:252: X(F((((a) | (b)) & (F(G(!(a))))) | ((!(a)) & (!(b)) & (G(F(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((((a) | (b)) & (F(G(!(a))))) | ((!(a)) & (!(b)) & (G(F(a))))))' > 'lcr-o0-tZ5RuO'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((((a) | (b)) & (F(G(!(a))))) | ((!(a)) & (!(b)) & (G(F(a))))))' | autfilt --high > 'lcr-o1-Yfulw4'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((((a) | (b)) & (F(G(!(a))))) | ((!(a)) & (!(b)) & (G(F(a))))))' > 'lcr-o2-jKatyk'
+Running [P3]: ltl2tgba -G 'X(F((((a) | (b)) & (F(G(!(a))))) | ((!(a)) & (!(b)) & (G(F(a))))))' > 'lcr-o3-MDr8BA'
+Gathering statistics...
+
+/tmp/tmpaew15s45:253: F(((a) & (!(b)) & (G(F(b)))) | ((!(a)) & ((b) | (F(G(!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (!(b)) & (G(F(b)))) | ((!(a)) & ((b) | (F(G(!(b)))))))' > 'lcr-o0-tZ1zGQ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (!(b)) & (G(F(b)))) | ((!(a)) & ((b) | (F(G(!(b)))))))' | autfilt --high > 'lcr-o1-Ubp2L6'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (!(b)) & (G(F(b)))) | ((!(a)) & ((b) | (F(G(!(b)))))))' > 'lcr-o2-R839Rm'
+Running [P3]: ltl2tgba -G 'F(((a) & (!(b)) & (G(F(b)))) | ((!(a)) & ((b) | (F(G(!(b)))))))' > 'lcr-o3-1qLSZC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:254: (G((a) & (F(b)))) | (G(F((!(b)) | ((c) U ((!(b)) & (c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G((a) & (F(b)))) | (G(F((!(b)) | ((c) U ((!(b)) & (c))))))' > 'lcr-o0-Qp9j8S'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G((a) & (F(b)))) | (G(F((!(b)) | ((c) U ((!(b)) & (c))))))' | autfilt --high > 'lcr-o1-ix1Kh9'
+Running [P2]: ltl3tela -i1 -X1 -f '(G((a) & (F(b)))) | (G(F((!(b)) | ((c) U ((!(b)) & (c))))))' > 'lcr-o2-XEWOrp'
+Running [P3]: ltl2tgba -G '(G((a) & (F(b)))) | (G(F((!(b)) | ((c) U ((!(b)) & (c))))))' > 'lcr-o3-hipfDF'
+Gathering statistics...
+
+/tmp/tmpaew15s45:255: G(F((a) | ((b) U ((a) & (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((a) | ((b) U ((a) & (b)))))' > 'lcr-o0-raupPV'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((a) | ((b) U ((a) & (b)))))' | autfilt --high > 'lcr-o1-seVv2b'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((a) | ((b) U ((a) & (b)))))' > 'lcr-o2-nIVcgs'
+Running [P3]: ltl2tgba -G 'G(F((a) | ((b) U ((a) & (b)))))' > 'lcr-o3-kNdCuI'
+Gathering statistics...
+
+/tmp/tmpaew15s45:256: (F(G(a))) R (b)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) R (b)' > 'lcr-o0-EG0EJY'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) R (b)' | autfilt --high > 'lcr-o1-nkOHZe'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) R (b)' > 'lcr-o2-7Ywmgv'
+Running [P3]: ltl2tgba -G '(F(G(a))) R (b)' > 'lcr-o3-UOhNxL'
+Gathering statistics...
+
+/tmp/tmpaew15s45:257: (F((G(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F((G(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' > 'lcr-o0-zrDPP1'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F((G(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' | autfilt --high > 'lcr-o1-2SDP8h'
+Running [P2]: ltl3tela -i1 -X1 -f '(F((G(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' > 'lcr-o2-zcutsy'
+Running [P3]: ltl2tgba -G '(F((G(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))))) R (c)' > 'lcr-o3-ZnqBNO'
+Gathering statistics...
+
+/tmp/tmpaew15s45:258: ((a) & (G(F((a) & (b))))) | ((!(a)) & (F(G((!(a)) | (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G(F((a) & (b))))) | ((!(a)) & (F(G((!(a)) | (!(b))))))' > 'lcr-o0-dOLr94'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G(F((a) & (b))))) | ((!(a)) & (F(G((!(a)) | (!(b))))))' | autfilt --high > 'lcr-o1-hRKdwl'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G(F((a) & (b))))) | ((!(a)) & (F(G((!(a)) | (!(b))))))' > 'lcr-o2-Lh6BTB'
+Running [P3]: ltl2tgba -G '((a) & (G(F((a) & (b))))) | ((!(a)) & (F(G((!(a)) | (!(b))))))' > 'lcr-o3-ZG5aiS'
+Gathering statistics...
+
+/tmp/tmpaew15s45:259: F(((a) & (b)) | ((!(b)) & (G(F(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (b)) | ((!(b)) & (G(F(c)))))' > 'lcr-o0-plupH8'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (b)) | ((!(b)) & (G(F(c)))))' | autfilt --high > 'lcr-o1-45Ty7o'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (b)) | ((!(b)) & (G(F(c)))))' > 'lcr-o2-0cGmyF'
+Running [P3]: ltl2tgba -G 'F(((a) & (b)) | ((!(b)) & (G(F(c)))))' > 'lcr-o3-f4Ni0V'
+Gathering statistics...
+
+/tmp/tmpaew15s45:260: X((F(((!(a)) & (b)) | ((a) & (!(b))))) | (X(F(((a) & (c)) R (d)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((F(((!(a)) & (b)) | ((a) & (!(b))))) | (X(F(((a) & (c)) R (d)))))' > 'lcr-o0-vJlVsc'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((F(((!(a)) & (b)) | ((a) & (!(b))))) | (X(F(((a) & (c)) R (d)))))' | autfilt --high > 'lcr-o1-MCXwWs'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((F(((!(a)) & (b)) | ((a) & (!(b))))) | (X(F(((a) & (c)) R (d)))))' > 'lcr-o2-nPqTqJ'
+Running [P3]: ltl2tgba -G 'X((F(((!(a)) & (b)) | ((a) & (!(b))))) | (X(F(((a) & (c)) R (d)))))' > 'lcr-o3-iYf6WZ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:261: X((G(a)) | (G(F((b) & ((!(b)) | (F(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(a)) | (G(F((b) & ((!(b)) | (F(c)))))))' > 'lcr-o0-TCGbug'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(a)) | (G(F((b) & ((!(b)) | (F(c)))))))' | autfilt --high > 'lcr-o1-R5Sc2w'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(a)) | (G(F((b) & ((!(b)) | (F(c)))))))' > 'lcr-o2-ji5PAN'
+Running [P3]: ltl2tgba -G 'X((G(a)) | (G(F((b) & ((!(b)) | (F(c)))))))' > 'lcr-o3-lpv2a4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:262: F((G(a)) | ((F(b)) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | ((F(b)) R (c)))' > 'lcr-o0-z2nYLk'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | ((F(b)) R (c)))' | autfilt --high > 'lcr-o1-eYIQnB'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | ((F(b)) R (c)))' > 'lcr-o2-WDGo0R'
+Running [P3]: ltl2tgba -G 'F((G(a)) | ((F(b)) R (c)))' > 'lcr-o3-KbtpE8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:263: (a) & (F(G((!(a)) & (F(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (F(G((!(a)) & (F(b)))))' > 'lcr-o0-K7vhjp'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (F(G((!(a)) & (F(b)))))' | autfilt --high > 'lcr-o1-TYh6YF'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (F(G((!(a)) & (F(b)))))' > 'lcr-o2-ccOuFW'
+Running [P3]: ltl2tgba -G '(a) & (F(G((!(a)) & (F(b)))))' > 'lcr-o3-lVv3md'
+Gathering statistics...
+
+/tmp/tmpaew15s45:264: (G(F(a))) | ((b) R (c)) | ((d) R ((!(b)) | (e)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | ((b) R (c)) | ((d) R ((!(b)) | (e)))' > 'lcr-o0-uq0g5t'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | ((b) R (c)) | ((d) R ((!(b)) | (e)))' | autfilt --high > 'lcr-o1-NQ3tOK'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | ((b) R (c)) | ((d) R ((!(b)) | (e)))' > 'lcr-o2-6Xmwy1'
+Running [P3]: ltl2tgba -G '(G(F(a))) | ((b) R (c)) | ((d) R ((!(b)) | (e)))' > 'lcr-o3-GdRTji'
+Gathering statistics...
+
+/tmp/tmpaew15s45:265: ((a) & (F((!(b)) | (G(c))))) | ((!(a)) & (G((b) & (F(!(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F((!(b)) | (G(c))))) | ((!(a)) & (G((b) & (F(!(c))))))' > 'lcr-o0-JNq55y'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F((!(b)) | (G(c))))) | ((!(a)) & (G((b) & (F(!(c))))))' | autfilt --high > 'lcr-o1-1fWdTP'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F((!(b)) | (G(c))))) | ((!(a)) & (G((b) & (F(!(c))))))' > 'lcr-o2-MMWYG6'
+Running [P3]: ltl2tgba -G '((a) & (F((!(b)) | (G(c))))) | ((!(a)) & (G((b) & (F(!(c))))))' > 'lcr-o3-bRNpwn'
+Gathering statistics...
+
+/tmp/tmpaew15s45:266: ((a) | (b) | (G(F(b)))) R (((b) & (c)) | ((!(b)) & (!(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) | (b) | (G(F(b)))) R (((b) & (c)) | ((!(b)) & (!(c))))' > 'lcr-o0-TUOKmE'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) | (b) | (G(F(b)))) R (((b) & (c)) | ((!(b)) & (!(c))))' | autfilt --high > 'lcr-o1-LHO1dV'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) | (b) | (G(F(b)))) R (((b) & (c)) | ((!(b)) & (!(c))))' > 'lcr-o2-J5VV5b'
+Running [P3]: ltl2tgba -G '((a) | (b) | (G(F(b)))) R (((b) & (c)) | ((!(b)) & (!(c))))' > 'lcr-o3-1qbZYs'
+Gathering statistics...
+
+/tmp/tmpaew15s45:267: (a) | (b) | (X(F((c) | (G(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (b) | (X(F((c) | (G(a)))))' > 'lcr-o0-PJ6ESJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (b) | (X(F((c) | (G(a)))))' | autfilt --high > 'lcr-o1-N0agN0'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (b) | (X(F((c) | (G(a)))))' > 'lcr-o2-GfMsIh'
+Running [P3]: ltl2tgba -G '(a) | (b) | (X(F((c) | (G(a)))))' > 'lcr-o3-2ApBEy'
+Gathering statistics...
+
+/tmp/tmpaew15s45:268: X((a) | (G(F((b) | (G(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (G(F((b) | (G(c))))))' > 'lcr-o0-nSppBP'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (G(F((b) | (G(c))))))' | autfilt --high > 'lcr-o1-Kq27y6'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (G(F((b) | (G(c))))))' > 'lcr-o2-P1pvxn'
+Running [P3]: ltl2tgba -G 'X((a) | (G(F((b) | (G(c))))))' > 'lcr-o3-oGUexE'
+Gathering statistics...
+
+/tmp/tmpaew15s45:269: F(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' > 'lcr-o0-f7RHxV'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' | autfilt --high > 'lcr-o1-ruN6yc'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' > 'lcr-o2-TJC8At'
+Running [P3]: ltl2tgba -G 'F(((a) & (F(G(b)))) | ((!(a)) & (G(F(!(b))))))' > 'lcr-o3-XPjBEK'
+Gathering statistics...
+
+/tmp/tmpaew15s45:270: F((a) | (G((b) U (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G((b) U (c))))' > 'lcr-o0-MRSNI1'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G((b) U (c))))' | autfilt --high > 'lcr-o1-h6jUNi'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G((b) U (c))))' > 'lcr-o2-aXeDTz'
+Running [P3]: ltl2tgba -G 'F((a) | (G((b) U (c))))' > 'lcr-o3-P2hq0Q'
+Gathering statistics...
+
+/tmp/tmpaew15s45:271: (a) | ((b) & ((!(b)) | (c))) | (G(F(!(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | ((b) & ((!(b)) | (c))) | (G(F(!(b))))' > 'lcr-o0-sWyS77'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | ((b) & ((!(b)) | (c))) | (G(F(!(b))))' | autfilt --high > 'lcr-o1-A7Bfgp'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | ((b) & ((!(b)) | (c))) | (G(F(!(b))))' > 'lcr-o2-vZldpG'
+Running [P3]: ltl2tgba -G '(a) | ((b) & ((!(b)) | (c))) | (G(F(!(b))))' > 'lcr-o3-5JR2yX'
+Gathering statistics...
+
+/tmp/tmpaew15s45:272: (G((b) U (a))) | (X((a) & (!(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G((b) U (a))) | (X((a) & (!(b))))' > 'lcr-o0-2DuzJe'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G((b) U (a))) | (X((a) & (!(b))))' | autfilt --high > 'lcr-o1-AYD1Uv'
+Running [P2]: ltl3tela -i1 -X1 -f '(G((b) U (a))) | (X((a) & (!(b))))' > 'lcr-o2-4NT86M'
+Running [P3]: ltl2tgba -G '(G((b) U (a))) | (X((a) & (!(b))))' > 'lcr-o3-AWUgk4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:273: (a) | (F(G((b) U (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F(G((b) U (c))))' > 'lcr-o0-fyd6xl'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F(G((b) U (c))))' | autfilt --high > 'lcr-o1-CziRMC'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F(G((b) U (c))))' > 'lcr-o2-UiXi2T'
+Running [P3]: ltl2tgba -G '(a) | (F(G((b) U (c))))' > 'lcr-o3-ncCJib'
+Gathering statistics...
+
+/tmp/tmpaew15s45:274: F((a) & (G((b) & (F(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & (G((b) & (F(a)))))' > 'lcr-o0-YfpTzs'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (G((b) & (F(a)))))' | autfilt --high > 'lcr-o1-q21pSJ'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & (G((b) & (F(a)))))' > 'lcr-o2-aHRdc1'
+Running [P3]: ltl2tgba -G 'F((a) & (G((b) & (F(a)))))' > 'lcr-o3-S4BLxi'
+Gathering statistics...
+
+/tmp/tmpaew15s45:275: F((F(a)) & (G((a) | (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((F(a)) & (G((a) | (b))))' > 'lcr-o0-hxppUz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((F(a)) & (G((a) | (b))))' | autfilt --high > 'lcr-o1-6BwqiR'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((F(a)) & (G((a) | (b))))' > 'lcr-o2-g6CJH8'
+Running [P3]: ltl2tgba -G 'F((F(a)) & (G((a) | (b))))' > 'lcr-o3-nzmg8p'
+Gathering statistics...
+
+/tmp/tmpaew15s45:276: (G(!(a))) | (X((b) & (F((b) R (a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(!(a))) | (X((b) & (F((b) R (a)))))' > 'lcr-o0-35LszH'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (X((b) & (F((b) R (a)))))' | autfilt --high > 'lcr-o1-zJtG1Y'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(!(a))) | (X((b) & (F((b) R (a)))))' > 'lcr-o2-ufPDug'
+Running [P3]: ltl2tgba -G '(G(!(a))) | (X((b) & (F((b) R (a)))))' > 'lcr-o3-p6uUYx'
+Gathering statistics...
+
+/tmp/tmpaew15s45:277: F(((F(a)) & (G(!(b)))) | ((F(b)) & (G(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((F(a)) & (G(!(b)))) | ((F(b)) & (G(!(a)))))' > 'lcr-o0-wq30tP'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((F(a)) & (G(!(b)))) | ((F(b)) & (G(!(a)))))' | autfilt --high > 'lcr-o1-rtOI56'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((F(a)) & (G(!(b)))) | ((F(b)) & (G(!(a)))))' > 'lcr-o2-9wB6Ho'
+Running [P3]: ltl2tgba -G 'F(((F(a)) & (G(!(b)))) | ((F(b)) & (G(!(a)))))' > 'lcr-o3-1X6OmG'
+Gathering statistics...
+
+/tmp/tmpaew15s45:278: X(F((G((a) & (F(b)))) | ((F(G(!(b)))) & (F(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((G((a) & (F(b)))) | ((F(G(!(b)))) & (F(!(a))))))' > 'lcr-o0-9Vam2X'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((G((a) & (F(b)))) | ((F(G(!(b)))) & (F(!(a))))))' | autfilt --high > 'lcr-o1-8xaYIf'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((G((a) & (F(b)))) | ((F(G(!(b)))) & (F(!(a))))))' > 'lcr-o2-sfGwqx'
+Running [P3]: ltl2tgba -G 'X(F((G((a) & (F(b)))) | ((F(G(!(b)))) & (F(!(a))))))' > 'lcr-o3-jdQNbP'
+Gathering statistics...
+
+/tmp/tmpaew15s45:279: (!(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))) | (F((!(b)) | (G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))) | (F((!(b)) | (G(c))))' > 'lcr-o0-ulZ3X6'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))) | (F((!(b)) | (G(c))))' | autfilt --high > 'lcr-o1-oRkjLo'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))) | (F((!(b)) | (G(c))))' > 'lcr-o2-hTVnzG'
+Running [P3]: ltl2tgba -G '(!(a)) | (G(((a) & (b)) | ((!(a)) & (!(b))))) | (F((!(b)) | (G(c))))' > 'lcr-o3-AV3JoY'
+Gathering statistics...
+
+/tmp/tmpaew15s45:280: (!(a)) | (G(F((b) | (c)))) | ((a) & (F(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) | (G(F((b) | (c)))) | ((a) & (F(c)))' > 'lcr-o0-aJTReg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (G(F((b) | (c)))) | ((a) & (F(c)))' | autfilt --high > 'lcr-o1-tfVU5x'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) | (G(F((b) | (c)))) | ((a) & (F(c)))' > 'lcr-o2-CqZCXP'
+Running [P3]: ltl2tgba -G '(!(a)) | (G(F((b) | (c)))) | ((a) & (F(c)))' > 'lcr-o3-DV0qQ7'
+Gathering statistics...
+
+/tmp/tmpaew15s45:281: (a) & ((!(b)) | (F((c) | ((F(a)) & ((!(d)) U (!(b)))) | ((G(!(a))) & ((d) R (b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & ((!(b)) | (F((c) | ((F(a)) & ((!(d)) U (!(b)))) | ((G(!(a))) & ((d) R (b))))))' > 'lcr-o0-rcFTJp'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & ((!(b)) | (F((c) | ((F(a)) & ((!(d)) U (!(b)))) | ((G(!(a))) & ((d) R (b))))))' | autfilt --high > 'lcr-o1-x6jsEH'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & ((!(b)) | (F((c) | ((F(a)) & ((!(d)) U (!(b)))) | ((G(!(a))) & ((d) R (b))))))' > 'lcr-o2-Te5MzZ'
+Running [P3]: ltl2tgba -G '(a) & ((!(b)) | (F((c) | ((F(a)) & ((!(d)) U (!(b)))) | ((G(!(a))) & ((d) R (b))))))' > 'lcr-o3-gYFSAh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:282: G(F((b) R ((a) | (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((b) R ((a) | (b))))' > 'lcr-o0-j7FgDz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((b) R ((a) | (b))))' | autfilt --high > 'lcr-o1-GorxGR'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((b) R ((a) | (b))))' > 'lcr-o2-ssjvK9'
+Running [P3]: ltl2tgba -G 'G(F((b) R ((a) | (b))))' > 'lcr-o3-p74aPr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:283: F(((a) U (b)) | (X(X(F(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) U (b)) | (X(X(F(!(b))))))' > 'lcr-o0-AcJoUJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) U (b)) | (X(X(F(!(b))))))' | autfilt --high > 'lcr-o1-U10u01'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) U (b)) | (X(X(F(!(b))))))' > 'lcr-o2-PXTd7j'
+Running [P3]: ltl2tgba -G 'F(((a) U (b)) | (X(X(F(!(b))))))' > 'lcr-o3-4aJFeC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:284: G((F(a)) & (F(G((b) & (F(c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G((F(a)) & (F(G((b) & (F(c))))))' > 'lcr-o0-hI1HmU'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(G((b) & (F(c))))))' | autfilt --high > 'lcr-o1-mrpEvc'
+Running [P2]: ltl3tela -i1 -X1 -f 'G((F(a)) & (F(G((b) & (F(c))))))' > 'lcr-o2-XAdfFu'
+Running [P3]: ltl2tgba -G 'G((F(a)) & (F(G((b) & (F(c))))))' > 'lcr-o3-ljHWQM'
+Gathering statistics...
+
+/tmp/tmpaew15s45:285: F(((!(a)) & (b)) | ((a) & (!(b))) | (G(b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((!(a)) & (b)) | ((a) & (!(b))) | (G(b)))' > 'lcr-o0-Ldwq34'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((!(a)) & (b)) | ((a) & (!(b))) | (G(b)))' | autfilt --high > 'lcr-o1-EuBOgn'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((!(a)) & (b)) | ((a) & (!(b))) | (G(b)))' > 'lcr-o2-rRZMuF'
+Running [P3]: ltl2tgba -G 'F(((!(a)) & (b)) | ((a) & (!(b))) | (G(b)))' > 'lcr-o3-NqTwJX'
+Gathering statistics...
+
+/tmp/tmpaew15s45:286: (((a) | (b)) & ((!(c)) | (F(G(!(a)))))) | ((!(a)) & (!(b)) & (c) & (G(F(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(((a) | (b)) & ((!(c)) | (F(G(!(a)))))) | ((!(a)) & (!(b)) & (c) & (G(F(a))))' > 'lcr-o0-dvYOYf'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(((a) | (b)) & ((!(c)) | (F(G(!(a)))))) | ((!(a)) & (!(b)) & (c) & (G(F(a))))' | autfilt --high > 'lcr-o1-VlTZey'
+Running [P2]: ltl3tela -i1 -X1 -f '(((a) | (b)) & ((!(c)) | (F(G(!(a)))))) | ((!(a)) & (!(b)) & (c) & (G(F(a))))' > 'lcr-o2-2DqLvQ'
+Running [P3]: ltl2tgba -G '(((a) | (b)) & ((!(c)) | (F(G(!(a)))))) | ((!(a)) & (!(b)) & (c) & (G(F(a))))' > 'lcr-o3-BViUN8'
+Gathering statistics...
+
+/tmp/tmpaew15s45:287: (a) & (((b) & (G((c) & (F(a))))) | ((!(b)) & (F((!(c)) | (G(!(a)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (((b) & (G((c) & (F(a))))) | ((!(b)) & (F((!(c)) | (G(!(a)))))))' > 'lcr-o0-k2JP6q'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (((b) & (G((c) & (F(a))))) | ((!(b)) & (F((!(c)) | (G(!(a)))))))' | autfilt --high > 'lcr-o1-rju3qJ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (((b) & (G((c) & (F(a))))) | ((!(b)) & (F((!(c)) | (G(!(a)))))))' > 'lcr-o2-1sZ6L1'
+Running [P3]: ltl2tgba -G '(a) & (((b) & (G((c) & (F(a))))) | ((!(b)) & (F((!(c)) | (G(!(a)))))))' > 'lcr-o3-V3ig9j'
+Gathering statistics...
+
+/tmp/tmpaew15s45:288: X(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' > 'lcr-o0-qIoxxC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' | autfilt --high > 'lcr-o1-CFd1WU'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' > 'lcr-o2-dtY9md'
+Running [P3]: ltl2tgba -G 'X(((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b))))))' > 'lcr-o3-iYz1Ov'
+Gathering statistics...
+
+/tmp/tmpaew15s45:289: ((!(a)) & (X((((a) | (!(b))) & (F(G(c)))) | ((!(a)) & (b) & (G(F(!(c)))))))) | ((a) & (X(((!(a)) & (b) & (F(G(c)))) | (((a) | (!(b))) & (G(F(!(c))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((!(a)) & (X((((a) | (!(b))) & (F(G(c)))) | ((!(a)) & (b) & (G(F(!(c)))))))) | ((a) & (X(((!(a)) & (b) & (F(G(c)))) | (((a) | (!(b))) & (G(F(!(c))))))))' > 'lcr-o0-kl3EhO'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((!(a)) & (X((((a) | (!(b))) & (F(G(c)))) | ((!(a)) & (b) & (G(F(!(c)))))))) | ((a) & (X(((!(a)) & (b) & (F(G(c)))) | (((a) | (!(b))) & (G(F(!(c))))))))' | autfilt --high > 'lcr-o1-cFzwL6'
+Running [P2]: ltl3tela -i1 -X1 -f '((!(a)) & (X((((a) | (!(b))) & (F(G(c)))) | ((!(a)) & (b) & (G(F(!(c)))))))) | ((a) & (X(((!(a)) & (b) & (F(G(c)))) | (((a) | (!(b))) & (G(F(!(c))))))))' > 'lcr-o2-rdy7fp'
+Running [P3]: ltl2tgba -G '((!(a)) & (X((((a) | (!(b))) & (F(G(c)))) | ((!(a)) & (b) & (G(F(!(c)))))))) | ((a) & (X(((!(a)) & (b) & (F(G(c)))) | (((a) | (!(b))) & (G(F(!(c))))))))' > 'lcr-o3-gVksOH'
+Gathering statistics...
+
+/tmp/tmpaew15s45:290: (((a) | (b)) & ((!(c)) | (d)) & (G(F(b)))) | ((!(a)) & (!(b)) & (((c) & (!(d))) | (F(G(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(((a) | (b)) & ((!(c)) | (d)) & (G(F(b)))) | ((!(a)) & (!(b)) & (((c) & (!(d))) | (F(G(!(b))))))' > 'lcr-o0-at2Rn0'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(((a) | (b)) & ((!(c)) | (d)) & (G(F(b)))) | ((!(a)) & (!(b)) & (((c) & (!(d))) | (F(G(!(b))))))' | autfilt --high > 'lcr-o1-IxysYi'
+Running [P2]: ltl3tela -i1 -X1 -f '(((a) | (b)) & ((!(c)) | (d)) & (G(F(b)))) | ((!(a)) & (!(b)) & (((c) & (!(d))) | (F(G(!(b))))))' > 'lcr-o2-Op3LzB'
+Running [P3]: ltl2tgba -G '(((a) | (b)) & ((!(c)) | (d)) & (G(F(b)))) | ((!(a)) & (!(b)) & (((c) & (!(d))) | (F(G(!(b))))))' > 'lcr-o3-plCBdU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:291: ((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b)))))' > 'lcr-o0-bagCSc'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b)))))' | autfilt --high > 'lcr-o1-jjWGyv'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b)))))' > 'lcr-o2-XCfDfO'
+Running [P3]: ltl2tgba -G '((a) & (G(F(b)))) | ((!(a)) & (F(G(!(b)))))' > 'lcr-o3-ujUWX6'
+Gathering statistics...
+
+/tmp/tmpaew15s45:292: F((G(a)) & (F(G(((a) & (b)) | ((!(a)) & (!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) & (F(G(((a) & (b)) | ((!(a)) & (!(b)))))))' > 'lcr-o0-6VG4Gp'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) & (F(G(((a) & (b)) | ((!(a)) & (!(b)))))))' | autfilt --high > 'lcr-o1-ugzlrI'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) & (F(G(((a) & (b)) | ((!(a)) & (!(b)))))))' > 'lcr-o2-eu5hc1'
+Running [P3]: ltl2tgba -G 'F((G(a)) & (F(G(((a) & (b)) | ((!(a)) & (!(b)))))))' > 'lcr-o3-dRnnYj'
+Gathering statistics...
+
+/tmp/tmpaew15s45:293: F((G(a)) | (G((!(a)) U (!(b)))) | (G(((!(a)) & (b)) | ((a) & (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | (G((!(a)) U (!(b)))) | (G(((!(a)) & (b)) | ((a) & (!(b))))))' > 'lcr-o0-5HbbLC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G((!(a)) U (!(b)))) | (G(((!(a)) & (b)) | ((a) & (!(b))))))' | autfilt --high > 'lcr-o1-FCX7yV'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | (G((!(a)) U (!(b)))) | (G(((!(a)) & (b)) | ((a) & (!(b))))))' > 'lcr-o2-yOlOne'
+Running [P3]: ltl2tgba -G 'F((G(a)) | (G((!(a)) U (!(b)))) | (G(((!(a)) & (b)) | ((a) & (!(b))))))' > 'lcr-o3-GhsEex'
+Gathering statistics...
+
+/tmp/tmpaew15s45:294: G(F(((!(a)) & (b)) | (G(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F(((!(a)) & (b)) | (G(a))))' > 'lcr-o0-jLlp6P'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F(((!(a)) & (b)) | (G(a))))' | autfilt --high > 'lcr-o1-sS2iZ8'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F(((!(a)) & (b)) | (G(a))))' > 'lcr-o2-uAXWSr'
+Running [P3]: ltl2tgba -G 'G(F(((!(a)) & (b)) | (G(a))))' > 'lcr-o3-hOIPNK'
+Gathering statistics...
+
+/tmp/tmpaew15s45:295: F((a) | ((b) U ((!(c)) | ((c) & (G(d))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((b) U ((!(c)) | ((c) & (G(d))))))' > 'lcr-o0-u7DrJ3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((b) U ((!(c)) | ((c) & (G(d))))))' | autfilt --high > 'lcr-o1-cK1cGm'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((b) U ((!(c)) | ((c) & (G(d))))))' > 'lcr-o2-WpHPDF'
+Running [P3]: ltl2tgba -G 'F((a) | ((b) U ((!(c)) | ((c) & (G(d))))))' > 'lcr-o3-1aJMCY'
+Gathering statistics...
+
+/tmp/tmpaew15s45:296: F((G(b)) | (G(a)) | ((G(!(b))) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) | (G(a)) | ((G(!(b))) R (c)))' > 'lcr-o0-ShRACh'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) | (G(a)) | ((G(!(b))) R (c)))' | autfilt --high > 'lcr-o1-MuDsDA'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) | (G(a)) | ((G(!(b))) R (c)))' > 'lcr-o2-SE3dFT'
+Running [P3]: ltl2tgba -G 'F((G(b)) | (G(a)) | ((G(!(b))) R (c)))' > 'lcr-o3-EfR6Jc'
+Gathering statistics...
+
+/tmp/tmpaew15s45:297: X((a) | (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (F(G(b))))' > 'lcr-o0-uapbQv'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (F(G(b))))' | autfilt --high > 'lcr-o1-Nl4iXO'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (F(G(b))))' > 'lcr-o2-Ha0g57'
+Running [P3]: ltl2tgba -G 'X((a) | (F(G(b))))' > 'lcr-o3-Mo59dr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:298: (F(G(a))) | ((b) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) | ((b) R (!(a)))' > 'lcr-o0-fPnJnK'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) | ((b) R (!(a)))' | autfilt --high > 'lcr-o1-HVGvy3'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) | ((b) R (!(a)))' > 'lcr-o2-mlG0Jm'
+Running [P3]: ltl2tgba -G '(F(G(a))) | ((b) R (!(a)))' > 'lcr-o3-qIwqWF'
+Gathering statistics...
+
+/tmp/tmpaew15s45:299: X(X((a) & (F(((F(b)) & (G(c))) | ((F(!(c))) & (G(!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((a) & (F(((F(b)) & (G(c))) | ((F(!(c))) & (G(!(b))))))))' > 'lcr-o0-U2NE9Y'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((a) & (F(((F(b)) & (G(c))) | ((F(!(c))) & (G(!(b))))))))' | autfilt --high > 'lcr-o1-Tr3Xni'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((a) & (F(((F(b)) & (G(c))) | ((F(!(c))) & (G(!(b))))))))' > 'lcr-o2-vWAeDB'
+Running [P3]: ltl2tgba -G 'X(X((a) & (F(((F(b)) & (G(c))) | ((F(!(c))) & (G(!(b))))))))' > 'lcr-o3-UwmZWU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:300: (F(G(a))) | ((b) & (F(c))) | ((!(b)) & (G(!(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) | ((b) & (F(c))) | ((!(b)) & (G(!(c))))' > 'lcr-o0-SgOLhe'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) | ((b) & (F(c))) | ((!(b)) & (G(!(c))))' | autfilt --high > 'lcr-o1-UmMLDx'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) | ((b) & (F(c))) | ((!(b)) & (G(!(c))))' > 'lcr-o2-2Naz0Q'
+Running [P3]: ltl2tgba -G '(F(G(a))) | ((b) & (F(c))) | ((!(b)) & (G(!(c))))' > 'lcr-o3-geTJoa'
+Gathering statistics...
+
+/tmp/tmpaew15s45:301: X((a) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c))))))))' > 'lcr-o0-7hGENt'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c))))))))' | autfilt --high > 'lcr-o1-Y7XHdN'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c))))))))' > 'lcr-o2-EKlrE6'
+Running [P3]: ltl2tgba -G 'X((a) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c))))))))' > 'lcr-o3-k2ze7p'
+Gathering statistics...
+
+/tmp/tmpaew15s45:302: ((a) & (F(b))) | ((!(a)) & (G(!(b)))) | (F(((a) & (G(c))) R (d)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (F(b))) | ((!(a)) & (G(!(b)))) | (F(((a) & (G(c))) R (d)))' > 'lcr-o0-tgRTAJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (F(b))) | ((!(a)) & (G(!(b)))) | (F(((a) & (G(c))) R (d)))' | autfilt --high > 'lcr-o1-dRHL52'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (F(b))) | ((!(a)) & (G(!(b)))) | (F(((a) & (G(c))) R (d)))' > 'lcr-o2-dDawBm'
+Running [P3]: ltl2tgba -G '((a) & (F(b))) | ((!(a)) & (G(!(b)))) | (F(((a) & (G(c))) R (d)))' > 'lcr-o3-uQbEaG'
+Gathering statistics...
+
+/tmp/tmpaew15s45:303: (a) | (F((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F((b) R (c)))' > 'lcr-o0-xcq8KZ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F((b) R (c)))' | autfilt --high > 'lcr-o1-5n6Jmj'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F((b) R (c)))' > 'lcr-o2-5tk0YC'
+Running [P3]: ltl2tgba -G '(a) | (F((b) R (c)))' > 'lcr-o3-szPbCW'
+Gathering statistics...
+
+/tmp/tmpaew15s45:304: G(F((!(a)) | ((((!(a)) & (b)) | ((a) & (!(b)))) U ((!(a)) & (((!(a)) & (b)) | ((a) & (!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'G(F((!(a)) | ((((!(a)) & (b)) | ((a) & (!(b)))) U ((!(a)) & (((!(a)) & (b)) | ((a) & (!(b))))))))' > 'lcr-o0-chN9fg'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'G(F((!(a)) | ((((!(a)) & (b)) | ((a) & (!(b)))) U ((!(a)) & (((!(a)) & (b)) | ((a) & (!(b))))))))' | autfilt --high > 'lcr-o1-hgT9Uz'
+Running [P2]: ltl3tela -i1 -X1 -f 'G(F((!(a)) | ((((!(a)) & (b)) | ((a) & (!(b)))) U ((!(a)) & (((!(a)) & (b)) | ((a) & (!(b))))))))' > 'lcr-o2-Ndz2AT'
+Running [P3]: ltl2tgba -G 'G(F((!(a)) | ((((!(a)) & (b)) | ((a) & (!(b)))) U ((!(a)) & (((!(a)) & (b)) | ((a) & (!(b))))))))' > 'lcr-o3-5elUhd'
+Gathering statistics...
+
+/tmp/tmpaew15s45:305: (a) | (G(b)) | (F(G((!(b)) & (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G(b)) | (F(G((!(b)) & (c))))' > 'lcr-o0-iprCZw'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G(b)) | (F(G((!(b)) & (c))))' | autfilt --high > 'lcr-o1-ylArIQ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G(b)) | (F(G((!(b)) & (c))))' > 'lcr-o2-OLK0ra'
+Running [P3]: ltl2tgba -G '(a) | (G(b)) | (F(G((!(b)) & (c))))' > 'lcr-o3-kFLHcu'
+Gathering statistics...
+
+/tmp/tmpaew15s45:306: (a) U (X((G(b)) | (G(F(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) U (X((G(b)) | (G(F(c)))))' > 'lcr-o0-Tuw6XN'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) U (X((G(b)) | (G(F(c)))))' | autfilt --high > 'lcr-o1-tgwEK7'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) U (X((G(b)) | (G(F(c)))))' > 'lcr-o2-I1gWxr'
+Running [P3]: ltl2tgba -G '(a) U (X((G(b)) | (G(F(c)))))' > 'lcr-o3-2lqnnL'
+Gathering statistics...
+
+/tmp/tmpaew15s45:307: ((!(a)) & (G(F((a) | (b))))) | ((a) & (F(G((!(a)) & (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((!(a)) & (G(F((a) | (b))))) | ((a) & (F(G((!(a)) & (!(b))))))' > 'lcr-o0-MQLCd5'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((!(a)) & (G(F((a) | (b))))) | ((a) & (F(G((!(a)) & (!(b))))))' | autfilt --high > 'lcr-o1-NbG04o'
+Running [P2]: ltl3tela -i1 -X1 -f '((!(a)) & (G(F((a) | (b))))) | ((a) & (F(G((!(a)) & (!(b))))))' > 'lcr-o2-B3K3WI'
+Running [P3]: ltl2tgba -G '((!(a)) & (G(F((a) | (b))))) | ((a) & (F(G((!(a)) & (!(b))))))' > 'lcr-o3-8r4rQ2'
+Gathering statistics...
+
+/tmp/tmpaew15s45:308: X((G(a)) | (F(G(!(a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(a)) | (F(G(!(a)))))' > 'lcr-o0-InHyKm'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(a)) | (F(G(!(a)))))' | autfilt --high > 'lcr-o1-vwpJFG'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(a)) | (F(G(!(a)))))' > 'lcr-o2-F4EzB0'
+Running [P3]: ltl2tgba -G 'X((G(a)) | (F(G(!(a)))))' > 'lcr-o3-4Zjiyk'
+Gathering statistics...
+
+/tmp/tmpaew15s45:309: (F(G(a))) | ((F(b)) & (F(!(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(G(a))) | ((F(b)) & (F(!(b))))' > 'lcr-o0-NZTDvE'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(G(a))) | ((F(b)) & (F(!(b))))' | autfilt --high > 'lcr-o1-sMc0tY'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(G(a))) | ((F(b)) & (F(!(b))))' > 'lcr-o2-9k92si'
+Running [P3]: ltl2tgba -G '(F(G(a))) | ((F(b)) & (F(!(b))))' > 'lcr-o3-zBI3sC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:310: F((F(G(a))) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((F(G(a))) R (b))' > 'lcr-o0-UN4ItW'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((F(G(a))) R (b))' | autfilt --high > 'lcr-o1-b1uvvg'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((F(G(a))) R (b))' > 'lcr-o2-wWpZxA'
+Running [P3]: ltl2tgba -G 'F((F(G(a))) R (b))' > 'lcr-o3-h4hrBU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:311: (a) | ((b) & (F(G((((b) & (c)) | ((!(b)) & (!(c)))) & (F(d))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | ((b) & (F(G((((b) & (c)) | ((!(b)) & (!(c)))) & (F(d))))))' > 'lcr-o0-SiEEFe'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | ((b) & (F(G((((b) & (c)) | ((!(b)) & (!(c)))) & (F(d))))))' | autfilt --high > 'lcr-o1-WnITKy'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | ((b) & (F(G((((b) & (c)) | ((!(b)) & (!(c)))) & (F(d))))))' > 'lcr-o2-tVxTQS'
+Running [P3]: ltl2tgba -G '(a) | ((b) & (F(G((((b) & (c)) | ((!(b)) & (!(c)))) & (F(d))))))' > 'lcr-o3-HsMZYc'
+Gathering statistics...
+
+/tmp/tmpaew15s45:312: F((a) | ((((b) & ((c) U (d))) | ((!(b)) & ((!(c)) R (!(d))))) U (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | ((((b) & ((c) U (d))) | ((!(b)) & ((!(c)) R (!(d))))) U (b)))' > 'lcr-o0-sM247w'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | ((((b) & ((c) U (d))) | ((!(b)) & ((!(c)) R (!(d))))) U (b)))' | autfilt --high > 'lcr-o1-QuL5hR'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | ((((b) & ((c) U (d))) | ((!(b)) & ((!(c)) R (!(d))))) U (b)))' > 'lcr-o2-s3cIsb'
+Running [P3]: ltl2tgba -G 'F((a) | ((((b) & ((c) U (d))) | ((!(b)) & ((!(c)) R (!(d))))) U (b)))' > 'lcr-o3-7RaaEv'
+Gathering statistics...
+
+/tmp/tmpaew15s45:313: (F(a)) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(a)) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c)))))))' > 'lcr-o0-U0AmQP'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(a)) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c)))))))' | autfilt --high > 'lcr-o1-mxbx39'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(a)) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c)))))))' > 'lcr-o2-bxdohu'
+Running [P3]: ltl2tgba -G '(F(a)) | (X(((b) & (G(F(c)))) | ((!(b)) & (F(G(!(c)))))))' > 'lcr-o3-B4s7wO'
+Gathering statistics...
+
+/tmp/tmpaew15s45:314: (G(F(a))) | ((b) & (F(!(c)))) | ((!(b)) & (G(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | ((b) & (F(!(c)))) | ((!(b)) & (G(c)))' > 'lcr-o0-pmKIN8'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | ((b) & (F(!(c)))) | ((!(b)) & (G(c)))' | autfilt --high > 'lcr-o1-aETd5s'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | ((b) & (F(!(c)))) | ((!(b)) & (G(c)))' > 'lcr-o2-BENqnN'
+Running [P3]: ltl2tgba -G '(G(F(a))) | ((b) & (F(!(c)))) | ((!(b)) & (G(c)))' > 'lcr-o3-bQTXG7'
+Gathering statistics...
+
+/tmp/tmpaew15s45:315: F(((a) | (X(b))) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) | (X(b))) R (b))' > 'lcr-o0-ZDtq1r'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) | (X(b))) R (b))' | autfilt --high > 'lcr-o1-eZ3PmM'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) | (X(b))) R (b))' > 'lcr-o2-7WWVI6'
+Running [P3]: ltl2tgba -G 'F(((a) | (X(b))) R (b))' > 'lcr-o3-LFAV5q'
+Gathering statistics...
+
+/tmp/tmpaew15s45:316: (F(a)) | ((F(G(b))) R (c))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F(a)) | ((F(G(b))) R (c))' > 'lcr-o0-d4NCtL'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F(a)) | ((F(G(b))) R (c))' | autfilt --high > 'lcr-o1-HUqsS5'
+Running [P2]: ltl3tela -i1 -X1 -f '(F(a)) | ((F(G(b))) R (c))' > 'lcr-o2-Xc90hq'
+Running [P3]: ltl2tgba -G '(F(a)) | ((F(G(b))) R (c))' > 'lcr-o3-QL8VIK'
+Gathering statistics...
+
+/tmp/tmpaew15s45:317: F((G(a)) | (G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(a)) | (G(!(a))))' > 'lcr-o0-gSXIa5'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G(!(a))))' | autfilt --high > 'lcr-o1-6kEADp'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(a)) | (G(!(a))))' > 'lcr-o2-bvQ76J'
+Running [P3]: ltl2tgba -G 'F((G(a)) | (G(!(a))))' > 'lcr-o3-mURwB4'
+Gathering statistics...
+
+/tmp/tmpaew15s45:318: X(X(((a) & (F(G(b)))) R (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(((a) & (F(G(b)))) R (c)))' > 'lcr-o0-c9YF6o'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(((a) & (F(G(b)))) R (c)))' | autfilt --high > 'lcr-o1-au3XCJ'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(((a) & (F(G(b)))) R (c)))' > 'lcr-o2-MQOY93'
+Running [P3]: ltl2tgba -G 'X(X(((a) & (F(G(b)))) R (c)))' > 'lcr-o3-NTovIo'
+Gathering statistics...
+
+/tmp/tmpaew15s45:319: ((!(a)) & (F((b) R (c)))) | ((a) & (G((!(b)) U (!(c)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((!(a)) & (F((b) R (c)))) | ((a) & (G((!(b)) U (!(c)))))' > 'lcr-o0-7B9RhJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((!(a)) & (F((b) R (c)))) | ((a) & (G((!(b)) U (!(c)))))' | autfilt --high > 'lcr-o1-DKbuS3'
+Running [P2]: ltl3tela -i1 -X1 -f '((!(a)) & (F((b) R (c)))) | ((a) & (G((!(b)) U (!(c)))))' > 'lcr-o2-rsINto'
+Running [P3]: ltl2tgba -G '((!(a)) & (F((b) R (c)))) | ((a) & (G((!(b)) U (!(c)))))' > 'lcr-o3-RQQT6I'
+Gathering statistics...
+
+/tmp/tmpaew15s45:320: (a) | (X((F(G(a))) | ((a) R (b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (X((F(G(a))) | ((a) R (b))))' > 'lcr-o0-DZ7VK3'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (X((F(G(a))) | ((a) R (b))))' | autfilt --high > 'lcr-o1-TrF6po'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (X((F(G(a))) | ((a) R (b))))' > 'lcr-o2-7UDY5I'
+Running [P3]: ltl2tgba -G '(a) | (X((F(G(a))) | ((a) R (b))))' > 'lcr-o3-W3MdN3'
+Gathering statistics...
+
+/tmp/tmpaew15s45:321: X(X(X(F((G(F(!(a)))) R (a)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(X(F((G(F(!(a)))) R (a)))))' > 'lcr-o0-WQ46uo'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(X(F((G(F(!(a)))) R (a)))))' | autfilt --high > 'lcr-o1-oz6aeJ'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(X(F((G(F(!(a)))) R (a)))))' > 'lcr-o2-rReVX3'
+Running [P3]: ltl2tgba -G 'X(X(X(F((G(F(!(a)))) R (a)))))' > 'lcr-o3-PEZKIo'
+Gathering statistics...
+
+/tmp/tmpaew15s45:322: ((a) | (b)) U ((G(b)) | (X((c) & (F(G(d))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) | (b)) U ((G(b)) | (X((c) & (F(G(d))))))' > 'lcr-o0-TYnruJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) | (b)) U ((G(b)) | (X((c) & (F(G(d))))))' | autfilt --high > 'lcr-o1-Kfb9g4'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) | (b)) U ((G(b)) | (X((c) & (F(G(d))))))' > 'lcr-o2-3F5R4o'
+Running [P3]: ltl2tgba -G '((a) | (b)) U ((G(b)) | (X((c) & (F(G(d))))))' > 'lcr-o3-O9CRWJ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:323: X(F((G(F((a) R (b)))) & ((c) R (((c) & (d)) | ((!(c)) & (!(d)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((G(F((a) R (b)))) & ((c) R (((c) & (d)) | ((!(c)) & (!(d)))))))' > 'lcr-o0-4lvJP4'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((G(F((a) R (b)))) & ((c) R (((c) & (d)) | ((!(c)) & (!(d)))))))' | autfilt --high > 'lcr-o1-c94IJp'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((G(F((a) R (b)))) & ((c) R (((c) & (d)) | ((!(c)) & (!(d)))))))' > 'lcr-o2-iyayEK'
+Running [P3]: ltl2tgba -G 'X(F((G(F((a) R (b)))) & ((c) R (((c) & (d)) | ((!(c)) & (!(d)))))))' > 'lcr-o3-ywpyC5'
+Gathering statistics...
+
+/tmp/tmpaew15s45:324: X((F(b)) | (G(F(a))) | ((!(c)) & (X(F(d)))) | ((c) & (X(G(!(d))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((F(b)) | (G(F(a))) | ((!(c)) & (X(F(d)))) | ((c) & (X(G(!(d))))))' > 'lcr-o0-b0qLBq'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((F(b)) | (G(F(a))) | ((!(c)) & (X(F(d)))) | ((c) & (X(G(!(d))))))' | autfilt --high > 'lcr-o1-nPgYBL'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((F(b)) | (G(F(a))) | ((!(c)) & (X(F(d)))) | ((c) & (X(G(!(d))))))' > 'lcr-o2-8hX5C6'
+Running [P3]: ltl2tgba -G 'X((F(b)) | (G(F(a))) | ((!(c)) & (X(F(d)))) | ((c) & (X(G(!(d))))))' > 'lcr-o3-poyxGr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:325: (G(a)) | (F(((c) R (!(a))) & (F((a) | (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(a)) | (F(((c) R (!(a))) & (F((a) | (b)))))' > 'lcr-o0-4etUKM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (F(((c) R (!(a))) & (F((a) | (b)))))' | autfilt --high > 'lcr-o1-X3yfQ7'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(a)) | (F(((c) R (!(a))) & (F((a) | (b)))))' > 'lcr-o2-jvdqWs'
+Running [P3]: ltl2tgba -G '(G(a)) | (F(((c) R (!(a))) & (F((a) | (b)))))' > 'lcr-o3-vDXA4N'
+Gathering statistics...
+
+/tmp/tmpaew15s45:326: X((G(F(a))) | ((b) & (!(c)) & ((c) U (d))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(F(a))) | ((b) & (!(c)) & ((c) U (d))))' > 'lcr-o0-AKGEd9'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(F(a))) | ((b) & (!(c)) & ((c) U (d))))' | autfilt --high > 'lcr-o1-WveNnu'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(F(a))) | ((b) & (!(c)) & ((c) U (d))))' > 'lcr-o2-GVwGyP'
+Running [P3]: ltl2tgba -G 'X((G(F(a))) | ((b) & (!(c)) & ((c) U (d))))' > 'lcr-o3-7WyKKa'
+Gathering statistics...
+
+/tmp/tmpaew15s45:327: X(X(X((G(a)) | (F(G(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(X((G(a)) | (F(G(b))))))' > 'lcr-o0-BGZwXv'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(X((G(a)) | (F(G(b))))))' | autfilt --high > 'lcr-o1-EiNebR'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(X((G(a)) | (F(G(b))))))' > 'lcr-o2-extApc'
+Running [P3]: ltl2tgba -G 'X(X(X((G(a)) | (F(G(b))))))' > 'lcr-o3-q2n7Ex'
+Gathering statistics...
+
+/tmp/tmpaew15s45:328: F((a) | (X((F(G(b))) | ((c) U ((a) & (c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (X((F(G(b))) | ((c) U ((a) & (c))))))' > 'lcr-o0-SDQlVS'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (X((F(G(b))) | ((c) U ((a) & (c))))))' | autfilt --high > 'lcr-o1-Gbbtce'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (X((F(G(b))) | ((c) U ((a) & (c))))))' > 'lcr-o2-baHeuz'
+Running [P3]: ltl2tgba -G 'F((a) | (X((F(G(b))) | ((c) U ((a) & (c))))))' > 'lcr-o3-DhHlNU'
+Gathering statistics...
+
+/tmp/tmpaew15s45:329: X(F((a) R (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((a) R (b)))' > 'lcr-o0-dz5c7f'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) R (b)))' | autfilt --high > 'lcr-o1-DYUYrB'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((a) R (b)))' > 'lcr-o2-i0lkNW'
+Running [P3]: ltl2tgba -G 'X(F((a) R (b)))' > 'lcr-o3-lMPi9h'
+Gathering statistics...
+
+/tmp/tmpaew15s45:330: (!(a)) & (b) & (F((((a) & (c)) | ((!(a)) & (!(c)))) R (a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(!(a)) & (b) & (F((((a) & (c)) | ((!(a)) & (!(c)))) R (a)))' > 'lcr-o0-yxGQvD'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(!(a)) & (b) & (F((((a) & (c)) | ((!(a)) & (!(c)))) R (a)))' | autfilt --high > 'lcr-o1-BPsnTY'
+Running [P2]: ltl3tela -i1 -X1 -f '(!(a)) & (b) & (F((((a) & (c)) | ((!(a)) & (!(c)))) R (a)))' > 'lcr-o2-vGAvhk'
+Running [P3]: ltl2tgba -G '(!(a)) & (b) & (F((((a) & (c)) | ((!(a)) & (!(c)))) R (a)))' > 'lcr-o3-7QhCGF'
+Gathering statistics...
+
+/tmp/tmpaew15s45:331: ((a) | (b)) & ((c) | (F((d) | ((!(a)) R (b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) | (b)) & ((c) | (F((d) | ((!(a)) R (b)))))' > 'lcr-o0-mF7s60'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) | (b)) & ((c) | (F((d) | ((!(a)) R (b)))))' | autfilt --high > 'lcr-o1-Vhygxm'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) | (b)) & ((c) | (F((d) | ((!(a)) R (b)))))' > 'lcr-o2-KZkHYH'
+Running [P3]: ltl2tgba -G '((a) | (b)) & ((c) | (F((d) | ((!(a)) R (b)))))' > 'lcr-o3-ua6nr3'
+Gathering statistics...
+
+/tmp/tmpaew15s45:332: X(X(X(F((a) | (G(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(X(F((a) | (G(b))))))' > 'lcr-o0-uSeVUo'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(X(F((a) | (G(b))))))' | autfilt --high > 'lcr-o1-obxwpK'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(X(F((a) | (G(b))))))' > 'lcr-o2-z1RIU5'
+Running [P3]: ltl2tgba -G 'X(X(X(F((a) | (G(b))))))' > 'lcr-o3-brS2qr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:333: ((!(a)) & (((!(a)) & (b)) | ((a) & (!(b)))) & (F(G(b)))) | (((a) | ((!(a)) & (!(b)))) & (G(F(!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((!(a)) & (((!(a)) & (b)) | ((a) & (!(b)))) & (F(G(b)))) | (((a) | ((!(a)) & (!(b)))) & (G(F(!(b)))))' > 'lcr-o0-bj85XM'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((!(a)) & (((!(a)) & (b)) | ((a) & (!(b)))) & (F(G(b)))) | (((a) | ((!(a)) & (!(b)))) & (G(F(!(b)))))' | autfilt --high > 'lcr-o1-7QN9v8'
+Running [P2]: ltl3tela -i1 -X1 -f '((!(a)) & (((!(a)) & (b)) | ((a) & (!(b)))) & (F(G(b)))) | (((a) | ((!(a)) & (!(b)))) & (G(F(!(b)))))' > 'lcr-o2-txmR4t'
+Running [P3]: ltl2tgba -G '((!(a)) & (((!(a)) & (b)) | ((a) & (!(b)))) & (F(G(b)))) | (((a) | ((!(a)) & (!(b)))) & (G(F(!(b)))))' > 'lcr-o3-Nib5EP'
+Gathering statistics...
+
+/tmp/tmpaew15s45:334: F((G(F(a))) R (b))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(F(a))) R (b))' > 'lcr-o0-Yqa4fb'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(F(a))) R (b))' | autfilt --high > 'lcr-o1-Mcl2Rw'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(F(a))) R (b))' > 'lcr-o2-T6bEuS'
+Running [P3]: ltl2tgba -G 'F((G(F(a))) R (b))' > 'lcr-o3-eRme8d'
+Gathering statistics...
+
+/tmp/tmpaew15s45:335: (((a) | (b)) & (G(F(!(c))))) | ((!(a)) & (!(b)) & (F(G(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(((a) | (b)) & (G(F(!(c))))) | ((!(a)) & (!(b)) & (F(G(c))))' > 'lcr-o0-gqhsMz'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(((a) | (b)) & (G(F(!(c))))) | ((!(a)) & (!(b)) & (F(G(c))))' | autfilt --high > 'lcr-o1-xHNMrV'
+Running [P2]: ltl3tela -i1 -X1 -f '(((a) | (b)) & (G(F(!(c))))) | ((!(a)) & (!(b)) & (F(G(c))))' > 'lcr-o2-eXBL7g'
+Running [P3]: ltl2tgba -G '(((a) | (b)) & (G(F(!(c))))) | ((!(a)) & (!(b)) & (F(G(c))))' > 'lcr-o3-6XObPC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:336: F(((!(a)) & (F((b) & (G(F(c)))))) | ((a) & ((G(!(b))) | (F(G(!(c)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((!(a)) & (F((b) & (G(F(c)))))) | ((a) & ((G(!(b))) | (F(G(!(c)))))))' > 'lcr-o0-WAPnxY'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((!(a)) & (F((b) & (G(F(c)))))) | ((a) & ((G(!(b))) | (F(G(!(c)))))))' | autfilt --high > 'lcr-o1-RKtxgk'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((!(a)) & (F((b) & (G(F(c)))))) | ((a) & ((G(!(b))) | (F(G(!(c)))))))' > 'lcr-o2-00Up0F'
+Running [P3]: ltl2tgba -G 'F(((!(a)) & (F((b) & (G(F(c)))))) | ((a) & ((G(!(b))) | (F(G(!(c)))))))' > 'lcr-o3-W65AO1'
+Gathering statistics...
+
+/tmp/tmpaew15s45:337: (a) | (F(G(c))) | (G(((a) & (b)) | ((!(a)) & (!(b)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (F(G(c))) | (G(((a) & (b)) | ((!(a)) & (!(b)))))' > 'lcr-o0-EQFEDn'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (F(G(c))) | (G(((a) & (b)) | ((!(a)) & (!(b)))))' | autfilt --high > 'lcr-o1-DH9AtJ'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (F(G(c))) | (G(((a) & (b)) | ((!(a)) & (!(b)))))' > 'lcr-o2-Pye8j5'
+Running [P3]: ltl2tgba -G '(a) | (F(G(c))) | (G(((a) & (b)) | ((!(a)) & (!(b)))))' > 'lcr-o3-1nrAbr'
+Gathering statistics...
+
+/tmp/tmpaew15s45:338: X((G(a)) | (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(a)) | (F(G(b))))' > 'lcr-o0-OR0K3M'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(a)) | (F(G(b))))' | autfilt --high > 'lcr-o1-pFuXW8'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(a)) | (F(G(b))))' > 'lcr-o2-WcoPQu'
+Running [P3]: ltl2tgba -G 'X((G(a)) | (F(G(b))))' > 'lcr-o3-pkVOLQ'
+Gathering statistics...
+
+/tmp/tmpaew15s45:339: (a) | (G(F(b))) | (F(c))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G(F(b))) | (F(c))' > 'lcr-o0-OIguHc'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G(F(b))) | (F(c))' | autfilt --high > 'lcr-o1-aNo9Dy'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G(F(b))) | (F(c))' > 'lcr-o2-941ABU'
+Running [P3]: ltl2tgba -G '(a) | (G(F(b))) | (F(c))' > 'lcr-o3-6SWWzg'
+Gathering statistics...
+
+/tmp/tmpaew15s45:340: (a) | (G((b) U (c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) | (G((b) U (c)))' > 'lcr-o0-oiZVyC'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) | (G((b) U (c)))' | autfilt --high > 'lcr-o1-A40VyY'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) | (G((b) U (c)))' > 'lcr-o2-nxYBzk'
+Running [P3]: ltl2tgba -G '(a) | (G((b) U (c)))' > 'lcr-o3-Eh0hBG'
+Gathering statistics...
+
+/tmp/tmpaew15s45:341: X(F((G(a)) R (b)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((G(a)) R (b)))' > 'lcr-o0-eY6AD2'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((G(a)) R (b)))' | autfilt --high > 'lcr-o1-YCyUGo'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((G(a)) R (b)))' > 'lcr-o2-bhmYKK'
+Running [P3]: ltl2tgba -G 'X(F((G(a)) R (b)))' > 'lcr-o3-c1NZP6'
+Gathering statistics...
+
+/tmp/tmpaew15s45:342: F((G(b)) | (G(F(a))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) | (G(F(a))))' > 'lcr-o0-wicNVs'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) | (G(F(a))))' | autfilt --high > 'lcr-o1-VkpF2O'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) | (G(F(a))))' > 'lcr-o2-FBecab'
+Running [P3]: ltl2tgba -G 'F((G(b)) | (G(F(a))))' > 'lcr-o3-qyHMix'
+Gathering statistics...
+
+/tmp/tmpaew15s45:343: F((a) & ((G(b)) | (G(F(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) & ((G(b)) | (G(F(!(a))))))' > 'lcr-o0-gAP4rT'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((G(b)) | (G(F(!(a))))))' | autfilt --high > 'lcr-o1-fi2sCf'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) & ((G(b)) | (G(F(!(a))))))' > 'lcr-o2-iOeCNB'
+Running [P3]: ltl2tgba -G 'F((a) & ((G(b)) | (G(F(!(a))))))' > 'lcr-o3-NsMYZX'
+Gathering statistics...
+
+/tmp/tmpaew15s45:344: ((a) & (G(F(!(b))))) | ((!(a)) & (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G(F(!(b))))) | ((!(a)) & (F(G(b))))' > 'lcr-o0-B9b8ck'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G(F(!(b))))) | ((!(a)) & (F(G(b))))' | autfilt --high > 'lcr-o1-53JgrG'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G(F(!(b))))) | ((!(a)) & (F(G(b))))' > 'lcr-o2-mR87F2'
+Running [P3]: ltl2tgba -G '((a) & (G(F(!(b))))) | ((!(a)) & (F(G(b))))' > 'lcr-o3-2SYcWo'
+Gathering statistics...
+
+/tmp/tmpaew15s45:345: F(((a) | (G(F(b)))) R (c))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) | (G(F(b)))) R (c))' > 'lcr-o0-7PpYcL'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) | (G(F(b)))) R (c))' | autfilt --high > 'lcr-o1-uJqMu7'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) | (G(F(b)))) R (c))' > 'lcr-o2-uEofNt'
+Running [P3]: ltl2tgba -G 'F(((a) | (G(F(b)))) R (c))' > 'lcr-o3-qRnX6P'
+Gathering statistics...
+
+/tmp/tmpaew15s45:346: X(X(X(X(F((a) R (b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X(X(X(F((a) R (b))))))' > 'lcr-o0-T4iqrc'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X(X(X(F((a) R (b))))))' | autfilt --high > 'lcr-o1-Hg5QMy'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X(X(X(F((a) R (b))))))' > 'lcr-o2-ZkOU8U'
+Running [P3]: ltl2tgba -G 'X(X(X(X(F((a) R (b))))))' > 'lcr-o3-JwCSvh'
+Gathering statistics...
+
+/tmp/tmpaew15s45:347: (G(F((!(a)) & ((a) | (b))))) R (b)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F((!(a)) & ((a) | (b))))) R (b)' > 'lcr-o0-9bZxTD'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F((!(a)) & ((a) | (b))))) R (b)' | autfilt --high > 'lcr-o1-rBzai0'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F((!(a)) & ((a) | (b))))) R (b)' > 'lcr-o2-BZIpHm'
+Running [P3]: ltl2tgba -G '(G(F((!(a)) & ((a) | (b))))) R (b)' > 'lcr-o3-K3cB7I'
+Gathering statistics...
+
+/tmp/tmpaew15s45:348: (G(F(a))) | ((((!(b)) & (c)) | ((b) & (!(c)))) R (!(c)))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(G(F(a))) | ((((!(b)) & (c)) | ((b) & (!(c)))) R (!(c)))' > 'lcr-o0-sTKoy5'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(G(F(a))) | ((((!(b)) & (c)) | ((b) & (!(c)))) R (!(c)))' | autfilt --high > 'lcr-o1-WJC9Zr'
+Running [P2]: ltl3tela -i1 -X1 -f '(G(F(a))) | ((((!(b)) & (c)) | ((b) & (!(c)))) R (!(c)))' > 'lcr-o2-SCbAsO'
+Running [P3]: ltl2tgba -G '(G(F(a))) | ((((!(b)) & (c)) | ((b) & (!(c)))) R (!(c)))' > 'lcr-o3-e34TVa'
+Gathering statistics...
+
+/tmp/tmpaew15s45:349: F((F((a) | (X(F(b))))) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((F((a) | (X(F(b))))) R (!(a)))' > 'lcr-o0-dFVRpx'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((F((a) | (X(F(b))))) R (!(a)))' | autfilt --high > 'lcr-o1-IpOOUT'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((F((a) | (X(F(b))))) R (!(a)))' > 'lcr-o2-Pojsqg'
+Running [P3]: ltl2tgba -G 'F((F((a) | (X(F(b))))) R (!(a)))' > 'lcr-o3-DYX0WC'
+Gathering statistics...
+
+/tmp/tmpaew15s45:350: ((a) & (G(F((a) & (((!(a)) & (b)) | ((a) & (!(b)))))))) | ((!(a)) & (F(G((!(a)) | ((a) & (b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (G(F((a) & (((!(a)) & (b)) | ((a) & (!(b)))))))) | ((!(a)) & (F(G((!(a)) | ((a) & (b))))))' > 'lcr-o0-z56iuZ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (G(F((a) & (((!(a)) & (b)) | ((a) & (!(b)))))))) | ((!(a)) & (F(G((!(a)) | ((a) & (b))))))' | autfilt --high > 'lcr-o1-8jVC2l'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (G(F((a) & (((!(a)) & (b)) | ((a) & (!(b)))))))) | ((!(a)) & (F(G((!(a)) | ((a) & (b))))))' > 'lcr-o2-4YuHBI'
+Running [P3]: ltl2tgba -G '((a) & (G(F((a) & (((!(a)) & (b)) | ((a) & (!(b)))))))) | ((!(a)) & (F(G((!(a)) | ((a) & (b))))))' > 'lcr-o3-O5ucc5'
+Gathering statistics...
+
+/tmp/tmpaew15s45:351: X(F((a) | ((!(a)) & (G((b) U (a))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(F((a) | ((!(a)) & (G((b) U (a))))))' > 'lcr-o0-HiMtNr'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) | ((!(a)) & (G((b) U (a))))))' | autfilt --high > 'lcr-o1-VCnMpO'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(F((a) | ((!(a)) & (G((b) U (a))))))' > 'lcr-o2-2ThK2a'
+Running [P3]: ltl2tgba -G 'X(F((a) | ((!(a)) & (G((b) U (a))))))' > 'lcr-o3-Vc2BGx'
+Gathering statistics...
+
+/tmp/tmpaew15s45:352: (F((G(F(a))) | ((b) R (c)))) R (d)
+Running [P0]: ltldo 'ltl3ba -H2' -f '(F((G(F(a))) | ((b) R (c)))) R (d)' > 'lcr-o0-egH7kU'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(F((G(F(a))) | ((b) R (c)))) R (d)' | autfilt --high > 'lcr-o1-f8gC0g'
+Running [P2]: ltl3tela -i1 -X1 -f '(F((G(F(a))) | ((b) R (c)))) R (d)' > 'lcr-o2-9zrUGD'
+Running [P3]: ltl2tgba -G '(F((G(F(a))) | ((b) R (c)))) R (d)' > 'lcr-o3-iD2op0'
+Gathering statistics...
+
+/tmp/tmpaew15s45:353: F((a) | (G(!(b))) | ((F(c)) R (((!(a)) & (b)) | ((a) & (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((a) | (G(!(b))) | ((F(c)) R (((!(a)) & (b)) | ((a) & (!(b))))))' > 'lcr-o0-Bt8N8m'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(!(b))) | ((F(c)) R (((!(a)) & (b)) | ((a) & (!(b))))))' | autfilt --high > 'lcr-o1-PU0mTJ'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((a) | (G(!(b))) | ((F(c)) R (((!(a)) & (b)) | ((a) & (!(b))))))' > 'lcr-o2-J23DE6'
+Running [P3]: ltl2tgba -G 'F((a) | (G(!(b))) | ((F(c)) R (((!(a)) & (b)) | ((a) & (!(b))))))' > 'lcr-o3-4gYHrt'
+Gathering statistics...
+
+/tmp/tmpaew15s45:354: (a) & ((F((F(b)) R (c))) | (X((!(a)) | (F(d)))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & ((F((F(b)) R (c))) | (X((!(a)) | (F(d)))))' > 'lcr-o0-F5EDfQ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & ((F((F(b)) R (c))) | (X((!(a)) | (F(d)))))' | autfilt --high > 'lcr-o1-aWLv4c'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & ((F((F(b)) R (c))) | (X((!(a)) | (F(d)))))' > 'lcr-o2-VoraUz'
+Running [P3]: ltl2tgba -G '(a) & ((F((F(b)) R (c))) | (X((!(a)) | (F(d)))))' > 'lcr-o3-X15ALW'
+Gathering statistics...
+
+/tmp/tmpaew15s45:355: F(G((a) & ((!(a)) R ((!(a)) | ((a) & (b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(G((a) & ((!(a)) R ((!(a)) | ((a) & (b))))))' > 'lcr-o0-2qRXDj'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(G((a) & ((!(a)) R ((!(a)) | ((a) & (b))))))' | autfilt --high > 'lcr-o1-h7zcxG'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(G((a) & ((!(a)) R ((!(a)) | ((a) & (b))))))' > 'lcr-o2-hAR0q3'
+Running [P3]: ltl2tgba -G 'F(G((a) & ((!(a)) R ((!(a)) | ((a) & (b))))))' > 'lcr-o3-KvOwlq'
+Gathering statistics...
+
+/tmp/tmpaew15s45:356: X(X((G(a)) | (F(G((!(a)) | (b))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X(X((G(a)) | (F(G((!(a)) | (b))))))' > 'lcr-o0-uyzAgN'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X(X((G(a)) | (F(G((!(a)) | (b))))))' | autfilt --high > 'lcr-o1-2xmvca'
+Running [P2]: ltl3tela -i1 -X1 -f 'X(X((G(a)) | (F(G((!(a)) | (b))))))' > 'lcr-o2-nBV08w'
+Running [P3]: ltl2tgba -G 'X(X((G(a)) | (F(G((!(a)) | (b))))))' > 'lcr-o3-Hssy6T'
+Gathering statistics...
+
+/tmp/tmpaew15s45:357: (a) & (F((G((b) & (!(c)))) | (G((F(c)) & (F(!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '(a) & (F((G((b) & (!(c)))) | (G((F(c)) & (F(!(b)))))))' > 'lcr-o0-rHoK4g'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '(a) & (F((G((b) & (!(c)))) | (G((F(c)) & (F(!(b)))))))' | autfilt --high > 'lcr-o1-p6PR3D'
+Running [P2]: ltl3tela -i1 -X1 -f '(a) & (F((G((b) & (!(c)))) | (G((F(c)) & (F(!(b)))))))' > 'lcr-o2-JzNG30'
+Running [P3]: ltl2tgba -G '(a) & (F((G((b) & (!(c)))) | (G((F(c)) & (F(!(b)))))))' > 'lcr-o3-4Igl5n'
+Gathering statistics...
+
+/tmp/tmpaew15s45:358: F(((a) & (b)) | (G((b) & (c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F(((a) & (b)) | (G((b) & (c))))' > 'lcr-o0-jSqH7K'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (b)) | (G((b) & (c))))' | autfilt --high > 'lcr-o1-VcXVa8'
+Running [P2]: ltl3tela -i1 -X1 -f 'F(((a) & (b)) | (G((b) & (c))))' > 'lcr-o2-ewUIev'
+Running [P3]: ltl2tgba -G 'F(((a) & (b)) | (G((b) & (c))))' > 'lcr-o3-dmTfjS'
+Gathering statistics...
+
+/tmp/tmpaew15s45:359: F((G(b)) | (X(a)))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'F((G(b)) | (X(a)))' > 'lcr-o0-l7mnof'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'F((G(b)) | (X(a)))' | autfilt --high > 'lcr-o1-rD4puC'
+Running [P2]: ltl3tela -i1 -X1 -f 'F((G(b)) | (X(a)))' > 'lcr-o2-jbZ5AZ'
+Running [P3]: ltl2tgba -G 'F((G(b)) | (X(a)))' > 'lcr-o3-Iq9EIm'
+Gathering statistics...
+
+/tmp/tmpaew15s45:360: X((G(F(a))) | ((b) & (X(c))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((G(F(a))) | ((b) & (X(c))))' > 'lcr-o0-jsyPQJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((G(F(a))) | ((b) & (X(c))))' | autfilt --high > 'lcr-o1-zzc1Z6'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((G(F(a))) | ((b) & (X(c))))' > 'lcr-o2-gfmR9t'
+Running [P3]: ltl2tgba -G 'X((G(F(a))) | ((b) & (X(c))))' > 'lcr-o3-xTjGkR'
+Gathering statistics...
+
+/tmp/tmpaew15s45:361: ((a) & (b)) | (F(G((b) & (F((a) & (c))))))
+Running [P0]: ltldo 'ltl3ba -H2' -f '((a) & (b)) | (F(G((b) & (F((a) & (c))))))' > 'lcr-o0-mGp8ve'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f '((a) & (b)) | (F(G((b) & (F((a) & (c))))))' | autfilt --high > 'lcr-o1-XF8wIB'
+Running [P2]: ltl3tela -i1 -X1 -f '((a) & (b)) | (F(G((b) & (F((a) & (c))))))' > 'lcr-o2-h34DVY'
+Running [P3]: ltl2tgba -G '((a) & (b)) | (F(G((b) & (F((a) & (c))))))' > 'lcr-o3-0CX89l'
+Gathering statistics...
+
+/tmp/tmpaew15s45:362: X((a) | (!(b)) | (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H2' -f 'X((a) | (!(b)) | (G(F(b))))' > 'lcr-o0-2CbrpJ'
+Running [P1]: ltl3tela -p1 -i1 -X1 -f 'X((a) | (!(b)) | (G(F(b))))' | autfilt --high > 'lcr-o1-S7VLF6'
+Running [P2]: ltl3tela -i1 -X1 -f 'X((a) | (!(b)) | (G(F(b))))' > 'lcr-o2-fEMGWt'
+Running [P3]: ltl2tgba -G 'X((a) | (!(b)) | (G(F(b))))' > 'lcr-o3-a3rveR'
+Gathering statistics...
+
+No problem detected.
+0

@@ -1,0 +1,42 @@
+HOA: v1
+States: 7
+Start: 0
+AP: 3 "b" "a" "c"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant
+--BODY--
+State: 0
+[0&!1] 0
+[!0&1&!2] 1
+[!0&1&2] 2
+[!0&!1&2] 3
+[0&1] 4
+[!0&!1&!2] 5
+State: 1
+[t] 1
+State: 2
+[!2] 1
+[!1&2] 2
+[1&2] 2 {0}
+State: 3
+[1&!2] 1
+[1&2] 2
+[!1&2] 3
+[!1&!2] 5
+State: 4
+[!0&!2] 1
+[!0&2] 2
+[0&!1] 4
+[0&1] 4 {0}
+State: 5
+[1] 1
+[0&!1] 5
+[!0&!1&!2] 5 {0}
+[!0&!1&2] 6
+State: 6
+[1] 1
+[!1&!2] 5 {0}
+[!1&2] 6
+--END--

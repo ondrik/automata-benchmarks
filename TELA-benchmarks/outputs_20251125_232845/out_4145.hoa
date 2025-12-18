@@ -1,0 +1,20 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 2 "a" "b"
+acc-name: parity min even 2
+Acceptance: 2 Inf(0) | Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 1
+State: 1
+[0&!1] 1
+[0&1] 1 {1}
+[!0] 2
+State: 2
+[0&!1] 2
+[1] 2 {0}
+[!0&!1] 2 {1}
+--END--

@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 3 "a" "c" "b"
+Acceptance: 2 Inf(0) & Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant
+--BODY--
+State: 0
+[0] 1
+[!0] 2
+State: 1
+[t] 1 {0}
+State: 2
+[!1&2] 2
+[1&2] 2 {0}
+[!2] 2 {1}
+--END--

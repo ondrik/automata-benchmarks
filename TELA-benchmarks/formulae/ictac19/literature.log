@@ -1,0 +1,1773 @@
+ltlcross {ltl3ba}ltldo 'ltl3ba -H1' -f %f > %O {basic}ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f %f > %O {fmerg}ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f %f > %O {fgmerg}ltl3tela -p1 -d1 -i1 -X1 -c0 -f %f > %O {fgmerg_opt}ltl3tela -p1 -i1 -X1 -f %f > %O -F formulae/ictac19/literature.ltl --timeout=60 --automata --save-bogus=formulae/ictac19/literature_bogus.ltl --no-checks --products=0 --csv=formulae/ictac19/literature.csv
+[30.01.2020 09:55:46]
+=====================
+formulae/ictac19/literature.ltl:1: F(a)
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(a)' > 'lcr-o0-A4hmHo'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(a)' > 'lcr-o1-qeZ722'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(a)' > 'lcr-o2-bdb8oH'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(a)' > 'lcr-o3-vyzmLl'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(a)' > 'lcr-o4-IwzO7Z'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:2: (F(a)) & ((b) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & ((b) R (!(a)))' > 'lcr-o0-0iVvuE'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & ((b) R (!(a)))' > 'lcr-o1-uYOeSi'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & ((b) R (!(a)))' > 'lcr-o2-v0iegX'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & ((b) R (!(a)))' > 'lcr-o3-4GzsEB'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & ((b) R (!(a)))' > 'lcr-o4-yiKV2f'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:3: F((a) & (F(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)))' > 'lcr-o0-VFUDrU'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)))' > 'lcr-o1-qPEkRy'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)))' > 'lcr-o2-TWvhhd'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)))' > 'lcr-o3-BoAtHR'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)))' > 'lcr-o4-KNvU7v'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:4: F((a) & (F(b)) & ((c) R (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & ((c) R (!(b))))' > 'lcr-o0-JNJAya'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R (!(b))))' > 'lcr-o1-AD8j0O'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R (!(b))))' > 'lcr-o2-fbbmst'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & ((c) R (!(b))))' > 'lcr-o3-17BGU7'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R (!(b))))' > 'lcr-o4-boEhnM'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:5: F((a) & ((c) U ((b) & (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((c) U ((b) & (c))))' > 'lcr-o0-u5A9Pq'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((c) U ((b) & (c))))' > 'lcr-o1-Csm1j5'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((c) U ((b) & (c))))' > 'lcr-o2-n5C9NJ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((c) U ((b) & (c))))' > 'lcr-o3-yoqxio'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((c) U ((b) & (c))))' > 'lcr-o4-TUyaN2'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:6: G(a)
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(a)' > 'lcr-o0-cvw3hH'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(a)' > 'lcr-o1-uIuWNl'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(a)' > 'lcr-o2-MjA4j0'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(a)' > 'lcr-o3-i88pQE'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(a)' > 'lcr-o4-P7iZmj'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:7: (a) U (b)
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) U (b)' > 'lcr-o0-ukTLTX'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) U (b)' > 'lcr-o1-9s1yrC'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) U (b)' > 'lcr-o2-RR6AZg'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) U (b)' > 'lcr-o3-AXrRxV'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) U (b)' > 'lcr-o4-b6ol6z'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:8: (F(a)) & (G((!(a)) | (G(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (G((!(a)) | (G(b))))' > 'lcr-o0-8a72Ee'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (G((!(a)) | (G(b))))' > 'lcr-o1-y2HLeT'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (G((!(a)) | (G(b))))' > 'lcr-o2-427KOx'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (G((!(a)) | (G(b))))' > 'lcr-o3-jsL0oc'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (G((!(a)) | (G(b))))' > 'lcr-o4-mw0vZQ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:9: F((a) & (!(b)) & ((c) U (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (!(b)) & ((c) U (b)))' > 'lcr-o0-F5ahAv'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (!(b)) & ((c) U (b)))' > 'lcr-o1-LMd3ba'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (!(b)) & ((c) U (b)))' > 'lcr-o2-qfe6NO'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (!(b)) & ((c) U (b)))' > 'lcr-o3-6KIoqt'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (!(b)) & ((c) U (b)))' > 'lcr-o4-rbXW27'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:10: F((a) & (!(b)) & ((b) R ((b) | (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (!(b)) & ((b) R ((b) | (c))))' > 'lcr-o0-mBaLFM'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (!(b)) & ((b) R ((b) | (c))))' > 'lcr-o1-IKuAjr'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (!(b)) & ((b) R ((b) | (c))))' > 'lcr-o2-RP0GX5'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (!(b)) & ((b) R ((b) | (c))))' > 'lcr-o3-tiB3BK'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (!(b)) & ((b) R ((b) | (c))))' > 'lcr-o4-fbRFgp'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:11: ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))) U ((a) & ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))) U ((a) & ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))))' > 'lcr-o0-5h6xV3'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))) U ((a) & ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))))' > 'lcr-o1-B3CrBI'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))) U ((a) & ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))))' > 'lcr-o2-ovfEhn'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))) U ((a) & ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))))' > 'lcr-o3-emn9X1'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))) U ((a) & ((((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))) U ((!(a)) & (((F(a)) U ((!(a)) & (F(a)))) U ((a) & ((F(a)) U ((!(a)) & (F(a)))))))))' > 'lcr-o4-DoBWEG'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:12: (F(a)) & (((a) | (b)) R (((a) | (!(b))) R (((a) | (b)) R (((a) | (!(b))) R ((b) R (!(a)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (((a) | (b)) R (((a) | (!(b))) R (((a) | (b)) R (((a) | (!(b))) R ((b) R (!(a)))))))' > 'lcr-o0-H9b2ll'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (((a) | (b)) R (((a) | (!(b))) R (((a) | (b)) R (((a) | (!(b))) R ((b) R (!(a)))))))' > 'lcr-o1-l8v83Z'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (((a) | (b)) R (((a) | (!(b))) R (((a) | (b)) R (((a) | (!(b))) R ((b) R (!(a)))))))' > 'lcr-o2-69eyME'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (((a) | (b)) R (((a) | (!(b))) R (((a) | (b)) R (((a) | (!(b))) R ((b) R (!(a)))))))' > 'lcr-o3-31Gfvj'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (((a) | (b)) R (((a) | (!(b))) R (((a) | (b)) R (((a) | (!(b))) R ((b) R (!(a)))))))' > 'lcr-o4-x7MeeY'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:13: ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))) U ((a) & ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))) U ((a) & ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))))' > 'lcr-o0-544vXC'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))) U ((a) & ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))))' > 'lcr-o1-F7USHh'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))) U ((a) & ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))))' > 'lcr-o2-7DgBsW'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))) U ((a) & ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))))' > 'lcr-o3-SDTDdB'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))) U ((a) & ((!(a)) | (((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))))) U ((b) & ((((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b)))))) U ((!(b)) & (((F(b)) U ((!(b)) & (F(b)))) U ((b) & ((F(b)) U ((!(b)) & (F(b))))))))))))' > 'lcr-o4-3DI0Yf'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:14: F((a) & (F(b)) & (((b) | (c)) R (((b) | (!(c))) R (((b) | (c)) R (((b) | (!(c))) R ((c) R (!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & (((b) | (c)) R (((b) | (!(c))) R (((b) | (c)) R (((b) | (!(c))) R ((c) R (!(b))))))))' > 'lcr-o0-cbzIKU'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((b) | (c)) R (((b) | (!(c))) R (((b) | (c)) R (((b) | (!(c))) R ((c) R (!(b))))))))' > 'lcr-o1-IM5sxz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((b) | (c)) R (((b) | (!(c))) R (((b) | (c)) R (((b) | (!(c))) R ((c) R (!(b))))))))' > 'lcr-o2-Zkhyke'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & (((b) | (c)) R (((b) | (!(c))) R (((b) | (c)) R (((b) | (!(c))) R ((c) R (!(b))))))))' > 'lcr-o3-WsYW7S'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & (((b) | (c)) R (((b) | (!(c))) R (((b) | (c)) R (((b) | (!(c))) R ((c) R (!(b))))))))' > 'lcr-o4-5CWFVx'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:15: F((a) & (((b) | (c)) R (((!(b)) | (c)) R (((b) | (c)) R (((!(b)) | (c)) R ((F(!(b))) & ((!(c)) U ((b) & (!(c))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (((b) | (c)) R (((!(b)) | (c)) R (((b) | (c)) R (((!(b)) | (c)) R ((F(!(b))) & ((!(c)) U ((b) & (!(c))))))))))' > 'lcr-o0-5WpJJc'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (((b) | (c)) R (((!(b)) | (c)) R (((b) | (c)) R (((!(b)) | (c)) R ((F(!(b))) & ((!(c)) U ((b) & (!(c))))))))))' > 'lcr-o1-pNDPyR'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (((b) | (c)) R (((!(b)) | (c)) R (((b) | (c)) R (((!(b)) | (c)) R ((F(!(b))) & ((!(c)) U ((b) & (!(c))))))))))' > 'lcr-o2-DOLgow'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (((b) | (c)) R (((!(b)) | (c)) R (((b) | (c)) R (((!(b)) | (c)) R ((F(!(b))) & ((!(c)) U ((b) & (!(c))))))))))' > 'lcr-o3-jGL1db'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((b) | (c)) R (((!(b)) | (c)) R (((b) | (c)) R (((!(b)) | (c)) R ((F(!(b))) & ((!(c)) U ((b) & (!(c))))))))))' > 'lcr-o4-d7i83P'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:16: (b) U ((a) & (b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(b) U ((a) & (b))' > 'lcr-o0-3UlCUu'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(b) U ((a) & (b))' > 'lcr-o1-i8f7L9'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(b) U ((a) & (b))' > 'lcr-o2-Se5QDO'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(b) U ((a) & (b))' > 'lcr-o3-OeyOvt'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(b) U ((a) & (b))' > 'lcr-o4-58iZn8'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:17: (F(a)) & ((b) R ((!(a)) & (c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & ((b) R ((!(a)) & (c)))' > 'lcr-o0-TYaogN'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & ((b) R ((!(a)) & (c)))' > 'lcr-o1-VJWL9r'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & ((b) R ((!(a)) & (c)))' > 'lcr-o2-79Xq36'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & ((b) R ((!(a)) & (c)))' > 'lcr-o3-UkomXL'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & ((b) R ((!(a)) & (c)))' > 'lcr-o4-MGXxRq'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:18: (F(a)) & (G((!(a)) | ((c) U ((b) & (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (G((!(a)) | ((c) U ((b) & (c)))))' > 'lcr-o0-hFHZL5'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (G((!(a)) | ((c) U ((b) & (c)))))' > 'lcr-o1-juBvHK'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (G((!(a)) | ((c) U ((b) & (c)))))' > 'lcr-o2-YLHjDp'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (G((!(a)) | ((c) U ((b) & (c)))))' > 'lcr-o3-Y0Onz4'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (G((!(a)) | ((c) U ((b) & (c)))))' > 'lcr-o4-WiSHvJ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:19: F((a) & (F(b)) & ((c) R ((!(b)) & (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & ((c) R ((!(b)) & (d))))' > 'lcr-o0-PTviso'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & (d))))' > 'lcr-o1-0F1Sp3'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & (d))))' > 'lcr-o2-gAxLnI'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & (d))))' > 'lcr-o3-R5YUln'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & (d))))' > 'lcr-o4-5rimk2'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:20: F((a) & (G(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (G(b)))' > 'lcr-o0-LTV5iH'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (G(b)))' > 'lcr-o1-mBePim'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (G(b)))' > 'lcr-o2-8SmOi1'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (G(b)))' > 'lcr-o3-kc51iG'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (G(b)))' > 'lcr-o4-Kqjujl'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:21: (F(a)) & (((b) & ((a) R ((a) | (c)))) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (((b) & ((a) R ((a) | (c)))) R (!(a)))' > 'lcr-o0-KtYbk0'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c)))) R (!(a)))' > 'lcr-o1-mGGVlF'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c)))) R (!(a)))' > 'lcr-o2-X6LWnk'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (((b) & ((a) R ((a) | (c)))) R (!(a)))' > 'lcr-o3-9yYdqZ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c)))) R (!(a)))' > 'lcr-o4-5DgLsE'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:22: F((a) & (F((b) & (G(c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F((b) & (G(c)))))' > 'lcr-o0-qa7yvj'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F((b) & (G(c)))))' > 'lcr-o1-dLQnzY'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F((b) & (G(c)))))' > 'lcr-o2-5fOtDD'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F((b) & (G(c)))))' > 'lcr-o3-U0yPHi'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F((b) & (G(c)))))' > 'lcr-o4-XVcrMX'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:23: F((a) & (F(b)) & (((c) & ((b) R ((b) | (d)))) R (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d)))) R (!(b))))' > 'lcr-o0-4kRiRC'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d)))) R (!(b))))' > 'lcr-o1-Z2ebXh'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d)))) R (!(b))))' > 'lcr-o2-kLDm3W'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d)))) R (!(b))))' > 'lcr-o3-9OBP9B'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d)))) R (!(b))))' > 'lcr-o4-vWaAgh'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:24: F((a) & ((!(d)) U ((b) & (!(d)) & ((d) R ((c) | (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((!(d)) U ((b) & (!(d)) & ((d) R ((c) | (d))))))' > 'lcr-o0-dLHCnW'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((!(d)) U ((b) & (!(d)) & ((d) R ((c) | (d))))))' > 'lcr-o1-Hk0GvB'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((!(d)) U ((b) & (!(d)) & ((d) R ((c) | (d))))))' > 'lcr-o2-NZs3Dg'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((!(d)) U ((b) & (!(d)) & ((d) R ((c) | (d))))))' > 'lcr-o3-av1GMV'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((!(d)) U ((b) & (!(d)) & ((d) R ((c) | (d))))))' > 'lcr-o4-sJABVA'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:25: ((a) | (X((b) R (c)))) U (b)
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) | (X((b) R (c)))) U (b)' > 'lcr-o0-yfJN4f'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) | (X((b) R (c)))) U (b)' > 'lcr-o1-QaB0eV'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) | (X((b) R (c)))) U (b)' > 'lcr-o2-AbXtpA'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) | (X((b) R (c)))) U (b)' > 'lcr-o3-hZicAf'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) | (X((b) R (c)))) U (b)' > 'lcr-o4-IGy9KU'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:26: (F(a)) & ((b) R ((!(a)) & ((b) | (c) | (X((b) R (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & ((b) R ((!(a)) & ((b) | (c) | (X((b) R (d))))))' > 'lcr-o0-Bw5lWz'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & ((b) R ((!(a)) & ((b) | (c) | (X((b) R (d))))))' > 'lcr-o1-5qpA8e'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & ((b) R ((!(a)) & ((b) | (c) | (X((b) R (d))))))' > 'lcr-o2-5j07kU'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & ((b) R ((!(a)) & ((b) | (c) | (X((b) R (d))))))' > 'lcr-o3-bobXxz'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & ((b) R ((!(a)) & ((b) | (c) | (X((b) R (d))))))' > 'lcr-o4-4yQ3Ke'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:27: (a) & (((b) | (X((c) R (d)))) U (c))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) & (((b) | (X((c) R (d)))) U (c))' > 'lcr-o0-H2lsYT'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) & (((b) | (X((c) R (d)))) U (c))' > 'lcr-o1-NOFTcz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) & (((b) | (X((c) R (d)))) U (c))' > 'lcr-o2-MwaDre'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) & (((b) | (X((c) R (d)))) U (c))' > 'lcr-o3-DFZCGT'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) & (((b) | (X((c) R (d)))) U (c))' > 'lcr-o4-jCKSVy'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:28: F((a) & (F(b)) & ((c) R ((!(b)) & ((c) | (d) | (X((c) R (e)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & ((c) R ((!(b)) & ((c) | (d) | (X((c) R (e)))))))' > 'lcr-o0-a2vobe'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & ((c) | (d) | (X((c) R (e)))))))' > 'lcr-o1-bPzWrT'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & ((c) | (d) | (X((c) R (e)))))))' > 'lcr-o2-H2EPIy'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & ((c) | (d) | (X((c) R (e)))))))' > 'lcr-o3-I8n2Zd'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & ((c) R ((!(b)) & ((c) | (d) | (X((c) R (e)))))))' > 'lcr-o4-8cuyhT'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:29: F((a) & (((c) & ((b) | (d) | (X((b) R (e))))) U ((b) & (c) & ((b) | (d) | (X((b) R (e)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (((c) & ((b) | (d) | (X((b) R (e))))) U ((b) & (c) & ((b) | (d) | (X((b) R (e)))))))' > 'lcr-o0-w1Aozy'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (((c) & ((b) | (d) | (X((b) R (e))))) U ((b) & (c) & ((b) | (d) | (X((b) R (e)))))))' > 'lcr-o1-ZA9fSd'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (((c) & ((b) | (d) | (X((b) R (e))))) U ((b) & (c) & ((b) | (d) | (X((b) R (e)))))))' > 'lcr-o2-qParbT'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (((c) & ((b) | (d) | (X((b) R (e))))) U ((b) & (c) & ((b) | (d) | (X((b) R (e)))))))' > 'lcr-o3-XtNUuy'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((c) & ((b) | (d) | (X((b) R (e))))) U ((b) & (c) & ((b) | (d) | (X((b) R (e)))))))' > 'lcr-o4-EsmGOd'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:30: ((a) R (b)) & (F((a) & (X(F(c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) R (b)) & (F((a) & (X(F(c)))))' > 'lcr-o0-Ix9K8S'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) R (b)) & (F((a) & (X(F(c)))))' > 'lcr-o1-0ioRty'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) R (b)) & (F((a) & (X(F(c)))))' > 'lcr-o2-PjgfPd'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) R (b)) & (F((a) & (X(F(c)))))' > 'lcr-o3-RaaTaT'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) R (b)) & (F((a) & (X(F(c)))))' > 'lcr-o4-NQnNwy'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:31: (F(a)) & (((!(a)) & (b) & (X((!(a)) U ((!(a)) & (c))))) R ((!(a)) & (d)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (((!(a)) & (b) & (X((!(a)) U ((!(a)) & (c))))) R ((!(a)) & (d)))' > 'lcr-o0-CknYSd'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (((!(a)) & (b) & (X((!(a)) U ((!(a)) & (c))))) R ((!(a)) & (d)))' > 'lcr-o1-f9FagT'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (((!(a)) & (b) & (X((!(a)) U ((!(a)) & (c))))) R ((!(a)) & (d)))' > 'lcr-o2-dMfFDy'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (((!(a)) & (b) & (X((!(a)) U ((!(a)) & (c))))) R ((!(a)) & (d)))' > 'lcr-o3-jMLq1d'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (((!(a)) & (b) & (X((!(a)) U ((!(a)) & (c))))) R ((!(a)) & (d)))' > 'lcr-o4-7E2spT'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:32: ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))) U ((a) & ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))) U ((a) & ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))))' > 'lcr-o0-aSjNNy'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))) U ((a) & ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))))' > 'lcr-o1-gGDade'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))) U ((a) & ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))))' > 'lcr-o2-x7tSCT'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))) U ((a) & ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))))' > 'lcr-o3-CeyT2y'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))) U ((a) & ((!(a)) | (((b) R (c)) & (F((b) & (X(F(d))))))))' > 'lcr-o4-1T8dte'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:33: F((a) & (F(b)) & (((!(b)) & (c) & (X((!(b)) U ((!(b)) & (d))))) R ((!(b)) & (e))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & (((!(b)) & (c) & (X((!(b)) U ((!(b)) & (d))))) R ((!(b)) & (e))))' > 'lcr-o0-xH8STT'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((!(b)) & (c) & (X((!(b)) U ((!(b)) & (d))))) R ((!(b)) & (e))))' > 'lcr-o1-CjrAlz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((!(b)) & (c) & (X((!(b)) U ((!(b)) & (d))))) R ((!(b)) & (e))))' > 'lcr-o2-HtBBNe'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & (((!(b)) & (c) & (X((!(b)) U ((!(b)) & (d))))) R ((!(b)) & (e))))' > 'lcr-o3-7zhYfU'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & (((!(b)) & (c) & (X((!(b)) U ((!(b)) & (d))))) R ((!(b)) & (e))))' > 'lcr-o4-FQZDIz'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:34: F((a) & (F((c) & (X(F(d))))) & (((b) & (c) & (X((b) U ((b) & (d))))) R ((b) & (e))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F((c) & (X(F(d))))) & (((b) & (c) & (X((b) U ((b) & (d))))) R ((b) & (e))))' > 'lcr-o0-bnKCbf'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F((c) & (X(F(d))))) & (((b) & (c) & (X((b) U ((b) & (d))))) R ((b) & (e))))' > 'lcr-o1-6oSCFU'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F((c) & (X(F(d))))) & (((b) & (c) & (X((b) U ((b) & (d))))) R ((b) & (e))))' > 'lcr-o2-sTjY9z'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F((c) & (X(F(d))))) & (((b) & (c) & (X((b) U ((b) & (d))))) R ((b) & (e))))' > 'lcr-o3-uRkEEf'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F((c) & (X(F(d))))) & (((b) & (c) & (X((b) U ((b) & (d))))) R ((b) & (e))))' > 'lcr-o4-zZGE9U'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:35: F((a) & (X((F(b)) & (G((!(b)) | (G(c)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((F(b)) & (G((!(b)) | (G(c)))))))' > 'lcr-o0-FuZZEA'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((F(b)) & (G((!(b)) | (G(c)))))))' > 'lcr-o1-lHxmbg'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((F(b)) & (G((!(b)) | (G(c)))))))' > 'lcr-o2-6S20HV'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((F(b)) & (G((!(b)) | (G(c)))))))' > 'lcr-o3-pC6VeB'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((F(b)) & (G((!(b)) | (G(c)))))))' > 'lcr-o4-8PP7Lg'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:36: (F(a)) & (((b) & (X(((!(a)) U (c)) & ((a) R ((!(c)) | (G(d))))))) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (((b) & (X(((!(a)) U (c)) & ((a) R ((!(c)) | (G(d))))))) R (!(a)))' > 'lcr-o0-f8EAjW'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (((b) & (X(((!(a)) U (c)) & ((a) R ((!(c)) | (G(d))))))) R (!(a)))' > 'lcr-o1-EEW3RB'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (((b) & (X(((!(a)) U (c)) & ((a) R ((!(c)) | (G(d))))))) R (!(a)))' > 'lcr-o2-bqGRqh'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (((b) & (X(((!(a)) U (c)) & ((a) R ((!(c)) | (G(d))))))) R (!(a)))' > 'lcr-o3-4P2XZW'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (((b) & (X(((!(a)) U (c)) & ((a) R ((!(c)) | (G(d))))))) R (!(a)))' > 'lcr-o4-Ts8mzC'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:37: F((a) & (F((b) & (X(((!(c)) | (G(d))) U ((c) & ((!(c)) | (G(d)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F((b) & (X(((!(c)) | (G(d))) U ((c) & ((!(c)) | (G(d)))))))))' > 'lcr-o0-Uyj58h'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F((b) & (X(((!(c)) | (G(d))) U ((c) & ((!(c)) | (G(d)))))))))' > 'lcr-o1-KUqPJX'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F((b) & (X(((!(c)) | (G(d))) U ((c) & ((!(c)) | (G(d)))))))))' > 'lcr-o2-rolSkD'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F((b) & (X(((!(c)) | (G(d))) U ((c) & ((!(c)) | (G(d)))))))))' > 'lcr-o3-ue4cWi'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F((b) & (X(((!(c)) | (G(d))) U ((c) & ((!(c)) | (G(d)))))))))' > 'lcr-o4-6SnPxY'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:38: F((a) & (F(b)) & (((c) & (X(((!(b)) U (d)) & ((b) R ((!(d)) | (G(e))))))) R (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & (((c) & (X(((!(b)) U (d)) & ((b) R ((!(d)) | (G(e))))))) R (!(b))))' > 'lcr-o0-fSVJ9D'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & (X(((!(b)) U (d)) & ((b) R ((!(d)) | (G(e))))))) R (!(b))))' > 'lcr-o1-OfUEMj'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & (X(((!(b)) U (d)) & ((b) R ((!(d)) | (G(e))))))) R (!(b))))' > 'lcr-o2-G28SpZ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & (((c) & (X(((!(b)) U (d)) & ((b) R ((!(d)) | (G(e))))))) R (!(b))))' > 'lcr-o3-Nlsp3E'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & (X(((!(b)) U (d)) & ((b) R ((!(d)) | (G(e))))))) R (!(b))))' > 'lcr-o4-DT5dHk'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:39: F((a) & ((!(c)) U ((b) & (!(c)) & (X(((!(c)) U (d)) & ((c) R ((!(d)) | (G(e)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((!(c)) U ((b) & (!(c)) & (X(((!(c)) U (d)) & ((c) R ((!(d)) | (G(e)))))))))' > 'lcr-o0-fZ1ll0'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((!(c)) U ((b) & (!(c)) & (X(((!(c)) U (d)) & ((c) R ((!(d)) | (G(e)))))))))' > 'lcr-o1-v8Qq0F'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((!(c)) U ((b) & (!(c)) & (X(((!(c)) U (d)) & ((c) R ((!(d)) | (G(e)))))))))' > 'lcr-o2-kvkOFl'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((!(c)) U ((b) & (!(c)) & (X(((!(c)) U (d)) & ((c) R ((!(d)) | (G(e)))))))))' > 'lcr-o3-whAtl1'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((!(c)) U ((b) & (!(c)) & (X(((!(c)) U (d)) & ((c) R ((!(d)) | (G(e)))))))))' > 'lcr-o4-UjDq1G'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:40: F((a) & (G((b) | (X(G(c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (G((b) | (X(G(c))))))' > 'lcr-o0-sRZFHm'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (G((b) | (X(G(c))))))' > 'lcr-o1-iTSPo2'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (G((b) | (X(G(c))))))' > 'lcr-o2-6vaf6H'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (G((b) | (X(G(c))))))' > 'lcr-o3-zaJSNn'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (G((b) | (X(G(c))))))' > 'lcr-o4-NDgKv3'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:41: (F(a)) & (((b) & ((a) R ((a) | (c) | (X((a) R (d)))))) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (X((a) R (d)))))) R (!(a)))' > 'lcr-o0-5hDQdJ'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (X((a) R (d)))))) R (!(a)))' > 'lcr-o1-C80QWo'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (X((a) R (d)))))) R (!(a)))' > 'lcr-o2-Zjb9F4'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (X((a) R (d)))))) R (!(a)))' > 'lcr-o3-5apHpK'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (X((a) R (d)))))) R (!(a)))' > 'lcr-o4-GtMv9p'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:42: F((a) & (F((b) & ((c) | (X(G(d)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F((b) & ((c) | (X(G(d)))))))' > 'lcr-o0-RgBAT5'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F((b) & ((c) | (X(G(d)))))))' > 'lcr-o1-BZEAEL'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F((b) & ((c) | (X(G(d)))))))' > 'lcr-o2-31PQpr'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F((b) & ((c) | (X(G(d)))))))' > 'lcr-o3-5REmb7'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F((b) & ((c) | (X(G(d)))))))' > 'lcr-o4-iyT7WM'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:43: F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (X((b) R (e)))))) R (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (X((b) R (e)))))) R (!(b))))' > 'lcr-o0-lf08Is'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (X((b) R (e)))))) R (!(b))))' > 'lcr-o1-FOJ4v8'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (X((b) R (e)))))) R (!(b))))' > 'lcr-o2-qeOjjO'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (X((b) R (e)))))) R (!(b))))' > 'lcr-o3-CbpQ6t'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (X((b) R (e)))))) R (!(b))))' > 'lcr-o4-E0FEU9'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:44: F((a) & (((b) & ((d) R ((c) | (d) | (X((d) R (e)))))) R ((!(d)) & (F((b) & ((c) | (X(G(e)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (((b) & ((d) R ((c) | (d) | (X((d) R (e)))))) R ((!(d)) & (F((b) & ((c) | (X(G(e)))))))))' > 'lcr-o0-mPbLIP'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (((b) & ((d) R ((c) | (d) | (X((d) R (e)))))) R ((!(d)) & (F((b) & ((c) | (X(G(e)))))))))' > 'lcr-o1-pMgNxv'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (((b) & ((d) R ((c) | (d) | (X((d) R (e)))))) R ((!(d)) & (F((b) & ((c) | (X(G(e)))))))))' > 'lcr-o2-Bhdbnb'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (((b) & ((d) R ((c) | (d) | (X((d) R (e)))))) R ((!(d)) & (F((b) & ((c) | (X(G(e)))))))))' > 'lcr-o3-aweUcR'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((b) & ((d) R ((c) | (d) | (X((d) R (e)))))) R ((!(d)) & (F((b) & ((c) | (X(G(e)))))))))' > 'lcr-o4-B1XX2w'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:45: F((a) & (G((b) | (c) | (X((c) R (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (G((b) | (c) | (X((c) R (d))))))' > 'lcr-o0-TrxoTc'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (G((b) | (c) | (X((c) R (d))))))' > 'lcr-o1-rfqKKS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (G((b) | (c) | (X((c) R (d))))))' > 'lcr-o2-Ho3mCy'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (G((b) | (c) | (X((c) R (d))))))' > 'lcr-o3-BSteue'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (G((b) | (c) | (X((c) R (d))))))' > 'lcr-o4-eWzkmU'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:46: (F(a)) & (((b) & ((a) R ((a) | (c) | (d) | (X(((a) | (d)) R (e)))))) R (!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (d) | (X(((a) | (d)) R (e)))))) R (!(a)))' > 'lcr-o0-hKWFeA'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (d) | (X(((a) | (d)) R (e)))))) R (!(a)))' > 'lcr-o1-r85W7f'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (d) | (X(((a) | (d)) R (e)))))) R (!(a)))' > 'lcr-o2-9pHx1V'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (d) | (X(((a) | (d)) R (e)))))) R (!(a)))' > 'lcr-o3-JGHpVB'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (((b) & ((a) R ((a) | (c) | (d) | (X(((a) | (d)) R (e)))))) R (!(a)))' > 'lcr-o4-8eczPh'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:47: F((a) & (F((b) & ((c) | (d) | (X((d) R (e)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F((b) & ((c) | (d) | (X((d) R (e)))))))' > 'lcr-o0-oAk0JX'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F((b) & ((c) | (d) | (X((d) R (e)))))))' > 'lcr-o1-MZJmFD'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F((b) & ((c) | (d) | (X((d) R (e)))))))' > 'lcr-o2-Mea0Aj'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F((b) & ((c) | (d) | (X((d) R (e)))))))' > 'lcr-o3-frMTwZ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F((b) & ((c) | (d) | (X((d) R (e)))))))' > 'lcr-o4-FNL3sF'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:48: F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (e) | (X(((b) | (e)) R (f)))))) R (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (e) | (X(((b) | (e)) R (f)))))) R (!(b))))' > 'lcr-o0-kvGupl'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (e) | (X(((b) | (e)) R (f)))))) R (!(b))))' > 'lcr-o1-EpsUm1'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (e) | (X(((b) | (e)) R (f)))))) R (!(b))))' > 'lcr-o2-4o0EkH'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (e) | (X(((b) | (e)) R (f)))))) R (!(b))))' > 'lcr-o3-rESIin'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (F(b)) & (((c) & ((b) R ((b) | (d) | (e) | (X(((b) | (e)) R (f)))))) R (!(b))))' > 'lcr-o4-jGJ5g3'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:49: F((a) & (((b) & ((e) R ((c) | (d) | (e) | (X(((d) | (e)) R (f)))))) R ((!(e)) & (F((b) & ((c) | (d) | (X((d) R (f)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (((b) & ((e) R ((c) | (d) | (e) | (X(((d) | (e)) R (f)))))) R ((!(e)) & (F((b) & ((c) | (d) | (X((d) R (f)))))))))' > 'lcr-o0-pevMfJ'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (((b) & ((e) R ((c) | (d) | (e) | (X(((d) | (e)) R (f)))))) R ((!(e)) & (F((b) & ((c) | (d) | (X((d) R (f)))))))))' > 'lcr-o1-zuosfp'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (((b) & ((e) R ((c) | (d) | (e) | (X(((d) | (e)) R (f)))))) R ((!(e)) & (F((b) & ((c) | (d) | (X((d) R (f)))))))))' > 'lcr-o2-p36vf5'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (((b) & ((e) R ((c) | (d) | (e) | (X(((d) | (e)) R (f)))))) R ((!(e)) & (F((b) & ((c) | (d) | (X((d) R (f)))))))))' > 'lcr-o3-HT7WfL'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (((b) & ((e) R ((c) | (d) | (e) | (X(((d) | (e)) R (f)))))) R ((!(e)) & (F((b) & ((c) | (d) | (X((d) R (f)))))))))' > 'lcr-o4-oWbLgr'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:50: (a) R ((b) | (F(c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) R ((b) | (F(c)))' > 'lcr-o0-cdKXh7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) R ((b) | (F(c)))' > 'lcr-o1-n844jN'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) R ((b) | (F(c)))' > 'lcr-o2-EVnrmt'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) R ((b) | (F(c)))' > 'lcr-o3-zJa1o9'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) R ((b) | (F(c)))' > 'lcr-o4-1FvOrP'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:51: (a) R ((b) | (X((c) R (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) R ((b) | (X((c) R (d))))' > 'lcr-o0-6GCPuv'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) R ((b) | (X((c) R (d))))' > 'lcr-o1-wqhLyb'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) R ((b) | (X((c) R (d))))' > 'lcr-o2-2AUVCR'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) R ((b) | (X((c) R (d))))' > 'lcr-o3-DrTjHx'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) R ((b) | (X((c) R (d))))' > 'lcr-o4-Ic0ULd'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:52: (a) R ((b) | (X((c) | (G((d) | (X(G((e) | (X(G((f) | (X(G(g))))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) R ((b) | (X((c) | (G((d) | (X(G((e) | (X(G((f) | (X(G(g))))))))))))))' > 'lcr-o0-D4KJQT'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) R ((b) | (X((c) | (G((d) | (X(G((e) | (X(G((f) | (X(G(g))))))))))))))' > 'lcr-o1-dB0vWz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) R ((b) | (X((c) | (G((d) | (X(G((e) | (X(G((f) | (X(G(g))))))))))))))' > 'lcr-o2-3eCB2f'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) R ((b) | (X((c) | (G((d) | (X(G((e) | (X(G((f) | (X(G(g))))))))))))))' > 'lcr-o3-AZIY8V'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) R ((b) | (X((c) | (G((d) | (X(G((e) | (X(G((f) | (X(G(g))))))))))))))' > 'lcr-o4-p0aDfC'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:53: G((a) | (X(F(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X(F(b))))' > 'lcr-o0-vrSzmi'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X(F(b))))' > 'lcr-o1-vyrpuY'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X(F(b))))' > 'lcr-o2-sjqtCE'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X(F(b))))' > 'lcr-o3-iv8JKk'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X(F(b))))' > 'lcr-o4-LFweT0'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:54: G((a) | (X((b) | (X(G(c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((b) | (X(G(c))))))' > 'lcr-o0-FWlW1G'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((b) | (X(G(c))))))' > 'lcr-o1-nCDybn'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((b) | (X(G(c))))))' > 'lcr-o2-Cedql3'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((b) | (X(G(c))))))' > 'lcr-o3-njmvvJ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((b) | (X(G(c))))))' > 'lcr-o4-kSoPFp'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:55: G((a) | (X((b) R (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((b) R (c))))' > 'lcr-o0-Q6mnQ5'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((b) R (c))))' > 'lcr-o1-A9PN1L'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((b) R (c))))' > 'lcr-o2-hF5sds'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((b) R (c))))' > 'lcr-o3-i2xlp8'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((b) R (c))))' > 'lcr-o4-7JGqBO'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:56: G((F(a)) & (F(G(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((F(a)) & (F(G(b))))' > 'lcr-o0-bw6INu'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((F(a)) & (F(G(b))))' > 'lcr-o1-X8pU0a'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((F(a)) & (F(G(b))))' > 'lcr-o2-jytleR'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((F(a)) & (F(G(b))))' > 'lcr-o3-eBJ0rx'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(G(b))))' > 'lcr-o4-NiiUFd'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:57: F((a) & ((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) R (c)))' > 'lcr-o0-3Tf3TT'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) R (c)))' > 'lcr-o1-del68z'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) R (c)))' > 'lcr-o2-MAUnog'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) R (c)))' > 'lcr-o3-kX2SDW'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) R (c)))' > 'lcr-o4-hEcBTC'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:58: F((a) | (G(b)) | (G(c)) | (G(d)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) | (G(b)) | (G(c)) | (G(d)))' > 'lcr-o0-y7Nw9i'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) | (G(b)) | (G(c)) | (G(d)))' > 'lcr-o1-U85mqZ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) | (G(b)) | (G(c)) | (G(d)))' > 'lcr-o2-I5BtHF'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) | (G(b)) | (G(c)) | (G(d)))' > 'lcr-o3-wS7OYl'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) | (G(b)) | (G(c)) | (G(d)))' > 'lcr-o4-ynRpg2'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:59: F((G(a)) | (G(b)) | (G(c)) | (G(d)) | (G(e)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G(a)) | (G(b)) | (G(c)) | (G(d)) | (G(e)))' > 'lcr-o0-ucVgyI'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G(a)) | (G(b)) | (G(c)) | (G(d)) | (G(e)))' > 'lcr-o1-AGu1Qo'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G(a)) | (G(b)) | (G(c)) | (G(d)) | (G(e)))' > 'lcr-o2-Mwz394'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G(a)) | (G(b)) | (G(c)) | (G(d)) | (G(e)))' > 'lcr-o3-S6BmtL'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G(b)) | (G(c)) | (G(d)) | (G(e)))' > 'lcr-o4-DofWMr'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:60: ((a) R ((b) R (c))) & ((b) R ((c) R (a))) & ((c) R ((a) R (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) R ((b) R (c))) & ((b) R ((c) R (a))) & ((c) R ((a) R (b)))' > 'lcr-o0-WgUO67'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) R ((b) R (c))) & ((b) R ((c) R (a))) & ((c) R ((a) R (b)))' > 'lcr-o1-SgHCrO'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) R ((b) R (c))) & ((b) R ((c) R (a))) & ((c) R ((a) R (b)))' > 'lcr-o2-h7iIMu'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) R ((b) R (c))) & ((b) R ((c) R (a))) & ((c) R ((a) R (b)))' > 'lcr-o3-ix327a'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) R ((b) R (c))) & ((b) R ((c) R (a))) & ((c) R ((a) R (b)))' > 'lcr-o4-lEfDtR'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:61: F((a) & ((b) R ((F(c)) & (F(d)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) R ((F(c)) & (F(d)))))' > 'lcr-o0-8AdtPx'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) R ((F(c)) & (F(d)))))' > 'lcr-o1-b3Zdce'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) R ((F(c)) & (F(d)))))' > 'lcr-o2-lwkhzU'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) R ((F(c)) & (F(d)))))' > 'lcr-o3-pLwCWA'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) R ((F(c)) & (F(d)))))' > 'lcr-o4-GFUfkh'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:62: (a) R (b)
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) R (b)' > 'lcr-o0-10edIX'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) R (b)' > 'lcr-o1-Vrr46D'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) R (b)' > 'lcr-o2-3OZ8vk'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) R (b)' > 'lcr-o3-OBEpV0'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) R (b)' > 'lcr-o4-6I9RkH'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:63: (a) R ((b) R (c))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) R ((b) R (c))' > 'lcr-o0-HHJwKn'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) R ((b) R (c))' > 'lcr-o1-UKP5a4'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) R ((b) R (c))' > 'lcr-o2-4x5SBK'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) R ((b) R (c))' > 'lcr-o3-JO9S2q'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) R ((b) R (c))' > 'lcr-o4-iuN5t7'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:64: (a) U ((b) U (c))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) U ((b) U (c))' > 'lcr-o0-c3hvVN'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) U ((b) U (c))' > 'lcr-o1-SVANnu'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) U ((b) U (c))' > 'lcr-o2-4GWjQa'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) U ((b) U (c))' > 'lcr-o3-g0Y2iR'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) U ((b) U (c))' > 'lcr-o4-Ii0YLx'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:65: (G(a)) R (F(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(a)) R (F(b))' > 'lcr-o0-naS7ee'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(a)) R (F(b))' > 'lcr-o1-nMH9IU'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(a)) R (F(b))' > 'lcr-o2-tuYpdB'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(a)) R (F(b))' > 'lcr-o3-yEcTHh'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(a)) R (F(b))' > 'lcr-o4-qOxzcY'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:66: (F(a)) R (b)
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) R (b)' > 'lcr-o0-oUgtHE'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) R (b)' > 'lcr-o1-IOVgdl'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) R (b)' > 'lcr-o2-Y0TiJ1'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) R (b)' > 'lcr-o3-XpuxfI'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) R (b)' > 'lcr-o4-QcqYLo'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:67: ((F(a)) & (F(b))) | (G((!(a)) & (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((F(a)) & (F(b))) | (G((!(a)) & (!(b))))' > 'lcr-o0-CqcCi5'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((F(a)) & (F(b))) | (G((!(a)) & (!(b))))' > 'lcr-o1-fBzaQL'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((F(a)) & (F(b))) | (G((!(a)) & (!(b))))' > 'lcr-o2-y1SZns'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((F(a)) & (F(b))) | (G((!(a)) & (!(b))))' > 'lcr-o3-LAb4V8'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((F(a)) & (F(b))) | (G((!(a)) & (!(b))))' > 'lcr-o4-uSunuP'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:68: F((G(a)) | (G(F(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G(a)) | (G(F(b))))' > 'lcr-o0-tOcW2v'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G(a)) | (G(F(b))))' > 'lcr-o1-dLvoCc'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G(a)) | (G(F(b))))' > 'lcr-o2-9Zz6bT'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G(a)) | (G(F(b))))' > 'lcr-o3-niV2Lz'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G(F(b))))' > 'lcr-o4-gcidmg'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:69: F((G((!(a)) & (!(b)))) | (G((F(a)) & (F(b)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G((!(a)) & (!(b)))) | (G((F(a)) & (F(b)))))' > 'lcr-o0-mZOCWW'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G((!(a)) & (!(b)))) | (G((F(a)) & (F(b)))))' > 'lcr-o1-dGxXxD'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G((!(a)) & (!(b)))) | (G((F(a)) & (F(b)))))' > 'lcr-o2-PFQz9j'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G((!(a)) & (!(b)))) | (G((F(a)) & (F(b)))))' > 'lcr-o3-hYosL0'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G((!(a)) & (!(b)))) | (G((F(a)) & (F(b)))))' > 'lcr-o4-mCIBnH'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:70: F((G(a)) | (G(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G(a)) | (G(b)))' > 'lcr-o0-HTL6Zn'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G(a)) | (G(b)))' > 'lcr-o1-3BpvD4'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G(a)) | (G(b)))' > 'lcr-o2-KrU8gL'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G(a)) | (G(b)))' > 'lcr-o3-HwJZUr'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G(b)))' > 'lcr-o4-0Yg4y8'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:71: (G(a)) | (G(!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(a)) | (G(!(a)))' > 'lcr-o0-MPqmdP'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(a)) | (G(!(a)))' > 'lcr-o1-4zqxSv'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(a)) | (G(!(a)))' > 'lcr-o2-MPsWxc'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(a)) | (G(!(a)))' > 'lcr-o3-UWVxdT'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (G(!(a)))' > 'lcr-o4-5L7lTz'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:72: ((a) | (X(b))) U (X((((c) R (d)) U (a)) R ((c) U (a))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) | (X(b))) U (X((((c) R (d)) U (a)) R ((c) U (a))))' > 'lcr-o0-Xq2mzg'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) | (X(b))) U (X((((c) R (d)) U (a)) R ((c) U (a))))' > 'lcr-o1-iMJhgX'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) | (X(b))) U (X((((c) R (d)) U (a)) R ((c) U (a))))' > 'lcr-o2-RZwsXD'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) | (X(b))) U (X((((c) R (d)) U (a)) R ((c) U (a))))' > 'lcr-o3-aa0REk'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) | (X(b))) U (X((((c) R (d)) U (a)) R ((c) U (a))))' > 'lcr-o4-5Rzwm1'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:73: (F(a)) & (F(b)) & (F(((a) & (F(G(!(c))))) | ((b) & (F(G(c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (F(b)) & (F(((a) & (F(G(!(c))))) | ((b) & (F(G(c))))))' > 'lcr-o0-4skq4H'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (F(b)) & (F(((a) & (F(G(!(c))))) | ((b) & (F(G(c))))))' > 'lcr-o1-RizfNo'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (F(b)) & (F(((a) & (F(G(!(c))))) | ((b) & (F(G(c))))))' > 'lcr-o2-e86pw5'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (F(b)) & (F(((a) & (F(G(!(c))))) | ((b) & (F(G(c))))))' > 'lcr-o3-7rkTfM'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (F(b)) & (F(((a) & (F(G(!(c))))) | ((b) & (F(G(c))))))' > 'lcr-o4-RQsFZs'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:74: (F(a)) & (F(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (F(b))' > 'lcr-o0-gWnMJ9'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (F(b))' > 'lcr-o1-uw2NuQ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (F(b))' > 'lcr-o2-YsF4fx'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (F(b))' > 'lcr-o3-7x9y1d'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (F(b))' > 'lcr-o4-UO8gNU'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:75: (G(a)) | (G(b)) | (((G(a)) | (G(F(c)))) & ((G(b)) | (G(F(!(c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(a)) | (G(b)) | (((G(a)) | (G(F(c)))) & ((G(b)) | (G(F(!(c))))))' > 'lcr-o0-Sx6czB'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(a)) | (G(b)) | (((G(a)) | (G(F(c)))) & ((G(b)) | (G(F(!(c))))))' > 'lcr-o1-Td52li'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(a)) | (G(b)) | (((G(a)) | (G(F(c)))) & ((G(b)) | (G(F(!(c))))))' > 'lcr-o2-vCac9Y'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(a)) | (G(b)) | (((G(a)) | (G(F(c)))) & ((G(b)) | (G(F(!(c))))))' > 'lcr-o3-Lq8CWF'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (G(b)) | (((G(a)) | (G(F(c)))) & ((G(b)) | (G(F(!(c))))))' > 'lcr-o4-AXsmKm'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:76: (G(a)) | (G(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(a)) | (G(b))' > 'lcr-o0-Fl8py3'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(a)) | (G(b))' > 'lcr-o1-nRtmnK'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(a)) | (G(b))' > 'lcr-o2-WIPwcr'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(a)) | (G(b))' > 'lcr-o3-0p0T17'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(a)) | (G(b))' > 'lcr-o4-zRMtRO'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:77: F(((a) & (X(F(!(b))))) | ((c) & (X(F(b)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(((a) & (X(F(!(b))))) | ((c) & (X(F(b)))))' > 'lcr-o0-GEFgHv'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(((a) & (X(F(!(b))))) | ((c) & (X(F(b)))))' > 'lcr-o1-YBxWxc'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(((a) & (X(F(!(b))))) | ((c) & (X(F(b)))))' > 'lcr-o2-V4kSoT'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(((a) & (X(F(!(b))))) | ((c) & (X(F(b)))))' > 'lcr-o3-DLf3fA'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (X(F(!(b))))) | ((c) & (X(F(b)))))' > 'lcr-o4-thQs7g'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:78: G((F(a)) & (F(b)) & (F(G(c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((F(a)) & (F(b)) & (F(G(c))))' > 'lcr-o0-kCR7YX'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((F(a)) & (F(b)) & (F(G(c))))' > 'lcr-o1-YBBHRE'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((F(a)) & (F(b)) & (F(G(c))))' > 'lcr-o2-eMWzKl'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((F(a)) & (F(b)) & (F(G(c))))' > 'lcr-o3-C6EID2'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(b)) & (F(G(c))))' > 'lcr-o4-cS58wJ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:79: F((a) & ((b) | ((c) R (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) | ((c) R (d))))' > 'lcr-o0-6XTWqq'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) | ((c) R (d))))' > 'lcr-o1-dVLFl7'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) | ((c) R (d))))' > 'lcr-o2-o6GDgO'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) | ((c) R (d))))' > 'lcr-o3-Q8KPbv'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) | ((c) R (d))))' > 'lcr-o4-NG1f7b'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:80: F(G(a))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(G(a))' > 'lcr-o0-DRYU2S'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(G(a))' > 'lcr-o1-ciksZz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(G(a))' > 'lcr-o2-eDtdWg'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(G(a))' > 'lcr-o3-Wq1aTX'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(G(a))' > 'lcr-o4-gZ4kQE'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:81: ((a) U (b)) & ((d) U ((c) & (d)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) U (b)) & ((d) U ((c) & (d)))' > 'lcr-o0-3pyHNl'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) U (b)) & ((d) U ((c) & (d)))' > 'lcr-o1-fpFXL2'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) U (b)) & ((d) U ((c) & (d)))' > 'lcr-o2-7datKJ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) U (b)) & ((d) U ((c) & (d)))' > 'lcr-o3-bDscJq'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) U (b)) & ((d) U ((c) & (d)))' > 'lcr-o4-xhZ9H7'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:82: F((a) & ((b) R ((!(b)) R ((c) U (b)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) R ((!(b)) R ((c) U (b)))))' > 'lcr-o0-K9SlHO'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((c) U (b)))))' > 'lcr-o1-ju0sHv'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((c) U (b)))))' > 'lcr-o2-9KUPHc'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) R ((!(b)) R ((c) U (b)))))' > 'lcr-o3-Jq9qIT'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((c) U (b)))))' > 'lcr-o4-hdZgJA'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:83: F((a) & ((b) U (c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) U (c)))' > 'lcr-o0-lQHlKh'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) U (c)))' > 'lcr-o1-q8njMY'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) U (c)))' > 'lcr-o2-PqGvOF'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) U (c)))' > 'lcr-o3-JzlVQm'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) U (c)))' > 'lcr-o4-ywAyT3'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:84: ((a) U (b)) | (F((c) & ((a) U (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) U (b)) | (F((c) & ((a) U (b))))' > 'lcr-o0-86FpWK'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) U (b)) | (F((c) & ((a) U (b))))' > 'lcr-o1-fNkb0r'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) U (b)) | (F((c) & ((a) U (b))))' > 'lcr-o2-WWnc48'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) U (b)) | (F((c) & ((a) U (b))))' > 'lcr-o3-YPOr8P'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) U (b)) | (F((c) & ((a) U (b))))' > 'lcr-o4-vZTVcx'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:85: (F(b)) & (G(a))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(b)) & (G(a))' > 'lcr-o0-4yWEhe'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(b)) & (G(a))' > 'lcr-o1-07uhnV'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(b)) & (G(a))' > 'lcr-o2-Kjr8sC'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(b)) & (G(a))' > 'lcr-o3-1Jpczj'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(b)) & (G(a))' > 'lcr-o4-oNttF0'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:86: F((a) & ((b) U ((!(a)) & (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) U ((!(a)) & (b))))' > 'lcr-o0-3HTXLH'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) U ((!(a)) & (b))))' > 'lcr-o1-pgNkTo'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) U ((!(a)) & (b))))' > 'lcr-o2-CxgW05'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) U ((!(a)) & (b))))' > 'lcr-o3-sZRK8M'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) U ((!(a)) & (b))))' > 'lcr-o4-BPQMgu'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:87: F((a) & ((b) R ((!(b)) R ((!(b)) | (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) R ((!(b)) R ((!(b)) | (c)))))' > 'lcr-o0-Hbp2ob'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((!(b)) | (c)))))' > 'lcr-o1-AVTcyS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((!(b)) | (c)))))' > 'lcr-o2-IqDFHz'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) R ((!(b)) R ((!(b)) | (c)))))' > 'lcr-o3-pmtnRg'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((!(b)) | (c)))))' > 'lcr-o4-0QJj1X'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:88: F((a) & ((b) R ((!(b)) R ((b) R ((!(b)) R ((!(b)) | (c)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((b) R ((!(b)) R ((b) R ((!(b)) R ((!(b)) | (c)))))))' > 'lcr-o0-PphubF'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((b) R ((!(b)) R ((!(b)) | (c)))))))' > 'lcr-o1-2kTxmm'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((b) R ((!(b)) R ((!(b)) | (c)))))))' > 'lcr-o2-CF0Rx3'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((b) R ((!(b)) R ((b) R ((!(b)) R ((!(b)) | (c)))))))' > 'lcr-o3-kFtrJK'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((b) R ((!(b)) R ((b) R ((!(b)) R ((!(b)) | (c)))))))' > 'lcr-o4-C0RfVr'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:89: F((G((a) & (b))) | (G((b) & (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G((a) & (b))) | (G((b) & (c))))' > 'lcr-o0-kKLj78'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G((a) & (b))) | (G((b) & (c))))' > 'lcr-o1-dnjikQ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G((a) & (b))) | (G((b) & (c))))' > 'lcr-o2-Qo9vxx'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G((a) & (b))) | (G((b) & (c))))' > 'lcr-o3-MGRXKe'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G((a) & (b))) | (G((b) & (c))))' > 'lcr-o4-FCxDYV'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:90: F((G(a)) | (G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G(a)) | (G(!(a))))' > 'lcr-o0-C7wxcD'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G(a)) | (G(!(a))))' > 'lcr-o1-Y9ilrk'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G(a)) | (G(!(a))))' > 'lcr-o2-thKnG1'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G(a)) | (G(!(a))))' > 'lcr-o3-H2BDVI'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G(!(a))))' > 'lcr-o4-PpG6aq'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:91: F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b)))))))' > 'lcr-o0-5wKNq7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b)))))))' > 'lcr-o1-DidoHO'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b)))))))' > 'lcr-o2-pgHkYv'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b)))))))' > 'lcr-o3-5mnBfd'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b)))))))' > 'lcr-o4-dsQbxU'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:92: F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))))' > 'lcr-o0-e6C7OB'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))))' > 'lcr-o1-kBJ17i'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))))' > 'lcr-o2-R8mgs0'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))))' > 'lcr-o3-WyiNNH'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(G((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))))' > 'lcr-o4-OjlCap'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:93: F((a) & (G((!(a)) | (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (G((!(a)) | (b))))' > 'lcr-o0-amzLy6'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (G((!(a)) | (b))))' > 'lcr-o1-xEIIXN'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (G((!(a)) | (b))))' > 'lcr-o2-PiiTmv'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (G((!(a)) | (b))))' > 'lcr-o3-MlzgMc'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (G((!(a)) | (b))))' > 'lcr-o4-RKhQbU'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:94: F(((a) & (G(b))) | ((c) & (G(d))) | ((e) & (G(f))) | ((g) & (G(h))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(((a) & (G(b))) | ((c) & (G(d))) | ((e) & (G(f))) | ((g) & (G(h))))' > 'lcr-o0-cEtCBB'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(((a) & (G(b))) | ((c) & (G(d))) | ((e) & (G(f))) | ((g) & (G(h))))' > 'lcr-o1-FD8g2i'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(((a) & (G(b))) | ((c) & (G(d))) | ((e) & (G(f))) | ((g) & (G(h))))' > 'lcr-o2-1pnet0'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(((a) & (G(b))) | ((c) & (G(d))) | ((e) & (G(f))) | ((g) & (G(h))))' > 'lcr-o3-fp6sUH'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(((a) & (G(b))) | ((c) & (G(d))) | ((e) & (G(f))) | ((g) & (G(h))))' > 'lcr-o4-gPNZlp'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:95: F((a) & (b) & (!(c)) & (X((c) & (d) & (X((b) & (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (b) & (!(c)) & (X((c) & (d) & (X((b) & (d))))))' > 'lcr-o0-ZCSON6'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (b) & (!(c)) & (X((c) & (d) & (X((b) & (d))))))' > 'lcr-o1-A6dvgO'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (b) & (!(c)) & (X((c) & (d) & (X((b) & (d))))))' > 'lcr-o2-EoQqJv'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (b) & (!(c)) & (X((c) & (d) & (X((b) & (d))))))' > 'lcr-o3-46aAcd'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (b) & (!(c)) & (X((c) & (d) & (X((b) & (d))))))' > 'lcr-o4-TIgXFU'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:96: F((a) & (b) & (!(c)) & (X((c) & ((!(c)) R ((c) R ((!(c)) R ((b) & (d))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (b) & (!(c)) & (X((c) & ((!(c)) R ((c) R ((!(c)) R ((b) & (d))))))))' > 'lcr-o0-8NFy9B'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (b) & (!(c)) & (X((c) & ((!(c)) R ((c) R ((!(c)) R ((b) & (d))))))))' > 'lcr-o1-MCOZDj'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (b) & (!(c)) & (X((c) & ((!(c)) R ((c) R ((!(c)) R ((b) & (d))))))))' > 'lcr-o2-pQ5G80'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (b) & (!(c)) & (X((c) & ((!(c)) R ((c) R ((!(c)) R ((b) & (d))))))))' > 'lcr-o3-sOvDDI'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (b) & (!(c)) & (X((c) & ((!(c)) R ((c) R ((!(c)) R ((b) & (d))))))))' > 'lcr-o4-QDuO8p'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:97: F((a) & ((!(b)) R ((b) R (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & ((!(b)) R ((b) R (c))))' > 'lcr-o0-0BqeE7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & ((!(b)) R ((b) R (c))))' > 'lcr-o1-l0jvaP'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & ((!(b)) R ((b) R (c))))' > 'lcr-o2-xdX0Gw'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & ((!(b)) R ((b) R (c))))' > 'lcr-o3-0QMJde'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & ((!(b)) R ((b) R (c))))' > 'lcr-o4-GddFKV'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:98: F((a) & (X(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X(b)))' > 'lcr-o0-SrUNhD'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X(b)))' > 'lcr-o1-WPrNPk'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X(b)))' > 'lcr-o2-Fft0n2'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X(b)))' > 'lcr-o3-c2HpWJ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X(b)))' > 'lcr-o4-f7W0ur'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:99: F((a) & (X((!(a)) & (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((!(a)) & (b))))' > 'lcr-o0-RpCO38'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((!(a)) & (b))))' > 'lcr-o1-2lhtDQ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((!(a)) & (b))))' > 'lcr-o2-CWGldy'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((!(a)) & (b))))' > 'lcr-o3-QTuqNf'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((!(a)) & (b))))' > 'lcr-o4-b8HHnX'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:100: F((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) & (X((e) | ((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) R (!(e))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) & (X((e) | ((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) R (!(e))))))' > 'lcr-o0-u2EbYE'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) & (X((e) | ((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) R (!(e))))))' > 'lcr-o1-zJ1EAm'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) & (X((e) | ((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) R (!(e))))))' > 'lcr-o2-972Ad4'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) & (X((e) | ((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) R (!(e))))))' > 'lcr-o3-D4g1QL'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) & (X((e) | ((((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))) R (!(e))))))' > 'lcr-o4-xFYUut'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:101: F((a) & (!(b)) & (c) & (X((a) & (b) & (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (!(b)) & (c) & (X((a) & (b) & (d))))' > 'lcr-o0-Cmkl9a'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (!(b)) & (c) & (X((a) & (b) & (d))))' > 'lcr-o1-ldeCOS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (!(b)) & (c) & (X((a) & (b) & (d))))' > 'lcr-o2-Znu8tA'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (!(b)) & (c) & (X((a) & (b) & (d))))' > 'lcr-o3-ll4S9h'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (!(b)) & (c) & (X((a) & (b) & (d))))' > 'lcr-o4-okcRPZ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:102: F((a) & (X((a) R (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((a) R (b))))' > 'lcr-o0-Tyn3vH'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((a) R (b))))' > 'lcr-o1-qZG6cp'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((a) R (b))))' > 'lcr-o2-NSsoU6'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((a) R (b))))' > 'lcr-o3-ykeTBO'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((a) R (b))))' > 'lcr-o4-fTfAjw'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:103: F((!(a)) & (X((a) & ((b) U ((!(a)) & (b))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((!(a)) & (X((a) & ((b) U ((!(a)) & (b))))))' > 'lcr-o0-xR0t1d'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & ((b) U ((!(a)) & (b))))))' > 'lcr-o1-kt6eKV'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & ((b) U ((!(a)) & (b))))))' > 'lcr-o2-nwIetD'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((!(a)) & (X((a) & ((b) U ((!(a)) & (b))))))' > 'lcr-o3-7nwrcl'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((!(a)) & (X((a) & ((b) U ((!(a)) & (b))))))' > 'lcr-o4-YHiRV2'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:104: F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))' > 'lcr-o0-GkDuFK'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))' > 'lcr-o1-y6ZZps'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))' > 'lcr-o2-FuVKaa'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))' > 'lcr-o3-6tIKVR'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))' > 'lcr-o4-lw8YGz'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:105: F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(b)) | ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(b)) | ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))))))' > 'lcr-o0-gHpssh'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(b)) | ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))))))' > 'lcr-o1-vfRMeZ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(b)) | ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))))))' > 'lcr-o2-UAWo1G'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(b)) | ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))))))' > 'lcr-o3-aVkhOo'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((!(a)) & (X((a) & ((!(a)) R ((!(a)) | (b) | (X((!(b)) | ((!(a)) R ((!(a)) | (b) | (X((!(a)) | (!(b)))))))))))))' > 'lcr-o4-BuNpB6'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:106: F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))' > 'lcr-o0-fsMOoO'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))' > 'lcr-o1-kHe6cw'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))' > 'lcr-o2-2PhF1d'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))' > 'lcr-o3-32GuQV'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))' > 'lcr-o4-dhbAFD'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:107: F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))))))' > 'lcr-o0-ppFWul'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))))))' > 'lcr-o1-ewocl3'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))))))' > 'lcr-o2-zx1LbL'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))))))' > 'lcr-o3-XdND2s'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((!(a)) & ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((!(b)) | ((a) R ((a) | (b) | (X((a) | (!(b)))))))))))))))))' > 'lcr-o4-FnENTa'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:108: F((!(a)) & (X((a) & (((!(a)) & (X(a))) R ((b) | (X(!(b))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((!(a)) & (X((a) & (((!(a)) & (X(a))) R ((b) | (X(!(b))))))))' > 'lcr-o0-lIagLS'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & (((!(a)) & (X(a))) R ((b) | (X(!(b))))))))' > 'lcr-o1-5etzDA'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((!(a)) & (X((a) & (((!(a)) & (X(a))) R ((b) | (X(!(b))))))))' > 'lcr-o2-yhn8vi'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((!(a)) & (X((a) & (((!(a)) & (X(a))) R ((b) | (X(!(b))))))))' > 'lcr-o3-3nCVo0'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((!(a)) & (X((a) & (((!(a)) & (X(a))) R ((b) | (X(!(b))))))))' > 'lcr-o4-oSUWhI'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:109: F((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X(a)))))))))))))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X(a)))))))))))))))))))))))' > 'lcr-o0-PrPcbq'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X(a)))))))))))))))))))))))' > 'lcr-o1-8Ckl57'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X(a)))))))))))))))))))))))' > 'lcr-o2-vKwKZP'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X(a)))))))))))))))))))))))' > 'lcr-o3-jMBpUx'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X((a) & (X(a)))))))))))))))))))))))' > 'lcr-o4-aZ0jPf'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:110: F(((b) | (X(!(b)))) & (((a) & (X(!(a)))) | ((!(a)) & (X(a)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F(((b) | (X(!(b)))) & (((a) & (X(!(a)))) | ((!(a)) & (X(a)))))' > 'lcr-o0-BPiuKX'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F(((b) | (X(!(b)))) & (((a) & (X(!(a)))) | ((!(a)) & (X(a)))))' > 'lcr-o1-ycQuGF'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F(((b) | (X(!(b)))) & (((a) & (X(!(a)))) | ((!(a)) & (X(a)))))' > 'lcr-o2-6ISKCn'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F(((b) | (X(!(b)))) & (((a) & (X(!(a)))) | ((!(a)) & (X(a)))))' > 'lcr-o3-7Ppgz5'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F(((b) | (X(!(b)))) & (((a) & (X(!(a)))) | ((!(a)) & (X(a)))))' > 'lcr-o4-Njr1vN'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:111: (a) R (F(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) R (F(b))' > 'lcr-o0-gmj2sv'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) R (F(b))' > 'lcr-o1-JtrUqd'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) R (F(b))' > 'lcr-o2-3s4ZoV'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) R (F(b))' > 'lcr-o3-UNVhnD'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) R (F(b))' > 'lcr-o4-JWyLll'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:112: (!(a)) | (X(F(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(!(a)) | (X(F(a)))' > 'lcr-o0-t4zrk3'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(!(a)) | (X(F(a)))' > 'lcr-o1-sRlYjL'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(!(a)) | (X(F(a)))' > 'lcr-o2-uPEIjt'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(!(a)) | (X(F(a)))' > 'lcr-o3-AI2Ejb'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(!(a)) | (X(F(a)))' > 'lcr-o4-WbrNjT'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:113: X(F((a) & (b) & (F(c)) & (X((c) R ((b) | (c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'X(F((a) & (b) & (F(c)) & (X((c) R ((b) | (c))))))' > 'lcr-o0-zDS7jB'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'X(F((a) & (b) & (F(c)) & (X((c) R ((b) | (c))))))' > 'lcr-o1-rojklj'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'X(F((a) & (b) & (F(c)) & (X((c) R ((b) | (c))))))' > 'lcr-o2-xeCMm1'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'X(F((a) & (b) & (F(c)) & (X((c) R ((b) | (c))))))' > 'lcr-o3-C2mtoJ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) & (b) & (F(c)) & (X((c) R ((b) | (c))))))' > 'lcr-o4-Rjxoqr'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:114: X(F((a) & (!(b)) & ((c) U ((b) & (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'X(F((a) & (!(b)) & ((c) U ((b) & (c)))))' > 'lcr-o0-p1Cys9'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'X(F((a) & (!(b)) & ((c) U ((b) & (c)))))' > 'lcr-o1-vcbzvR'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'X(F((a) & (!(b)) & ((c) U ((b) & (c)))))' > 'lcr-o2-gJeOyz'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'X(F((a) & (!(b)) & ((c) U ((b) & (c)))))' > 'lcr-o3-MVQgCh'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) & (!(b)) & ((c) U ((b) & (c)))))' > 'lcr-o4-VWUWFZ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:115: X(F((a) & (b) & ((c) U ((!(b)) & (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'X(F((a) & (b) & ((c) U ((!(b)) & (c)))))' > 'lcr-o0-MjOQJH'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'X(F((a) & (b) & ((c) U ((!(b)) & (c)))))' > 'lcr-o1-haaDOp'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'X(F((a) & (b) & ((c) U ((!(b)) & (c)))))' > 'lcr-o2-w4LET7'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'X(F((a) & (b) & ((c) U ((!(b)) & (c)))))' > 'lcr-o3-QI8TYP'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'X(F((a) & (b) & ((c) U ((!(b)) & (c)))))' > 'lcr-o4-O8Um4x'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:116: (X(!(a))) | (F((!(a)) & (X((a) & (X(!(a)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(X(!(a))) | (F((!(a)) & (X((a) & (X(!(a)))))))' > 'lcr-o0-yjv39f'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(X(!(a))) | (F((!(a)) & (X((a) & (X(!(a)))))))' > 'lcr-o1-x6GBgY'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(X(!(a))) | (F((!(a)) & (X((a) & (X(!(a)))))))' > 'lcr-o2-4lIonG'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(X(!(a))) | (F((!(a)) & (X((a) & (X(!(a)))))))' > 'lcr-o3-Bl0ouo'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(X(!(a))) | (F((!(a)) & (X((a) & (X(!(a)))))))' > 'lcr-o4-30OCB6'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:117: (G(!(a))) | ((b) U (a))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | ((b) U (a))' > 'lcr-o0-n0f4IO'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | ((b) U (a))' > 'lcr-o1-aPVmRw'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | ((b) U (a))' > 'lcr-o2-FnHTZe'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | ((b) U (a))' > 'lcr-o3-iq3C8W'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | ((b) U (a))' > 'lcr-o4-rX6yhF'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:118: G((a) | (G(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(b)))' > 'lcr-o0-S83Hqn'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(b)))' > 'lcr-o1-HtjJA5'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(b)))' > 'lcr-o2-XGrYKN'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(b)))' > 'lcr-o3-HtkqVv'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(b)))' > 'lcr-o4-LFu45d'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:119: G((a) | ((c) U (b)) | (G(!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((c) U (b)) | (G(!(b))))' > 'lcr-o0-l0FVgW'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((c) U (b)) | (G(!(b))))' > 'lcr-o1-frMFsE'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((c) U (b)) | (G(!(b))))' > 'lcr-o2-BG8EEm'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((c) U (b)) | (G(!(b))))' > 'lcr-o3-t0cSQ4'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((c) U (b)) | (G(!(b))))' > 'lcr-o4-a00i3M'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:120: G((a) | ((c) R ((b) | (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((c) R ((b) | (c))))' > 'lcr-o0-srBXfv'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((c) R ((b) | (c))))' > 'lcr-o1-hgfvtd'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((c) R ((b) | (c))))' > 'lcr-o2-w1vhHV'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((c) R ((b) | (c))))' > 'lcr-o3-2WRgVD'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((c) R ((b) | (c))))' > 'lcr-o4-WNet9l'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:121: (F((a) & (F(b)))) | (G(!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F((a) & (F(b)))) | (G(!(a)))' > 'lcr-o0-sUFSn4'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F((a) & (F(b)))) | (G(!(a)))' > 'lcr-o1-nmbbDM'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F((a) & (F(b)))) | (G(!(a)))' > 'lcr-o2-01FISu'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F((a) & (F(b)))) | (G(!(a)))' > 'lcr-o3-3WKt8c'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F((a) & (F(b)))) | (G(!(a)))' > 'lcr-o4-t6ksoV'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:122: G((a) | (b) | ((c) R (!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (b) | ((c) R (!(b))))' > 'lcr-o0-v7FEED'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (b) | ((c) R (!(b))))' > 'lcr-o1-w52JVl'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (b) | ((c) R (!(b))))' > 'lcr-o2-KfX3c4'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (b) | ((c) R (!(b))))' > 'lcr-o3-kPgBuM'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (b) | ((c) R (!(b))))' > 'lcr-o4-JNJlMu'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:123: G((a) | (b) | ((!(b)) U ((!(b)) & (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (b) | ((!(b)) U ((!(b)) & (c))))' > 'lcr-o0-RdBj4c'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (b) | ((!(b)) U ((!(b)) & (c))))' > 'lcr-o1-ymKanV'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (b) | ((!(b)) U ((!(b)) & (c))))' > 'lcr-o2-TY2gGD'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (b) | ((!(b)) U ((!(b)) & (c))))' > 'lcr-o3-CMUAZl'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (b) | ((!(b)) U ((!(b)) & (c))))' > 'lcr-o4-yrn8i4'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:124: ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))) R ((!(a)) | ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))) R ((!(a)) | ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))))' > 'lcr-o0-G2GTCM'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))) R ((!(a)) | ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))))' > 'lcr-o1-GU9yXu'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))) R ((!(a)) | ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))))' > 'lcr-o2-akevid'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))) R ((!(a)) | ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))))' > 'lcr-o3-Nu6FDV'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))) R ((!(a)) | ((((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))) R ((a) | (((G(!(a))) R ((a) | (G(!(a))))) R ((!(a)) | ((G(!(a))) R ((a) | (G(!(a))))))))))' > 'lcr-o4-7Ux6YD'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:125: (G(!(a))) | (((!(a)) & (!(b))) U (((!(a)) & (b)) U (((!(a)) & (!(b))) U (((!(a)) & (b)) U ((!(b)) U (a))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (((!(a)) & (!(b))) U (((!(a)) & (b)) U (((!(a)) & (!(b))) U (((!(a)) & (b)) U ((!(b)) U (a))))))' > 'lcr-o0-q0uMkm'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (((!(a)) & (!(b))) U (((!(a)) & (b)) U (((!(a)) & (!(b))) U (((!(a)) & (b)) U ((!(b)) U (a))))))' > 'lcr-o1-B3vmH4'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (((!(a)) & (!(b))) U (((!(a)) & (b)) U (((!(a)) & (!(b))) U (((!(a)) & (b)) U ((!(b)) U (a))))))' > 'lcr-o2-i7de4M'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (((!(a)) & (!(b))) U (((!(a)) & (b)) U (((!(a)) & (!(b))) U (((!(a)) & (b)) U ((!(b)) U (a))))))' > 'lcr-o3-lXamrv'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (((!(a)) & (!(b))) U (((!(a)) & (b)) U (((!(a)) & (!(b))) U (((!(a)) & (b)) U ((!(b)) U (a))))))' > 'lcr-o4-29nKOd'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:126: ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))) R ((!(a)) | ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))) R ((!(a)) | ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))))' > 'lcr-o0-aPLqcW'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))) R ((!(a)) | ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))))' > 'lcr-o1-Xpf3AE'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))) R ((!(a)) | ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))))' > 'lcr-o2-UyLYZm'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))) R ((!(a)) | ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))))' > 'lcr-o3-pZDbp5'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))) R ((!(a)) | ((a) & (((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))))) R ((!(b)) | ((((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b))))))) R ((b) | (((G(!(b))) R ((b) | (G(!(b))))) R ((!(b)) | ((G(!(b))) R ((b) | (G(!(b)))))))))))))' > 'lcr-o4-enAFON'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:127: G((a) | (G(!(b))) | (((!(b)) & (!(c))) U (((!(b)) & (c)) U (((!(b)) & (!(c))) U (((!(b)) & (c)) U ((!(c)) U (b)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | (((!(b)) & (!(c))) U (((!(b)) & (c)) U (((!(b)) & (!(c))) U (((!(b)) & (c)) U ((!(c)) U (b)))))))' > 'lcr-o0-jf0qew'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((!(b)) & (!(c))) U (((!(b)) & (c)) U (((!(b)) & (!(c))) U (((!(b)) & (c)) U ((!(c)) U (b)))))))' > 'lcr-o1-TKV6Ee'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((!(b)) & (!(c))) U (((!(b)) & (c)) U (((!(b)) & (!(c))) U (((!(b)) & (c)) U ((!(c)) U (b)))))))' > 'lcr-o2-iHZ55W'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | (((!(b)) & (!(c))) U (((!(b)) & (c)) U (((!(b)) & (!(c))) U (((!(b)) & (c)) U ((!(c)) U (b)))))))' > 'lcr-o3-WYUmxF'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | (((!(b)) & (!(c))) U (((!(b)) & (c)) U (((!(b)) & (!(c))) U (((!(b)) & (c)) U ((!(c)) U (b)))))))' > 'lcr-o4-52RVYn'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:128: G((a) | (((!(b)) & (!(c))) U (((b) & (!(c))) U (((!(b)) & (!(c))) U (((b) & (!(c))) U ((G(b)) | ((c) R ((!(b)) | (c)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (((!(b)) & (!(c))) U (((b) & (!(c))) U (((!(b)) & (!(c))) U (((b) & (!(c))) U ((G(b)) | ((c) R ((!(b)) | (c)))))))))' > 'lcr-o0-zdGOq6'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (((!(b)) & (!(c))) U (((b) & (!(c))) U (((!(b)) & (!(c))) U (((b) & (!(c))) U ((G(b)) | ((c) R ((!(b)) | (c)))))))))' > 'lcr-o1-6zqCTO'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (((!(b)) & (!(c))) U (((b) & (!(c))) U (((!(b)) & (!(c))) U (((b) & (!(c))) U ((G(b)) | ((c) R ((!(b)) | (c)))))))))' > 'lcr-o2-t7AJmx'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (((!(b)) & (!(c))) U (((b) & (!(c))) U (((!(b)) & (!(c))) U (((b) & (!(c))) U ((G(b)) | ((c) R ((!(b)) | (c)))))))))' > 'lcr-o3-lvq9Pf'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (((!(b)) & (!(c))) U (((b) & (!(c))) U (((!(b)) & (!(c))) U (((b) & (!(c))) U ((G(b)) | ((c) R ((!(b)) | (c)))))))))' > 'lcr-o4-g3KRjY'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:129: (b) R ((a) | (b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(b) R ((a) | (b))' > 'lcr-o0-ADyUNG'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(b) R ((a) | (b))' > 'lcr-o1-NvPPip'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(b) R ((a) | (b))' > 'lcr-o2-t42YN7'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(b) R ((a) | (b))' > 'lcr-o3-NddkjQ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(b) R ((a) | (b))' > 'lcr-o4-SPlROy'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:130: (G(!(a))) | ((b) U ((a) | (c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | ((b) U ((a) | (c)))' > 'lcr-o0-qQSAkh'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | ((b) U ((a) | (c)))' > 'lcr-o1-aLKcRZ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | ((b) U ((a) | (c)))' > 'lcr-o2-9lV2nI'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | ((b) U ((a) | (c)))' > 'lcr-o3-9X95Uq'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | ((b) U ((a) | (c)))' > 'lcr-o4-1Itms9'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:131: (G(!(a))) | (F((a) & ((c) R ((b) | (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (F((a) & ((c) R ((b) | (c)))))' > 'lcr-o0-Ij0PZR'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (F((a) & ((c) R ((b) | (c)))))' > 'lcr-o1-Y9NcyA'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (F((a) & ((c) R ((b) | (c)))))' > 'lcr-o2-OuuP6i'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (F((a) & ((c) R ((b) | (c)))))' > 'lcr-o3-vPfGF1'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (F((a) & ((c) R ((b) | (c)))))' > 'lcr-o4-D2iLeK'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:132: G((a) | (G(!(b))) | ((c) U ((b) | (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | ((c) U ((b) | (d))))' > 'lcr-o0-2qZ4Ns'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | ((c) U ((b) | (d))))' > 'lcr-o1-KM8hob'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | ((c) U ((b) | (d))))' > 'lcr-o2-dd1KYT'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | ((c) U ((b) | (d))))' > 'lcr-o3-sQZrzC'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | ((c) U ((b) | (d))))' > 'lcr-o4-B4gnal'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:133: G((a) | (F(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (F(b)))' > 'lcr-o0-225wL3'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (F(b)))' > 'lcr-o1-JfyznM'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (F(b)))' > 'lcr-o2-QWqQZu'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (F(b)))' > 'lcr-o3-1askCd'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (F(b)))' > 'lcr-o4-R4e1eW'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:134: (G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c)))) U (a))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c)))) U (a))' > 'lcr-o0-vxWURE'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c)))) U (a))' > 'lcr-o1-F3rIvn'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c)))) U (a))' > 'lcr-o2-5DNL95'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c)))) U (a))' > 'lcr-o3-wfl3NO'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c)))) U (a))' > 'lcr-o4-51Iysx'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:135: G((a) | (G((b) | (F(c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G((b) | (F(c)))))' > 'lcr-o0-Mwui7f'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G((b) | (F(c)))))' > 'lcr-o1-e9KVMY'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G((b) | (F(c)))))' > 'lcr-o2-JYdOsH'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G((b) | (F(c)))))' > 'lcr-o3-W6UU8p'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G((b) | (F(c)))))' > 'lcr-o4-kgrgP8'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:136: G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d)))) U (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d)))) U (b)))' > 'lcr-o0-S9uRvR'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d)))) U (b)))' > 'lcr-o1-tpjldA'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d)))) U (b)))' > 'lcr-o2-Yqw6Ui'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d)))) U (b)))' > 'lcr-o3-gIL7C1'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d)))) U (b)))' > 'lcr-o4-TL4olK'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:137: G((a) | ((d) R ((b) | (d) | ((!(d)) U ((c) & (!(d)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((d) R ((b) | (d) | ((!(d)) U ((c) & (!(d)))))))' > 'lcr-o0-gAIW3s'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((d) R ((b) | (d) | ((!(d)) U ((c) & (!(d)))))))' > 'lcr-o1-HLaqNb'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((d) R ((b) | (d) | ((!(d)) U ((c) & (!(d)))))))' > 'lcr-o2-akraxU'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((d) R ((b) | (d) | ((!(d)) U ((c) & (!(d)))))))' > 'lcr-o3-lZY9gD'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((d) R ((b) | (d) | ((!(d)) U ((c) & (!(d)))))))' > 'lcr-o4-WlBo1l'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:138: ((a) & (X((b) U (c)))) R (b)
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) & (X((b) U (c)))) R (b)' > 'lcr-o0-bAVSL4'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) & (X((b) U (c)))) R (b)' > 'lcr-o1-mGthxN'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) & (X((b) U (c)))) R (b)' > 'lcr-o2-kyCUiw'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) & (X((b) U (c)))) R (b)' > 'lcr-o3-4KZK4e'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) & (X((b) U (c)))) R (b)' > 'lcr-o4-Nw7NQX'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:139: (G(!(a))) | ((b) U ((a) | ((b) & (c) & (X((b) U (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | ((b) U ((a) | ((b) & (c) & (X((b) U (d))))))' > 'lcr-o0-stJ4CG'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | ((b) U ((a) | ((b) & (c) & (X((b) U (d))))))' > 'lcr-o1-G9pgqp'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | ((b) U ((a) | ((b) & (c) & (X((b) U (d))))))' > 'lcr-o2-7dWId8'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | ((b) U ((a) | ((b) & (c) & (X((b) U (d))))))' > 'lcr-o3-4aer1Q'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | ((b) U ((a) | ((b) & (c) & (X((b) U (d))))))' > 'lcr-o4-mj1oPz'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:140: (a) | (((b) & (X((c) U (d)))) R (c))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) | (((b) & (X((c) U (d)))) R (c))' > 'lcr-o0-97KCDi'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) | (((b) & (X((c) U (d)))) R (c))' > 'lcr-o1-OBcLs1'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) | (((b) & (X((c) U (d)))) R (c))' > 'lcr-o2-PtE8hK'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) | (((b) & (X((c) U (d)))) R (c))' > 'lcr-o3-r15J7s'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) | (((b) & (X((c) U (d)))) R (c))' > 'lcr-o4-FY0yXb'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:141: G((a) | (G(!(b))) | ((c) U ((b) | ((c) & (d) & (X((c) U (e)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | ((c) U ((b) | ((c) & (d) & (X((c) U (e)))))))' > 'lcr-o0-In0BNU'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | ((c) U ((b) | ((c) & (d) & (X((c) U (e)))))))' > 'lcr-o1-n1NAED'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | ((c) U ((b) | ((c) & (d) & (X((c) U (e)))))))' > 'lcr-o2-FzDRvm'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | ((c) U ((b) | ((c) & (d) & (X((c) U (e)))))))' > 'lcr-o3-m4npn5'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | ((c) U ((b) | ((c) & (d) & (X((c) U (e)))))))' > 'lcr-o4-sUbefO'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:142: G((a) | (((c) | ((b) & (d) & (X((b) U (e))))) R ((b) | (c) | ((b) & (d) & (X((b) U (e)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (((c) | ((b) & (d) & (X((b) U (e))))) R ((b) | (c) | ((b) & (d) & (X((b) U (e)))))))' > 'lcr-o0-wYtk7w'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (((c) | ((b) & (d) & (X((b) U (e))))) R ((b) | (c) | ((b) & (d) & (X((b) U (e)))))))' > 'lcr-o1-Hu2l0f'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (((c) | ((b) & (d) & (X((b) U (e))))) R ((b) | (c) | ((b) & (d) & (X((b) U (e)))))))' > 'lcr-o2-XJGETY'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (((c) | ((b) & (d) & (X((b) U (e))))) R ((b) | (c) | ((b) & (d) & (X((b) U (e)))))))' > 'lcr-o3-qSTcNH'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (((c) | ((b) & (d) & (X((b) U (e))))) R ((b) | (c) | ((b) & (d) & (X((b) U (e)))))))' > 'lcr-o4-RWO0Gq'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:143: ((a) U (b)) | (G((a) | (X(G(c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) U (b)) | (G((a) | (X(G(c)))))' > 'lcr-o0-RzT4A9'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) U (b)) | (G((a) | (X(G(c)))))' > 'lcr-o1-2z82vS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) U (b)) | (G((a) | (X(G(c)))))' > 'lcr-o2-io2grB'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) U (b)) | (G((a) | (X(G(c)))))' > 'lcr-o3-nDjJmk'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) U (b)) | (G((a) | (X(G(c)))))' > 'lcr-o4-c6zpi3'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:144: (G(!(a))) | (((a) | (b) | (X((a) R ((a) | (c))))) U ((a) | (d)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (((a) | (b) | (X((a) R ((a) | (c))))) U ((a) | (d)))' > 'lcr-o0-YcxkeM'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (((a) | (b) | (X((a) R ((a) | (c))))) U ((a) | (d)))' > 'lcr-o1-y1Cbbv'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (((a) | (b) | (X((a) R ((a) | (c))))) U ((a) | (d)))' > 'lcr-o2-8hKj8d'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (((a) | (b) | (X((a) R ((a) | (c))))) U ((a) | (d)))' > 'lcr-o3-RynH5W'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (((a) | (b) | (X((a) R ((a) | (c))))) U ((a) | (d)))' > 'lcr-o4-E8Vj3F'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:145: ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))) R ((!(a)) | ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) & (((b) U (c)) | (G((b) | (X(G(d))))))) R ((!(a)) | ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))))' > 'lcr-o0-lj9b1o'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) & (((b) U (c)) | (G((b) | (X(G(d))))))) R ((!(a)) | ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))))' > 'lcr-o1-n6YZZ7'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) & (((b) U (c)) | (G((b) | (X(G(d))))))) R ((!(a)) | ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))))' > 'lcr-o2-44z6YQ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) & (((b) U (c)) | (G((b) | (X(G(d))))))) R ((!(a)) | ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))))' > 'lcr-o3-TfCuYz'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) & (((b) U (c)) | (G((b) | (X(G(d))))))) R ((!(a)) | ((a) & (((b) U (c)) | (G((b) | (X(G(d))))))))' > 'lcr-o4-aBC9Xi'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:146: G((a) | (G(!(b))) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))))' > 'lcr-o0-8zE6X1'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))))' > 'lcr-o1-V2EZYK'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))))' > 'lcr-o2-pUNa0t'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))))' > 'lcr-o3-WgJC1c'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))))' > 'lcr-o4-sRal3V'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:147: G((a) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))) | (G((c) | (X(G(d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))) | (G((c) | (X(G(d))))))' > 'lcr-o0-vAAl5E'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))) | (G((c) | (X(G(d))))))' > 'lcr-o1-rvMh8n'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))) | (G((c) | (X(G(d))))))' > 'lcr-o2-UDoxb7'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))) | (G((c) | (X(G(d))))))' > 'lcr-o3-bgT4eQ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (((b) | (c) | (X((b) R ((b) | (d))))) U ((b) | (e))) | (G((c) | (X(G(d))))))' > 'lcr-o4-60gUiz'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:148: G((a) | (X((G(!(b))) | (F((b) & (F(c)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((G(!(b))) | (F((b) & (F(c)))))))' > 'lcr-o0-5aE2mi'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((G(!(b))) | (F((b) & (F(c)))))))' > 'lcr-o1-KSW5r1'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((G(!(b))) | (F((b) & (F(c)))))))' > 'lcr-o2-AzhpxK'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((G(!(b))) | (F((b) & (F(c)))))))' > 'lcr-o3-72jXCt'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((G(!(b))) | (F((b) & (F(c)))))))' > 'lcr-o4-kXbKIc'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:149: (G(!(a))) | (((b) | (X(((a) R (!(c))) | ((!(a)) U ((c) & (F(d))))))) U (a))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (((b) | (X(((a) R (!(c))) | ((!(a)) U ((c) & (F(d))))))) U (a))' > 'lcr-o0-BLyMOV'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | (X(((a) R (!(c))) | ((!(a)) U ((c) & (F(d))))))) U (a))' > 'lcr-o1-AHFKVE'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | (X(((a) R (!(c))) | ((!(a)) U ((c) & (F(d))))))) U (a))' > 'lcr-o2-t4E02n'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (((b) | (X(((a) R (!(c))) | ((!(a)) U ((c) & (F(d))))))) U (a))' > 'lcr-o3-Mqpxa7'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (((b) | (X(((a) R (!(c))) | ((!(a)) U ((c) & (F(d))))))) U (a))' > 'lcr-o4-C3PkiQ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:150: G((a) | (G((b) | (X(((c) & (F(d))) R ((!(c)) | ((c) & (F(d)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G((b) | (X(((c) & (F(d))) R ((!(c)) | ((c) & (F(d)))))))))' > 'lcr-o0-nbxpqz'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G((b) | (X(((c) & (F(d))) R ((!(c)) | ((c) & (F(d)))))))))' > 'lcr-o1-9eWnzi'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G((b) | (X(((c) & (F(d))) R ((!(c)) | ((c) & (F(d)))))))))' > 'lcr-o2-63tDI1'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G((b) | (X(((c) & (F(d))) R ((!(c)) | ((c) & (F(d)))))))))' > 'lcr-o3-Dg19RK'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G((b) | (X(((c) & (F(d))) R ((!(c)) | ((c) & (F(d)))))))))' > 'lcr-o4-I06V1t'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:151: G((a) | (G(!(b))) | (((c) | (X(((b) R (!(d))) | ((!(b)) U ((d) & (F(e))))))) U (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | (((c) | (X(((b) R (!(d))) | ((!(b)) U ((d) & (F(e))))))) U (b)))' > 'lcr-o0-rFHYbd'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | (X(((b) R (!(d))) | ((!(b)) U ((d) & (F(e))))))) U (b)))' > 'lcr-o1-RRuYmW'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | (X(((b) R (!(d))) | ((!(b)) U ((d) & (F(e))))))) U (b)))' > 'lcr-o2-JMDhyF'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | (((c) | (X(((b) R (!(d))) | ((!(b)) U ((d) & (F(e))))))) U (b)))' > 'lcr-o3-LzxTJo'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | (X(((b) R (!(d))) | ((!(b)) U ((d) & (F(e))))))) U (b)))' > 'lcr-o4-5lHNV7'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:152: G((a) | ((c) R ((b) | (c) | (X(((!(c)) U ((d) & (F(e)))) | ((c) R (!(d))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((c) R ((b) | (c) | (X(((!(c)) U ((d) & (F(e)))) | ((c) R (!(d))))))))' > 'lcr-o0-kyc17Q'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((c) R ((b) | (c) | (X(((!(c)) U ((d) & (F(e)))) | ((c) R (!(d))))))))' > 'lcr-o1-5skblA'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((c) R ((b) | (c) | (X(((!(c)) U ((d) & (F(e)))) | ((c) R (!(d))))))))' > 'lcr-o2-dfXEyj'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((c) R ((b) | (c) | (X(((!(c)) U ((d) & (F(e)))) | ((c) R (!(d))))))))' > 'lcr-o3-GnHqM2'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((c) R ((b) | (c) | (X(((!(c)) U ((d) & (F(e)))) | ((c) R (!(d))))))))' > 'lcr-o4-ePou0L'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:153: G((a) | (F((b) & (X(F(c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (F((b) & (X(F(c))))))' > 'lcr-o0-5IMQev'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (F((b) & (X(F(c))))))' > 'lcr-o1-4li8te'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (F((b) & (X(F(c))))))' > 'lcr-o2-emHFJX'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (F((b) & (X(F(c))))))' > 'lcr-o3-4eArZG'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (F((b) & (X(F(c))))))' > 'lcr-o4-pjZrfq'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:154: (G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (X((!(a)) U (d)))))) U (a))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (X((!(a)) U (d)))))) U (a))' > 'lcr-o0-fMcHv9'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (X((!(a)) U (d)))))) U (a))' > 'lcr-o1-XwWPMS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (X((!(a)) U (d)))))) U (a))' > 'lcr-o2-iPkg4B'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (X((!(a)) U (d)))))) U (a))' > 'lcr-o3-q1SWll'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (X((!(a)) U (d)))))) U (a))' > 'lcr-o4-gRBTD4'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:155: G((a) | (G((b) | ((c) & (X(F(d)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G((b) | ((c) & (X(F(d)))))))' > 'lcr-o0-s7d7VN'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G((b) | ((c) & (X(F(d)))))))' > 'lcr-o1-ZV5dfx'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G((b) | ((c) & (X(F(d)))))))' > 'lcr-o2-iAXAyg'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G((b) | ((c) & (X(F(d)))))))' > 'lcr-o3-HMAcSZ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G((b) | ((c) & (X(F(d)))))))' > 'lcr-o4-6LZ2bJ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:156: G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (X((!(b)) U (e)))))) U (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (X((!(b)) U (e)))))) U (b)))' > 'lcr-o0-xmN8vs'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (X((!(b)) U (e)))))) U (b)))' > 'lcr-o1-l2faRb'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (X((!(b)) U (e)))))) U (b)))' > 'lcr-o2-FM4ucV'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (X((!(b)) U (e)))))) U (b)))' > 'lcr-o3-ULu7xE'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (X((!(b)) U (e)))))) U (b)))' > 'lcr-o4-wAE1Tn'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:157: G((a) | (((b) | ((!(d)) U ((c) & (!(d)) & (X((!(d)) U (e)))))) U ((d) | (G((b) | ((c) & (X(F(e)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (((b) | ((!(d)) U ((c) & (!(d)) & (X((!(d)) U (e)))))) U ((d) | (G((b) | ((c) & (X(F(e)))))))))' > 'lcr-o0-YVOeg7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (((b) | ((!(d)) U ((c) & (!(d)) & (X((!(d)) U (e)))))) U ((d) | (G((b) | ((c) & (X(F(e)))))))))' > 'lcr-o1-hkKmDQ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (((b) | ((!(d)) U ((c) & (!(d)) & (X((!(d)) U (e)))))) U ((d) | (G((b) | ((c) & (X(F(e)))))))))' > 'lcr-o2-X8jQ0z'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (((b) | ((!(d)) U ((c) & (!(d)) & (X((!(d)) U (e)))))) U ((d) | (G((b) | ((c) & (X(F(e)))))))))' > 'lcr-o3-RsmEoj'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (((b) | ((!(d)) U ((c) & (!(d)) & (X((!(d)) U (e)))))) U ((d) | (G((b) | ((c) & (X(F(e)))))))))' > 'lcr-o4-gIrMM2'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:158: G((a) | (F((b) & (c) & (X((c) U (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (F((b) & (c) & (X((c) U (d))))))' > 'lcr-o0-0MhgbM'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (F((b) & (c) & (X((c) U (d))))))' > 'lcr-o1-exkFAv'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (F((b) & (c) & (X((c) U (d))))))' > 'lcr-o2-XbQk0e'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (F((b) & (c) & (X((c) U (d))))))' > 'lcr-o3-WUofqY'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (F((b) & (c) & (X((c) U (d))))))' > 'lcr-o4-nkBoQH'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:159: (G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (d) & (X(((!(a)) & (d)) U (e)))))) U (a))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (d) & (X(((!(a)) & (d)) U (e)))))) U (a))' > 'lcr-o0-CdrNgr'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (d) & (X(((!(a)) & (d)) U (e)))))) U (a))' > 'lcr-o1-BBy2Ha'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (d) & (X(((!(a)) & (d)) U (e)))))) U (a))' > 'lcr-o2-xEqz9T'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (d) & (X(((!(a)) & (d)) U (e)))))) U (a))' > 'lcr-o3-IcMmBD'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(!(a))) | (((b) | ((!(a)) U ((!(a)) & (c) & (d) & (X(((!(a)) & (d)) U (e)))))) U (a))' > 'lcr-o4-t6Xq3m'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:160: G((a) | (G((b) | ((c) & (d) & (X((d) U (e)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G((b) | ((c) & (d) & (X((d) U (e)))))))' > 'lcr-o0-cMoMv6'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G((b) | ((c) & (d) & (X((d) U (e)))))))' > 'lcr-o1-ssp0YP'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G((b) | ((c) & (d) & (X((d) U (e)))))))' > 'lcr-o2-yZiusz'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G((b) | ((c) & (d) & (X((d) U (e)))))))' > 'lcr-o3-LBucWi'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G((b) | ((c) & (d) & (X((d) U (e)))))))' > 'lcr-o4-zKT8p2'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:161: G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (e) & (X(((!(b)) & (e)) U (f)))))) U (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (e) & (X(((!(b)) & (e)) U (f)))))) U (b)))' > 'lcr-o0-rU0jUL'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (e) & (X(((!(b)) & (e)) U (f)))))) U (b)))' > 'lcr-o1-Bj0mpv'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (e) & (X(((!(b)) & (e)) U (f)))))) U (b)))' > 'lcr-o2-87dJUe'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (e) & (X(((!(b)) & (e)) U (f)))))) U (b)))' > 'lcr-o3-S8QnqY'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (G(!(b))) | (((c) | ((!(b)) U ((!(b)) & (d) & (e) & (X(((!(b)) & (e)) U (f)))))) U (b)))' > 'lcr-o4-WtukWH'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:162: G((a) | (((b) | ((!(e)) U ((c) & (d) & (!(e)) & (X(((d) & (!(e))) U (f)))))) U ((e) | (G((b) | ((c) & (d) & (X((d) U (f)))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (((b) | ((!(e)) U ((c) & (d) & (!(e)) & (X(((d) & (!(e))) U (f)))))) U ((e) | (G((b) | ((c) & (d) & (X((d) U (f)))))))))' > 'lcr-o0-bWZzsr'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (((b) | ((!(e)) U ((c) & (d) & (!(e)) & (X(((d) & (!(e))) U (f)))))) U ((e) | (G((b) | ((c) & (d) & (X((d) U (f)))))))))' > 'lcr-o1-NjoIZa'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (((b) | ((!(e)) U ((c) & (d) & (!(e)) & (X(((d) & (!(e))) U (f)))))) U ((e) | (G((b) | ((c) & (d) & (X((d) U (f)))))))))' > 'lcr-o2-3ZvcxU'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (((b) | ((!(e)) U ((c) & (d) & (!(e)) & (X(((d) & (!(e))) U (f)))))) U ((e) | (G((b) | ((c) & (d) & (X((d) U (f)))))))))' > 'lcr-o3-YMz04D'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (((b) | ((!(e)) U ((c) & (d) & (!(e)) & (X(((d) & (!(e))) U (f)))))) U ((e) | (G((b) | ((c) & (d) & (X((d) U (f)))))))))' > 'lcr-o4-X8v8Cn'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:163: (a) U ((b) & (G(c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) U ((b) & (G(c)))' > 'lcr-o0-RcTBb7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) U ((b) & (G(c)))' > 'lcr-o1-9JfUKQ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) U ((b) & (G(c)))' > 'lcr-o2-QrjqkA'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) U ((b) & (G(c)))' > 'lcr-o3-FPx8Tj'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) U ((b) & (G(c)))' > 'lcr-o4-ERV2t3'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:164: (a) U ((b) & (X((c) U (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) U ((b) & (X((c) U (d))))' > 'lcr-o0-aKx93M'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) U ((b) & (X((c) U (d))))' > 'lcr-o1-hu84Ew'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) U ((b) & (X((c) U (d))))' > 'lcr-o2-tgVegg'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) U ((b) & (X((c) U (d))))' > 'lcr-o3-LUqBRZ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) U ((b) & (X((c) U (d))))' > 'lcr-o4-bnFatJ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:165: (a) U ((b) & (X((c) & (F((d) & (X(F((e) & (X(F((f) & (X(F(g))))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) U ((b) & (X((c) & (F((d) & (X(F((e) & (X(F((f) & (X(F(g))))))))))))))' > 'lcr-o0-9CGW4s'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) U ((b) & (X((c) & (F((d) & (X(F((e) & (X(F((f) & (X(F(g))))))))))))))' > 'lcr-o1-Rr8BHc'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) U ((b) & (X((c) & (F((d) & (X(F((e) & (X(F((f) & (X(F(g))))))))))))))' > 'lcr-o2-cTczkW'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) U ((b) & (X((c) & (F((d) & (X(F((e) & (X(F((f) & (X(F(g))))))))))))))' > 'lcr-o3-R3UMXF'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) U ((b) & (X((c) & (F((d) & (X(F((e) & (X(F((f) & (X(F(g))))))))))))))' > 'lcr-o4-jMahBp'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:166: F((a) & (X(G(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X(G(b))))' > 'lcr-o0-0Yv2e9'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X(G(b))))' > 'lcr-o1-HZXETS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X(G(b))))' > 'lcr-o2-1ZhvyC'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X(G(b))))' > 'lcr-o3-7xMxdm'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X(G(b))))' > 'lcr-o4-9fGMS5'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:167: F((a) & (X((b) & (X(F(c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((b) & (X(F(c))))))' > 'lcr-o0-hzieyP'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((b) & (X(F(c))))))' > 'lcr-o1-WqYvez'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((b) & (X(F(c))))))' > 'lcr-o2-UvO1Ui'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((b) & (X(F(c))))))' > 'lcr-o3-UqIKB2'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((b) & (X(F(c))))))' > 'lcr-o4-6TmGiM'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:168: F((a) & (X((b) U (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((a) & (X((b) U (c))))' > 'lcr-o0-oRMOZv'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((a) & (X((b) U (c))))' > 'lcr-o1-Zh9LHf'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((a) & (X((b) U (c))))' > 'lcr-o2-xFNWpZ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((a) & (X((b) U (c))))' > 'lcr-o3-tUBj8I'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((a) & (X((b) U (c))))' > 'lcr-o4-84QSQs'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:169: G((a) | ((b) U (c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((b) U (c)))' > 'lcr-o0-YPIEzc'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((b) U (c)))' > 'lcr-o1-ES4gjW'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((b) U (c)))' > 'lcr-o2-cqd72F'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((b) U (c)))' > 'lcr-o3-dQH9Mp'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((b) U (c)))' > 'lcr-o4-dbBox9'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:170: G((a) & (F(b)) & (F(c)) & (F(d)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) & (F(b)) & (F(c)) & (F(d)))' > 'lcr-o0-MJdQhT'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) & (F(b)) & (F(c)) & (F(d)))' > 'lcr-o1-rp882C'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) & (F(b)) & (F(c)) & (F(d)))' > 'lcr-o2-mqYJOm'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) & (F(b)) & (F(c)) & (F(d)))' > 'lcr-o3-XGeBA6'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) & (F(b)) & (F(c)) & (F(d)))' > 'lcr-o4-WcLJmQ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:171: G((F(a)) & (F(b)) & (F(c)) & (F(d)) & (F(e)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((F(a)) & (F(b)) & (F(c)) & (F(d)) & (F(e)))' > 'lcr-o0-FDYf9z'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((F(a)) & (F(b)) & (F(c)) & (F(d)) & (F(e)))' > 'lcr-o1-P1rHWj'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((F(a)) & (F(b)) & (F(c)) & (F(d)) & (F(e)))' > 'lcr-o2-yJRTK3'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((F(a)) & (F(b)) & (F(c)) & (F(d)) & (F(e)))' > 'lcr-o3-KKoQzN'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(b)) & (F(c)) & (F(d)) & (F(e)))' > 'lcr-o4-C4YOpx'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:172: ((a) U ((b) U (c))) | ((b) U ((c) U (a))) | ((c) U ((a) U (b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) U ((b) U (c))) | ((b) U ((c) U (a))) | ((c) U ((a) U (b)))' > 'lcr-o0-Dcr8lh'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) U ((b) U (c))) | ((b) U ((c) U (a))) | ((c) U ((a) U (b)))' > 'lcr-o1-pDQfj1'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) U ((b) U (c))) | ((b) U ((c) U (a))) | ((c) U ((a) U (b)))' > 'lcr-o2-R6uCgL'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) U ((b) U (c))) | ((b) U ((c) U (a))) | ((c) U ((a) U (b)))' > 'lcr-o3-JHTcev'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) U ((b) U (c))) | ((b) U ((c) U (a))) | ((c) U ((a) U (b)))' > 'lcr-o4-as50bf'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:173: G((a) | ((b) U ((G(c)) | (G(d)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((b) U ((G(c)) | (G(d)))))' > 'lcr-o0-a3V39Y'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((b) U ((G(c)) | (G(d)))))' > 'lcr-o1-B2jW8I'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((b) U ((G(c)) | (G(d)))))' > 'lcr-o2-v1i37s'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((b) U ((G(c)) | (G(d)))))' > 'lcr-o3-uJAn7c'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((b) U ((G(c)) | (G(d)))))' > 'lcr-o4-y5eV6W'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:174: (F(a)) U (G(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) U (G(b))' > 'lcr-o0-WOgG6G'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) U (G(b))' > 'lcr-o1-FWjg7q'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) U (G(b))' > 'lcr-o2-Jqu37a'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) U (G(b))' > 'lcr-o3-aPn28U'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) U (G(b))' > 'lcr-o4-ujMcaF'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:175: (G(a)) U (b)
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G(a)) U (b)' > 'lcr-o0-Jpbzbp'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G(a)) U (b)' > 'lcr-o1-W1bLd9'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G(a)) U (b)' > 'lcr-o2-TtL9fT'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G(a)) U (b)' > 'lcr-o3-SiNJiD'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G(a)) U (b)' > 'lcr-o4-TZcvln'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:176: ((F(b)) & (G(!(a)))) | ((F(a)) & (G(!(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((F(b)) & (G(!(a)))) | ((F(a)) & (G(!(b))))' > 'lcr-o0-u3hso7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((F(b)) & (G(!(a)))) | ((F(a)) & (G(!(b))))' > 'lcr-o1-Xr7dsR'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((F(b)) & (G(!(a)))) | ((F(a)) & (G(!(b))))' > 'lcr-o2-hiGewB'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((F(b)) & (G(!(a)))) | ((F(a)) & (G(!(b))))' > 'lcr-o3-2eJsAl'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((F(b)) & (G(!(a)))) | ((F(a)) & (G(!(b))))' > 'lcr-o4-Sw0TE5'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:177: (G((F(a)) & (F(G(!(b)))))) | (G((F(b)) & (F(G(!(a))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(G((F(a)) & (F(G(!(b)))))) | (G((F(b)) & (F(G(!(a))))))' > 'lcr-o0-ljnzJP'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(G((F(a)) & (F(G(!(b)))))) | (G((F(b)) & (F(G(!(a))))))' > 'lcr-o1-duE3Oz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(G((F(a)) & (F(G(!(b)))))) | (G((F(b)) & (F(G(!(a))))))' > 'lcr-o2-ZcXPUj'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(G((F(a)) & (F(G(!(b)))))) | (G((F(b)) & (F(G(!(a))))))' > 'lcr-o3-aSwS03'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(G((F(a)) & (F(G(!(b)))))) | (G((F(b)) & (F(G(!(a))))))' > 'lcr-o4-kvCc7N'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:178: G((F(a)) & (F(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((F(a)) & (F(b)))' > 'lcr-o0-lG2Rdy'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((F(a)) & (F(b)))' > 'lcr-o1-3Looli'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((F(a)) & (F(b)))' > 'lcr-o2-wNI9s2'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((F(a)) & (F(b)))' > 'lcr-o3-0J07AM'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(b)))' > 'lcr-o4-i8jjJw'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:179: (F(a)) & (F(!(a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) & (F(!(a)))' > 'lcr-o0-53rIRg'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) & (F(!(a)))' > 'lcr-o1-9oMX00'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) & (F(!(a)))' > 'lcr-o2-hzLqaL'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) & (F(!(a)))' > 'lcr-o3-Iiq6jv'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) & (F(!(a)))' > 'lcr-o4-KOLYtf'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:180: ((a) & (X(b))) R (X((c) R (a)))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) & (X(b))) R (X((c) R (a)))' > 'lcr-o0-L3I4DZ'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) & (X(b))) R (X((c) R (a)))' > 'lcr-o1-oQZ1OJ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) & (X(b))) R (X((c) R (a)))' > 'lcr-o2-V0hd0t'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) & (X(b))) R (X((c) R (a)))' > 'lcr-o3-37aBbe'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) & (X(b))) R (X((c) R (a)))' > 'lcr-o4-DCNcnY'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:181: G(((a) | (X(G(b)))) & ((c) | (X(G(!(b))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(((a) | (X(G(b)))) & ((c) | (X(G(!(b))))))' > 'lcr-o0-n5Q2yI'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(((a) | (X(G(b)))) & ((c) | (X(G(!(b))))))' > 'lcr-o1-HGcMLs'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(((a) | (X(G(b)))) & ((c) | (X(G(!(b))))))' > 'lcr-o2-lMtLYc'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(((a) | (X(G(b)))) & ((c) | (X(G(!(b))))))' > 'lcr-o3-pkbZbX'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(((a) | (X(G(b)))) & ((c) | (X(G(!(b))))))' > 'lcr-o4-rZNrpH'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:182: F((G(a)) | (G(b)) | (G(F(c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'F((G(a)) | (G(b)) | (G(F(c))))' > 'lcr-o0-IwN9Cr'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'F((G(a)) | (G(b)) | (G(F(c))))' > 'lcr-o1-senMRb'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'F((G(a)) | (G(b)) | (G(F(c))))' > 'lcr-o2-dc9E6V'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'F((G(a)) | (G(b)) | (G(F(c))))' > 'lcr-o3-UicNlG'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'F((G(a)) | (G(b)) | (G(F(c))))' > 'lcr-o4-bxGaBq'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:183: G((a) | ((b) & ((c) U (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((b) & ((c) U (d))))' > 'lcr-o0-XvmPQa'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((b) & ((c) U (d))))' > 'lcr-o1-oBxn7U'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((b) & ((c) U (d))))' > 'lcr-o2-ptPaoF'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((b) & ((c) U (d))))' > 'lcr-o3-mQJbFp'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((b) & ((c) U (d))))' > 'lcr-o4-cc7pW9'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:184: G(F(a))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(F(a))' > 'lcr-o0-AvpSdU'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(F(a))' > 'lcr-o1-RtdewE'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(F(a))' > 'lcr-o2-SHcOOo'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(F(a))' > 'lcr-o3-xOKA78'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(F(a))' > 'lcr-o4-gxyzqT'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:185: ((d) R ((c) | (d))) | ((a) R (b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((d) R ((c) | (d))) | ((a) R (b))' > 'lcr-o0-2MWKJD'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((d) R ((c) | (d))) | ((a) R (b))' > 'lcr-o1-1wTR3n'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((d) R ((c) | (d))) | ((a) R (b))' > 'lcr-o2-UI1do8'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((d) R ((c) | (d))) | ((a) R (b))' > 'lcr-o3-VdyNIS'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((d) R ((c) | (d))) | ((a) R (b))' > 'lcr-o4-CQwA3C'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:186: G((a) | ((!(b)) U ((b) U ((c) R (!(b))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((!(b)) U ((b) U ((c) R (!(b))))))' > 'lcr-o0-HqoBon'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((c) R (!(b))))))' > 'lcr-o1-xRNvK7'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((c) R (!(b))))))' > 'lcr-o2-b6bG6R'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((!(b)) U ((b) U ((c) R (!(b))))))' > 'lcr-o3-fqb5sC'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((c) R (!(b))))))' > 'lcr-o4-2YHIPm'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:187: G((a) | ((b) R (c)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((b) R (c)))' > 'lcr-o0-kUHBc7'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((b) R (c)))' > 'lcr-o1-mIApAR'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((b) R (c)))' > 'lcr-o2-8UZrYB'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((b) R (c)))' > 'lcr-o3-MdFHmm'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((b) R (c)))' > 'lcr-o4-fCqaL6'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:188: ((a) R (b)) & (G((c) | ((a) R (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '((a) R (b)) & (G((c) | ((a) R (b))))' > 'lcr-o0-M3mQ9Q'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '((a) R (b)) & (G((c) | ((a) R (b))))' > 'lcr-o1-TaNqzB'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '((a) R (b)) & (G((c) | ((a) R (b))))' > 'lcr-o2-lGsgZl'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '((a) R (b)) & (G((c) | ((a) R (b))))' > 'lcr-o3-8e8jp6'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '((a) R (b)) & (G((c) | ((a) R (b))))' > 'lcr-o4-iBABPQ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:189: (F(a)) | (G(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(F(a)) | (G(b))' > 'lcr-o0-rC76fB'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(F(a)) | (G(b))' > 'lcr-o1-3ievHl'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(F(a)) | (G(b))' > 'lcr-o2-8FL785'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(F(a)) | (G(b))' > 'lcr-o3-bwjXAQ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(F(a)) | (G(b))' > 'lcr-o4-zmHZ2A'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:190: G((!(a)) | ((b) R ((a) | (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((!(a)) | ((b) R ((a) | (b))))' > 'lcr-o0-Bbofvl'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((!(a)) | ((b) R ((a) | (b))))' > 'lcr-o1-QIApY5'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((!(a)) | ((b) R ((a) | (b))))' > 'lcr-o2-76JOrQ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((!(a)) | ((b) R ((a) | (b))))' > 'lcr-o3-l9hrVA'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((!(a)) | ((b) R ((a) | (b))))' > 'lcr-o4-N7bhpl'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:191: G((a) | ((!(b)) U ((b) U ((b) & (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((!(b)) U ((b) U ((b) & (c)))))' > 'lcr-o0-mawkT5'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((b) & (c)))))' > 'lcr-o1-WyQioQ'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((b) & (c)))))' > 'lcr-o2-l5UwTA'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((!(b)) U ((b) U ((b) & (c)))))' > 'lcr-o3-dmnZol'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((b) & (c)))))' > 'lcr-o4-lzmGU5'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:192: G((a) | ((!(b)) U ((b) U ((!(b)) U ((b) U ((b) & (c)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((!(b)) U ((b) U ((!(b)) U ((b) U ((b) & (c)))))))' > 'lcr-o0-ovWBqQ'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((!(b)) U ((b) U ((b) & (c)))))))' > 'lcr-o1-Z4jrXA'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((!(b)) U ((b) U ((b) & (c)))))))' > 'lcr-o2-DGQwul'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((!(b)) U ((b) U ((!(b)) U ((b) U ((b) & (c)))))))' > 'lcr-o3-rrKR15'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((!(b)) U ((b) U ((!(b)) U ((b) U ((b) & (c)))))))' > 'lcr-o4-hRhrzQ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:193: G((F((a) | (b))) & (F((b) | (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((F((a) | (b))) & (F((b) | (c))))' > 'lcr-o0-9ZJg7A'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((F((a) | (b))) & (F((b) | (c))))' > 'lcr-o1-NSRYFl'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((F((a) | (b))) & (F((b) | (c))))' > 'lcr-o2-ZYrWe6'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((F((a) | (b))) & (F((b) | (c))))' > 'lcr-o3-QHL7NQ'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((F((a) | (b))) & (F((b) | (c))))' > 'lcr-o4-aW6wnB'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:194: G((F(a)) & (F(!(a))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((F(a)) & (F(!(a))))' > 'lcr-o0-HeFbXl'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((F(a)) & (F(!(a))))' > 'lcr-o1-ob5Hx6'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((F(a)) & (F(!(a))))' > 'lcr-o2-FvNs8Q'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((F(a)) & (F(!(a))))' > 'lcr-o3-9MkqJB'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((F(a)) & (F(!(a))))' > 'lcr-o4-sSsAkm'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:195: G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b)))))' > 'lcr-o0-qVTXV6'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b)))))' > 'lcr-o1-lftdyR'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b)))))' > 'lcr-o2-zgZKaC'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b)))))' > 'lcr-o3-33DzNm'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b)))))' > 'lcr-o4-hIzFq7'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:196: G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))))' > 'lcr-o0-wvB33R'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))))' > 'lcr-o1-3WMlIC'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))))' > 'lcr-o2-TN92mn'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))))' > 'lcr-o3-GcH917'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(F(((a) & (X(!(a)))) | ((!(a)) & (X(a))) | ((b) & (X(!(b)))) | ((!(b)) & (X(b))) | ((c) & (X(!(c)))) | ((!(c)) & (X(c))) | ((d) & (X(!(d)))) | ((!(d)) & (X(d)))))' > 'lcr-o4-wrqFHS'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:197: G((!(a)) | (F((a) & (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((!(a)) | (F((a) & (b))))' > 'lcr-o0-6ReCnD'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((!(a)) | (F((a) & (b))))' > 'lcr-o1-7cCq4n'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((!(a)) | (F((a) & (b))))' > 'lcr-o2-bR2sL8'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((!(a)) | (F((a) & (b))))' > 'lcr-o3-WaeIsT'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((!(a)) | (F((a) & (b))))' > 'lcr-o4-3UD99D'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:198: G(((a) | (F(b))) & ((c) | (F(d))) & ((e) | (F(f))) & ((g) | (F(h))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(((a) | (F(b))) & ((c) | (F(d))) & ((e) | (F(f))) & ((g) | (F(h))))' > 'lcr-o0-cHhORo'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(((a) | (F(b))) & ((c) | (F(d))) & ((e) | (F(f))) & ((g) | (F(h))))' > 'lcr-o1-OiMvA9'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(((a) | (F(b))) & ((c) | (F(d))) & ((e) | (F(f))) & ((g) | (F(h))))' > 'lcr-o2-12ZHjU'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(((a) | (F(b))) & ((c) | (F(d))) & ((e) | (F(f))) & ((g) | (F(h))))' > 'lcr-o3-90mn3E'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(((a) | (F(b))) & ((c) | (F(d))) & ((e) | (F(f))) & ((g) | (F(h))))' > 'lcr-o4-A5IwNp'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:199: G((a) | (b) | (c) | (X((!(c)) | (d) | (X((b) | (d))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (b) | (c) | (X((!(c)) | (d) | (X((b) | (d))))))' > 'lcr-o0-6Hbhya'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (b) | (c) | (X((!(c)) | (d) | (X((b) | (d))))))' > 'lcr-o1-XmnUjV'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (b) | (c) | (X((!(c)) | (d) | (X((b) | (d))))))' > 'lcr-o2-CpPM5F'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (b) | (c) | (X((!(c)) | (d) | (X((b) | (d))))))' > 'lcr-o3-95eTRq'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (b) | (c) | (X((!(c)) | (d) | (X((b) | (d))))))' > 'lcr-o4-vOMdEb'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:200: G((a) | (b) | (c) | (X((!(c)) | ((c) U ((!(c)) U ((c) U ((b) | (d))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (b) | (c) | (X((!(c)) | ((c) U ((!(c)) U ((c) U ((b) | (d))))))))' > 'lcr-o0-Rz5MqW'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (b) | (c) | (X((!(c)) | ((c) U ((!(c)) U ((c) U ((b) | (d))))))))' > 'lcr-o1-I0KdeH'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (b) | (c) | (X((!(c)) | ((c) U ((!(c)) U ((c) U ((b) | (d))))))))' > 'lcr-o2-Y6HU1r'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (b) | (c) | (X((!(c)) | ((c) U ((!(c)) U ((c) U ((b) | (d))))))))' > 'lcr-o3-apPQPc'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (b) | (c) | (X((!(c)) | ((c) U ((!(c)) U ((c) U ((b) | (d))))))))' > 'lcr-o4-hTY1DX'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:201: G((a) | ((b) U ((!(b)) U (c))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | ((b) U ((!(b)) U (c))))' > 'lcr-o0-AgctsI'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | ((b) U ((!(b)) U (c))))' > 'lcr-o1-tPjMht'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | ((b) U ((!(b)) U (c))))' > 'lcr-o2-BGXj7d'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | ((b) U ((!(b)) U (c))))' > 'lcr-o3-PJQ4WY'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | ((b) U ((!(b)) U (c))))' > 'lcr-o4-D2W2MJ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:202: G((a) | (X(b)))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X(b)))' > 'lcr-o0-hWAeDu'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X(b)))' > 'lcr-o1-HAhhuf'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X(b)))' > 'lcr-o2-qVBxl0'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X(b)))' > 'lcr-o3-yHQZcL'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X(b)))' > 'lcr-o4-ly3D4v'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:203: G((!(a)) | (X((a) | (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((!(a)) | (X((a) | (b))))' > 'lcr-o0-hzNuWg'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((!(a)) | (X((a) | (b))))' > 'lcr-o1-sugcP1'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((!(a)) | (X((a) | (b))))' > 'lcr-o2-X656HM'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((!(a)) | (X((a) | (b))))' > 'lcr-o3-LAeeBx'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((!(a)) | (X((a) | (b))))' > 'lcr-o4-CgExui'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:204: G(((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) | (X((!(e)) & (((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) U (e)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) | (X((!(e)) & (((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) U (e)))))' > 'lcr-o0-zsK3n3'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) | (X((!(e)) & (((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) U (e)))))' > 'lcr-o1-cUVxiO'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) | (X((!(e)) & (((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) U (e)))))' > 'lcr-o2-rRRVdz'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) | (X((!(e)) & (((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) U (e)))))' > 'lcr-o3-sRbcak'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) | (X((!(e)) & (((((a) & (X(a))) | ((!(a)) & (X(!(a))))) & (((b) & (X(b))) | ((!(b)) & (X(!(b))))) & (((c) & (X(c))) | ((!(c)) & (X(!(c))))) & (((d) & (X(d))) | ((!(d)) & (X(!(d)))))) U (e)))))' > 'lcr-o4-YXfk74'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:205: G((a) | (b) | (c) | (X((a) | (!(b)) | (d))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (b) | (c) | (X((a) | (!(b)) | (d))))' > 'lcr-o0-veRB5P'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (b) | (c) | (X((a) | (!(b)) | (d))))' > 'lcr-o1-7bCI4A'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (b) | (c) | (X((a) | (!(b)) | (d))))' > 'lcr-o2-45w33l'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (b) | (c) | (X((a) | (!(b)) | (d))))' > 'lcr-o3-06hB36'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (b) | (c) | (X((a) | (!(b)) | (d))))' > 'lcr-o4-jHAl3R'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:206: G((a) | (X((a) U (b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((a) U (b))))' > 'lcr-o0-eEmj3C'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((a) U (b))))' > 'lcr-o1-4dv43n'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((a) U (b))))' > 'lcr-o2-h2U348'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((a) U (b))))' > 'lcr-o3-lQxf6T'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((a) U (b))))' > 'lcr-o4-bN4C7E'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:207: G((a) | (X((!(a)) | ((b) R ((a) | (b))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((!(a)) | ((b) R ((a) | (b))))))' > 'lcr-o0-O7fd9p'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | ((b) R ((a) | (b))))))' > 'lcr-o1-PnVCbb'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | ((b) R ((a) | (b))))))' > 'lcr-o2-ppXgeW'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((!(a)) | ((b) R ((a) | (b))))))' > 'lcr-o3-sqh8gH'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((!(a)) | ((b) R ((a) | (b))))))' > 'lcr-o4-uaOcks'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:208: G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((a) & (b))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((a) & (b))))))))' > 'lcr-o0-E9Bund'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((a) & (b))))))))' > 'lcr-o1-xUcDrY'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((a) & (b))))))))' > 'lcr-o2-jpO1vJ'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((a) & (b))))))))' > 'lcr-o3-QVAEAu'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((a) & (b))))))))' > 'lcr-o4-cuOvFf'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:209: G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((b) & ((a) U ((a) & (!(b)) & (X((a) & (b))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((b) & ((a) U ((a) & (!(b)) & (X((a) & (b))))))))))))' > 'lcr-o0-QZVBK0'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((b) & ((a) U ((a) & (!(b)) & (X((a) & (b))))))))))))' > 'lcr-o1-qYHAQL'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((b) & ((a) U ((a) & (!(b)) & (X((a) & (b))))))))))))' > 'lcr-o2-x3JQWw'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((b) & ((a) U ((a) & (!(b)) & (X((a) & (b))))))))))))' > 'lcr-o3-4P5m3h'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((!(a)) | ((a) U ((a) & (!(b)) & (X((b) & ((a) U ((a) & (!(b)) & (X((a) & (b))))))))))))' > 'lcr-o4-3vL992'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:210: G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))' > 'lcr-o0-n31chO'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))' > 'lcr-o1-vVR7oz'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))' > 'lcr-o2-6LEkxk'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))' > 'lcr-o3-Qt5NF5'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))' > 'lcr-o4-xL6xOQ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:211: G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))))))' > 'lcr-o0-RzizXB'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))))))' > 'lcr-o1-veqv7m'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))))))' > 'lcr-o2-K2RKh8'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))))))' > 'lcr-o3-ogJisT'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((!(a)) | (X((a) | ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((b) & ((!(a)) U ((!(a)) & (!(b)) & (X((!(a)) & (b))))))))))))))))' > 'lcr-o4-CG68CE'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:212: G((a) | (X((!(a)) | (((a) | (X(!(a)))) U ((!(b)) & (X(b)))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((!(a)) | (((a) | (X(!(a)))) U ((!(b)) & (X(b)))))))' > 'lcr-o0-WaviOp'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | (((a) | (X(!(a)))) U ((!(b)) & (X(b)))))))' > 'lcr-o1-Bu3k0a'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((!(a)) | (((a) | (X(!(a)))) U ((!(b)) & (X(b)))))))' > 'lcr-o2-E1rDcW'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((!(a)) | (((a) | (X(!(a)))) U ((!(b)) & (X(b)))))))' > 'lcr-o3-kHqapH'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((!(a)) | (((a) | (X(!(a)))) U ((!(b)) & (X(b)))))))' > 'lcr-o4-wWVVBs'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:213: G((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X(a)))))))))))))))))))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X(a)))))))))))))))))))))))' > 'lcr-o0-a24VOd'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X(a)))))))))))))))))))))))' > 'lcr-o1-GUxP2Y'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X(a)))))))))))))))))))))))' > 'lcr-o2-HRh0gK'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X(a)))))))))))))))))))))))' > 'lcr-o3-W63qvv'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X((a) | (X(a)))))))))))))))))))))))' > 'lcr-o4-jb27Jg'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:214: G(((a) & (X(a))) | ((!(a)) & (X(!(a)))) | ((!(b)) & (X(b))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(((a) & (X(a))) | ((!(a)) & (X(!(a)))) | ((!(b)) & (X(b))))' > 'lcr-o0-Zrx5Y1'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(((a) & (X(a))) | ((!(a)) & (X(!(a)))) | ((!(b)) & (X(b))))' > 'lcr-o1-hpyWeN'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(((a) & (X(a))) | ((!(a)) & (X(!(a)))) | ((!(b)) & (X(b))))' > 'lcr-o2-Ox42uy'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(((a) & (X(a))) | ((!(a)) & (X(!(a)))) | ((!(b)) & (X(b))))' > 'lcr-o3-zCUnLj'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(((a) & (X(a))) | ((!(a)) & (X(!(a)))) | ((!(b)) & (X(b))))' > 'lcr-o4-Wx3W14'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:215: G(((!(a)) & (X(a))) | (((b) | (X(!(b)))) & ((!(b)) | (X(b)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'G(((!(a)) & (X(a))) | (((b) | (X(!(b)))) & ((!(b)) | (X(b)))))' > 'lcr-o0-liFKiQ'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'G(((!(a)) & (X(a))) | (((b) | (X(!(b)))) & ((!(b)) | (X(b)))))' > 'lcr-o1-Va1pAB'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'G(((!(a)) & (X(a))) | (((b) | (X(!(b)))) & ((!(b)) | (X(b)))))' > 'lcr-o2-AF9kSm'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'G(((!(a)) & (X(a))) | (((b) | (X(!(b)))) & ((!(b)) | (X(b)))))' > 'lcr-o3-5JDua8'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'G(((!(a)) & (X(a))) | (((b) | (X(!(b)))) & ((!(b)) | (X(b)))))' > 'lcr-o4-pNySsT'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:216: (a) U (G(b))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) U (G(b))' > 'lcr-o0-dAkvLE'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) U (G(b))' > 'lcr-o1-qRp04p'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) U (G(b))' > 'lcr-o2-i02Iob'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) U (G(b))' > 'lcr-o3-MYVDIW'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) U (G(b))' > 'lcr-o4-DVGK2H'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:217: (a) & (X(G(!(a))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(a) & (X(G(!(a))))' > 'lcr-o0-IcS3mt'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(a) & (X(G(!(a))))' > 'lcr-o1-B3PfIe'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(a) & (X(G(!(a))))' > 'lcr-o2-j3QF3Z'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(a) & (X(G(!(a))))' > 'lcr-o3-jGkipL'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(a) & (X(G(!(a))))' > 'lcr-o4-fqX6Kw'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:218: X(G((a) | (b) | (G(c)) | (X((c) U ((b) & (c))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'X(G((a) | (b) | (G(c)) | (X((c) U ((b) & (c))))))' > 'lcr-o0-Qag86h'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'X(G((a) | (b) | (G(c)) | (X((c) U ((b) & (c))))))' > 'lcr-o1-E9r1t3'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'X(G((a) | (b) | (G(c)) | (X((c) U ((b) & (c))))))' > 'lcr-o2-GpwaRO'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'X(G((a) | (b) | (G(c)) | (X((c) U ((b) & (c))))))' > 'lcr-o3-Df4xeA'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'X(G((a) | (b) | (G(c)) | (X((c) U ((b) & (c))))))' > 'lcr-o4-Yj49Bl'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:219: X(G((a) | (b) | ((c) R ((!(b)) | (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'X(G((a) | (b) | ((c) R ((!(b)) | (c)))))' > 'lcr-o0-BVg1Z6'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'X(G((a) | (b) | ((c) R ((!(b)) | (c)))))' > 'lcr-o1-2RMLoS'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'X(G((a) | (b) | ((c) R ((!(b)) | (c)))))' > 'lcr-o2-QjsLND'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'X(G((a) | (b) | ((c) R ((!(b)) | (c)))))' > 'lcr-o3-ugUYcp'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'X(G((a) | (b) | ((c) R ((!(b)) | (c)))))' > 'lcr-o4-VaPpCa'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:220: X(G((a) | (!(b)) | ((c) R ((b) | (c)))))
+Running [P0]: ltldo 'ltl3ba -H1' -f 'X(G((a) | (!(b)) | ((c) R ((b) | (c)))))' > 'lcr-o0-miP41V'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f 'X(G((a) | (!(b)) | ((c) R ((b) | (c)))))' > 'lcr-o1-dDJCsH'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f 'X(G((a) | (!(b)) | ((c) R ((b) | (c)))))' > 'lcr-o2-V4WpTs'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f 'X(G((a) | (!(b)) | ((c) R ((b) | (c)))))' > 'lcr-o3-9l2qke'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f 'X(G((a) | (!(b)) | ((c) R ((b) | (c)))))' > 'lcr-o4-hxMFLZ'
+Gathering statistics...
+
+formulae/ictac19/literature.ltl:221: (X(a)) & (G((a) | (X((!(a)) | (X(a))))))
+Running [P0]: ltldo 'ltl3ba -H1' -f '(X(a)) & (G((a) | (X((!(a)) | (X(a))))))' > 'lcr-o0-tAc8cL'
+Running [P1]: ltl3tela -p1 -c0 -d1 -F0 -G0 -i1 -X1 -f '(X(a)) & (G((a) | (X((!(a)) | (X(a))))))' > 'lcr-o1-kNMtFw'
+Running [P2]: ltl3tela -p1 -c0 -d1 -G0 -i1 -X1 -f '(X(a)) & (G((a) | (X((!(a)) | (X(a))))))' > 'lcr-o2-ska47h'
+Running [P3]: ltl3tela -p1 -d1 -i1 -X1 -c0 -f '(X(a)) & (G((a) | (X((!(a)) | (X(a))))))' > 'lcr-o3-PJ2RA3'
+Running [P4]: ltl3tela -p1 -i1 -X1 -f '(X(a)) & (G((a) | (X((!(a)) | (X(a))))))' > 'lcr-o4-26PT3O'
+Gathering statistics...
+
+No problem detected.
+0

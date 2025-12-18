@@ -1,0 +1,21 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "b" "c" "a" "d"
+acc-name: Rabin 2
+Acceptance: 4 (Fin(0) & Inf(1)) | (Fin(2) & Inf(3))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0&1] 1
+[!0 | !1] 2
+State: 1
+[!2] 1
+[2] 1 {1}
+State: 2
+[!2&3] 2
+[2&!3] 2 {0 2}
+[2&3] 2 {1 2}
+[!2&!3] 2 {0 3}
+--END--
