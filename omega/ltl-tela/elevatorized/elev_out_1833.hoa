@@ -1,0 +1,29 @@
+HOA: v1
+States: 6
+Start: 0
+AP: 4 "b" "c" "a" "d"
+acc-name: generalized-Buchi 2
+Acceptance: 2 Inf(0)&Inf(1)
+properties: trans-labels explicit-labels trans-acc semi-deterministic
+properties: stutter-invariant
+--BODY--
+State: 0
+[!0] 1
+[0] 2
+[0&3] 3
+State: 1
+[t] 1 {0 1}
+State: 2
+[0] 2
+[!0&1] 4
+State: 3
+[0&3] 3
+[!0&3] 5
+State: 4
+[0&!1&!2] 4
+[1&!2] 4 {0}
+[0&!1&2] 4 {1}
+[1&2] 4 {0 1}
+State: 5
+[3] 5 {0 1}
+--END--

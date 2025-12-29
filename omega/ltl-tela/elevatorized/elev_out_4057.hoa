@@ -1,0 +1,42 @@
+HOA: v1
+States: 9
+Start: 0
+AP: 5 "b" "a" "c" "d" "e"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc semi-deterministic
+properties: stutter-invariant
+--BODY--
+State: 0
+[1&!4] 0
+[4] 1
+[!1&2&!4] 2
+[!1&!4] 3
+[!1&!4] 4
+[!1&!2&3&!4] 5
+State: 1
+[t] 1 {0}
+State: 2
+[4] 1
+[2&!4] 2
+[!2&3&!4] 5
+State: 3
+[!4] 3
+[4] 6
+State: 4
+[1&!4] 0
+[1&4] 1
+[!1&!4] 4
+[!1&4] 7
+State: 5
+[3&!4] 5
+[3&4] 8
+State: 6
+[!0] 6
+[0] 6 {0}
+State: 7
+[1] 1
+[!1] 7
+State: 8
+[3] 8 {0}
+--END--
