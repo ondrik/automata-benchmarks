@@ -1,4 +1,5 @@
 # TELA-benchmarks
+## Existing benchmarks
 Filtering to obtain non-trivial automata was done as follows: 
 1. remove automata with empty language,
 2. remove deterministic automata,
